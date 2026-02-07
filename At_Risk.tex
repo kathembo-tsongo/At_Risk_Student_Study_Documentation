@@ -1,0 +1,142 @@
+\documentclass[12pt]{report}
+
+% --- Essential Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{graphicx} 
+\usepackage[style=apa, backend=biber]{biblatex} % APA 7th Edition
+\usepackage{setspace} % For line spacing
+\usepackage{parskip}  % For spacing between paragraphs
+\usepackage{times}    % Standard serif font for theses
+\usepackage{hyperref} % For clickable Table of Contents
+
+\addbibresource{references.bib}
+
+% --- Global Formatting ---
+\onehalfspacing      % Standard 1.5 spacing
+\graphicspath{{./images/}}
+
+\begin{document}
+
+% --- 1. TITLE PAGE ---
+\begin{titlepage}
+    \begin{center}
+        \vspace*{0.5cm}
+        \includegraphics[width=0.4\textwidth]{strathmore_logo.png} \\
+        \vspace{1cm}
+        
+        \textbf{\large STRATHMORE UNIVERSITY}\\
+        \textbf{\large SCHOOL OF COMPUTING AND ENGINEERING SCIENCES}
+        
+        \vfill
+        
+        \textbf{\Large A PREDICTIVE ANALYTICS PLATFORM FOR STUDENT SUCCESS:}\\
+        \vspace{0.5cm}
+        \textbf{\large ML-BASED EARLY DETECTION OF AT-RISK STUDENTS IN HIGHER EDUCATION}
+        
+        \vfill
+        
+        BY\\
+        \vspace{0.5cm}
+        \textbf{\large KATHEMBO TSONGO DIEUDONNE}\\
+        \textbf{112721}
+        
+        \vfill
+        
+        \textit{A Thesis Submitted in Partial Fulfillment of the Requirements for the Award of the Degree of Master of Science in Information Technology}
+        
+        \vfill
+        
+        NAIROBI, KENYA\\
+        May, 2026
+    \end{center}
+\end{titlepage}
+
+% --- 2. PRELIMINARIES (Roman Numerals) ---
+\pagenumbering{roman}
+
+\section*{Declaration and Approval}
+I, the undersigned, declare that this thesis is my original work and has not been submitted for a degree in any other university.
+
+\vspace{1.5cm}
+\begin{tabular}{p{7cm} p{7cm}}
+    Signature: \hrulefill & Date: \hrulefill \\
+    \textbf{Kathembo Tsongo Dieudonne} & \\
+\end{tabular}
+
+\vspace{1.5cm}
+This thesis has been submitted for examination with my approval as the University Supervisor.
+
+\vspace{1.5cm}
+\begin{tabular}{p{7cm} p{7cm}}
+    Signature: \hrulefill & Date: \hrulefill \\
+    \textbf{Dr. [Supervisor Name]} & \\
+    Strathmore University & \\
+\end{tabular}
+
+\newpage
+\tableofcontents
+\newpage
+
+% --- 3. MAIN BODY (Arabic Numerals) ---
+\pagenumbering{arabic}
+
+\chapter{Introduction}
+
+\section{Background of the Study}
+Student retention and academic success represent critical challenges confronting 
+higher education institutions worldwide. Recent data indicates that while persistence 
+rates have rebounded to pre-pandemic levels, reaching 76.5\% nationally in 2024, nearly 
+one in four undergraduate students still fail to return after their first year \parencite{ModernCampus2025, Hanover2025}. 
+This persistent attrition represents not only significant personal and economic costs for individual students but 
+also substantial challenges for institutional sustainability \parencite{Element4512024}.
+
+The advent of artificial intelligence and machine learning (ML) has revolutionized approaches to student success analytics. 
+Contemporary platforms have evolved into comprehensive ecosystem monitors that analyze hundreds of data points to forecast 
+outcomes \parencite{Mapademics2025}. Georgia State University's implementation tracks over 800 risk factors daily, 
+generating 90,000 targeted interventions annually \parencite{Mapademics2025}. ML algorithms now identify patterns that
+precede student disengagement with accuracy levels reaching 88--92\% \parencite{Ahmed2024, ScientificReports2025}.
+
+In the African context, Kenyan institutions face distinctive challenges. While postgraduate retention improved 
+to 87\% in 2024, significant attrition remains \parencite{AJER2025}. Universities confront multifaceted hurdles 
+including inadequate funding (covering only 57\% of students), infrastructure deficits, and staffing 
+shortages \parencite{KIPPRA2024, Visualdo2024, Musasia2025}.
+
+Strathmore University, despite collecting extensive data through SIS and LMS platforms, lacks integrated, 
+automated tools to proactively identify students at risk. The current reactive approach—addressing difficulties 
+only after grades decline—represents a missed opportunity. Recent research demonstrates that ensemble methods like
+ Random Forest and XGBoost can achieve prediction accuracies 
+ exceeding 88\% \parencite{Turkmenbayev2025, ScientificReports2025}.
+  Successful implementation requires transparent, interpretable models to provide clear insights for
+   interventions \parencite{Frontiers2025}.
+
+\section{Statement of the Problem}
+Despite the availability of student data, many institutions lack automated systems to 
+detect early warning signs of academic struggle. This leads to high attrition rates that 
+could be mitigated through timely intervention.
+
+\section{Purpose of the Study}
+The purpose of this research is to develop a predictive analytics platform that leverages student demographic and engagement data to improve retention rates.
+
+\section{Research Objectives}
+\begin{itemize}
+    \item To identify the key indicators of academic risk in higher education.
+    \item To develop a machine learning model for predicting student performance.
+    \item To evaluate the accuracy and reliability of the predictive platform.
+\end{itemize}
+
+\section{Research Questions}
+\begin{enumerate}
+    \item What features in student data are most predictive of academic failure?
+    \item How accurately can a Random Forest or Neural Network model detect at-risk students?
+\end{enumerate}
+
+\section{Significance of the Study}
+This study is significant for university administrators, educators, and students, as it provides a data-driven approach to academic support.
+
+% --- 4. BIBLIOGRAPHY ---
+\newpage
+\printbibliography[title={References}]
+
+\end{document}
