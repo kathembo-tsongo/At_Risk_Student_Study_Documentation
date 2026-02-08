@@ -85,37 +85,23 @@ This thesis has been submitted for examination with my approval as the Universit
 \chapter{Introduction}
 
 \section{Background of the Study}
-Student retention and academic success represent critical challenges confronting 
-higher education institutions worldwide. Recent data indicates that while persistence 
-rates have rebounded to pre-pandemic levels, reaching 76.5\% nationally in 2024, nearly 
-one in four undergraduate students still fail to return after their first year \parencite{ModernCampus2025, Hanover2025}. 
-This persistent attrition represents not only significant personal and economic costs for individual students but 
-also substantial challenges for institutional sustainability \parencite{Element4512024}.
+Student retention and academic success represent critical challenges confronting higher education institutions worldwide. According to the \textcite{NCES2024}, while the average adjusted cohort graduation rate for public high school students has reached 87\%, undergraduate enrollment in degree-granting institutions decreased by 13\% between 2012 and 2022. This persistent attrition represents not only significant personal and economic costs for individual students but also substantial challenges for institutional sustainability and mission fulfillment \parencite{Element4512024}.
 
-The advent of artificial intelligence and machine learning (ML) has revolutionized approaches to student success analytics. 
-Contemporary platforms have evolved into comprehensive ecosystem monitors that analyze hundreds of data points to forecast 
-outcomes \parencite{Mapademics2025}. Georgia State University's implementation tracks over 800 risk factors daily, 
-generating 90,000 targeted interventions annually \parencite{Mapademics2025}. ML algorithms now identify patterns that
-precede student disengagement with accuracy levels reaching 88--92\% \parencite{Ahmed2024, ScientificReports2025}.
+Traditional approaches to student support have been largely reactive, addressing academic difficulties only after students have already failed. The critical gap lies in the lack of integrated, automated tools to transform existing institutional data into actionable early warnings. The advent of artificial intelligence has created unprecedented opportunities to address this through predictive analytics. Contemporary platforms have evolved to become comprehensive ecosystem monitors that analyze hundreds of data points to forecast outcomes \parencite{Mapademics2025}. Georgia State University's pioneering implementation exemplifies this, tracking over 800 risk factors for more than 40,000 students daily \parencite{GSU2024}. 
 
-In the African context, Kenyan institutions face distinctive challenges. While postgraduate retention improved 
-to 87\% in 2024, significant attrition remains \parencite{AJER2025}. Universities confront multifaceted hurdles 
-including inadequate funding (covering only 57\% of students), infrastructure deficits, and staffing 
-shortages \parencite{KIPPRA2024, Visualdo2024, Musasia2025}.
 
-Strathmore University, despite collecting extensive data through SIS and LMS platforms, lacks integrated, 
-automated tools to proactively identify students at risk. The current reactive approach—addressing difficulties 
-only after grades decline—represents a missed opportunity. Recent research demonstrates that ensemble methods like
- Random Forest and XGBoost can achieve prediction accuracies 
- exceeding 88\% \parencite{Turkmenbayev2025, ScientificReports2025}.
-  Successful implementation requires transparent, interpretable models to provide clear insights for
-   interventions \parencite{Frontiers2025}.
 
+Machine learning algorithms now process vast datasets, identifying patterns that precede disengagement with accuracy levels reaching 88--92\% \parencite{Ahmed2024, ScientificReports2025}. In the Kenyan context, public universities face distinctive challenges, including dramatic enrollment expansion alongside institutional resource struggles \parencite{Musasia2025}. Recent studies reveal that while postgraduate retention improved to 87\% by 2024, substantial attrition remains \parencite{AJER2025}. These institutions confront funding gaps where government capitation covers only 57\% of costs \parencite{KIPPRA2024}. Financial pressures are acute, with public universities accumulating pending bills of Ksh 62 billion \parencite{DailyNation2024}, further complicated by severe infrastructure and staffing deficits \parencite{Visualdo2024}.
+
+
+
+Strathmore University operates within this landscape, maintaining a strict 67\% attendance requirement and a 2.0 GPA threshold. While the university collects data via Student Information Systems (SIS) and Learning Management Systems (LMS), these operate independently. Recent research demonstrates that ensemble methods, such as Random Forest and XGBoost, can achieve prediction accuracies exceeding 88\% \parencite{Turkmenbayev2025, ScientificReports2025b}. However, successful implementation requires explainable models that provide clear insights into why students are flagged \parencite{FrontiersEducation2025}. This study addresses this by developing a predictive platform tailored to the Strathmore context to transform reactive support into proactive intervention.
 \section{Statement of the Problem}
-Despite the availability of student data, many institutions lack automated systems to 
-detect early warning signs of academic struggle. This leads to high attrition rates that 
-could be mitigated through timely intervention.
+Strathmore University faces significant challenges in identifying and supporting at-risk students before academic failure occurs. The university operates three comprehensive data systems---a Student Information System (SIS), Learning Management System (LMS), and attendance tracking system---that collectively capture student demographics, academic performance, engagement metrics, and class participation. However, these systems operate independently without integrated analytics capabilities, preventing the transformation of this data into actionable early warnings. Consequently, at-risk students are typically identified only after grades decline, attendance falls below the mandatory 67\% threshold, or dropout occurs, at which point intervention opportunities have largely passed. Academic advisors and mentors currently lack data-driven tools to prioritize limited resources toward students most likely to benefit from support, resulting in reactive rather than proactive intervention strategies.
 
+
+
+This gap is particularly critical given the proven effectiveness of predictive analytics in comparable institutional contexts. Research demonstrates that machine learning systems achieve 85--92\% accuracy in identifying at-risk students when trained on comprehensive multi-source data \parencite{Ahmed2024, ScientificReports2025}, with institutions like Georgia State University generating 90,000 targeted interventions annually through automated risk tracking \parencite{GSU2024}. Strathmore University currently lacks such capabilities despite possessing the necessary raw data infrastructure. This study addresses this gap by developing a machine learning-based predictive analytics platform that integrates existing institutional data to predict dropout risk, course failure risk, and program delay risk, enabling proactive intervention through role-based dashboards for administrators and mentors.
 \section{Purpose of the Study}
 The purpose of this research is to develop a predictive analytics platform that leverages student demographic and engagement data to improve retention rates.
 

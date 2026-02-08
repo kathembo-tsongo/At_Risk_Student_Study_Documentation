@@ -1,0 +1,87 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{Mapademics2025}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a96eaece8757c509a08eedc00521e9b}{%
+           family={{Mapademics}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a96eaece8757c509a08eedc00521e9b}
+      \strng{fullhash}{6a96eaece8757c509a08eedc00521e9b}
+      \strng{bibnamehash}{6a96eaece8757c509a08eedc00521e9b}
+      \strng{authorbibnamehash}{6a96eaece8757c509a08eedc00521e9b}
+      \strng{authornamehash}{6a96eaece8757c509a08eedc00521e9b}
+      \strng{authorfullhash}{6a96eaece8757c509a08eedc00521e9b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: February 8, 2026}
+      \field{title}{The Power of Predictive Analytics in Student Success: Transforming Outcomes}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://mapademics.com/whitepapers/predictive-analytics-student-success-transform-outcomes
+      \endverb
+      \verb{url}
+      \verb https://mapademics.com/whitepapers/predictive-analytics-student-success-transform-outcomes
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{Mapademics2025}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a96eaece8757c509a08eedc00521e9b}{%
+           family={{Mapademics}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a96eaece8757c509a08eedc00521e9b}
+      \strng{fullhash}{6a96eaece8757c509a08eedc00521e9b}
+      \strng{bibnamehash}{6a96eaece8757c509a08eedc00521e9b}
+      \strng{authorbibnamehash}{6a96eaece8757c509a08eedc00521e9b}
+      \strng{authornamehash}{6a96eaece8757c509a08eedc00521e9b}
+      \strng{authorfullhash}{6a96eaece8757c509a08eedc00521e9b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: February 8, 2026}
+      \field{title}{The Power of Predictive Analytics in Student Success: Transforming Outcomes}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://mapademics.com/whitepapers/predictive-analytics-student-success-transform-outcomes
+      \endverb
+      \verb{url}
+      \verb https://mapademics.com/whitepapers/predictive-analytics-student-success-transform-outcomes
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{GSU2024}
+  \missing{Musasia2025}
+\endrefsection
+\endinput
+
