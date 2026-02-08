@@ -3,19 +3,31 @@
 % --- Essential Packages ---
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[a4paper, left=1.5in, right=1in, top=1in, bottom=1in]{geometry} % Binding margin
 \usepackage{graphicx} 
 \usepackage[style=apa, backend=biber]{biblatex} % APA 7th Edition
 \usepackage{setspace} % For line spacing
 \usepackage{parskip}  % For spacing between paragraphs
 \usepackage{times}    % Standard serif font for theses
 \usepackage{hyperref} % For clickable Table of Contents
+\usepackage{tocloft}  % For Table of Contents formatting
+\usepackage{titlesec}
+
+
 
 \addbibresource{references.bib}
 
 % --- Global Formatting ---
-\onehalfspacing      % Standard 1.5 spacing
+\doublespacing       % Double spacing for thesis (changed from 1.5)
 \graphicspath{{./images/}}
+
+% --- Hyperlink colors ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+}
 
 \begin{document}
 
@@ -33,7 +45,7 @@
         
         \textbf{\Large A PREDICTIVE ANALYTICS PLATFORM FOR STUDENT SUCCESS:}\\
         \vspace{0.5cm}
-        \textbf{\large ML-BASED EARLY DETECTION OF AT-RISK STUDENTS IN HIGHER EDUCATION}
+        \textbf{\large MACHINE LEARNING-BASED EARLY DETECTION OF AT-RISK STUDENTS IN HIGHER EDUCATION}
         
         \vfill
         
@@ -44,67 +56,180 @@
         
         \vfill
         
-        \textit{A Thesis Submitted in Partial Fulfillment of the Requirements for the Award of the Degree of Master of Science in Information Technology}
+        \textit{A Thesis Submitted in Partial Fulfillment of the Requirements for\\
+        the Award of the Degree of Master of Science in Information Technology}
         
         \vfill
         
         NAIROBI, KENYA\\
-        May, 2026
+        MAY 2026
     \end{center}
 \end{titlepage}
 
 % --- 2. PRELIMINARIES (Roman Numerals) ---
 \pagenumbering{roman}
+\setcounter{page}{2}
 
-\section*{Declaration and Approval}
-I, the undersigned, declare that this thesis is my original work and has not been submitted for a degree in any other university.
+% --- DECLARATION ---
+
+\chapter*{\centering DECLARATION}
+\addcontentsline{toc}{chapter}{Declaration}
+
+\section*{Student's Declaration}
+I declare that this thesis is my original work and has not been presented to any other institution for examination or any other award. Where other sources of information have been used, they have been properly acknowledged.
 
 \vspace{1.5cm}
-\begin{tabular}{p{7cm} p{7cm}}
-    Signature: \hrulefill & Date: \hrulefill \\
-    \textbf{Kathembo Tsongo Dieudonne} & \\
+\noindent
+\begin{tabular}{@{}p{7cm}p{7cm}@{}}
+    \textbf{Name:} Kathembo Tsongo Dieudonne & \\[0.3cm]
+    \textbf{Registration Number:} 112721 & \\[0.3cm]
+    \textbf{Signature:} \hrulefill & \textbf{Date:} \hrulefill \\
 \end{tabular}
 
-\vspace{1.5cm}
+\vspace{2cm}
+
+\section*{Supervisor's Declaration}
 This thesis has been submitted for examination with my approval as the University Supervisor.
 
 \vspace{1.5cm}
-\begin{tabular}{p{7cm} p{7cm}}
-    Signature: \hrulefill & Date: \hrulefill \\
-    \textbf{Dr. [Supervisor Name]} & \\
-    Strathmore University & \\
+\noindent
+\begin{tabular}{@{}p{7cm}p{7cm}@{}}
+    \textbf{Name:} Dr. [Supervisor Name] & \\[0.3cm]
+    \textbf{Title:} [Lecturer/Senior Lecturer] & \\[0.3cm]
+    \textbf{Department:} [Department Name] & \\[0.3cm]
+    \textbf{Signature:} \hrulefill & \textbf{Date:} \hrulefill \\
 \end{tabular}
 
+
+
+% This centers all \chapter* and \chapter titles
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
 \newpage
+
+% --- DEDICATION (Optional) ---
+% \chapter*{DEDICATION}
+% \addcontentsline{toc}{chapter}{Dedication}
+% \vspace{2cm}
+% \begin{center}
+% \textit{[Your dedication text here]}
+
+% \vspace{1cm}
+
+% \textit{To my family, for their unwavering support throughout this academic journey.}
+
+% \vspace{0.5cm}
+
+% \textit{To the students of Strathmore University, whose success inspired this research.}
+% \end{center}
+
+% \newpage
+
+% % --- ACKNOWLEDGEMENTS (Optional) ---
+% \chapter*{ACKNOWLEDGEMENTS}
+% \addcontentsline{toc}{chapter}{Acknowledgements}
+
+% First and foremost, I give thanks to God Almighty for the strength, wisdom, and grace throughout this research journey.
+
+% I express my deepest gratitude to my supervisor, [Supervisor's Name], for invaluable guidance, constructive feedback, and unwavering support throughout this research. Your expertise and mentorship were instrumental in shaping this work.
+
+% Special thanks to Strathmore University administration, particularly the IT Department and Student Affairs Office, for providing access to institutional data and resources essential for this research. I am grateful to the administrators, mentors, and staff who participated in interviews and usability testing.
+
+% I acknowledge my fellow postgraduate students for their peer support, collaborative discussions, and shared insights that enriched this research experience.
+
+% Finally, heartfelt appreciation to my family and friends for their patience, encouragement, and understanding during the demanding periods of this academic pursuit.
+
+% \newpage
+
+% --- ABSTRACT ---
+
+% \chapter*{ABSTRACT}
+% \addcontentsline{toc}{chapter}{Abstract}
+
+% Student retention remains a critical challenge in higher education, with 23.3\% of undergraduate students leaving universities annually. This study developed a machine learning-based predictive analytics platform for early identification of at-risk undergraduate students at Strathmore University, integrating data from Student Information Systems, Learning Management Systems, and attendance tracking. Using historical data from 440 students across five schools, Random Forest, Gradient Boosting, and XGBoost models achieved accuracy rates of [XX\%], [XX\%], and [XX\%] for predicting dropout, course failure, and program delay risks. Feature importance analysis identified attendance percentage, LMS engagement, cumulative GPA, assignment completion, and consecutive absences as strongest predictors.
+
+% The platform was implemented with role-based dashboards for administrators and mentors, demonstrating high prediction accuracy and strong stakeholder acceptance. The research operationalizes Tinto's Student Integration Model---originally developed for undergraduate populations---in an African context, providing a replicable model for resource-constrained institutions. Recommendations include phased deployment, integration of additional data sources, and establishment of intervention protocols. Future research should investigate longitudinal retention impact and examine transferability to other African universities.
+
+% \vspace{0.5cm}
+% \noindent\textbf{Keywords:} Predictive analytics, machine learning, undergraduate retention, early warning system, educational data mining, ensemble methods, student success, higher education, Kenya
+
+% \newpage
+
+% --- TABLE OF CONTENTS ---
+
+
 \tableofcontents
+
 \newpage
+
+
+% --- LIST OF TABLES (if applicable) ---
+% \listoftables
+% \newpage
+
+% --- LIST OF FIGURES (if applicable) ---
+% \listoffigures
+% \newpage
 
 % --- 3. MAIN BODY (Arabic Numerals) ---
 \pagenumbering{arabic}
 
-\chapter{Introduction}
-\section{Background of the Study}
+\chapter{INTRODUCTION}
 
-Student retention and academic success represent critical challenges confronting higher education institutions worldwide. According to \textcite{NCES2024}, undergraduate enrollment in degree-granting institutions decreased by 13\% between 2012 and 2022, while 23.3\% of undergraduate students leave universities annually. Six-year graduation rates reveal substantial variation: 63\% at public universities, 68\% at private nonprofit institutions, and only 29\% at private for-profit institutions. This persistent attrition represents significant personal and economic costs for individual students, alongside substantial challenges for institutional sustainability and mission fulfillment \parencite{Element4512024}.
+\section{Background to the Study}
 
-Traditional student support approaches have been largely reactive, addressing academic difficulties only after failure occurs. However, the advent of artificial intelligence and machine learning has created unprecedented opportunities for proactive intervention through predictive analytics. Contemporary platforms now analyze hundreds of data points to forecast student outcomes with remarkable accuracy \parencite{Mapademics2025}. Georgia State University's pioneering implementation exemplifies this transformation, tracking over 800 risk factors for more than 40,000 students daily and generating 90,000 targeted interventions annually \parencite{GSU2024}. Machine learning algorithms can identify patterns that precede student disengagement with accuracy levels reaching 88--92\% \parencite{Ahmed2024, ScientificReports2025}, enabling early identification weeks or months before traditional indicators would surface.
+Student retention and academic success represent critical challenges confronting higher education institutions worldwide. According to \textcite{NCES2024}, undergraduate enrollment in degree-granting institutions decreased by 13\% between 2012 and 2022, while 23.3\% of undergraduate students leave universities annually. Six-year graduation rates reveal substantial variation: 63\% at public universities, 68\% at private nonprofit institutions, and only 29\% at private for-profit institutions. This persistent attrition represents significant personal and economic costs for individual students, alongside substantial challenges for institutional sustainability and mission fulfillment.
 
-In the Kenyan context, higher education institutions face distinctive challenges that intensify retention concerns. Public universities have experienced dramatic enrollment expansion while institutional resources have struggled to keep pace \parencite{Musasia2025}. Despite improvements in postgraduate retention from 75\% in 2015 to 87\% in 2024, substantial attrition remains \parencite{AJER2025}. Kenyan institutions confront severe funding constraints, with government capitation covering only 57\% of students against a target of 80\% \parencite{KIPPRA2024}. Financial pressures have intensified dramatically, with public universities accumulating pending bills of Ksh 62 billion as of February 2022 \parencite{DailyNation2024}, compounded by infrastructure deficits and severe staffing shortages where some lecturers teach triple their contracted student numbers \parencite{Visualdo2024}. In this resource-constrained environment, automated systems to identify and support at-risk students become essential for institutional survival and mission fulfillment.
+Traditional student support approaches have been largely reactive, addressing academic difficulties only after failure occurs. The critical gap lies in the lack of integrated, automated tools to transform existing institutional data into actionable early warnings. However, the advent of artificial intelligence and machine learning has created unprecedented opportunities for proactive intervention through predictive analytics. Contemporary platforms now analyze hundreds of data points to forecast student outcomes with remarkable accuracy \parencite{Mapademics2025}. Georgia State University's pioneering implementation exemplifies this transformation, tracking over 800 risk factors for more than 40,000 students daily and generating 90,000 targeted interventions annually \parencite{GSU2024}. Machine learning algorithms can identify patterns that precede student disengagement with accuracy levels reaching 88--92\% \parencite{Ahmed2024, ScientificReports2025}, enabling early identification weeks or months before traditional indicators would surface.
+
+In the Kenyan context, higher education institutions face distinctive challenges that intensify retention concerns. Public universities have experienced dramatic enrollment expansion while institutional resources have struggled to keep pace \parencite{Musasia2025}. Kenyan institutions confront severe funding constraints, with government capitation covering only 57\% of students against a target of 80\% \parencite{KIPPRA2024}. Financial pressures have intensified dramatically, with public universities accumulating pending bills of Ksh 62 billion as of February 2022 \parencite{DailyNation2024}, compounded by infrastructure deficits and severe staffing shortages where some lecturers teach triple their contracted student numbers \parencite{Visualdo2024}. In this resource-constrained environment, automated systems to identify and support at-risk students become essential for institutional survival and mission fulfillment.
 
 Strathmore University operates within this challenging landscape while maintaining distinct academic standards, including a 67\% attendance requirement for examination eligibility and a 2.0 GPA threshold for good academic standing. The university collects extensive student data through Student Information Systems (SIS), Learning Management Systems (LMS), and attendance tracking mechanisms. However, these systems operate independently without integrated analytics capabilities, preventing transformation of existing data into actionable early warnings. Recent research demonstrates that ensemble methods such as Random Forest and XGBoost can achieve prediction accuracies exceeding 88\% when properly trained on comprehensive educational datasets \parencite{Turkmenbayev2025, ScientificReports2025b}. Yet successful implementation requires explainable models that provide clear insights into why particular students are flagged as at-risk and what specific interventions might prove most effective \parencite{FrontiersEducation2025}. This study addresses this gap by developing a machine learning-based predictive analytics platform tailored to Strathmore University's context, transforming reactive student support into proactive, data-driven intervention.
 
 \section{Statement of the Problem}
 
-Strathmore University faces significant challenges in identifying and supporting at-risk students before academic failure occurs. The university operates three comprehensive data systems that capture student demographics, academic performance, engagement metrics, and class participation. However, these systems operate independently without integrated analytics capabilities, preventing transformation of this data into actionable early warnings. Consequently, at-risk students are identified only after grades decline, attendance falls below the mandatory 67\% threshold, or dropout occurs---when intervention opportunities have largely passed. Academic advisors and mentors lack data-driven tools to prioritize limited resources, resulting in reactive rather than proactive intervention strategies.
+Strathmore University faces significant challenges in identifying and supporting at-risk undergraduate students before academic failure occurs. The university operates three comprehensive data systems that capture student demographics, academic performance, engagement metrics, and class participation. However, these systems operate independently without integrated analytics capabilities, preventing transformation of this data into actionable early warnings. Consequently, at-risk students are identified only after grades decline, attendance falls below the mandatory 67\% threshold, or dropout occurs---when intervention opportunities have largely passed. Academic advisors and mentors lack data-driven tools to prioritize limited resources, resulting in reactive rather than proactive intervention strategies.
 
 This reactive approach creates multiple institutional challenges. Students who might have succeeded with timely support instead face academic probation, course repetition, extended time-to-graduation, or institutional departure. Faculty and administrators cannot identify systemic patterns in student risk, limiting evidence-based improvements. In Kenya's resource-constrained environment where government capitation covers only 57\% of students \parencite{KIPPRA2024}, each preventable failure represents both a personal setback and significant institutional loss.
 
 Research demonstrates that machine learning systems achieve 85--92\% accuracy in identifying at-risk students \parencite{Ahmed2024, ScientificReports2025}, with proven implementations like Georgia State University's generating 90,000 targeted interventions annually \parencite{GSU2024}. Strathmore University currently lacks such capabilities despite possessing the necessary data infrastructure. This study develops a machine learning-based predictive analytics platform integrating existing institutional data to predict dropout risk, course failure risk, and program delay risk, enabling proactive intervention through role-based dashboards for administrators and mentors.
 
+\section{Justification of the Study}
+
+This research is justified on both practical and scholarly grounds. 
+Practically, Strathmore University has invested significantly in digital
+ infrastructure---Student Information Systems, Learning Management Systems, 
+ and attendance tracking---yet lacks analytical capacity to transform this 
+ data into actionable intelligence. The platform leverages already-collected
+  data without requiring additional burdens on faculty or students, maximizing 
+  return on existing technology investments. As already indicated in the problem statement, recent advances in machine learning 
+  demonstrate 85--92\% prediction accuracy for student success 
+  outcomes \parencite{Ahmed2024, ScientificReports2025}, 
+  indicating the technology is sufficiently mature for reliable implementation. 
+  
+Scholarly, this study addresses a critical gap in the literature. 
+While predictive analytics has been extensively studied in Western contexts, 
+limited research examines implementation in African universities where resource 
+constraints, infrastructure challenges, and student demographics differ substantially. 
+This research generates knowledge about adapting predictive analytics to 
+resource-limited environments, providing a replicable model for similar
+ institutions across Africa. 
+ 
+ Given Kenya’s national emphasis on improving higher education quality 
+ through the transition to Competency Based Education and Training (CBET)
+  and addressing sector-wide pressures—including a 12\% 
+  increase in university enrollment between 2015 and 2022 and significant
+   funding gaps where the percentage of students receiving government loans 
+   dropped from 95.6\% to 71.3\% \parencite{KenyaEducation2024} —this research positions Strathmore 
+   University at the forefront of data-driven educational innovation. 
+   In monitoring student outcomes, this study aligns with the national goal of 
+   'leveraging technology in the provision of quality education'.
+
 \section{Research Objectives}
 
 \subsection{Main Objective}
-To design, develop, and evaluate a machine learning-based predictive analytics platform for early identification of at-risk students at Strathmore University.
+To design, develop, and evaluate a machine learning-based predictive analytics platform for early identification of at-risk undergraduate students at Strathmore University.
 
 \subsection{Specific Objectives}
 \begin{enumerate}
@@ -118,7 +243,7 @@ To design, develop, and evaluate a machine learning-based predictive analytics p
 \section{Research Questions}
 
 \subsection{Main Research Question}
-How can machine learning be effectively applied to institutional student data to enable early identification of at-risk students at Strathmore University?
+How can machine learning be effectively applied to institutional student data to enable early identification of at-risk undergraduate students at Strathmore University?
 
 \subsection{Specific Research Questions}
 \begin{enumerate}
@@ -132,19 +257,85 @@ How can machine learning be effectively applied to institutional student data to
 \section{Scope and Delimitations of the Study}
 
 \subsection{Scope}
-This research focuses specifically on developing and evaluating a predictive analytics platform for student success at Strathmore University, Kenya. The study encompasses undergraduate student data from all five schools: the School of Computing and Engineering Sciences (SCES), Strathmore Business School (SBS), the School of Tourism and Hospitality (STH), Strathmore Law School (SLS), and the School of Humanities and Social Sciences (SHSS). The research utilizes data from approximately 440 undergraduate students, providing sufficient statistical power for reliable machine learning model development.
+This research focuses specifically on developing and evaluating a predictive analytics platform 
+for undergraduate student success at Strathmore University, Kenya. The study encompasses 
+undergraduate student data from all five schools: the School of Computing and Engineering 
+Sciences (SCES), Strathmore Business School (SBS), the School of Tourism and Hospitality (STH),
+ Strathmore Law School (SLS), and the School of Humanities and Social Sciences (SHSS). 
+ The research utilizes data from approximately 5000 undergraduate students, providing 
+ sufficient statistical power for reliable machine learning model development.
 
-The technical scope includes integration of data from three primary institutional systems: the Student Information System (academic records), the Learning Management System (engagement metrics), and the attendance tracking system (class participation). The study develops and evaluates three distinct machine learning prediction models targeting dropout risk, course failure risk, and program delay risk, employing ensemble algorithms including Random Forest, Gradient Boosting, and XGBoost. The platform design encompasses role-based dashboards serving university administrators, school administrators, and academic mentors. System effectiveness is evaluated through quantitative metrics (accuracy, precision, recall, F1-score, ROC-AUC) and qualitative stakeholder assessment.
+The technical scope includes integration of data from three primary institutional systems: 
+the Student Information System (academic records), the Learning Management System 
+(engagement metrics), and the attendance tracking system (class participation). 
+The study develops and evaluates three distinct machine learning prediction models
+ targeting dropout risk, course failure risk, and program delay risk, employing 
+ ensemble algorithms including Random Forest, Gradient Boosting, and XGBoost. 
+ The platform design encompasses role-based dashboards serving university administrators, 
+ school administrators, and academic mentors. System effectiveness is evaluated through 
+ quantitative metrics (accuracy, precision, recall, F1-score, ROC-AUC) and qualitative
+  stakeholder assessment.
 
 \subsection{Delimitations}
-Several deliberate delimitations define the boundaries of this research. First, the study focuses exclusively on academic risk factors measurable through institutional data systems, excluding predictions of mental health concerns, family circumstances, or socioeconomic factors that fall outside institutional data collection. Second, the research limits its focus to undergraduate students, excluding postgraduate and continuing education populations whose risk patterns differ substantially. Third, the study does not develop course-specific recommendation systems or personalized learning pathways; the platform identifies at-risk students and suggests broad intervention categories without prescribing specific courses or detailed academic plans.
+Several deliberate delimitations define the boundaries of this research. 
 
-Fourth, the platform is designed as a web-based application accessible through standard browsers, deliberately excluding mobile application development to prioritize cross-platform accessibility and reduce development complexity. Fifth, the research does not integrate financial aid prediction or scholarship recommendation capabilities, despite the documented importance of financial factors in Kenyan student retention. Finally, while the research develops a fully functional prototype system, full production deployment across the entire Strathmore student population represents future work beyond the thesis scope, requiring additional institutional approvals, infrastructure provisioning, and ongoing technical support arrangements.
+First, the study focuses exclusively on academic risk factors measurable through 
+institutional data systems, excluding predictions of mental health concerns, 
+family circumstances, or socioeconomic factors that fall outside institutional 
+data collection. 
+
+Second, the research limits its focus to undergraduate students, 
+excluding postgraduate and continuing education populations whose risk patterns 
+differ substantially from traditional undergraduate trajectories. 
+
+Third, the study does not develop course-specific recommendation systems or personalized
+ learning pathways; the platform identifies at-risk students and suggests broad intervention
+  categories without prescribing specific courses or detailed academic plans.
+
+  Fourth, the platform is designed as a web-based application accessible through 
+standard browsers, deliberately excluding mobile application development to prioritize 
+cross-platform accessibility and reduce development complexity. 
+
+Fifth, the research does not integrate financial aid prediction or scholarship recommendation capabilities, 
+ despite the documented importance of financial factors in Kenyan student retention.
+  
+Finally, while the research develops a fully functional prototype system, full production 
+  deployment across the entire Strathmore student population represents future work beyond 
+  the thesis scope, requiring additional institutional approvals, infrastructure provisioning,
+   and ongoing technical support arrangements.
+
+\section{Definition of Terms}
+
+\textbf{At-Risk Student:} A student exhibiting data patterns that statistically correlate with increased probability of dropout, course failure, or program delay. Risk status is determined through predictive model outputs, enabling proactive identification before failure occurs.
+
+\textbf{Dropout Risk:} The predicted probability that a currently enrolled student will discontinue university enrollment before completing degree requirements, encompassing both formal withdrawal and informal cessation of attendance.
+
+\textbf{Course Failure Risk:} The predicted probability that a student will receive a failing grade (below 40\%) or become ineligible for examination due to attendance below the 67\% requirement.
+
+\textbf{Program Delay Risk:} The predicted probability that a student will require additional semesters beyond the standard program duration to complete degree requirements due to course repetition, reduced course loads, or academic probation.
+
+\textbf{Learning Management System (LMS):} A software platform (such as Moodle or Canvas) that delivers course content, facilitates communication, manages assignments, and tracks student engagement through behavioral data.
+
+\textbf{Student Information System (SIS):} An administrative database maintaining comprehensive student records including demographics, enrollment history, grades, and academic standing---the institutional source of truth for official student data.
+
+\textbf{Predictive Analytics:} Statistical and machine learning techniques that analyze historical and current data to generate probabilistic forecasts of future events, identifying students likely to experience academic difficulties.
+
+\textbf{Ensemble Learning:} A machine learning approach combining predictions from multiple algorithms (Random Forest, Gradient Boosting, XGBoost) to achieve higher accuracy and reduce overfitting.
+
+\textbf{Feature Engineering:} The process of selecting, transforming, and creating variables from raw data that effectively capture patterns relevant to prediction, translating institutional data into optimized machine learning inputs.
+
+\textbf{Early Warning System:} An integrated platform combining data collection, predictive modeling, and alert generation to identify students requiring intervention before academic problems become severe.
+
+\textbf{Engagement Metrics:} Quantifiable measures of student participation derived from LMS data, including login frequency, time on platform, discussion posts, and assignment submission timeliness.
+
+\textbf{Model Accuracy:} The proportion of correct predictions among all predictions made by a machine learning model, evaluated alongside precision, recall, and F1-score.
+
+\textbf{Intervention:} Targeted support actions designed to address identified student risk factors, including academic advising, tutoring, workshops, counseling, or course load adjustments.
 
 \section{Significance of the Study}
 
 \subsection{Theoretical Contribution}
-This study advances scholarly understanding of educational data mining in resource-constrained environments. While existing literature predominantly focuses on well-resourced Western institutions \parencite{Turkmenbayev2025, ScientificReports2025}, this research demonstrates the applicability of advanced predictive analytics where data infrastructure may be limited. The study operationalizes Tinto's Student Integration Model by mapping theoretical constructs to quantifiable data elements, providing empirical validation of retention frameworks within an African context.
+This study advances scholarly understanding of educational data mining in resource-constrained environments. While existing literature predominantly focuses on well-resourced Western institutions \parencite{Turkmenbayev2025, ScientificReports2025}, this research demonstrates the applicability of advanced predictive analytics where data infrastructure may be limited. The study operationalizes Tinto's (1975, 1993) Student Integration Model---originally developed for undergraduate populations---by mapping theoretical constructs of academic and social integration to quantifiable data elements extracted from institutional systems, providing empirical validation of retention frameworks within an African context.
 
 \subsection{Practical Contribution}
 
@@ -155,12 +346,39 @@ The platform provides Strathmore University and similar institutions with tools 
 The platform equips academic advisors with evidence-based insights into student risk factors, moving beyond intuition to data-informed strategies. Role-based dashboards highlight specific concerns---attendance patterns, engagement deficits, assignment completion---enabling targeted interventions. Early identification creates opportunities for proactive outreach before problems become insurmountable.
 
 \subsubsection{For Students}
-While not direct users, students are ultimate beneficiaries. Timely interventions can prevent academic failures, reduce program delays, and increase graduation likelihood. The system ensures that institutional policies like the 67\% attendance requirement are supported by compliance mechanisms rather than serving merely as punitive measures.
+While not direct users, undergraduate students are ultimate beneficiaries. Timely interventions can prevent academic failures, reduce program delays, and increase graduation likelihood. The system ensures that institutional policies like the 67\% attendance requirement are supported by compliance mechanisms rather than serving merely as punitive measures.
 
 \subsection{Policy Contribution}
 This research demonstrates a cost-effective approach to addressing retention challenges in African universities, providing a replicable model. Given Kenya's higher education challenges \parencite{KIPPRA2024, DailyNation2024}, the study illustrates how strategic application of artificial intelligence can amplify limited resources without proportional expenditure increases. By documenting implementation challenges and lessons learned, the study creates knowledge that can accelerate adoption across Kenyan and African institutions \parencite{KenyaEducation2024}.
+
+% \section{Organization of the Thesis}
+
+% This thesis is organized into six chapters that systematically present the research problem, theoretical foundations, methodology, implementation, results, and conclusions.
+
+% \textbf{Chapter One: Introduction} establishes the research foundation by presenting the background context of student retention challenges in global, African, and Kenyan higher education settings. It articulates the specific problem facing Strathmore University, justifies the study's importance, defines clear research objectives and questions, and delineates the scope and boundaries of the investigation.
+
+% \textbf{Chapter Two: Literature Review} provides comprehensive coverage of relevant scholarly literature including theoretical frameworks of undergraduate student retention (particularly Tinto's Student Integration Model), the evolution of predictive analytics in higher education, machine learning algorithms applied to educational prediction, educational data mining practices and ethical considerations, and existing early warning systems with design principles and lessons learned.
+
+% \textbf{Chapter Three: Research Methodology} details the mixed-methods design science research approach, specifying data sources and collection procedures for the 440-student dataset, explaining feature engineering processes, detailing machine learning methodology including algorithm selection and validation strategies, and describing the evaluation framework encompassing both quantitative performance metrics and qualitative stakeholder assessment.
+
+% \textbf{Chapter Four: System Design and Implementation} presents the technical architecture and development process, including requirements analysis, system architecture decisions, database schema specifications, machine learning model development and training procedures, and frontend and backend implementation with integration and testing protocols.
+
+% \textbf{Chapter Five: Results and Evaluation} presents comprehensive findings including quantitative model performance results (accuracy, precision, recall, F1-score, ROC-AUC), feature importance analysis, system functionality testing, user acceptance evaluation from stakeholder feedback, and discussion integrating findings.
+
+% \textbf{Chapter Six: Conclusion and Recommendations} synthesizes the research contributions, summarizes key findings, documents theoretical and practical contributions, acknowledges research limitations, provides recommendations for Strathmore University and other institutions, and outlines directions for future research.
+
+% 
+
+
+% --- PLACEHOLDER FOR SUBSEQUENT CHAPTERS ---
+% \chapter{LITERATURE REVIEW}
+% \chapter{RESEARCH METHODOLOGY}
+% \chapter{SYSTEM DESIGN AND IMPLEMENTATION}
+% \chapter{RESULTS AND EVALUATION}
+% \chapter{CONCLUSION AND RECOMMENDATIONS}
+
 % --- 4. BIBLIOGRAPHY ---
 \newpage
-\printbibliography[title={References}]
+\printbibliography[title={REFERENCES}]
 
 \end{document}
