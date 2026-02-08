@@ -333,6 +333,36 @@
       \verb https://mapademics.com/whitepapers/predicting-student-success-with-smart-analytics
       \endverb
     \endentry
+    \entry{ModernCampus2025}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a4216dd17eec92d153c0b10e3ab6bd05}{%
+           family={{Modern Campus}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4216dd17eec92d153c0b10e3ab6bd05}
+      \strng{fullhash}{a4216dd17eec92d153c0b10e3ab6bd05}
+      \strng{bibnamehash}{a4216dd17eec92d153c0b10e3ab6bd05}
+      \strng{authorbibnamehash}{a4216dd17eec92d153c0b10e3ab6bd05}
+      \strng{authornamehash}{a4216dd17eec92d153c0b10e3ab6bd05}
+      \strng{authorfullhash}{a4216dd17eec92d153c0b10e3ab6bd05}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{Accessed: February 8, 2026}
+      \field{title}{Student Retention Strategies: 8 Proven Methods to Boost Higher Ed Success}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://moderncampus.com/blog/strategies-for-improving-retention-in-higher-education.html
+      \endverb
+      \verb{url}
+      \verb https://moderncampus.com/blog/strategies-for-improving-retention-in-higher-education.html
+      \endverb
+    \endentry
     \entry{Musasia2025}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=b61c1b2b3357bbc3fa37ddd9cbee5dc3}{%
@@ -489,6 +519,40 @@
       \endverb
       \verb{url}
       \verb https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1632315/full
+      \endverb
+    \endentry
+    \entry{KenyaEducation2024}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6f5af383d772e25314cd4edfec3da38}{%
+           family={{Republic of Kenya Ministry of Education}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Ministry of Education}%
+      }
+      \list{location}{1}{%
+        {Nairobi, Kenya}%
+      }
+      \strng{namehash}{d6f5af383d772e25314cd4edfec3da38}
+      \strng{fullhash}{d6f5af383d772e25314cd4edfec3da38}
+      \strng{bibnamehash}{d6f5af383d772e25314cd4edfec3da38}
+      \strng{authorbibnamehash}{d6f5af383d772e25314cd4edfec3da38}
+      \strng{authornamehash}{d6f5af383d772e25314cd4edfec3da38}
+      \strng{authorfullhash}{d6f5af383d772e25314cd4edfec3da38}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sessional Paper No. X of 2024}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.education.go.ke/sites/default/files/BILLS/Sessional\%20Paper_2802024.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.education.go.ke/sites/default/files/BILLS/Sessional%5C%20Paper_2802024.pdf
       \endverb
     \endentry
     \entry{Turkmenbayev2025}{article}{}
@@ -940,6 +1004,36 @@
       \verb https://mapademics.com/whitepapers/predicting-student-success-with-smart-analytics
       \endverb
     \endentry
+    \entry{ModernCampus2025}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a4216dd17eec92d153c0b10e3ab6bd05}{%
+           family={{Modern Campus}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4216dd17eec92d153c0b10e3ab6bd05}
+      \strng{fullhash}{a4216dd17eec92d153c0b10e3ab6bd05}
+      \strng{bibnamehash}{a4216dd17eec92d153c0b10e3ab6bd05}
+      \strng{authorbibnamehash}{a4216dd17eec92d153c0b10e3ab6bd05}
+      \strng{authornamehash}{a4216dd17eec92d153c0b10e3ab6bd05}
+      \strng{authorfullhash}{a4216dd17eec92d153c0b10e3ab6bd05}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{Accessed: February 8, 2026}
+      \field{title}{Student Retention Strategies: 8 Proven Methods to Boost Higher Ed Success}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://moderncampus.com/blog/strategies-for-improving-retention-in-higher-education.html
+      \endverb
+      \verb{url}
+      \verb https://moderncampus.com/blog/strategies-for-improving-retention-in-higher-education.html
+      \endverb
+    \endentry
     \entry{Musasia2025}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=b61c1b2b3357bbc3fa37ddd9cbee5dc3}{%
@@ -1096,6 +1190,40 @@
       \endverb
       \verb{url}
       \verb https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1632315/full
+      \endverb
+    \endentry
+    \entry{KenyaEducation2024}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6f5af383d772e25314cd4edfec3da38}{%
+           family={{Republic of Kenya Ministry of Education}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Ministry of Education}%
+      }
+      \list{location}{1}{%
+        {Nairobi, Kenya}%
+      }
+      \strng{namehash}{d6f5af383d772e25314cd4edfec3da38}
+      \strng{fullhash}{d6f5af383d772e25314cd4edfec3da38}
+      \strng{bibnamehash}{d6f5af383d772e25314cd4edfec3da38}
+      \strng{authorbibnamehash}{d6f5af383d772e25314cd4edfec3da38}
+      \strng{authornamehash}{d6f5af383d772e25314cd4edfec3da38}
+      \strng{authorfullhash}{d6f5af383d772e25314cd4edfec3da38}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sessional Paper No. X of 2024}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.education.go.ke/sites/default/files/BILLS/Sessional\%20Paper_2802024.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.education.go.ke/sites/default/files/BILLS/Sessional%5C%20Paper_2802024.pdf
       \endverb
     \endentry
     \entry{Turkmenbayev2025}{article}{}

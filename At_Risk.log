@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  8 FEB 2026 09:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  8 FEB 2026 13:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -550,7 +550,7 @@ Package hyperref Info: Link coloring OFF on input line 20.
 \@outlinefile=\write4
 \openout4 = `At_Risk.out'.
 
-<./images/strathmore_logo.png, id=32, 324.21124pt x 156.585pt>
+<./images/strathmore_logo.png, id=68, 324.21124pt x 156.585pt>
 File: ./images/strathmore_logo.png Graphic file (type png)
 <use ./images/strathmore_logo.png>
 Package pdftex.def Info: ./images/strathmore_logo.png  used on input line 26.
@@ -576,39 +576,45 @@ Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.95 
+l.93 
       [1
 
-] [2]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 110.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [3] [4
+] [2] [3] [4]
+Overfull \hbox (8.63162pt too wide) in paragraph at lines 142--143
+[]\T1/ptm/m/n/12 Fourth, the plat-form is de-signed as a web-based ap-pli-ca-tion ac-ces-si-ble through stan-dard browsers,
+ []
 
-] [5] (./At_Risk.aux)
+
+Overfull \hbox (1.44377pt too wide) in paragraph at lines 147--148
+\T1/ptm/m/n/12 This study ad-vances schol-arly un-der-stand-ing of ed-u-ca-tional data min-ing in resource-constrained
+ []
+
+[5] [6] [7
+
+] [8] (./At_Risk.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `At_Risk.out' has not changed.
-(rerunfilecheck)             Checksum: EDAC6360FAA81B3F3EB3AF849CFED456;1114.
+(rerunfilecheck)             Checksum: 577A6B25CF8F0AFA5882F53AECF8CFC8;2608.
 Package logreq Info: Writing requests to 'At_Risk.run.xml'.
 \openout1 = `At_Risk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17219 strings out of 474222
- 305544 string characters out of 5748734
+ 17243 strings out of 474222
+ 306076 string characters out of 5748734
  1936975 words of memory out of 5000000
- 39262 multiletter control sequences out of 15000+600000
- 581953 words of font info for 61 fonts, out of 8000000 for 9000
+ 39265 multiletter control sequences out of 15000+600000
+ 583283 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,8n,81p,1094b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,8n,81p,1391b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on At_Risk.pdf (8 pages, 76439 bytes).
+Output written on At_Risk.pdf (11 pages, 85932 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 249 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

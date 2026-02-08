@@ -3074,9 +3074,16 @@
     <bcf:citekey order="12" intorder="1">Turkmenbayev2025</bcf:citekey>
     <bcf:citekey order="12" intorder="2">ScientificReports2025b</bcf:citekey>
     <bcf:citekey order="13" intorder="1">FrontiersEducation2025</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">Ahmed2024</bcf:citekey>
-    <bcf:citekey order="14" intorder="2">ScientificReports2025</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">GSU2024</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">KIPPRA2024</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">Ahmed2024</bcf:citekey>
+    <bcf:citekey order="15" intorder="2">ScientificReports2025</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">GSU2024</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">Turkmenbayev2025</bcf:citekey>
+    <bcf:citekey order="17" intorder="2">ScientificReports2025</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">ModernCampus2025</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">KIPPRA2024</bcf:citekey>
+    <bcf:citekey order="19" intorder="2">DailyNation2024</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">KenyaEducation2024</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
