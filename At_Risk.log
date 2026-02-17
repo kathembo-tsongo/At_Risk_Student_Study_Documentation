@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  8 FEB 2026 22:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  17 FEB 2026 15:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -487,33 +487,33 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidthlast=\dimen158
 \titlewidthfirst=\dimen159
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 30.
+Package hyperref Info: Option `colorlinks' set `true' on input line 32.
 \@quotelevel=\count416
 \@quotereset=\count417
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 32.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 36.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (./At_Risk.aux)
 \openout1 = `At_Risk.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -598,8 +598,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'At_Risk.bbl' found.
  (./At_Risk.bbl)
-Package biblatex Info: Reference section=0 on input line 32.
-Package biblatex Info: Reference segment=0 on input line 32.
+Package biblatex Info: Reference section=0 on input line 36.
+Package biblatex Info: Reference segment=0 on input line 36.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -607,81 +607,145 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 32.
- (./At_Risk.out) (./At_Risk.out)
+Package hyperref Info: Link coloring ON on input line 36.
 \@outlinefile=\write4
 \openout4 = `At_Risk.out'.
 
-<./images/strathmore_logo.png, id=80, 324.21124pt x 156.585pt>
+<./images/strathmore_logo.png, id=4, 324.21124pt x 156.585pt>
 File: ./images/strathmore_logo.png Graphic file (type png)
 <use ./images/strathmore_logo.png>
-Package pdftex.def Info: ./images/strathmore_logo.png  used on input line 38.
+Package pdftex.def Info: ./images/strathmore_logo.png  used on input line 42.
 (pdftex.def)             Requested size: 166.7306pt x 80.52629pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/strathmore_logo.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 83.
+(Font)              <12> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 83.
+(Font)              <8> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 83.
+(Font)              <6> on input line 85.
  [2
 
-] (./At_Risk.toc)
+]
+No file At_Risk.toc.
 \tf@toc=\write5
 \openout5 = `At_Risk.toc'.
 
- [3]
+[3] (./At_Risk.toc)
+\tf@toc=\write6
+\openout6 = `At_Risk.toc'.
+
+ [4]
 Chapter 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.185 
+l.148 
        [1
 
-] [2] [3] [4] [5] [6] [7] [8] [9]
-Overfull \hbox (41.95825pt too wide) in paragraph at lines 346--347
-\T1/ptm/m/n/12 high-light spe-cific concerns---attendance pat-terns, en-gage-ment deficits, as-sign-ment completion---
+] [2]
+Overfull \hbox (16.17041pt too wide) in paragraph at lines 184--192
+\T1/ptm/m/n/12 cally iden-ti-fied for in-ter-ven-tion only af-ter man-i-fest-ing lag-indicators of fail-ure^^Vcumulative
  []
 
-[10] [11] [12
+[3]
+/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex:221: Undefined control sequence.
+l.221 ...te prediction accuracy levels of $85\text
+                                                  {--}92\%$ for student success
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[4] [5]
+Overfull \hbox (0.53345pt too wide) in paragraph at lines 271--272
+[]\T1/ptm/m/n/12 To as-sess the plat-form's us-abil-ity and per-ceived in-sti-tu-tional im-pact through struc-
+ []
+
+
+Overfull \hbox (4.4102pt too wide) in paragraph at lines 279--280
+[]\T1/ptm/m/n/12 How can risk pre-dic-tions be ef-fec-tively pre-sented to dif-fer-ent stake-holder groups---
+ []
+
+[6]
+Overfull \hbox (10.53134pt too wide) in paragraph at lines 286--293
+\T1/ptm/m/n/12 dic-tion mod-els^^Vtargeting dropout risk, course fail-ure risk, and pro-gram de-lay risk^^Vusing
+ []
+
+
+Overfull \hbox (6.9191pt too wide) in paragraph at lines 286--293
+\T1/ptm/m/n/12 en-sem-ble al-go-rithms in-clud-ing Ran-dom For-est, Gra-di-ent Boost-ing, and XG-Boost, trained
+ []
+
+[7] [8]
+Overfull \hbox (34.94879pt too wide) in paragraph at lines 317--318
+[] []\T1/ptm/b/n/12 En-sem-ble Learn-ing[] \T1/ptm/m/n/12 A ma-chine learn-ing tech-nique that com-bines mul-ti-ple al-go-rithms^^Vsuch
+ []
+
+[9] [10]
+Overfull \hbox (24.84666pt too wide) in paragraph at lines 344--353
+\T1/ptm/m/n/12 con-text by map-ping the the-o-ret-i-cal con-structs of aca-demic and so-cial in-te-gra-tion^^Vattendance
+ []
+
+
+Overfull \hbox (0.96559pt too wide) in paragraph at lines 356--365
+\T1/ptm/m/n/12 the-o-ret-i-cal claim with sig-nif-i-cant im-pli-ca-tions for fu-ture im-ple-men-ta-tions across African
+ []
+
+[11]
+Overfull \hbox (5.68312pt too wide) in paragraph at lines 382--389
+\T1/ptm/m/n/12 men-tors with evidence-based in-sights that move decision-making be-yond in-tu-ition. Role-
+ []
+
+[12] [13] [14] [15
 
 ]
-Overfull \hbox (4.34993pt too wide) in paragraph at lines 382--382
-\T1/ptm/m/n/12 pre-dic-tion: In-ter-pretabil-ity and ap-pli-ca-tion in ed-u-ca-tional decision-making. \T1/ptm/m/it/12 Fron-
- []
-
-
-Overfull \hbox (18.91466pt too wide) in paragraph at lines 382--382
+Overfull \hbox (18.91466pt too wide) in paragraph at lines 463--463
 [][]\T1/ptm/m/n/12 Turkmenbayev, A., Ab-dyk-e-r-i-mova, E., Nur-gozhayev, S., Karabassova, G., & Baigozhanova,
  []
 
-[13] (./At_Risk.aux)
+[16] (./At_Risk.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-Package rerunfilecheck Info: File `At_Risk.out' has not changed.
-(rerunfilecheck)             Checksum: 5606A9BA89CF8066332E346317972014;3058.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `At_Risk.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `At_Risk.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D2AD38F0E3F6D105316B5A1FEB2A7A9F;2693.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                At_Risk
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'At_Risk.run.xml'.
 \openout1 = `At_Risk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17879 strings out of 474222
- 315337 string characters out of 5748734
- 1934975 words of memory out of 5000000
- 39885 multiletter control sequences out of 15000+600000
+ 17844 strings out of 474222
+ 315260 string characters out of 5748734
+ 1933975 words of memory out of 5000000
+ 39846 multiletter control sequences out of 15000+600000
  583283 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,8n,81p,1391b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on At_Risk.pdf (16 pages, 92771 bytes).
+ 66i,8n,81p,1253b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on At_Risk.pdf (20 pages, 126497 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 193 compressed objects within 2 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

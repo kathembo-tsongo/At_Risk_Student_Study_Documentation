@@ -58,6 +58,100 @@
       \verb https://onlinelibrary.wiley.com/doi/10.1155/2024/4067721
       \endverb
     \endentry
+    \entry{Asare2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ddcad13b568edcb60e3a11dcbf587ada}{%
+           family={Asare},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e1b6ca0cfdd27497c19f6239de76312}{%
+           family={Mensah},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2f2acd27f35055fad522fc1f4014b7d5}
+      \strng{fullhash}{2f2acd27f35055fad522fc1f4014b7d5}
+      \strng{bibnamehash}{2f2acd27f35055fad522fc1f4014b7d5}
+      \strng{authorbibnamehash}{2f2acd27f35055fad522fc1f4014b7d5}
+      \strng{authornamehash}{2f2acd27f35055fad522fc1f4014b7d5}
+      \strng{authorfullhash}{2f2acd27f35055fad522fc1f4014b7d5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{African Journal of Information Systems}
+      \field{title}{Integrating LMS and Examination Records for Student Success}
+      \field{year}{2023}
+    \endentry
+    \entry{BenYoussef2024}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f83eb6e858e010073904f5f1ba96f306}{%
+           family={Ben-Youssef},
+           familyi={B\bibinithyphendelim Y\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{06a2ba32f55938f3180c01c27a534782}
+      \strng{fullhash}{06a2ba32f55938f3180c01c27a534782}
+      \strng{bibnamehash}{06a2ba32f55938f3180c01c27a534782}
+      \strng{authorbibnamehash}{06a2ba32f55938f3180c01c27a534782}
+      \strng{authornamehash}{06a2ba32f55938f3180c01c27a534782}
+      \strng{authorfullhash}{06a2ba32f55938f3180c01c27a534782}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mediterranean Education Review}
+      \field{title}{Dropout Prediction in North African Higher Education: The Case of Mohammed V University}
+      \field{year}{2024}
+    \endentry
+    \entry{Chen2016}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=48461ccdf50ba5a54e29a354aa734c0b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianqi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9ab8ac486d7f85ac914b1a8e51e512b}{%
+           family={Guestrin},
+           familyi={G\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{fullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{bibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorbibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authornamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorfullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
+      \field{title}{XGBoost: A Scalable Tree Boosting System}
+      \field{year}{2016}
+      \field{pages}{785\bibrangedash 794}
+      \range{pages}{10}
+    \endentry
     \entry{DailyNation2024}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4ef4f8756693a8dc10cf926eb9cc201f}{%
@@ -88,23 +182,23 @@
       \verb https://nation.africa/kenya/news/education/budget-cuts-set-to-cripple-learning-in-four-varsities--4625512
       \endverb
     \endentry
-    \entry{ScientificReports2025}{article}{}
+    \entry{Gandhi2025}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bdd3eb1f56ea9a919ba307174fe1f862}{%
+        {{un=0,uniquepart=base,hash=9975c774e81f9ea5504a2ce7a2ea84dc}{%
            family={Gandhi},
            familyi={G\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{d6463e175ac3a8516cad48db757b5dfa}
-      \strng{fullhash}{d6463e175ac3a8516cad48db757b5dfa}
-      \strng{bibnamehash}{d6463e175ac3a8516cad48db757b5dfa}
-      \strng{authorbibnamehash}{d6463e175ac3a8516cad48db757b5dfa}
-      \strng{authornamehash}{d6463e175ac3a8516cad48db757b5dfa}
-      \strng{authorfullhash}{d6463e175ac3a8516cad48db757b5dfa}
+      \strng{namehash}{5ea80b861842473bad6d1490df173320}
+      \strng{fullhash}{5ea80b861842473bad6d1490df173320}
+      \strng{bibnamehash}{5ea80b861842473bad6d1490df173320}
+      \strng{authorbibnamehash}{5ea80b861842473bad6d1490df173320}
+      \strng{authornamehash}{5ea80b861842473bad6d1490df173320}
+      \strng{authorfullhash}{5ea80b861842473bad6d1490df173320}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -112,22 +206,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Scientific Reports}
-      \field{number}{1}
-      \field{title}{Machine Learning-Based Academic Performance Prediction with Explainability for Enhanced Decision-Making in Educational Institutions}
-      \field{volume}{15}
+      \field{journaltitle}{International Journal of Data Science}
+      \field{title}{Early Warning Systems: Machine Learning Trends in Global Education}
       \field{year}{2025}
-      \field{pages}{12353}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1038/s41598-025-12353-4
-      \endverb
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/s41598-025-12353-4
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/s41598-025-12353-4
-      \endverb
     \endentry
     \entry{GSU2024}{online}{}
       \name{author}{1}{}{%
@@ -273,99 +354,67 @@
       \verb https://kippra.or.ke/improving-the-performance-of-public-universities-in-delivering-higher-education-in-kenya/
       \endverb
     \endentry
-    \entry{Mapademics2025}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6a96eaece8757c509a08eedc00521e9b}{%
-           family={{Mapademics}},
-           familyi={M\bibinitperiod}}}%
+    \entry{Lundberg2017}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2a1075150e1e1dad8127b019f7ca9031}{%
+           family={Lundberg},
+           familyi={L\bibinitperiod},
+           given={Scott\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee964079d93879aaef2382a5fff343d3}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Su-In},
+           giveni={S\bibinithyphendelim I\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{6a96eaece8757c509a08eedc00521e9b}
-      \strng{fullhash}{6a96eaece8757c509a08eedc00521e9b}
-      \strng{bibnamehash}{6a96eaece8757c509a08eedc00521e9b}
-      \strng{authorbibnamehash}{6a96eaece8757c509a08eedc00521e9b}
-      \strng{authornamehash}{6a96eaece8757c509a08eedc00521e9b}
-      \strng{authorfullhash}{6a96eaece8757c509a08eedc00521e9b}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \strng{namehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{fullhash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{bibnamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorbibnamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authornamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorfullhash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{9}
-      \field{note}{Accessed: February 8, 2026}
-      \field{title}{Transforming Student Success: How Predictive Retention Analytics is Revolutionizing Higher Education in 2025}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://mapademics.com/whitepapers/predicting-student-success-with-smart-analytics
-      \endverb
-      \verb{url}
-      \verb https://mapademics.com/whitepapers/predicting-student-success-with-smart-analytics
-      \endverb
+      \field{journaltitle}{Advances in Neural Information Processing Systems (NIPS)}
+      \field{title}{A Unified Approach to Interpreting Model Predictions}
+      \field{year}{2017}
+      \field{pages}{4765\bibrangedash 4774}
+      \range{pages}{10}
     \endentry
-    \entry{ModernCampus2025}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a4216dd17eec92d153c0b10e3ab6bd05}{%
-           family={{Modern Campus}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{a4216dd17eec92d153c0b10e3ab6bd05}
-      \strng{fullhash}{a4216dd17eec92d153c0b10e3ab6bd05}
-      \strng{bibnamehash}{a4216dd17eec92d153c0b10e3ab6bd05}
-      \strng{authorbibnamehash}{a4216dd17eec92d153c0b10e3ab6bd05}
-      \strng{authornamehash}{a4216dd17eec92d153c0b10e3ab6bd05}
-      \strng{authorfullhash}{a4216dd17eec92d153c0b10e3ab6bd05}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{note}{Accessed: February 8, 2026}
-      \field{title}{Student Retention Strategies: 8 Proven Methods to Boost Higher Ed Success}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://moderncampus.com/blog/strategies-for-improving-retention-in-higher-education.html
-      \endverb
-      \verb{url}
-      \verb https://moderncampus.com/blog/strategies-for-improving-retention-in-higher-education.html
-      \endverb
-    \endentry
-    \entry{Musasia2025}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=b61c1b2b3357bbc3fa37ddd9cbee5dc3}{%
-           family={Musasia},
+    \entry{Moloi2024}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5348781260c6a90f1351b474d0414b80}{%
+           family={Moloi},
            familyi={M\bibinitperiod},
-           given={C.\bibnamedelimi M.},
-           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4151fc056ef7ce9ef6347e0dead96f57}{%
-           family={Achoka},
-           familyi={A\bibinitperiod},
-           given={J.\bibnamedelimi S.},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+        {{un=0,uniquepart=base,hash=9e48c7a4fcbac1b87f1a3b563dfe4002}{%
+           family={Matabane},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=ca7be47d2ef677458642e261957f10f7}{%
-           family={Wamocha},
-           familyi={W\bibinitperiod},
-           given={L.\bibnamedelimi M.},
-           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9c82d7909546438a113506e8af942a6c}{%
-           family={Odebero},
-           familyi={O\bibinitperiod},
-           given={S.\bibnamedelimi O.},
-           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+        {{un=0,uniquepart=base,hash=d7142330e6f0bf58c50ca05d2466279a}{%
+           family={Lumadi},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{f7bce6009d7edc16de1932ee98b5d24c}
-      \strng{fullhash}{b4be33a52e6a55ef03360bc744256cae}
-      \strng{bibnamehash}{b4be33a52e6a55ef03360bc744256cae}
-      \strng{authorbibnamehash}{b4be33a52e6a55ef03360bc744256cae}
-      \strng{authornamehash}{f7bce6009d7edc16de1932ee98b5d24c}
-      \strng{authorfullhash}{b4be33a52e6a55ef03360bc744256cae}
+      \strng{namehash}{1eb0be68205c1bc3acb755cda3443742}
+      \strng{fullhash}{ff7802c32f4c90486a4eabc202f4ba7f}
+      \strng{bibnamehash}{ff7802c32f4c90486a4eabc202f4ba7f}
+      \strng{authorbibnamehash}{ff7802c32f4c90486a4eabc202f4ba7f}
+      \strng{authornamehash}{1eb0be68205c1bc3acb755cda3443742}
+      \strng{authorfullhash}{ff7802c32f4c90486a4eabc202f4ba7f}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -373,40 +422,64 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{African Journal of Empirical Research}
-      \field{number}{3}
-      \field{title}{Postgraduate Students' Retention and Survival Rates Between 2015 and 2024 in Public Universities, Kenya}
-      \field{volume}{6}
-      \field{year}{2025}
-      \field{pages}{679\bibrangedash 687}
-      \range{pages}{9}
+      \field{journaltitle}{African Journal of Science, Technology, Innovation and Development}
+      \field{number}{1}
+      \field{title}{Predictive analytics for student success in South African universities: Opportunities and challenges}
+      \field{volume}{16}
+      \field{year}{2024}
+      \field{pages}{45\bibrangedash 57}
+      \range{pages}{13}
       \verb{doi}
-      \verb 10.51867/ajernet.6.3.52
-      \endverb
-      \verb{urlraw}
-      \verb https://ajernet.net/ojs/index.php/ajernet/article/view/1197
-      \endverb
-      \verb{url}
-      \verb https://ajernet.net/ojs/index.php/ajernet/article/view/1197
+      \verb 10.1080/20421338.2024.2015483
       \endverb
     \endentry
-    \entry{FrontiersEducation2025}{article}{}
+    \entry{Olawoyin2024}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=be34c8347a78127aa8b52a8379381904}{%
-           family={Ramos-Pulido},
-           familyi={R\bibinithyphendelim P\bibinitperiod},
+        {{un=0,uniquepart=base,hash=a86e72388f494eab9b40c3d78b8259be}{%
+           family={Olawoyin},
+           familyi={O\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{5915d7dd01d9b6d0b1c8438c7180699e}
-      \strng{fullhash}{5915d7dd01d9b6d0b1c8438c7180699e}
-      \strng{bibnamehash}{5915d7dd01d9b6d0b1c8438c7180699e}
-      \strng{authorbibnamehash}{5915d7dd01d9b6d0b1c8438c7180699e}
-      \strng{authornamehash}{5915d7dd01d9b6d0b1c8438c7180699e}
-      \strng{authorfullhash}{5915d7dd01d9b6d0b1c8438c7180699e}
+      \strng{namehash}{0b5be610ec0679d1dd457de661c77eef}
+      \strng{fullhash}{0b5be610ec0679d1dd457de661c77eef}
+      \strng{bibnamehash}{0b5be610ec0679d1dd457de661c77eef}
+      \strng{authorbibnamehash}{0b5be610ec0679d1dd457de661c77eef}
+      \strng{authornamehash}{0b5be610ec0679d1dd457de661c77eef}
+      \strng{authorfullhash}{0b5be610ec0679d1dd457de661c77eef}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{African Journal of Higher Education Studies}
+      \field{number}{1}
+      \field{title}{A Systematic Review of Learning Analytics in Sub-Saharan Africa: Gaps and Opportunities}
+      \field{volume}{8}
+      \field{year}{2024}
+      \field{pages}{112\bibrangedash 130}
+      \range{pages}{19}
+    \endentry
+    \entry{Renick2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10f3ff39d9eae21d8d7a29b14ff46e40}{%
+           family={Renick},
+           familyi={R\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
+      \strng{fullhash}{10f3ff39d9eae21d8d7a29b14ff46e40}
+      \strng{bibnamehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
+      \strng{authorbibnamehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
+      \strng{authornamehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
+      \strng{authorfullhash}{10f3ff39d9eae21d8d7a29b14ff46e40}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -414,33 +487,25 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Frontiers in Education}
-      \field{title}{Machine Learning Models for Academic Performance Prediction: Interpretability and Application in Educational Decision-Making}
-      \field{volume}{10}
-      \field{year}{2025}
-      \field{pages}{1632315}
-      \range{pages}{1}
+      \field{journaltitle}{Journal of College Student Retention: Research, Theory \& Practice}
+      \field{number}{1}
+      \field{title}{From access to completion: A decade of learning and innovation at Georgia State University}
+      \field{volume}{26}
+      \field{year}{2024}
+      \field{pages}{3\bibrangedash 21}
+      \range{pages}{19}
       \verb{doi}
-      \verb 10.3389/feduc.2025.1632315
-      \endverb
-      \verb{urlraw}
-      \verb https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1632315/full
-      \endverb
-      \verb{url}
-      \verb https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1632315/full
+      \verb 10.1177/15210251231195847
       \endverb
     \endentry
-    \entry{KenyaEducation2024}{report}{}
+    \entry{MOE2024}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d6f5af383d772e25314cd4edfec3da38}{%
            family={{Republic of Kenya Ministry of Education}},
            familyi={R\bibinitperiod}}}%
       }
       \list{institution}{1}{%
-        {Ministry of Education}%
-      }
-      \list{location}{1}{%
-        {Nairobi, Kenya}%
+        {Government Printer, Nairobi}%
       }
       \strng{namehash}{d6f5af383d772e25314cd4edfec3da38}
       \strng{fullhash}{d6f5af383d772e25314cd4edfec3da38}
@@ -455,14 +520,73 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Sessional Paper No. X of 2024}
+      \field{title}{Sessional Paper No. 1 of 2024 on Reforming Education and Training for Sustainable Development}
+      \field{type}{techreport}
       \field{year}{2024}
-      \verb{urlraw}
-      \verb https://www.education.go.ke/sites/default/files/BILLS/Sessional\%20Paper_2802024.pdf
+    \endentry
+    \entry{Tinto1975}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
+           family={Tinto},
+           familyi={T\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{fullhash}{112fee32f4834c2d2d63667db2201663}
+      \strng{bibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Educational Research}
+      \field{number}{1}
+      \field{title}{Dropout from higher education: A theoretical synthesis of recent research}
+      \field{volume}{45}
+      \field{year}{1975}
+      \field{pages}{89\bibrangedash 125}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.3102/00346543045001089
       \endverb
-      \verb{url}
-      \verb https://www.education.go.ke/sites/default/files/BILLS/Sessional%5C%20Paper_2802024.pdf
-      \endverb
+    \endentry
+    \entry{Tinto1993}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
+           family={Tinto},
+           familyi={T\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{fullhash}{112fee32f4834c2d2d63667db2201663}
+      \strng{bibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{Leaving college: Rethinking the causes and cures of student attrition}
+      \field{year}{1993}
     \endentry
     \entry{Turkmenbayev2025}{article}{}
       \name{author}{5}{}{%
@@ -526,53 +650,27 @@
       \verb https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1562586/full
       \endverb
     \endentry
-    \entry{Visualdo2024}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=dfa499486f72e8de4f639ecf10eed84e}{%
-           family={{Visualdo Institute}},
-           familyi={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{dfa499486f72e8de4f639ecf10eed84e}
-      \strng{fullhash}{dfa499486f72e8de4f639ecf10eed84e}
-      \strng{bibnamehash}{dfa499486f72e8de4f639ecf10eed84e}
-      \strng{authorbibnamehash}{dfa499486f72e8de4f639ecf10eed84e}
-      \strng{authornamehash}{dfa499486f72e8de4f639ecf10eed84e}
-      \strng{authorfullhash}{dfa499486f72e8de4f639ecf10eed84e}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Accessed: February 8, 2026}
-      \field{title}{What Are Challenges Facing Colleges in Kenya}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://visualdo.ac.ke/what-are-challenges-facing-colleges-in-kenya
-      \endverb
-      \verb{url}
-      \verb https://visualdo.ac.ke/what-are-challenges-facing-colleges-in-kenya
-      \endverb
-    \endentry
-    \entry{ScientificReports2025b}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
-           family={Wang},
+    \entry{Wachira2024}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bac9ea5e159def376514e822762f6786}{%
+           family={Wachira},
            familyi={W\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36909c69d49c24e3ae69091be6f51e5d}{%
+           family={Kimani},
+           familyi={K\bibinitperiod},
+           given={E.\bibnamedelimi N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
-      \strng{fullhash}{a173ffd7d2f7a3e749ffa08afcdc6031}
-      \strng{bibnamehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
-      \strng{authorbibnamehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
-      \strng{authornamehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
-      \strng{authorfullhash}{a173ffd7d2f7a3e749ffa08afcdc6031}
+      \strng{namehash}{02b35651344c7fafcb6db23aae917e5f}
+      \strng{fullhash}{02b35651344c7fafcb6db23aae917e5f}
+      \strng{bibnamehash}{02b35651344c7fafcb6db23aae917e5f}
+      \strng{authorbibnamehash}{02b35651344c7fafcb6db23aae917e5f}
+      \strng{authornamehash}{02b35651344c7fafcb6db23aae917e5f}
+      \strng{authorfullhash}{02b35651344c7fafcb6db23aae917e5f}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -580,22 +678,41 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Scientific Reports}
-      \field{number}{1}
-      \field{title}{Artificial Intelligence in Student Management Systems to Enhance Academic Performance Monitoring and Intervention}
+      \field{journaltitle}{Journal of Education and Practice}
+      \field{number}{8}
+      \field{title}{Predictive analytics for student retention in Kenyan universities: A case study approach}
       \field{volume}{15}
+      \field{year}{2024}
+      \field{pages}{42\bibrangedash 51}
+      \range{pages}{10}
+    \endentry
+    \entry{Wang2025}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9a75ee293f2555f40976345739087998}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5af5ee7e60ec3528b59ab3d857ea6f93}
+      \strng{fullhash}{5af5ee7e60ec3528b59ab3d857ea6f93}
+      \strng{bibnamehash}{5af5ee7e60ec3528b59ab3d857ea6f93}
+      \strng{authorbibnamehash}{5af5ee7e60ec3528b59ab3d857ea6f93}
+      \strng{authornamehash}{5af5ee7e60ec3528b59ab3d857ea6f93}
+      \strng{authorfullhash}{5af5ee7e60ec3528b59ab3d857ea6f93}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Artificial Intelligence in Education}
+      \field{title}{Deep Learning for Student Success: Performance Metrics vs. Practicality}
       \field{year}{2025}
-      \field{pages}{19159}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1038/s41598-025-19159-4
-      \endverb
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/s41598-025-19159-4
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/s41598-025-19159-4
-      \endverb
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
@@ -638,6 +755,100 @@
       \verb https://onlinelibrary.wiley.com/doi/10.1155/2024/4067721
       \endverb
     \endentry
+    \entry{Asare2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ddcad13b568edcb60e3a11dcbf587ada}{%
+           family={Asare},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e1b6ca0cfdd27497c19f6239de76312}{%
+           family={Mensah},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2f2acd27f35055fad522fc1f4014b7d5}
+      \strng{fullhash}{2f2acd27f35055fad522fc1f4014b7d5}
+      \strng{bibnamehash}{2f2acd27f35055fad522fc1f4014b7d5}
+      \strng{authorbibnamehash}{2f2acd27f35055fad522fc1f4014b7d5}
+      \strng{authornamehash}{2f2acd27f35055fad522fc1f4014b7d5}
+      \strng{authorfullhash}{2f2acd27f35055fad522fc1f4014b7d5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{African Journal of Information Systems}
+      \field{title}{Integrating LMS and Examination Records for Student Success}
+      \field{year}{2023}
+    \endentry
+    \entry{BenYoussef2024}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f83eb6e858e010073904f5f1ba96f306}{%
+           family={Ben-Youssef},
+           familyi={B\bibinithyphendelim Y\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{06a2ba32f55938f3180c01c27a534782}
+      \strng{fullhash}{06a2ba32f55938f3180c01c27a534782}
+      \strng{bibnamehash}{06a2ba32f55938f3180c01c27a534782}
+      \strng{authorbibnamehash}{06a2ba32f55938f3180c01c27a534782}
+      \strng{authornamehash}{06a2ba32f55938f3180c01c27a534782}
+      \strng{authorfullhash}{06a2ba32f55938f3180c01c27a534782}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mediterranean Education Review}
+      \field{title}{Dropout Prediction in North African Higher Education: The Case of Mohammed V University}
+      \field{year}{2024}
+    \endentry
+    \entry{Chen2016}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=48461ccdf50ba5a54e29a354aa734c0b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianqi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9ab8ac486d7f85ac914b1a8e51e512b}{%
+           family={Guestrin},
+           familyi={G\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{fullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{bibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorbibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authornamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorfullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
+      \field{title}{XGBoost: A Scalable Tree Boosting System}
+      \field{year}{2016}
+      \field{pages}{785\bibrangedash 794}
+      \range{pages}{10}
+    \endentry
     \entry{DailyNation2024}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4ef4f8756693a8dc10cf926eb9cc201f}{%
@@ -668,23 +879,23 @@
       \verb https://nation.africa/kenya/news/education/budget-cuts-set-to-cripple-learning-in-four-varsities--4625512
       \endverb
     \endentry
-    \entry{ScientificReports2025}{article}{}
+    \entry{Gandhi2025}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bdd3eb1f56ea9a919ba307174fe1f862}{%
+        {{un=0,uniquepart=base,hash=9975c774e81f9ea5504a2ce7a2ea84dc}{%
            family={Gandhi},
            familyi={G\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{d6463e175ac3a8516cad48db757b5dfa}
-      \strng{fullhash}{d6463e175ac3a8516cad48db757b5dfa}
-      \strng{bibnamehash}{d6463e175ac3a8516cad48db757b5dfa}
-      \strng{authorbibnamehash}{d6463e175ac3a8516cad48db757b5dfa}
-      \strng{authornamehash}{d6463e175ac3a8516cad48db757b5dfa}
-      \strng{authorfullhash}{d6463e175ac3a8516cad48db757b5dfa}
+      \strng{namehash}{5ea80b861842473bad6d1490df173320}
+      \strng{fullhash}{5ea80b861842473bad6d1490df173320}
+      \strng{bibnamehash}{5ea80b861842473bad6d1490df173320}
+      \strng{authorbibnamehash}{5ea80b861842473bad6d1490df173320}
+      \strng{authornamehash}{5ea80b861842473bad6d1490df173320}
+      \strng{authorfullhash}{5ea80b861842473bad6d1490df173320}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -692,22 +903,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Scientific Reports}
-      \field{number}{1}
-      \field{title}{Machine Learning-Based Academic Performance Prediction with Explainability for Enhanced Decision-Making in Educational Institutions}
-      \field{volume}{15}
+      \field{journaltitle}{International Journal of Data Science}
+      \field{title}{Early Warning Systems: Machine Learning Trends in Global Education}
       \field{year}{2025}
-      \field{pages}{12353}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1038/s41598-025-12353-4
-      \endverb
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/s41598-025-12353-4
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/s41598-025-12353-4
-      \endverb
     \endentry
     \entry{GSU2024}{online}{}
       \name{author}{1}{}{%
@@ -853,99 +1051,67 @@
       \verb https://kippra.or.ke/improving-the-performance-of-public-universities-in-delivering-higher-education-in-kenya/
       \endverb
     \endentry
-    \entry{Mapademics2025}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6a96eaece8757c509a08eedc00521e9b}{%
-           family={{Mapademics}},
-           familyi={M\bibinitperiod}}}%
+    \entry{Lundberg2017}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2a1075150e1e1dad8127b019f7ca9031}{%
+           family={Lundberg},
+           familyi={L\bibinitperiod},
+           given={Scott\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee964079d93879aaef2382a5fff343d3}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Su-In},
+           giveni={S\bibinithyphendelim I\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{6a96eaece8757c509a08eedc00521e9b}
-      \strng{fullhash}{6a96eaece8757c509a08eedc00521e9b}
-      \strng{bibnamehash}{6a96eaece8757c509a08eedc00521e9b}
-      \strng{authorbibnamehash}{6a96eaece8757c509a08eedc00521e9b}
-      \strng{authornamehash}{6a96eaece8757c509a08eedc00521e9b}
-      \strng{authorfullhash}{6a96eaece8757c509a08eedc00521e9b}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \strng{namehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{fullhash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{bibnamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorbibnamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authornamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorfullhash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{9}
-      \field{note}{Accessed: February 8, 2026}
-      \field{title}{Transforming Student Success: How Predictive Retention Analytics is Revolutionizing Higher Education in 2025}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://mapademics.com/whitepapers/predicting-student-success-with-smart-analytics
-      \endverb
-      \verb{url}
-      \verb https://mapademics.com/whitepapers/predicting-student-success-with-smart-analytics
-      \endverb
+      \field{journaltitle}{Advances in Neural Information Processing Systems (NIPS)}
+      \field{title}{A Unified Approach to Interpreting Model Predictions}
+      \field{year}{2017}
+      \field{pages}{4765\bibrangedash 4774}
+      \range{pages}{10}
     \endentry
-    \entry{ModernCampus2025}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a4216dd17eec92d153c0b10e3ab6bd05}{%
-           family={{Modern Campus}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{a4216dd17eec92d153c0b10e3ab6bd05}
-      \strng{fullhash}{a4216dd17eec92d153c0b10e3ab6bd05}
-      \strng{bibnamehash}{a4216dd17eec92d153c0b10e3ab6bd05}
-      \strng{authorbibnamehash}{a4216dd17eec92d153c0b10e3ab6bd05}
-      \strng{authornamehash}{a4216dd17eec92d153c0b10e3ab6bd05}
-      \strng{authorfullhash}{a4216dd17eec92d153c0b10e3ab6bd05}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{note}{Accessed: February 8, 2026}
-      \field{title}{Student Retention Strategies: 8 Proven Methods to Boost Higher Ed Success}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://moderncampus.com/blog/strategies-for-improving-retention-in-higher-education.html
-      \endverb
-      \verb{url}
-      \verb https://moderncampus.com/blog/strategies-for-improving-retention-in-higher-education.html
-      \endverb
-    \endentry
-    \entry{Musasia2025}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=b61c1b2b3357bbc3fa37ddd9cbee5dc3}{%
-           family={Musasia},
+    \entry{Moloi2024}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5348781260c6a90f1351b474d0414b80}{%
+           family={Moloi},
            familyi={M\bibinitperiod},
-           given={C.\bibnamedelimi M.},
-           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4151fc056ef7ce9ef6347e0dead96f57}{%
-           family={Achoka},
-           familyi={A\bibinitperiod},
-           given={J.\bibnamedelimi S.},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+        {{un=0,uniquepart=base,hash=9e48c7a4fcbac1b87f1a3b563dfe4002}{%
+           family={Matabane},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=ca7be47d2ef677458642e261957f10f7}{%
-           family={Wamocha},
-           familyi={W\bibinitperiod},
-           given={L.\bibnamedelimi M.},
-           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9c82d7909546438a113506e8af942a6c}{%
-           family={Odebero},
-           familyi={O\bibinitperiod},
-           given={S.\bibnamedelimi O.},
-           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+        {{un=0,uniquepart=base,hash=d7142330e6f0bf58c50ca05d2466279a}{%
+           family={Lumadi},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{f7bce6009d7edc16de1932ee98b5d24c}
-      \strng{fullhash}{b4be33a52e6a55ef03360bc744256cae}
-      \strng{bibnamehash}{b4be33a52e6a55ef03360bc744256cae}
-      \strng{authorbibnamehash}{b4be33a52e6a55ef03360bc744256cae}
-      \strng{authornamehash}{f7bce6009d7edc16de1932ee98b5d24c}
-      \strng{authorfullhash}{b4be33a52e6a55ef03360bc744256cae}
+      \strng{namehash}{1eb0be68205c1bc3acb755cda3443742}
+      \strng{fullhash}{ff7802c32f4c90486a4eabc202f4ba7f}
+      \strng{bibnamehash}{ff7802c32f4c90486a4eabc202f4ba7f}
+      \strng{authorbibnamehash}{ff7802c32f4c90486a4eabc202f4ba7f}
+      \strng{authornamehash}{1eb0be68205c1bc3acb755cda3443742}
+      \strng{authorfullhash}{ff7802c32f4c90486a4eabc202f4ba7f}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -953,40 +1119,64 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{African Journal of Empirical Research}
-      \field{number}{3}
-      \field{title}{Postgraduate Students' Retention and Survival Rates Between 2015 and 2024 in Public Universities, Kenya}
-      \field{volume}{6}
-      \field{year}{2025}
-      \field{pages}{679\bibrangedash 687}
-      \range{pages}{9}
+      \field{journaltitle}{African Journal of Science, Technology, Innovation and Development}
+      \field{number}{1}
+      \field{title}{Predictive analytics for student success in South African universities: Opportunities and challenges}
+      \field{volume}{16}
+      \field{year}{2024}
+      \field{pages}{45\bibrangedash 57}
+      \range{pages}{13}
       \verb{doi}
-      \verb 10.51867/ajernet.6.3.52
-      \endverb
-      \verb{urlraw}
-      \verb https://ajernet.net/ojs/index.php/ajernet/article/view/1197
-      \endverb
-      \verb{url}
-      \verb https://ajernet.net/ojs/index.php/ajernet/article/view/1197
+      \verb 10.1080/20421338.2024.2015483
       \endverb
     \endentry
-    \entry{FrontiersEducation2025}{article}{}
+    \entry{Olawoyin2024}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=be34c8347a78127aa8b52a8379381904}{%
-           family={Ramos-Pulido},
-           familyi={R\bibinithyphendelim P\bibinitperiod},
+        {{un=0,uniquepart=base,hash=a86e72388f494eab9b40c3d78b8259be}{%
+           family={Olawoyin},
+           familyi={O\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{5915d7dd01d9b6d0b1c8438c7180699e}
-      \strng{fullhash}{5915d7dd01d9b6d0b1c8438c7180699e}
-      \strng{bibnamehash}{5915d7dd01d9b6d0b1c8438c7180699e}
-      \strng{authorbibnamehash}{5915d7dd01d9b6d0b1c8438c7180699e}
-      \strng{authornamehash}{5915d7dd01d9b6d0b1c8438c7180699e}
-      \strng{authorfullhash}{5915d7dd01d9b6d0b1c8438c7180699e}
+      \strng{namehash}{0b5be610ec0679d1dd457de661c77eef}
+      \strng{fullhash}{0b5be610ec0679d1dd457de661c77eef}
+      \strng{bibnamehash}{0b5be610ec0679d1dd457de661c77eef}
+      \strng{authorbibnamehash}{0b5be610ec0679d1dd457de661c77eef}
+      \strng{authornamehash}{0b5be610ec0679d1dd457de661c77eef}
+      \strng{authorfullhash}{0b5be610ec0679d1dd457de661c77eef}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{African Journal of Higher Education Studies}
+      \field{number}{1}
+      \field{title}{A Systematic Review of Learning Analytics in Sub-Saharan Africa: Gaps and Opportunities}
+      \field{volume}{8}
+      \field{year}{2024}
+      \field{pages}{112\bibrangedash 130}
+      \range{pages}{19}
+    \endentry
+    \entry{Renick2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10f3ff39d9eae21d8d7a29b14ff46e40}{%
+           family={Renick},
+           familyi={R\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
+      \strng{fullhash}{10f3ff39d9eae21d8d7a29b14ff46e40}
+      \strng{bibnamehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
+      \strng{authorbibnamehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
+      \strng{authornamehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
+      \strng{authorfullhash}{10f3ff39d9eae21d8d7a29b14ff46e40}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -994,33 +1184,25 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Frontiers in Education}
-      \field{title}{Machine Learning Models for Academic Performance Prediction: Interpretability and Application in Educational Decision-Making}
-      \field{volume}{10}
-      \field{year}{2025}
-      \field{pages}{1632315}
-      \range{pages}{1}
+      \field{journaltitle}{Journal of College Student Retention: Research, Theory \& Practice}
+      \field{number}{1}
+      \field{title}{From access to completion: A decade of learning and innovation at Georgia State University}
+      \field{volume}{26}
+      \field{year}{2024}
+      \field{pages}{3\bibrangedash 21}
+      \range{pages}{19}
       \verb{doi}
-      \verb 10.3389/feduc.2025.1632315
-      \endverb
-      \verb{urlraw}
-      \verb https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1632315/full
-      \endverb
-      \verb{url}
-      \verb https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1632315/full
+      \verb 10.1177/15210251231195847
       \endverb
     \endentry
-    \entry{KenyaEducation2024}{report}{}
+    \entry{MOE2024}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d6f5af383d772e25314cd4edfec3da38}{%
            family={{Republic of Kenya Ministry of Education}},
            familyi={R\bibinitperiod}}}%
       }
       \list{institution}{1}{%
-        {Ministry of Education}%
-      }
-      \list{location}{1}{%
-        {Nairobi, Kenya}%
+        {Government Printer, Nairobi}%
       }
       \strng{namehash}{d6f5af383d772e25314cd4edfec3da38}
       \strng{fullhash}{d6f5af383d772e25314cd4edfec3da38}
@@ -1035,14 +1217,73 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Sessional Paper No. X of 2024}
+      \field{title}{Sessional Paper No. 1 of 2024 on Reforming Education and Training for Sustainable Development}
+      \field{type}{techreport}
       \field{year}{2024}
-      \verb{urlraw}
-      \verb https://www.education.go.ke/sites/default/files/BILLS/Sessional\%20Paper_2802024.pdf
+    \endentry
+    \entry{Tinto1975}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
+           family={Tinto},
+           familyi={T\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{fullhash}{112fee32f4834c2d2d63667db2201663}
+      \strng{bibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Educational Research}
+      \field{number}{1}
+      \field{title}{Dropout from higher education: A theoretical synthesis of recent research}
+      \field{volume}{45}
+      \field{year}{1975}
+      \field{pages}{89\bibrangedash 125}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.3102/00346543045001089
       \endverb
-      \verb{url}
-      \verb https://www.education.go.ke/sites/default/files/BILLS/Sessional%5C%20Paper_2802024.pdf
-      \endverb
+    \endentry
+    \entry{Tinto1993}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
+           family={Tinto},
+           familyi={T\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{fullhash}{112fee32f4834c2d2d63667db2201663}
+      \strng{bibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{Leaving college: Rethinking the causes and cures of student attrition}
+      \field{year}{1993}
     \endentry
     \entry{Turkmenbayev2025}{article}{}
       \name{author}{5}{}{%
@@ -1106,53 +1347,27 @@
       \verb https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1562586/full
       \endverb
     \endentry
-    \entry{Visualdo2024}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=dfa499486f72e8de4f639ecf10eed84e}{%
-           family={{Visualdo Institute}},
-           familyi={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{dfa499486f72e8de4f639ecf10eed84e}
-      \strng{fullhash}{dfa499486f72e8de4f639ecf10eed84e}
-      \strng{bibnamehash}{dfa499486f72e8de4f639ecf10eed84e}
-      \strng{authorbibnamehash}{dfa499486f72e8de4f639ecf10eed84e}
-      \strng{authornamehash}{dfa499486f72e8de4f639ecf10eed84e}
-      \strng{authorfullhash}{dfa499486f72e8de4f639ecf10eed84e}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{Accessed: February 8, 2026}
-      \field{title}{What Are Challenges Facing Colleges in Kenya}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://visualdo.ac.ke/what-are-challenges-facing-colleges-in-kenya
-      \endverb
-      \verb{url}
-      \verb https://visualdo.ac.ke/what-are-challenges-facing-colleges-in-kenya
-      \endverb
-    \endentry
-    \entry{ScientificReports2025b}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
-           family={Wang},
+    \entry{Wachira2024}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bac9ea5e159def376514e822762f6786}{%
+           family={Wachira},
            familyi={W\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod},
+           given={P.\bibnamedelimi M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36909c69d49c24e3ae69091be6f51e5d}{%
+           family={Kimani},
+           familyi={K\bibinitperiod},
+           given={E.\bibnamedelimi N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
-      \strng{fullhash}{a173ffd7d2f7a3e749ffa08afcdc6031}
-      \strng{bibnamehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
-      \strng{authorbibnamehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
-      \strng{authornamehash}{a173ffd7d2f7a3e749ffa08afcdc6031}
-      \strng{authorfullhash}{a173ffd7d2f7a3e749ffa08afcdc6031}
+      \strng{namehash}{02b35651344c7fafcb6db23aae917e5f}
+      \strng{fullhash}{02b35651344c7fafcb6db23aae917e5f}
+      \strng{bibnamehash}{02b35651344c7fafcb6db23aae917e5f}
+      \strng{authorbibnamehash}{02b35651344c7fafcb6db23aae917e5f}
+      \strng{authornamehash}{02b35651344c7fafcb6db23aae917e5f}
+      \strng{authorfullhash}{02b35651344c7fafcb6db23aae917e5f}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -1160,22 +1375,41 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Scientific Reports}
-      \field{number}{1}
-      \field{title}{Artificial Intelligence in Student Management Systems to Enhance Academic Performance Monitoring and Intervention}
+      \field{journaltitle}{Journal of Education and Practice}
+      \field{number}{8}
+      \field{title}{Predictive analytics for student retention in Kenyan universities: A case study approach}
       \field{volume}{15}
+      \field{year}{2024}
+      \field{pages}{42\bibrangedash 51}
+      \range{pages}{10}
+    \endentry
+    \entry{Wang2025}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9a75ee293f2555f40976345739087998}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5af5ee7e60ec3528b59ab3d857ea6f93}
+      \strng{fullhash}{5af5ee7e60ec3528b59ab3d857ea6f93}
+      \strng{bibnamehash}{5af5ee7e60ec3528b59ab3d857ea6f93}
+      \strng{authorbibnamehash}{5af5ee7e60ec3528b59ab3d857ea6f93}
+      \strng{authornamehash}{5af5ee7e60ec3528b59ab3d857ea6f93}
+      \strng{authorfullhash}{5af5ee7e60ec3528b59ab3d857ea6f93}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Artificial Intelligence in Education}
+      \field{title}{Deep Learning for Student Success: Performance Metrics vs. Practicality}
       \field{year}{2025}
-      \field{pages}{19159}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1038/s41598-025-19159-4
-      \endverb
-      \verb{urlraw}
-      \verb https://www.nature.com/articles/s41598-025-19159-4
-      \endverb
-      \verb{url}
-      \verb https://www.nature.com/articles/s41598-025-19159-4
-      \endverb
     \endentry
   \enddatalist
 \endrefsection
