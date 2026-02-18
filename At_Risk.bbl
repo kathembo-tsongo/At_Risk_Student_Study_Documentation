@@ -182,23 +182,48 @@
       \verb https://nation.africa/kenya/news/education/budget-cuts-set-to-cripple-learning-in-four-varsities--4625512
       \endverb
     \endentry
-    \entry{Gandhi2025}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9975c774e81f9ea5504a2ce7a2ea84dc}{%
-           family={Gandhi},
+    \entry{Gathani2026}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=f1854da238018d799cc1e25b69679072}{%
+           family={Gathani},
            familyi={G\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
+           given={Sweety},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bc590463a9503d8003d3c887d395fbc}{%
+           family={Faiz},
+           familyi={F\bibinitperiod},
+           given={Harizah},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85733bcf5ca527d058595ba780c0e795}{%
+           family={Hazilan},
+           familyi={H\bibinitperiod},
+           given={Wan\bibnamedelima Fadli},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e458ca15bfbd9bf4c21fc4bc2cb7140d}{%
+           family={Khandhadia},
+           familyi={K\bibinitperiod},
+           given={Rathin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0fa8700949e5f4559ac53d317c1b76d}{%
+           family={Fenn},
+           familyi={F\bibinitperiod},
+           given={Chung\bibnamedelima Jee},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{5ea80b861842473bad6d1490df173320}
-      \strng{fullhash}{5ea80b861842473bad6d1490df173320}
-      \strng{bibnamehash}{5ea80b861842473bad6d1490df173320}
-      \strng{authorbibnamehash}{5ea80b861842473bad6d1490df173320}
-      \strng{authornamehash}{5ea80b861842473bad6d1490df173320}
-      \strng{authorfullhash}{5ea80b861842473bad6d1490df173320}
+      \list{publisher}{1}{%
+        {Global Centre for Education Excellence}%
+      }
+      \strng{namehash}{e94ddf99204269c9626b590c7c1b8127}
+      \strng{fullhash}{40b919fac6418d374786a725afbc351a}
+      \strng{bibnamehash}{40b919fac6418d374786a725afbc351a}
+      \strng{authorbibnamehash}{40b919fac6418d374786a725afbc351a}
+      \strng{authornamehash}{e94ddf99204269c9626b590c7c1b8127}
+      \strng{authorfullhash}{40b919fac6418d374786a725afbc351a}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -206,9 +231,14 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Data Science}
-      \field{title}{Early Warning Systems: Machine Learning Trends in Global Education}
-      \field{year}{2025}
+      \field{journaltitle}{Global Journal of Educational Thoughts}
+      \field{note}{Accepted: February 4, 2026}
+      \field{number}{1}
+      \field{title}{Exploring the Effectiveness of {Machine Learning}-Based Early Warning Systems in Education: A Scoping Review}
+      \field{volume}{3}
+      \field{year}{2026}
+      \field{pages}{32}
+      \range{pages}{1}
     \endentry
     \entry{GSU2024}{online}{}
       \name{author}{1}{}{%
@@ -879,23 +909,48 @@
       \verb https://nation.africa/kenya/news/education/budget-cuts-set-to-cripple-learning-in-four-varsities--4625512
       \endverb
     \endentry
-    \entry{Gandhi2025}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9975c774e81f9ea5504a2ce7a2ea84dc}{%
-           family={Gandhi},
+    \entry{Gathani2026}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=f1854da238018d799cc1e25b69679072}{%
+           family={Gathani},
            familyi={G\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
+           given={Sweety},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bc590463a9503d8003d3c887d395fbc}{%
+           family={Faiz},
+           familyi={F\bibinitperiod},
+           given={Harizah},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85733bcf5ca527d058595ba780c0e795}{%
+           family={Hazilan},
+           familyi={H\bibinitperiod},
+           given={Wan\bibnamedelima Fadli},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e458ca15bfbd9bf4c21fc4bc2cb7140d}{%
+           family={Khandhadia},
+           familyi={K\bibinitperiod},
+           given={Rathin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0fa8700949e5f4559ac53d317c1b76d}{%
+           family={Fenn},
+           familyi={F\bibinitperiod},
+           given={Chung\bibnamedelima Jee},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{5ea80b861842473bad6d1490df173320}
-      \strng{fullhash}{5ea80b861842473bad6d1490df173320}
-      \strng{bibnamehash}{5ea80b861842473bad6d1490df173320}
-      \strng{authorbibnamehash}{5ea80b861842473bad6d1490df173320}
-      \strng{authornamehash}{5ea80b861842473bad6d1490df173320}
-      \strng{authorfullhash}{5ea80b861842473bad6d1490df173320}
+      \list{publisher}{1}{%
+        {Global Centre for Education Excellence}%
+      }
+      \strng{namehash}{e94ddf99204269c9626b590c7c1b8127}
+      \strng{fullhash}{40b919fac6418d374786a725afbc351a}
+      \strng{bibnamehash}{40b919fac6418d374786a725afbc351a}
+      \strng{authorbibnamehash}{40b919fac6418d374786a725afbc351a}
+      \strng{authornamehash}{e94ddf99204269c9626b590c7c1b8127}
+      \strng{authorfullhash}{40b919fac6418d374786a725afbc351a}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -903,9 +958,14 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Data Science}
-      \field{title}{Early Warning Systems: Machine Learning Trends in Global Education}
-      \field{year}{2025}
+      \field{journaltitle}{Global Journal of Educational Thoughts}
+      \field{note}{Accepted: February 4, 2026}
+      \field{number}{1}
+      \field{title}{Exploring the Effectiveness of {Machine Learning}-Based Early Warning Systems in Education: A Scoping Review}
+      \field{volume}{3}
+      \field{year}{2026}
+      \field{pages}{32}
+      \range{pages}{1}
     \endentry
     \entry{GSU2024}{online}{}
       \name{author}{1}{}{%
@@ -1412,6 +1472,7 @@
       \field{year}{2025}
     \endentry
   \enddatalist
+  \missing{Gandhi2025}
 \endrefsection
 \endinput
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  17 FEB 2026 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  18 FEB 2026 10:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -597,7 +597,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'At_Risk.bbl' found.
- (./At_Risk.bbl)
+ (./At_Risk.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Gandhi2025
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 36.
 Package biblatex Info: Reference segment=0 on input line 36.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
@@ -660,6 +668,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+LaTeX Warning: Citation 'Gandhi2025' on page 4 undefined on input line 222.
+
 [4] [5]
 Overfull \hbox (0.53345pt too wide) in paragraph at lines 271--272
 []\T1/ptm/m/n/12 To as-sess the plat-form's us-abil-ity and per-ceived in-sti-tu-tional im-pact through struc-
@@ -707,7 +718,7 @@ Overfull \hbox (18.91466pt too wide) in paragraph at lines 463--463
 [][]\T1/ptm/m/n/12 Turkmenbayev, A., Ab-dyk-e-r-i-mova, E., Nur-gozhayev, S., Karabassova, G., & Baigozhanova,
  []
 
-[16] (./At_Risk.aux)
+[16] [17] (./At_Risk.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -734,18 +745,18 @@ Package logreq Info: Writing requests to 'At_Risk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17844 strings out of 474222
- 315260 string characters out of 5748734
- 1933975 words of memory out of 5000000
- 39846 multiletter control sequences out of 15000+600000
+ 17846 strings out of 474222
+ 315282 string characters out of 5748734
+ 1934975 words of memory out of 5000000
+ 39847 multiletter control sequences out of 15000+600000
  583283 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,8n,81p,1253b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on At_Risk.pdf (20 pages, 126497 bytes).
+Output written on At_Risk.pdf (21 pages, 127244 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
- 68 named destinations out of 1000 (max. 500000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
+ 69 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
