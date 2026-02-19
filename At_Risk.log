@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  18 FEB 2026 10:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  19 FEB 2026 10:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -650,17 +650,17 @@ Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.148 
+l.144 
        [1
 
 ] [2]
-Overfull \hbox (16.17041pt too wide) in paragraph at lines 184--192
+Overfull \hbox (16.17041pt too wide) in paragraph at lines 180--188
 \T1/ptm/m/n/12 cally iden-ti-fied for in-ter-ven-tion only af-ter man-i-fest-ing lag-indicators of fail-ure^^Vcumulative
  []
 
 [3]
-/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex:221: Undefined control sequence.
-l.221 ...te prediction accuracy levels of $85\text
+/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex:217: Undefined control sequence.
+l.217 ...te prediction accuracy levels of $85\text
                                                   {--}92\%$ for student success
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -669,56 +669,56 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Gandhi2025' on page 4 undefined on input line 222.
+LaTeX Warning: Citation 'Gandhi2025' on page 4 undefined on input line 218.
 
 [4] [5]
-Overfull \hbox (0.53345pt too wide) in paragraph at lines 271--272
+Overfull \hbox (0.53345pt too wide) in paragraph at lines 267--268
 []\T1/ptm/m/n/12 To as-sess the plat-form's us-abil-ity and per-ceived in-sti-tu-tional im-pact through struc-
  []
 
 
-Overfull \hbox (4.4102pt too wide) in paragraph at lines 279--280
+Overfull \hbox (4.4102pt too wide) in paragraph at lines 275--276
 []\T1/ptm/m/n/12 How can risk pre-dic-tions be ef-fec-tively pre-sented to dif-fer-ent stake-holder groups---
  []
 
 [6]
-Overfull \hbox (10.53134pt too wide) in paragraph at lines 286--293
+Overfull \hbox (10.53134pt too wide) in paragraph at lines 282--289
 \T1/ptm/m/n/12 dic-tion mod-els^^Vtargeting dropout risk, course fail-ure risk, and pro-gram de-lay risk^^Vusing
  []
 
 
-Overfull \hbox (6.9191pt too wide) in paragraph at lines 286--293
+Overfull \hbox (6.9191pt too wide) in paragraph at lines 282--289
 \T1/ptm/m/n/12 en-sem-ble al-go-rithms in-clud-ing Ran-dom For-est, Gra-di-ent Boost-ing, and XG-Boost, trained
  []
 
 [7] [8]
-Overfull \hbox (34.94879pt too wide) in paragraph at lines 317--318
+Overfull \hbox (34.94879pt too wide) in paragraph at lines 313--314
 [] []\T1/ptm/b/n/12 En-sem-ble Learn-ing[] \T1/ptm/m/n/12 A ma-chine learn-ing tech-nique that com-bines mul-ti-ple al-go-rithms^^Vsuch
  []
 
 [9] [10]
-Overfull \hbox (24.84666pt too wide) in paragraph at lines 344--353
+Overfull \hbox (24.84666pt too wide) in paragraph at lines 340--349
 \T1/ptm/m/n/12 con-text by map-ping the the-o-ret-i-cal con-structs of aca-demic and so-cial in-te-gra-tion^^Vattendance
  []
 
 
-Overfull \hbox (0.96559pt too wide) in paragraph at lines 356--365
+Overfull \hbox (0.96559pt too wide) in paragraph at lines 352--361
 \T1/ptm/m/n/12 the-o-ret-i-cal claim with sig-nif-i-cant im-pli-ca-tions for fu-ture im-ple-men-ta-tions across African
  []
 
 [11]
-Overfull \hbox (5.68312pt too wide) in paragraph at lines 382--389
+Overfull \hbox (5.68312pt too wide) in paragraph at lines 378--385
 \T1/ptm/m/n/12 men-tors with evidence-based in-sights that move decision-making be-yond in-tu-ition. Role-
  []
 
 [12] [13] [14] [15
 
 ]
-Overfull \hbox (18.91466pt too wide) in paragraph at lines 463--463
+Overfull \hbox (18.91466pt too wide) in paragraph at lines 459--459
 [][]\T1/ptm/m/n/12 Turkmenbayev, A., Ab-dyk-e-r-i-mova, E., Nur-gozhayev, S., Karabassova, G., & Baigozhanova,
  []
 
-[16] [17] (./At_Risk.aux)
+[16] (./At_Risk.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -745,18 +745,18 @@ Package logreq Info: Writing requests to 'At_Risk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17846 strings out of 474222
- 315282 string characters out of 5748734
- 1934975 words of memory out of 5000000
- 39847 multiletter control sequences out of 15000+600000
+ 17835 strings out of 474222
+ 314868 string characters out of 5748734
+ 1933975 words of memory out of 5000000
+ 39839 multiletter control sequences out of 15000+600000
  583283 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,8n,81p,1253b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on At_Risk.pdf (21 pages, 127244 bytes).
+Output written on At_Risk.pdf (20 pages, 126413 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
- 69 named destinations out of 1000 (max. 500000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 187 compressed objects within 2 object streams
+ 66 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

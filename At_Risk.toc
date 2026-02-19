@@ -1,11 +1,11 @@
 \contentsline {chapter}{Declaration}{ii}{chapter*.1}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background to the Study}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Statement of the Problem}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Statement of the Problem}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Justification}{4}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Research Objectives}{5}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Main Objective}{5}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Specific Objectives}{6}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.2}Specific Objectives}{5}{subsection.1.4.2}%
 \contentsline {section}{\numberline {1.5}Research Questions}{6}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Scope and Delimitations of the Study}{7}{section.1.6}%
 \contentsline {subsection}{\numberline {1.6.1}Scope}{7}{subsection.1.6.1}%
@@ -14,7 +14,7 @@
 \contentsline {paragraph}{At-Risk Student}{8}{section.1.7}%
 \contentsline {paragraph}{Dropout Risk}{8}{section.1.7}%
 \contentsline {paragraph}{Course Failure Risk}{8}{section.1.7}%
-\contentsline {paragraph}{Program Delay Risk}{9}{section.1.7}%
+\contentsline {paragraph}{Program Delay Risk}{8}{section.1.7}%
 \contentsline {paragraph}{Academic Management System (AMS)}{9}{section.1.7}%
 \contentsline {paragraph}{Learning Management System (LMS)}{9}{section.1.7}%
 \contentsline {paragraph}{Early Warning System}{9}{section.1.7}%
@@ -22,13 +22,13 @@
 \contentsline {paragraph}{Ensemble Learning}{9}{section.1.7}%
 \contentsline {paragraph}{Feature Engineering}{9}{section.1.7}%
 \contentsline {paragraph}{Intervention}{9}{section.1.7}%
-\contentsline {paragraph}{Predictive Analytics}{10}{section.1.7}%
+\contentsline {paragraph}{Predictive Analytics}{9}{section.1.7}%
 \contentsline {paragraph}{Explainability (Model Explainability)}{10}{section.1.7}%
 \contentsline {paragraph}{Historical Cohort}{10}{section.1.7}%
 \contentsline {paragraph}{Model Accuracy}{10}{section.1.7}%
 \contentsline {paragraph}{Precision}{10}{section.1.7}%
 \contentsline {paragraph}{Recall (Sensitivity)}{10}{section.1.7}%
-\contentsline {paragraph}{F1-Score}{11}{section.1.7}%
+\contentsline {paragraph}{F1-Score}{10}{section.1.7}%
 \contentsline {paragraph}{ROC-AUC (Receiver Operating Characteristic – Area Under Curve)}{11}{section.1.7}%
 \contentsline {section}{\numberline {1.8}Significance of the Study}{11}{section.1.8}%
 \contentsline {subsection}{\numberline {1.8.1}Theoretical Contribution}{11}{subsection.1.8.1}%

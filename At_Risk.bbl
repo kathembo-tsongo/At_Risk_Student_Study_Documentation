@@ -58,55 +58,45 @@
       \verb https://onlinelibrary.wiley.com/doi/10.1155/2024/4067721
       \endverb
     \endentry
-    \entry{Asare2023}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=ddcad13b568edcb60e3a11dcbf587ada}{%
-           family={Asare},
-           familyi={A\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod},
+    \entry{Bouihi2024}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=2b6be983150eaf3d011deeb3620bbedb}{%
+           family={Bouihi},
+           familyi={B\bibinitperiod},
+           given={Bouchra},
+           giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4e1b6ca0cfdd27497c19f6239de76312}{%
-           family={Mensah},
-           familyi={M\bibinitperiod},
-           given={F.},
+        {{un=0,uniquepart=base,hash=6112e915c01c7538a4ccaf563c0923ca}{%
+           family={Bousselham},
+           familyi={B\bibinitperiod},
+           given={Abdelmajid},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=406aaed18f53c3d58b912f0688b45605}{%
+           family={Aoula},
+           familyi={A\bibinitperiod},
+           given={Essaadia},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02784774d1b61e54d2914a4f0d8f677e}{%
+           family={Ennibras},
+           familyi={E\bibinitperiod},
+           given={Fatna},
            giveni={F\bibinitperiod},
            givenun=0}}%
-      }
-      \strng{namehash}{2f2acd27f35055fad522fc1f4014b7d5}
-      \strng{fullhash}{2f2acd27f35055fad522fc1f4014b7d5}
-      \strng{bibnamehash}{2f2acd27f35055fad522fc1f4014b7d5}
-      \strng{authorbibnamehash}{2f2acd27f35055fad522fc1f4014b7d5}
-      \strng{authornamehash}{2f2acd27f35055fad522fc1f4014b7d5}
-      \strng{authorfullhash}{2f2acd27f35055fad522fc1f4014b7d5}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{African Journal of Information Systems}
-      \field{title}{Integrating LMS and Examination Records for Student Success}
-      \field{year}{2023}
-    \endentry
-    \entry{BenYoussef2024}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=f83eb6e858e010073904f5f1ba96f306}{%
-           family={Ben-Youssef},
-           familyi={B\bibinithyphendelim Y\bibinitperiod},
-           given={A.},
+        {{un=0,uniquepart=base,hash=479cb54c5ea86136dca3f43d2f7c9c64}{%
+           family={Deraoui},
+           familyi={D\bibinitperiod},
+           given={Adel},
            giveni={A\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{06a2ba32f55938f3180c01c27a534782}
-      \strng{fullhash}{06a2ba32f55938f3180c01c27a534782}
-      \strng{bibnamehash}{06a2ba32f55938f3180c01c27a534782}
-      \strng{authorbibnamehash}{06a2ba32f55938f3180c01c27a534782}
-      \strng{authornamehash}{06a2ba32f55938f3180c01c27a534782}
-      \strng{authorfullhash}{06a2ba32f55938f3180c01c27a534782}
+      \strng{namehash}{559c230fe39154f339be3a846b82d4e4}
+      \strng{fullhash}{6ab3baeaf0566d784b13958acfb6d482}
+      \strng{bibnamehash}{6ab3baeaf0566d784b13958acfb6d482}
+      \strng{authorbibnamehash}{6ab3baeaf0566d784b13958acfb6d482}
+      \strng{authornamehash}{559c230fe39154f339be3a846b82d4e4}
+      \strng{authorfullhash}{6ab3baeaf0566d784b13958acfb6d482}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -114,9 +104,22 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Mediterranean Education Review}
-      \field{title}{Dropout Prediction in North African Higher Education: The Case of Mohammed V University}
+      \field{journaltitle}{Engineering, Technology \& Applied Science Research}
+      \field{number}{6}
+      \field{title}{Prediction of Higher Education Student Dropout based on Regularized Regression Models}
+      \field{volume}{14}
       \field{year}{2024}
+      \field{pages}{17811\bibrangedash 17815}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.48084/etasr.8644
+      \endverb
+      \verb{urlraw}
+      \verb https://www.etasr.com/index.php/ETASR/article/view/8644
+      \endverb
+      \verb{url}
+      \verb https://www.etasr.com/index.php/ETASR/article/view/8644
+      \endverb
     \endentry
     \entry{Chen2016}{article}{}
       \name{author}{2}{}{%
@@ -494,39 +497,6 @@
       \field{year}{2024}
       \field{pages}{112\bibrangedash 130}
       \range{pages}{19}
-    \endentry
-    \entry{Renick2024}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=10f3ff39d9eae21d8d7a29b14ff46e40}{%
-           family={Renick},
-           familyi={R\bibinitperiod},
-           given={T.\bibnamedelimi M.},
-           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
-      \strng{fullhash}{10f3ff39d9eae21d8d7a29b14ff46e40}
-      \strng{bibnamehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
-      \strng{authorbibnamehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
-      \strng{authornamehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
-      \strng{authorfullhash}{10f3ff39d9eae21d8d7a29b14ff46e40}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of College Student Retention: Research, Theory \& Practice}
-      \field{number}{1}
-      \field{title}{From access to completion: A decade of learning and innovation at Georgia State University}
-      \field{volume}{26}
-      \field{year}{2024}
-      \field{pages}{3\bibrangedash 21}
-      \range{pages}{19}
-      \verb{doi}
-      \verb 10.1177/15210251231195847
-      \endverb
     \endentry
     \entry{MOE2024}{report}{}
       \name{author}{1}{}{%
@@ -785,55 +755,45 @@
       \verb https://onlinelibrary.wiley.com/doi/10.1155/2024/4067721
       \endverb
     \endentry
-    \entry{Asare2023}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=ddcad13b568edcb60e3a11dcbf587ada}{%
-           family={Asare},
-           familyi={A\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod},
+    \entry{Bouihi2024}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=2b6be983150eaf3d011deeb3620bbedb}{%
+           family={Bouihi},
+           familyi={B\bibinitperiod},
+           given={Bouchra},
+           giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4e1b6ca0cfdd27497c19f6239de76312}{%
-           family={Mensah},
-           familyi={M\bibinitperiod},
-           given={F.},
+        {{un=0,uniquepart=base,hash=6112e915c01c7538a4ccaf563c0923ca}{%
+           family={Bousselham},
+           familyi={B\bibinitperiod},
+           given={Abdelmajid},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=406aaed18f53c3d58b912f0688b45605}{%
+           family={Aoula},
+           familyi={A\bibinitperiod},
+           given={Essaadia},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02784774d1b61e54d2914a4f0d8f677e}{%
+           family={Ennibras},
+           familyi={E\bibinitperiod},
+           given={Fatna},
            giveni={F\bibinitperiod},
            givenun=0}}%
-      }
-      \strng{namehash}{2f2acd27f35055fad522fc1f4014b7d5}
-      \strng{fullhash}{2f2acd27f35055fad522fc1f4014b7d5}
-      \strng{bibnamehash}{2f2acd27f35055fad522fc1f4014b7d5}
-      \strng{authorbibnamehash}{2f2acd27f35055fad522fc1f4014b7d5}
-      \strng{authornamehash}{2f2acd27f35055fad522fc1f4014b7d5}
-      \strng{authorfullhash}{2f2acd27f35055fad522fc1f4014b7d5}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{African Journal of Information Systems}
-      \field{title}{Integrating LMS and Examination Records for Student Success}
-      \field{year}{2023}
-    \endentry
-    \entry{BenYoussef2024}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=f83eb6e858e010073904f5f1ba96f306}{%
-           family={Ben-Youssef},
-           familyi={B\bibinithyphendelim Y\bibinitperiod},
-           given={A.},
+        {{un=0,uniquepart=base,hash=479cb54c5ea86136dca3f43d2f7c9c64}{%
+           family={Deraoui},
+           familyi={D\bibinitperiod},
+           given={Adel},
            giveni={A\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{06a2ba32f55938f3180c01c27a534782}
-      \strng{fullhash}{06a2ba32f55938f3180c01c27a534782}
-      \strng{bibnamehash}{06a2ba32f55938f3180c01c27a534782}
-      \strng{authorbibnamehash}{06a2ba32f55938f3180c01c27a534782}
-      \strng{authornamehash}{06a2ba32f55938f3180c01c27a534782}
-      \strng{authorfullhash}{06a2ba32f55938f3180c01c27a534782}
+      \strng{namehash}{559c230fe39154f339be3a846b82d4e4}
+      \strng{fullhash}{6ab3baeaf0566d784b13958acfb6d482}
+      \strng{bibnamehash}{6ab3baeaf0566d784b13958acfb6d482}
+      \strng{authorbibnamehash}{6ab3baeaf0566d784b13958acfb6d482}
+      \strng{authornamehash}{559c230fe39154f339be3a846b82d4e4}
+      \strng{authorfullhash}{6ab3baeaf0566d784b13958acfb6d482}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -841,9 +801,22 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Mediterranean Education Review}
-      \field{title}{Dropout Prediction in North African Higher Education: The Case of Mohammed V University}
+      \field{journaltitle}{Engineering, Technology \& Applied Science Research}
+      \field{number}{6}
+      \field{title}{Prediction of Higher Education Student Dropout based on Regularized Regression Models}
+      \field{volume}{14}
       \field{year}{2024}
+      \field{pages}{17811\bibrangedash 17815}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.48084/etasr.8644
+      \endverb
+      \verb{urlraw}
+      \verb https://www.etasr.com/index.php/ETASR/article/view/8644
+      \endverb
+      \verb{url}
+      \verb https://www.etasr.com/index.php/ETASR/article/view/8644
+      \endverb
     \endentry
     \entry{Chen2016}{article}{}
       \name{author}{2}{}{%
@@ -1221,39 +1194,6 @@
       \field{year}{2024}
       \field{pages}{112\bibrangedash 130}
       \range{pages}{19}
-    \endentry
-    \entry{Renick2024}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=10f3ff39d9eae21d8d7a29b14ff46e40}{%
-           family={Renick},
-           familyi={R\bibinitperiod},
-           given={T.\bibnamedelimi M.},
-           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
-      \strng{fullhash}{10f3ff39d9eae21d8d7a29b14ff46e40}
-      \strng{bibnamehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
-      \strng{authorbibnamehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
-      \strng{authornamehash}{10f3ff39d9eae21d8d7a29b14ff46e40}
-      \strng{authorfullhash}{10f3ff39d9eae21d8d7a29b14ff46e40}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of College Student Retention: Research, Theory \& Practice}
-      \field{number}{1}
-      \field{title}{From access to completion: A decade of learning and innovation at Georgia State University}
-      \field{volume}{26}
-      \field{year}{2024}
-      \field{pages}{3\bibrangedash 21}
-      \range{pages}{19}
-      \verb{doi}
-      \verb 10.1177/15210251231195847
-      \endverb
     \endentry
     \entry{MOE2024}{report}{}
       \name{author}{1}{}{%
