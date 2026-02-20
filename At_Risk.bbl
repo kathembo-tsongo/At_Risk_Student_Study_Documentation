@@ -466,6 +466,55 @@
       \verb 10.1080/20421338.2024.2015483
       \endverb
     \endentry
+    \entry{ngemu2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=850c311df18d5c457615061566b322ed}{%
+           family={Ngemu},
+           familyi={N\bibinitperiod},
+           given={Joseph\bibnamedelima Mutuku},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a74b5435dec2d612207454b8a22b9744}{%
+           family={Odongo},
+           familyi={O\bibinitperiod},
+           given={William\bibnamedelima Okelo},
+           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcd8d487c437e584273abc1b72938550}{%
+           family={Omulo},
+           familyi={O\bibinitperiod},
+           given={Elisha\bibnamedelima Opiyo},
+           giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9cf4adcad40050281aaa34bfa3ca936}{%
+           family={Manderick},
+           familyi={M\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3082c8bb965c235c0ad0a3ccc718b682}
+      \strng{fullhash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \strng{bibnamehash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \strng{authorbibnamehash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \strng{authornamehash}{3082c8bb965c235c0ad0a3ccc718b682}
+      \strng{authorfullhash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2279-0764}
+      \field{journaltitle}{International Journal of Computer and Information Technology}
+      \field{number}{2}
+      \field{title}{Student Retention Prediction in Higher Learning Institutions: The Machakos University College Case}
+      \field{volume}{4}
+      \field{year}{2015}
+      \field{pages}{489\bibrangedash 496}
+      \range{pages}{8}
+    \endentry
     \entry{Olawoyin2024}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -523,6 +572,47 @@
       \field{title}{Sessional Paper No. 1 of 2024 on Reforming Education and Training for Sustainable Development}
       \field{type}{techreport}
       \field{year}{2024}
+    \endentry
+    \entry{Taodzera2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a6ba3709dc32d86cd37dee7568688f42}{%
+           family={Taodzera},
+           familyi={T\bibinitperiod},
+           given={Tatenda},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20eb0dac462d28083c34468432fa882c}{%
+           family={Twala},
+           familyi={T\bibinitperiod},
+           given={Bhekisipho},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f019ed4b9fdc9cc3aac33afa3bc26b7}{%
+           family={Carroll},
+           familyi={C\bibinitperiod},
+           given={Johnson},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {South Africa}%
+      }
+      \strng{namehash}{9033fad1098d26f55caa6e4a517266ba}
+      \strng{fullhash}{90324c80a37bdc18cecf103b4020b2d2}
+      \strng{bibnamehash}{90324c80a37bdc18cecf103b4020b2d2}
+      \strng{authorbibnamehash}{90324c80a37bdc18cecf103b4020b2d2}
+      \strng{authornamehash}{9033fad1098d26f55caa6e4a517266ba}
+      \strng{authorfullhash}{90324c80a37bdc18cecf103b4020b2d2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Department of Electrical and Electronics Engineering Science, University of Johannesburg}
+      \field{title}{Predicting Engineering Student Success Using Machine Learning}
+      \field{year}{2016}
     \endentry
     \entry{Tinto1975}{article}{}
       \name{author}{1}{}{%
@@ -1163,6 +1253,55 @@
       \verb 10.1080/20421338.2024.2015483
       \endverb
     \endentry
+    \entry{ngemu2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=850c311df18d5c457615061566b322ed}{%
+           family={Ngemu},
+           familyi={N\bibinitperiod},
+           given={Joseph\bibnamedelima Mutuku},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a74b5435dec2d612207454b8a22b9744}{%
+           family={Odongo},
+           familyi={O\bibinitperiod},
+           given={William\bibnamedelima Okelo},
+           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcd8d487c437e584273abc1b72938550}{%
+           family={Omulo},
+           familyi={O\bibinitperiod},
+           given={Elisha\bibnamedelima Opiyo},
+           giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9cf4adcad40050281aaa34bfa3ca936}{%
+           family={Manderick},
+           familyi={M\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3082c8bb965c235c0ad0a3ccc718b682}
+      \strng{fullhash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \strng{bibnamehash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \strng{authorbibnamehash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \strng{authornamehash}{3082c8bb965c235c0ad0a3ccc718b682}
+      \strng{authorfullhash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2279-0764}
+      \field{journaltitle}{International Journal of Computer and Information Technology}
+      \field{number}{2}
+      \field{title}{Student Retention Prediction in Higher Learning Institutions: The Machakos University College Case}
+      \field{volume}{4}
+      \field{year}{2015}
+      \field{pages}{489\bibrangedash 496}
+      \range{pages}{8}
+    \endentry
     \entry{Olawoyin2024}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -1220,6 +1359,47 @@
       \field{title}{Sessional Paper No. 1 of 2024 on Reforming Education and Training for Sustainable Development}
       \field{type}{techreport}
       \field{year}{2024}
+    \endentry
+    \entry{Taodzera2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a6ba3709dc32d86cd37dee7568688f42}{%
+           family={Taodzera},
+           familyi={T\bibinitperiod},
+           given={Tatenda},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20eb0dac462d28083c34468432fa882c}{%
+           family={Twala},
+           familyi={T\bibinitperiod},
+           given={Bhekisipho},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f019ed4b9fdc9cc3aac33afa3bc26b7}{%
+           family={Carroll},
+           familyi={C\bibinitperiod},
+           given={Johnson},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {South Africa}%
+      }
+      \strng{namehash}{9033fad1098d26f55caa6e4a517266ba}
+      \strng{fullhash}{90324c80a37bdc18cecf103b4020b2d2}
+      \strng{bibnamehash}{90324c80a37bdc18cecf103b4020b2d2}
+      \strng{authorbibnamehash}{90324c80a37bdc18cecf103b4020b2d2}
+      \strng{authornamehash}{9033fad1098d26f55caa6e4a517266ba}
+      \strng{authorfullhash}{90324c80a37bdc18cecf103b4020b2d2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Department of Electrical and Electronics Engineering Science, University of Johannesburg}
+      \field{title}{Predicting Engineering Student Success Using Machine Learning}
+      \field{year}{2016}
     \endentry
     \entry{Tinto1975}{article}{}
       \name{author}{1}{}{%

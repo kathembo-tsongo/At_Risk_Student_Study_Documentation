@@ -139,31 +139,56 @@ Education Strategy (CESA 2016–2025) acknowledges retention as a priority,
 yet most African universities still rely on end-of-semester transcripts as 
 their primary diagnostic tool. Some sub-regions have begun to experiment. Mohammed V University in Morocco 
 achieved an 81.66\% dropout-prediction accuracy in a pilot study that utilized L2-regularized logistic 
-regression \parencite{Bouihi2024}. 
-**************
+regression \parencite{Bouihi2024}. "Similarly, a study at the University of Johannesburg 
+in South Africa utilized machine learning to predict the performance of 1,366 engineering students, 
+achieving a 65.86\% accuracy rate using Decision Tree algorithms and identifying prior performance in
+ physics and mathematics as primary success factors.  \parencite{Taodzera2016} 
 
-East Africa lags further still. In Kenya—where government funding covers only 
-57\% of students against an 80\% target and public universities carry Ksh 62 billion
- in unpaid bills \parencite{KIPPRA2024, DailyNation2024}—Kenyatta University offers the
-  region's clearest case study. Its early-warning system, which merged attendance 
-  and grade data, reduced first-year dropout rates by 23\% over two years \parencite{Wachira2024}.
-   That result is encouraging, but the system collapsed when its sole faculty champion left 
-   the institution, revealing a fragility common to initiatives built around individuals 
-   rather than institutions.
+Within East Africa, Kenya's higher education sector faces particularly acute retention pressures. 
+Government capitation covers only 57\% of students against an 80\% target, while public universities
+ have accumulated Ksh 62 billion in unpaid bills—structural constraints that make student attrition
+  both more likely and more financially consequential for students, families, and institutions 
+  \parencite{KIPPRA2024, DailyNation2024}. Recognizing this challenge, Machakos University College 
+  undertook a pioneering study applying Business Intelligence and machine learning to student 
+  dropout prediction \parencite{ngemu2015}. 
+  
+  Using the WEKA toolkit to analyze historical student data, researchers 
+  evaluated multiple classification algorithms—including Naïve Bayes, Support Vector Machines, 
+  and the J48 decision tree—to identify at-risk students based on predictors such as financial 
+  stability (fees payment), entry age, health status, and parental occupation \parencite{ngemu2015}.
 
-Strathmore University sits squarely within this unresolved challenge. It enforces a 67\% 
-minimum attendance threshold for examination eligibility and a 2.0 GPA floor for good 
-standing—policies that make early identification of struggling students especially 
-consequential. The university already collects rich data across its Academic Management
- System, Learning Management System, and attendance platform, yet these systems operate
-  in isolation, with no mechanism to translate their data into timely warnings. 
-  Students surface for intervention only after breaching a threshold or withdrawing 
-  formally, long after a proactive response could have made a difference. This study 
-  addresses that gap directly: by developing a machine learning-based predictive analytics
-   platform calibrated to Strathmore's policies, data infrastructure, and resource context, 
-   it aims to shift the institution from reactive monitoring to proactive, evidence-driven 
-   student support—and to provide a replicable model for comparable universities across East 
-   Africa.
+While the J48 decision tree achieved the highest prediction accuracy in that context (94.4\%), 
+and the resulting prototype provided institutional leaders with a framework for evidence-based 
+intervention, the study—and subsequent research in the region—suffers from significant gaps \parencite{ngemu2015}. 
+Specifically, current models focus almost exclusively on a binary "dropout vs. persistence"
+ outcome \parencite{ngemu2015}. 
+ 
+ There is no mention of students at risk of academic failure or significant delays in 
+ graduation, which are critical components of educational efficiency that do not necessarily
+  result in total withdrawal. This illustrates a recurring East African pattern: technically feasible models that identify "attrition" (defined as persistent absence 
+ for no apparent reason) but fail to translate into embedded, long-term institutional practices that address 
+ the full spectrum of student risk, including the silent crisis of graduation delay.
+
+Strathmore University operates within this challenging Kenyan landscape while maintaining distinct academic 
+standards that intensify the consequences of delayed intervention. The institution enforces a 67\% minimum
+ attendance threshold for examination eligibility and a 2.0 GPA floor for good academic standing—policy
+  thresholds that render early identification especially critical, as students who breach them may be 
+  barred from examinations or placed on academic probation regardless of their potential for recovery. 
+  The university collects extensive student data through its Academic Management System (AMS), Learning 
+  Management System (LMS), and attendance tracking platform, generating daily records on academic performance, 
+  engagement behaviour, and class participation. 
+  
+  Despite this data richness, these systems operate as isolated 
+  administrative repositories with no integrated analytics capability, preventing the transformation of raw
+   institutional data into actionable early warnings. Students are typically identified for intervention only
+    after manifesting lag indicators—cumulative grade decline, attendance threshold breach, or formal withdrawal
+     notice—by which point the window for effective academic recovery has frequently closed. This reactive paradigm, 
+     though common across Kenyan institutions, is inconsistent both with international best practice
+      (Georgia State University, 2024) and with Kenya's national call for greater technology utilisation in higher
+       education (Republic of Kenya Ministry of Education, 2024). This study addresses that gap directly: by developing 
+       a machine learning-based predictive analytics platform calibrated to Strathmore's academic policies, data 
+       infrastructure, and resource constraints, it seeks to transform the institution's support model from reactive
+        monitoring to proactive, evidence-driven intervention.
 
 \section{Statement of the Problem}
 
@@ -172,13 +197,10 @@ student support. Although the institution maintains robust data streams through 
  Management System (AMS), Learning Management System (LMS), and attendance tracking platforms, 
  these systems operate as isolated administrative repositories rather than integrated
   predictive tools. This fragmentation prevents the university from transforming raw 
-  institutional data into early warnings for at-risk undergraduate students—a limitation
-   mirrored across comparable East African institutions, where similar pilots at Kenyatta
-    University collapsed due to unsustainable, individually-driven implementations rather 
-    than embedded institutional systems \parencite{Wachira2024}.
+  institutional data into early warnings for at-risk undergraduate students.
 
 The primary consequence of this gap is a reactive support paradigm. Students are typically 
-identified for intervention only after manifesting lag-indicators of failure—cumulative low 
+identified for intervention only after manifesting lag-indicators of failure, cumulative low 
 grades, breach of the mandatory 67\% attendance threshold for examination eligibility, or 
 formal withdrawal. By this stage, the window for effective academic recovery has often closed. 
 This reactive approach is not only inefficient but inconsistent with the Republic of Kenya
@@ -200,10 +222,8 @@ This study therefore develops, implements, and evaluates an integrated predictiv
 platform tailored to Strathmore University's academic policies, data infrastructure, 
 and resource constraints. By producing explainable, actionable risk predictions across
  three distinct outcomes, the platform is designed to transition the institution from 
- reactive monitoring to proactive, data-driven intervention—and to provide a replicable
-  model that addresses the sustainability failures observed in prior East African 
-  implementations.
-
+ reactive monitoring to proactive, data-driven intervention.
+ 
 \section{Justification}
 
 This research is justified on both practical and scholarly grounds. Practically,
