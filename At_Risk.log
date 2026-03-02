@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  2 MAR 2026 20:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  2 MAR 2026 21:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -849,19 +849,19 @@ Overfull \hbox (34.94879pt too wide) in paragraph at lines 287--288
 [] []\T1/ptm/b/n/12 En-sem-ble Learn-ing[] \T1/ptm/m/n/12 A ma-chine learn-ing tech-nique that com-bines mul-ti-ple al-go-rithms^^Vsuch
  []
 
-[10] [11] [12] [13] [14]
+[10] [11] [12] [13]
 Chapter 2.
 
-LaTeX Warning: Citation 'citep' on page 15 undefined on input line 372.
+LaTeX Warning: Citation 'citep' on page 14 undefined on input line 368.
 
 
-LaTeX Warning: Citation 'ahmed2024student' on page 15 undefined on input line 373.
+LaTeX Warning: Citation 'ahmed2024student' on page 14 undefined on input line 369.
 
 
-LaTeX Warning: Citation 'gandhi2025machine' on page 15 undefined on input line 373.
+LaTeX Warning: Citation 'gandhi2025machine' on page 14 undefined on input line 369.
 
-/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex:374: Undefined control sequence.
-l.374 ...+ risk factors for 40,000 students \citep
+/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex:370: Undefined control sequence.
+l.370 ...+ risk factors for 40,000 students \citep
                                                   {georgia2024approaching}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -870,255 +870,255 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (0.51126pt too wide) in paragraph at lines 371--375
+Overfull \hbox (0.51126pt too wide) in paragraph at lines 367--371
 \T1/ptm/m/n/12 has demon-strated 88--92% ac-cu-racy in iden-ti-fy-ing at-risk stu-dents ([];
  []
 
 
-LaTeX Warning: Citation 'moloi2024predictive' on page 15 undefined on input line 378.
+LaTeX Warning: Citation 'moloi2024predictive' on page 14 undefined on input line 374.
 
 
-LaTeX Warning: Citation 'wachira2024predictive' on page 15 undefined on input line 379.
+LaTeX Warning: Citation 'wachira2024predictive' on page 14 undefined on input line 375.
 
 
-LaTeX Warning: Citation 'ngemu2015student' on page 15 undefined on input line 380.
+LaTeX Warning: Citation 'ngemu2015student' on page 14 undefined on input line 376.
 
 
-Overfull \hbox (2.647pt too wide) in paragraph at lines 376--381
+Overfull \hbox (2.647pt too wide) in paragraph at lines 372--377
 []\T1/ptm/m/n/12 However, Chap-ter One re-vealed that these ben-e-fits re-main largely in-ac-ces-si-ble to African
  []
 
 
-Overfull \hbox (28.96301pt too wide) in paragraph at lines 376--381
+Overfull \hbox (28.96301pt too wide) in paragraph at lines 372--377
 \T1/ptm/m/n/12 racy but re-lied on man-ual weekly up-loads with no real-time ca-pa-bil-ity ([]).
  []
 
 
-Overfull \hbox (65.85135pt too wide) in paragraph at lines 376--381
+Overfull \hbox (65.85135pt too wide) in paragraph at lines 372--377
 \T1/ptm/m/n/12 pro-to-type in 2015; no ev-i-dence of sus-tained de-ploy-ment emerged sub-se-quently ([]). 
  []
 
 
-Overfull \hbox (0.16292pt too wide) in paragraph at lines 382--386
+Overfull \hbox (0.16292pt too wide) in paragraph at lines 378--382
 []\T1/ptm/m/n/12 At Strath-more Uni-ver-sity specif-i-cally, Chap-ter One iden-ti-fied three in-ter-con-nected prob-
  []
 
-[15
+[14
 
 ]
-Overfull \hbox (1.51878pt too wide) in paragraph at lines 393--399
+Overfull \hbox (1.51878pt too wide) in paragraph at lines 389--395
 \T1/ptm/m/n/12 lyzes doc-u-mented im-ple-men-ta-tions^^VGeorgia State, Pur-due, African cases^^Videntifying
  []
 
 
-LaTeX Warning: Citation 'tinto1993' on page 16 undefined on input line 412.
+LaTeX Warning: Citation 'tinto1993' on page 15 undefined on input line 408.
 
-[16]
+[15]
 
-LaTeX Warning: Citation 'pascarella1980predicting' on page 17 undefined on input line 418.
-
-
-LaTeX Warning: Citation 'musasia2025postgraduate' on page 17 undefined on input line 419.
+LaTeX Warning: Citation 'pascarella1980predicting' on page 16 undefined on input line 414.
 
 
-Overfull \hbox (54.25795pt too wide) in paragraph at lines 417--422
+LaTeX Warning: Citation 'musasia2025postgraduate' on page 16 undefined on input line 415.
+
+
+Overfull \hbox (54.25795pt too wide) in paragraph at lines 413--418
 []\T1/ptm/m/n/12 Empirical val-i-da-tion across con-texts sup-ports the model's core claims. ([])
  []
 
 
-LaTeX Warning: Citation 'romero2020educational' on page 17 undefined on input line 430.
+LaTeX Warning: Citation 'romero2020educational' on page 16 undefined on input line 426.
 
 
-LaTeX Warning: Citation 'baker2014educational' on page 17 undefined on input line 433.
+LaTeX Warning: Citation 'baker2014educational' on page 16 undefined on input line 429.
 
 
-Overfull \hbox (10.11046pt too wide) in paragraph at lines 433--438
+Overfull \hbox (10.11046pt too wide) in paragraph at lines 429--434
 []\T1/ptm/m/n/12 ([]) iden-tify four foun-da-tional chal-lenges EDM must ad-dress. \T1/ptm/b/n/12 Chal-
  []
 
 
-LaTeX Warning: Citation 'ramos2025machine' on page 17 undefined on input line 440.
+LaTeX Warning: Citation 'ramos2025machine' on page 16 undefined on input line 436.
+
+[16]
+
+LaTeX Warning: Citation 'georgia2024approaching' on page 17 undefined on input line 467.
+
+
+Overfull \hbox (6.09091pt too wide) in paragraph at lines 467--468
+\T1/ptm/m/n/12 Georgia State's sys-tem is the most doc-u-mented suc-cess case ([]). 
+ []
 
 [17]
 
-LaTeX Warning: Citation 'georgia2024approaching' on page 18 undefined on input line 471.
+LaTeX Warning: Citation 'renick2024access' on page 18 undefined on input line 478.
 
 
-Overfull \hbox (6.09091pt too wide) in paragraph at lines 471--472
-\T1/ptm/m/n/12 Georgia State's sys-tem is the most doc-u-mented suc-cess case ([]). 
+LaTeX Warning: Citation 'arnold2023course' on page 18 undefined on input line 497.
+
+
+Overfull \hbox (58.74753pt too wide) in paragraph at lines 497--498
+\T1/ptm/m/n/12 Purdue's 15-year im-ple-men-ta-tion (2007--2023) pro-vides lon-gi-tu-di-nal ev-i-dence ([]). 
  []
 
 [18]
 
-LaTeX Warning: Citation 'renick2024access' on page 19 undefined on input line 482.
-
-
-LaTeX Warning: Citation 'arnold2023course' on page 19 undefined on input line 501.
-
-
-Overfull \hbox (58.74753pt too wide) in paragraph at lines 501--502
-\T1/ptm/m/n/12 Purdue's 15-year im-ple-men-ta-tion (2007--2023) pro-vides lon-gi-tu-di-nal ev-i-dence ([]). 
- []
+LaTeX Warning: Citation 'moloi2024predictive' on page 19 undefined on input line 526.
 
 [19]
 
-LaTeX Warning: Citation 'moloi2024predictive' on page 20 undefined on input line 530.
+LaTeX Warning: Citation 'wachira2024predictive' on page 20 undefined on input line 550.
+
+
+LaTeX Warning: Citation 'ngemu2015student' on page 20 undefined on input line 567.
 
 [20]
 
-LaTeX Warning: Citation 'wachira2024predictive' on page 21 undefined on input line 554.
+LaTeX Warning: Reference `tab:implementation_comparison' on page 21 undefined on input line 583.
 
 
-LaTeX Warning: Citation 'ngemu2015student' on page 21 undefined on input line 571.
-
-[21]
-
-LaTeX Warning: Reference `tab:implementation_comparison' on page 22 undefined on input line 587.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
 []\T1/ptm/m/n/12 Georgia State
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
 []\T1/ptm/m/n/12 Executive spon-sor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
+Underfull \hbox (badness 10000) in paragraph at lines 593--593
 \T1/ptm/m/n/12 Work-flow in-te-gra-tion;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--600
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
 []\T1/ptm/m/n/12 36% fac-ulty non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--600
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
 \T1/ptm/m/n/12 adoption; Over-sim-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--600
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
 \T1/ptm/m/n/12 pli-fi-ca-tion; Vari-able
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\T1/ptm/m/n/12 Pretoria (South
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 []\T1/ptm/m/n/12 Low-cost ($15K);
  []
 
 
-Underfull \hbox (badness 4341) in paragraph at lines 601--602
+Underfull \hbox (badness 4341) in paragraph at lines 597--598
 []\T1/ptm/m/n/12 Manual up-loads; No
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--604
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
 []\T1/ptm/m/n/12 Inconsistent data;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--604
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
 \T1/ptm/m/n/12 Hero de-pen-dency;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--605
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 []\T1/ptm/m/n/12 Machakos
  []
 
 
-Underfull \hbox (badness 6542) in paragraph at lines 605--605
+Underfull \hbox (badness 6542) in paragraph at lines 601--601
 []\T1/ptm/m/n/12 High tech-ni-cal ac-cu-
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 605--605
+Underfull \hbox (badness 6396) in paragraph at lines 601--601
 \T1/ptm/m/n/12 racy; Mul-ti-ple al-go-
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 605--606
+Underfull \hbox (badness 1728) in paragraph at lines 601--602
 []\T1/ptm/m/n/12 Never op-er-a-tional-ized;
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 605--606
+Underfull \hbox (badness 1314) in paragraph at lines 601--602
 \T1/ptm/m/n/12 Research-practice gap;
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 605--606
+Underfull \hbox (badness 1303) in paragraph at lines 601--602
 \T1/ptm/m/n/12 No in-sti-tu-tional adop-
  []
 
 
-Overfull \hbox (29.50568pt too wide) in paragraph at lines 593--608
+Overfull \hbox (29.50568pt too wide) in paragraph at lines 589--604
  [][] 
  []
 
+[21]
+
+LaTeX Warning: Citation 'wang2025artificial' on page 22 undefined on input line 639.
+
 [22]
 
-LaTeX Warning: Citation 'wang2025artificial' on page 23 undefined on input line 643.
+LaTeX Warning: Citation 'breiman2001random' on page 23 undefined on input line 661.
+
+
+LaTeX Warning: Citation 'chen2016xgboost' on page 23 undefined on input line 662.
+
+
+LaTeX Warning: Citation 'zhang2024temporal' on page 23 undefined on input line 669.
 
 [23]
-
-LaTeX Warning: Citation 'breiman2001random' on page 24 undefined on input line 665.
-
-
-LaTeX Warning: Citation 'chen2016xgboost' on page 24 undefined on input line 666.
-
-
-LaTeX Warning: Citation 'zhang2024temporal' on page 24 undefined on input line 673.
-
-[24]
-Overfull \hbox (4.15855pt too wide) in paragraph at lines 693--695
+Overfull \hbox (4.15855pt too wide) in paragraph at lines 689--691
 \T1/ptm/b/n/12 Problem iden-ti-fied in Chap-ter One: \T1/ptm/m/n/12 Ex-ist-ing sys-tems pre-dict sin-gle out-comes (dropout
  []
 
 
-LaTeX Warning: Citation 'ngemu2015student' on page 25 undefined on input line 697.
+LaTeX Warning: Citation 'ngemu2015student' on page 24 undefined on input line 693.
 
 
-LaTeX Warning: Citation 'moloi2024predictive' on page 25 undefined on input line 698.
+LaTeX Warning: Citation 'moloi2024predictive' on page 24 undefined on input line 694.
 
 
-LaTeX Warning: Citation 'bouihi2024prediction' on page 25 undefined on input line 699.
+LaTeX Warning: Citation 'bouihi2024prediction' on page 24 undefined on input line 695.
 
-[25] [26]
+[24] [25]
 
-LaTeX Warning: Citation 'jayaprakash2014early' on page 27 undefined on input line 759.
+LaTeX Warning: Citation 'jayaprakash2014early' on page 26 undefined on input line 755.
 
 
-LaTeX Warning: Reference `fig:conceptual' on page 27 undefined on input line 768.
+LaTeX Warning: Reference `fig:conceptual' on page 26 undefined on input line 764.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27] [28]
-Overfull \hbox (3.1993pt too wide) in paragraph at lines 849--852
+[26] [27]
+Overfull \hbox (3.1993pt too wide) in paragraph at lines 845--848
 \T1/ptm/m/n/12 de-ploy-ment from in-cep-tion, not aca-demic proof-of-concept. In-cludes Pre-sen-ta-tion Layer
  []
 
-[29] [30]
-Overfull \hbox (27.40294pt too wide) in paragraph at lines 911--913
+[28] [29]
+Overfull \hbox (27.40294pt too wide) in paragraph at lines 907--909
 \T1/ptm/m/n/12 stake-holder dash-boards from ini-tial de-ploy-ment^^Vnot as post-hoc re-search anal-y-sis^^Vimprove
  []
 
-[31]
-Overfull \hbox (35.68239pt too wide) in paragraph at lines 937--941
+[30]
+Overfull \hbox (35.68239pt too wide) in paragraph at lines 933--937
 \T1/ptm/b/n/12 What lit-er-a-ture shows: \T1/ptm/m/n/12 Geor-gia State's suc-cess comes at $5+ mil-lion an-nual cost^^Vprohibitive
  []
 
-[32] [33] [34] [35
+[31] [32] [33] [34
 
 ] (./At_Risk.aux)
  ***********
@@ -1150,18 +1150,18 @@ Package logreq Info: Writing requests to 'At_Risk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17844 strings out of 474222
- 313804 string characters out of 5748734
+ 17843 strings out of 474222
+ 313797 string characters out of 5748734
  1934975 words of memory out of 5000000
  39809 multiletter control sequences out of 15000+600000
  583283 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,10n,81p,1253b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on At_Risk.pdf (37 pages, 183632 bytes).
+Output written on At_Risk.pdf (36 pages, 183078 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
- 107 named destinations out of 1000 (max. 500000)
+ 317 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 106 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

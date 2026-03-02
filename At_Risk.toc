@@ -38,38 +38,38 @@
 \contentsline {subsection}{\numberline {1.8.2}Practical Significance}{12}{subsection.1.8.2}%
 \contentsline {subsection}{\numberline {1.8.3}National and Policy Significance}{13}{subsection.1.8.3}%
 \contentsline {section}{\numberline {1.9}Summary}{13}{section.1.9}%
-\contentsline {chapter}{\numberline {2}LITERATURE REVIEW}{15}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{15}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Theoretical Foundations of Student Retention}{16}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Tinto's Student Integration Model}{16}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Educational Data Mining as Methodological Framework}{17}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Synthesis: Theory Guiding This Study}{18}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Documented Predictive Analytics Implementations}{18}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}High-Resource Western Implementations}{19}{subsection.2.3.1}%
-\contentsline {subsubsection}{Georgia State University GPS Advising}{19}{subsection.2.3.1}%
-\contentsline {subsubsection}{Purdue University Course Signals}{19}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}African Implementations: The Sustainability Failure Pattern}{20}{subsection.2.3.2}%
-\contentsline {subsubsection}{University of Pretoria, South Africa}{20}{subsection.2.3.2}%
-\contentsline {subsubsection}{Kenyatta University, Kenya}{21}{subsection.2.3.2}%
-\contentsline {subsubsection}{Machakos University College, Kenya}{21}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Comparative Analysis: Success Factors Versus Failure Modes}{22}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Machine Learning for Multi-Risk Educational Prediction}{23}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Algorithm Selection for Educational Contexts}{24}{subsection.2.4.1}%
-\contentsline {subsubsection}{Ensemble Methods: Meta-Analytic Evidence}{24}{subsection.2.4.1}%
-\contentsline {subsubsection}{Deep Learning Considerations}{24}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}The Multi-Outcome Prediction Gap}{25}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Evaluation Methodology for Imbalanced Educational Data}{26}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Historical Cohort Validation}{26}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}Conceptual Framework}{27}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Framework Overview}{27}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}How Framework Components Address Chapter One Problems}{27}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}How Framework Operationalizes Theory}{28}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}How Framework Addresses African Sustainability Failures}{29}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Moderating Factors}{29}{subsection.2.5.5}%
-\contentsline {section}{\numberline {2.6}Research Gaps This Study Addresses}{30}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Gap 1: Sustainable Implementation in East African Private Universities}{30}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Gap 2: Unified Multi-Outcome Risk Prediction}{31}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Gap 3: Explainability Embedded Operationally}{31}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}Gap 4: Historical Cohort Validation in African Contexts}{32}{subsection.2.6.4}%
-\contentsline {subsection}{\numberline {2.6.5}Gap 5: Documented Low-Cost Replicable Implementation}{32}{subsection.2.6.5}%
-\contentsline {section}{\numberline {2.7}Chapter Summary and Transition}{33}{section.2.7}%
+\contentsline {chapter}{\numberline {2}LITERATURE REVIEW}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{14}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Theoretical Foundations of Student Retention}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Tinto's Student Integration Model}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Educational Data Mining as Methodological Framework}{16}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Synthesis: Theory Guiding This Study}{17}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Documented Predictive Analytics Implementations}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}High-Resource Western Implementations}{18}{subsection.2.3.1}%
+\contentsline {subsubsection}{Georgia State University GPS Advising}{18}{subsection.2.3.1}%
+\contentsline {subsubsection}{Purdue University Course Signals}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}African Implementations: The Sustainability Failure Pattern}{19}{subsection.2.3.2}%
+\contentsline {subsubsection}{University of Pretoria, South Africa}{19}{subsection.2.3.2}%
+\contentsline {subsubsection}{Kenyatta University, Kenya}{20}{subsection.2.3.2}%
+\contentsline {subsubsection}{Machakos University College, Kenya}{20}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Comparative Analysis: Success Factors Versus Failure Modes}{21}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Machine Learning for Multi-Risk Educational Prediction}{22}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Algorithm Selection for Educational Contexts}{23}{subsection.2.4.1}%
+\contentsline {subsubsection}{Ensemble Methods: Meta-Analytic Evidence}{23}{subsection.2.4.1}%
+\contentsline {subsubsection}{Deep Learning Considerations}{23}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}The Multi-Outcome Prediction Gap}{24}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Evaluation Methodology for Imbalanced Educational Data}{25}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Historical Cohort Validation}{25}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Conceptual Framework}{26}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Framework Overview}{26}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}How Framework Components Address Chapter One Problems}{26}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}How Framework Operationalizes Theory}{27}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}How Framework Addresses African Sustainability Failures}{28}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Moderating Factors}{28}{subsection.2.5.5}%
+\contentsline {section}{\numberline {2.6}Research Gaps This Study Addresses}{29}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Gap 1: Sustainable Implementation in East African Private Universities}{29}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Gap 2: Unified Multi-Outcome Risk Prediction}{30}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Gap 3: Explainability Embedded Operationally}{30}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Gap 4: Historical Cohort Validation in African Contexts}{31}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}Gap 5: Documented Low-Cost Replicable Implementation}{31}{subsection.2.6.5}%
+\contentsline {section}{\numberline {2.7}Chapter Summary and Transition}{32}{section.2.7}%
