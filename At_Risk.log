@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  19 FEB 2026 10:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  2 MAR 2026 20:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -601,7 +601,161 @@ Package biblatex Info: ... file 'At_Risk.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Gandhi2025
+(biblatex)                Ngemu2015
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Taodzera2016
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                ahmed2024student
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                arnold2023course
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                baker2014educational
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                bouihi2024prediction
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                breiman2001random
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                chen2016xgboost
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                citep
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                gandhi2025machine
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                georgia2024approaching
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                jayaprakash2014early
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                moloi2024predictive
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                musasia2025postgraduate
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                ngemu2015student
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                pascarella1980predicting
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                ramos2025machine
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                renick2024access
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                romero2020educational
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                tinto1993
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                wachira2024predictive
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                wang2025artificial
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                zhang2024temporal
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -640,28 +794,75 @@ No file At_Risk.toc.
 \tf@toc=\write5
 \openout5 = `At_Risk.toc'.
 
-[3] (./At_Risk.toc)
-\tf@toc=\write6
-\openout6 = `At_Risk.toc'.
-
- [4]
-Chapter 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.144 
-       [1
+l.110 \chapter
+              {INTRODUCTION} [1]
+Chapter 1.
 
-] [2]
-Overfull \hbox (16.17041pt too wide) in paragraph at lines 180--188
-\T1/ptm/m/n/12 cally iden-ti-fied for in-ter-ven-tion only af-ter man-i-fest-ing lag-indicators of fail-ure^^Vcumulative
+LaTeX Warning: Citation 'Ahmed2024' on page 2 undefined on input line 125.
+
+
+LaTeX Warning: Citation 'Gathani2026' on page 2 undefined on input line 125.
+
+
+LaTeX Warning: Citation 'Taodzera2016' on page 2 undefined on input line 141.
+
+[2
+
+]
+
+LaTeX Warning: Citation 'Ngemu2015' on page 3 undefined on input line 152.
+
+
+LaTeX Warning: Citation 'Ngemu2015' on page 3 undefined on input line 157.
+
+
+Overfull \hbox (4.15877pt too wide) in paragraph at lines 149--158
+[]\T1/ptm/m/n/12 Recognizing the chal-lenge of stu-dent at-tri-tion, re-searchers from the Uni-ver-sity of Nairobi
  []
 
-[3]
-/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex:217: Undefined control sequence.
-l.217 ...te prediction accuracy levels of $85\text
-                                                  {--}92\%$ for student success
+[3] [4] [5] [6]
+Overfull \hbox (0.53345pt too wide) in paragraph at lines 242--243
+[]\T1/ptm/m/n/12 To as-sess the plat-form's us-abil-ity and per-ceived in-sti-tu-tional im-pact through struc-
+ []
+
+
+Overfull \hbox (4.4102pt too wide) in paragraph at lines 249--250
+[]\T1/ptm/m/n/12 How can risk pre-dic-tions be ef-fec-tively pre-sented to dif-fer-ent stake-holder groups---
+ []
+
+
+Overfull \hbox (10.53134pt too wide) in paragraph at lines 256--263
+\T1/ptm/m/n/12 dic-tion mod-els^^Vtargeting dropout risk, course fail-ure risk, and pro-gram de-lay risk^^Vusing
+ []
+
+
+Overfull \hbox (6.9191pt too wide) in paragraph at lines 256--263
+\T1/ptm/m/n/12 en-sem-ble al-go-rithms in-clud-ing Ran-dom For-est, Gra-di-ent Boost-ing, and XG-Boost, trained
+ []
+
+[7] [8] [9]
+Overfull \hbox (34.94879pt too wide) in paragraph at lines 287--288
+[] []\T1/ptm/b/n/12 En-sem-ble Learn-ing[] \T1/ptm/m/n/12 A ma-chine learn-ing tech-nique that com-bines mul-ti-ple al-go-rithms^^Vsuch
+ []
+
+[10] [11] [12] [13] [14]
+Chapter 2.
+
+LaTeX Warning: Citation 'citep' on page 15 undefined on input line 372.
+
+
+LaTeX Warning: Citation 'ahmed2024student' on page 15 undefined on input line 373.
+
+
+LaTeX Warning: Citation 'gandhi2025machine' on page 15 undefined on input line 373.
+
+/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex:374: Undefined control sequence.
+l.374 ...+ risk factors for 40,000 students \citep
+                                                  {georgia2024approaching}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -669,56 +870,257 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Gandhi2025' on page 4 undefined on input line 218.
-
-[4] [5]
-Overfull \hbox (0.53345pt too wide) in paragraph at lines 267--268
-[]\T1/ptm/m/n/12 To as-sess the plat-form's us-abil-ity and per-ceived in-sti-tu-tional im-pact through struc-
+Overfull \hbox (0.51126pt too wide) in paragraph at lines 371--375
+\T1/ptm/m/n/12 has demon-strated 88--92% ac-cu-racy in iden-ti-fy-ing at-risk stu-dents ([];
  []
 
 
-Overfull \hbox (4.4102pt too wide) in paragraph at lines 275--276
-[]\T1/ptm/m/n/12 How can risk pre-dic-tions be ef-fec-tively pre-sented to dif-fer-ent stake-holder groups---
- []
-
-[6]
-Overfull \hbox (10.53134pt too wide) in paragraph at lines 282--289
-\T1/ptm/m/n/12 dic-tion mod-els^^Vtargeting dropout risk, course fail-ure risk, and pro-gram de-lay risk^^Vusing
- []
+LaTeX Warning: Citation 'moloi2024predictive' on page 15 undefined on input line 378.
 
 
-Overfull \hbox (6.9191pt too wide) in paragraph at lines 282--289
-\T1/ptm/m/n/12 en-sem-ble al-go-rithms in-clud-ing Ran-dom For-est, Gra-di-ent Boost-ing, and XG-Boost, trained
- []
+LaTeX Warning: Citation 'wachira2024predictive' on page 15 undefined on input line 379.
 
-[7] [8]
-Overfull \hbox (34.94879pt too wide) in paragraph at lines 313--314
-[] []\T1/ptm/b/n/12 En-sem-ble Learn-ing[] \T1/ptm/m/n/12 A ma-chine learn-ing tech-nique that com-bines mul-ti-ple al-go-rithms^^Vsuch
- []
 
-[9] [10]
-Overfull \hbox (24.84666pt too wide) in paragraph at lines 340--349
-\T1/ptm/m/n/12 con-text by map-ping the the-o-ret-i-cal con-structs of aca-demic and so-cial in-te-gra-tion^^Vattendance
+LaTeX Warning: Citation 'ngemu2015student' on page 15 undefined on input line 380.
+
+
+Overfull \hbox (2.647pt too wide) in paragraph at lines 376--381
+[]\T1/ptm/m/n/12 However, Chap-ter One re-vealed that these ben-e-fits re-main largely in-ac-ces-si-ble to African
  []
 
 
-Overfull \hbox (0.96559pt too wide) in paragraph at lines 352--361
-\T1/ptm/m/n/12 the-o-ret-i-cal claim with sig-nif-i-cant im-pli-ca-tions for fu-ture im-ple-men-ta-tions across African
+Overfull \hbox (28.96301pt too wide) in paragraph at lines 376--381
+\T1/ptm/m/n/12 racy but re-lied on man-ual weekly up-loads with no real-time ca-pa-bil-ity ([]).
  []
 
-[11]
-Overfull \hbox (5.68312pt too wide) in paragraph at lines 378--385
-\T1/ptm/m/n/12 men-tors with evidence-based in-sights that move decision-making be-yond in-tu-ition. Role-
+
+Overfull \hbox (65.85135pt too wide) in paragraph at lines 376--381
+\T1/ptm/m/n/12 pro-to-type in 2015; no ev-i-dence of sus-tained de-ploy-ment emerged sub-se-quently ([]). 
  []
 
-[12] [13] [14] [15
+
+Overfull \hbox (0.16292pt too wide) in paragraph at lines 382--386
+[]\T1/ptm/m/n/12 At Strath-more Uni-ver-sity specif-i-cally, Chap-ter One iden-ti-fied three in-ter-con-nected prob-
+ []
+
+[15
 
 ]
-Overfull \hbox (18.91466pt too wide) in paragraph at lines 459--459
-[][]\T1/ptm/m/n/12 Turkmenbayev, A., Ab-dyk-e-r-i-mova, E., Nur-gozhayev, S., Karabassova, G., & Baigozhanova,
+Overfull \hbox (1.51878pt too wide) in paragraph at lines 393--399
+\T1/ptm/m/n/12 lyzes doc-u-mented im-ple-men-ta-tions^^VGeorgia State, Pur-due, African cases^^Videntifying
  []
 
-[16] (./At_Risk.aux)
+
+LaTeX Warning: Citation 'tinto1993' on page 16 undefined on input line 412.
+
+[16]
+
+LaTeX Warning: Citation 'pascarella1980predicting' on page 17 undefined on input line 418.
+
+
+LaTeX Warning: Citation 'musasia2025postgraduate' on page 17 undefined on input line 419.
+
+
+Overfull \hbox (54.25795pt too wide) in paragraph at lines 417--422
+[]\T1/ptm/m/n/12 Empirical val-i-da-tion across con-texts sup-ports the model's core claims. ([])
+ []
+
+
+LaTeX Warning: Citation 'romero2020educational' on page 17 undefined on input line 430.
+
+
+LaTeX Warning: Citation 'baker2014educational' on page 17 undefined on input line 433.
+
+
+Overfull \hbox (10.11046pt too wide) in paragraph at lines 433--438
+[]\T1/ptm/m/n/12 ([]) iden-tify four foun-da-tional chal-lenges EDM must ad-dress. \T1/ptm/b/n/12 Chal-
+ []
+
+
+LaTeX Warning: Citation 'ramos2025machine' on page 17 undefined on input line 440.
+
+[17]
+
+LaTeX Warning: Citation 'georgia2024approaching' on page 18 undefined on input line 471.
+
+
+Overfull \hbox (6.09091pt too wide) in paragraph at lines 471--472
+\T1/ptm/m/n/12 Georgia State's sys-tem is the most doc-u-mented suc-cess case ([]). 
+ []
+
+[18]
+
+LaTeX Warning: Citation 'renick2024access' on page 19 undefined on input line 482.
+
+
+LaTeX Warning: Citation 'arnold2023course' on page 19 undefined on input line 501.
+
+
+Overfull \hbox (58.74753pt too wide) in paragraph at lines 501--502
+\T1/ptm/m/n/12 Purdue's 15-year im-ple-men-ta-tion (2007--2023) pro-vides lon-gi-tu-di-nal ev-i-dence ([]). 
+ []
+
+[19]
+
+LaTeX Warning: Citation 'moloi2024predictive' on page 20 undefined on input line 530.
+
+[20]
+
+LaTeX Warning: Citation 'wachira2024predictive' on page 21 undefined on input line 554.
+
+
+LaTeX Warning: Citation 'ngemu2015student' on page 21 undefined on input line 571.
+
+[21]
+
+LaTeX Warning: Reference `tab:implementation_comparison' on page 22 undefined on input line 587.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
+[]\T1/ptm/m/n/12 Georgia State
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
+[]\T1/ptm/m/n/12 Executive spon-sor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
+\T1/ptm/m/n/12 Work-flow in-te-gra-tion;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
+[]\T1/ptm/m/n/12 36% fac-ulty non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
+\T1/ptm/m/n/12 adoption; Over-sim-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--600
+\T1/ptm/m/n/12 pli-fi-ca-tion; Vari-able
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
+[]\T1/ptm/m/n/12 Pretoria (South
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
+[]\T1/ptm/m/n/12 Low-cost ($15K);
+ []
+
+
+Underfull \hbox (badness 4341) in paragraph at lines 601--602
+[]\T1/ptm/m/n/12 Manual up-loads; No
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--604
+[]\T1/ptm/m/n/12 Inconsistent data;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--604
+\T1/ptm/m/n/12 Hero de-pen-dency;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
+[]\T1/ptm/m/n/12 Machakos
+ []
+
+
+Underfull \hbox (badness 6542) in paragraph at lines 605--605
+[]\T1/ptm/m/n/12 High tech-ni-cal ac-cu-
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 605--605
+\T1/ptm/m/n/12 racy; Mul-ti-ple al-go-
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 605--606
+[]\T1/ptm/m/n/12 Never op-er-a-tional-ized;
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 605--606
+\T1/ptm/m/n/12 Research-practice gap;
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 605--606
+\T1/ptm/m/n/12 No in-sti-tu-tional adop-
+ []
+
+
+Overfull \hbox (29.50568pt too wide) in paragraph at lines 593--608
+ [][] 
+ []
+
+[22]
+
+LaTeX Warning: Citation 'wang2025artificial' on page 23 undefined on input line 643.
+
+[23]
+
+LaTeX Warning: Citation 'breiman2001random' on page 24 undefined on input line 665.
+
+
+LaTeX Warning: Citation 'chen2016xgboost' on page 24 undefined on input line 666.
+
+
+LaTeX Warning: Citation 'zhang2024temporal' on page 24 undefined on input line 673.
+
+[24]
+Overfull \hbox (4.15855pt too wide) in paragraph at lines 693--695
+\T1/ptm/b/n/12 Problem iden-ti-fied in Chap-ter One: \T1/ptm/m/n/12 Ex-ist-ing sys-tems pre-dict sin-gle out-comes (dropout
+ []
+
+
+LaTeX Warning: Citation 'ngemu2015student' on page 25 undefined on input line 697.
+
+
+LaTeX Warning: Citation 'moloi2024predictive' on page 25 undefined on input line 698.
+
+
+LaTeX Warning: Citation 'bouihi2024prediction' on page 25 undefined on input line 699.
+
+[25] [26]
+
+LaTeX Warning: Citation 'jayaprakash2014early' on page 27 undefined on input line 759.
+
+
+LaTeX Warning: Reference `fig:conceptual' on page 27 undefined on input line 768.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27] [28]
+Overfull \hbox (3.1993pt too wide) in paragraph at lines 849--852
+\T1/ptm/m/n/12 de-ploy-ment from in-cep-tion, not aca-demic proof-of-concept. In-cludes Pre-sen-ta-tion Layer
+ []
+
+[29] [30]
+Overfull \hbox (27.40294pt too wide) in paragraph at lines 911--913
+\T1/ptm/m/n/12 stake-holder dash-boards from ini-tial de-ploy-ment^^Vnot as post-hoc re-search anal-y-sis^^Vimprove
+ []
+
+[31]
+Overfull \hbox (35.68239pt too wide) in paragraph at lines 937--941
+\T1/ptm/b/n/12 What lit-er-a-ture shows: \T1/ptm/m/n/12 Geor-gia State's suc-cess comes at $5+ mil-lion an-nual cost^^Vprohibitive
+ []
+
+[32] [33] [34] [35
+
+] (./At_Risk.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -728,13 +1130,16 @@ L3 programming layer <2024-01-22>
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package rerunfilecheck Warning: File `At_Risk.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `At_Risk.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D2AD38F0E3F6D105316B5A1FEB2A7A9F;2693.
+(rerunfilecheck)             After:  7B21CD85F585FBC85FAC9F513ADAE4CC;11080.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                At_Risk
@@ -745,18 +1150,18 @@ Package logreq Info: Writing requests to 'At_Risk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17835 strings out of 474222
- 314868 string characters out of 5748734
- 1933975 words of memory out of 5000000
- 39839 multiletter control sequences out of 15000+600000
+ 17844 strings out of 474222
+ 313804 string characters out of 5748734
+ 1934975 words of memory out of 5000000
+ 39809 multiletter control sequences out of 15000+600000
  583283 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,8n,81p,1253b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on At_Risk.pdf (20 pages, 126413 bytes).
+ 66i,10n,81p,1253b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on At_Risk.pdf (37 pages, 183632 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 66 named destinations out of 1000 (max. 500000)
+ 324 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 107 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
