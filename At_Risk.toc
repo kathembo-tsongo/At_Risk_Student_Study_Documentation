@@ -1,4 +1,5 @@
 \contentsline {chapter}{Declaration}{ii}{chapter*.1}%
+\contentsline {section}{Table of Abbreviations}{1}{section*.2}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background to the Study}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Statement of the Problem}{4}{section.1.2}%
@@ -14,62 +15,32 @@
 \contentsline {subsection}{\numberline {1.6.1}Scope}{8}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {1.6.2}Delimitations}{8}{subsection.1.6.2}%
 \contentsline {section}{\numberline {1.7}Definition of Terms}{9}{section.1.7}%
-\contentsline {paragraph}{At-Risk Student}{9}{section.1.7}%
-\contentsline {paragraph}{Dropout Risk}{9}{section.1.7}%
-\contentsline {paragraph}{Course Failure Risk}{9}{section.1.7}%
-\contentsline {paragraph}{Program Delay Risk}{9}{section.1.7}%
-\contentsline {paragraph}{Academic Management System (AMS)}{10}{section.1.7}%
-\contentsline {paragraph}{Learning Management System (LMS)}{10}{section.1.7}%
-\contentsline {paragraph}{Early Warning System}{10}{section.1.7}%
-\contentsline {paragraph}{Engagement Metrics}{10}{section.1.7}%
-\contentsline {paragraph}{Ensemble Learning}{10}{section.1.7}%
-\contentsline {paragraph}{Feature Engineering}{10}{section.1.7}%
-\contentsline {paragraph}{Intervention}{10}{section.1.7}%
-\contentsline {paragraph}{Predictive Analytics}{10}{section.1.7}%
-\contentsline {paragraph}{Explainability (Model Explainability)}{11}{section.1.7}%
-\contentsline {paragraph}{Historical Cohort}{11}{section.1.7}%
-\contentsline {paragraph}{Model Accuracy}{11}{section.1.7}%
-\contentsline {paragraph}{Precision}{11}{section.1.7}%
-\contentsline {paragraph}{Recall (Sensitivity)}{11}{section.1.7}%
-\contentsline {paragraph}{F1-Score}{11}{section.1.7}%
-\contentsline {paragraph}{ROC-AUC (Receiver Operating Characteristic – Area Under Curve)}{12}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Significance}{12}{section.1.8}%
-\contentsline {subsection}{\numberline {1.8.1}Theoretical and Methodological Significance}{12}{subsection.1.8.1}%
+\contentsline {section}{\numberline {1.8}Significance}{11}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Theoretical and Methodological Significance}{11}{subsection.1.8.1}%
 \contentsline {subsection}{\numberline {1.8.2}Practical Significance}{12}{subsection.1.8.2}%
-\contentsline {subsection}{\numberline {1.8.3}National and Policy Significance}{13}{subsection.1.8.3}%
-\contentsline {section}{\numberline {1.9}Summary}{13}{section.1.9}%
+\contentsline {subsection}{\numberline {1.8.3}National and Policy Significance}{12}{subsection.1.8.3}%
+\contentsline {section}{\numberline {1.9}Summary}{12}{section.1.9}%
 \contentsline {chapter}{\numberline {2}LITERATURE REVIEW}{14}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introduction}{14}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Theoretical Foundations of Student Retention}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Theoretical Frameworks for Student Retention}{15}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Tinto's Student Integration Model}{15}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Educational Data Mining as Methodological Framework}{16}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Synthesis: Theory Guiding This Study}{17}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Documented Predictive Analytics Implementations}{17}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}High-Resource Western Implementations}{18}{subsection.2.3.1}%
-\contentsline {subsubsection}{Georgia State University GPS Advising}{18}{subsection.2.3.1}%
-\contentsline {subsubsection}{Purdue University Course Signals}{18}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}African Implementations: The Sustainability Failure Pattern}{19}{subsection.2.3.2}%
-\contentsline {subsubsection}{University of Pretoria, South Africa}{19}{subsection.2.3.2}%
-\contentsline {subsubsection}{Kenyatta University, Kenya}{20}{subsection.2.3.2}%
-\contentsline {subsubsection}{Machakos University College, Kenya}{20}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Comparative Analysis: Success Factors Versus Failure Modes}{21}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Machine Learning for Multi-Risk Educational Prediction}{22}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Algorithm Selection for Educational Contexts}{23}{subsection.2.4.1}%
-\contentsline {subsubsection}{Ensemble Methods: Meta-Analytic Evidence}{23}{subsection.2.4.1}%
-\contentsline {subsubsection}{Deep Learning Considerations}{23}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}The Multi-Outcome Prediction Gap}{24}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Evaluation Methodology for Imbalanced Educational Data}{25}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Historical Cohort Validation}{25}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}Conceptual Framework}{26}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Framework Overview}{26}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}How Framework Components Address Chapter One Problems}{26}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}How Framework Operationalizes Theory}{27}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}How Framework Addresses African Sustainability Failures}{28}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Moderating Factors}{28}{subsection.2.5.5}%
-\contentsline {section}{\numberline {2.6}Research Gaps This Study Addresses}{29}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Gap 1: Sustainable Implementation in East African Private Universities}{29}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Gap 2: Unified Multi-Outcome Risk Prediction}{30}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Gap 3: Explainability Embedded Operationally}{30}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}Gap 4: Historical Cohort Validation in African Contexts}{31}{subsection.2.6.4}%
-\contentsline {subsection}{\numberline {2.6.5}Gap 5: Documented Low-Cost Replicable Implementation}{31}{subsection.2.6.5}%
-\contentsline {section}{\numberline {2.7}Chapter Summary and Transition}{32}{section.2.7}%
+\contentsline {subsection}{\numberline {2.2.2}The Shift from Reactive to Proactive Intervention Paradigms}{15}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Global Perspectives on Student Attrition and Institutional Sustainability}{16}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Machine Learning in Educational Data Mining (EDM)}{17}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}The Paradigm Shift: From Lag Indicators to Predictive Signals}{17}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Model Performance Metrics and Evaluation Standards}{17}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3} Ensemble Learning: The Technical Foundation}{18}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}The Black Box Problem and Explainable AI (XAI)}{19}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Risk Outcome Categories in the Literature}{20}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}Evidence of Technological Maturity}{21}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Predictive Analytics in the African Higher Education Context}{21}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Continental Policy Framework}{21}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Regional Case Studies}{22}{subsection.2.6.2}%
+\contentsline {section}{\numberline {2.7}The Kenyan Higher Education Landscape}{23}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Structural and Economic Pressures}{23}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}National Policy Mandate}{23}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Foundational Kenyan Study: Machakos University College}{24}{subsection.2.7.3}%
+\contentsline {section}{\numberline {2.8}Data Integration and Institutional System Architecture}{25}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Siloed Administrative Repositories}{25}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Engagement Metrics as Lead Indicators}{25}{subsection.2.8.2}%
+\contentsline {section}{\numberline {2.9}Summary and Identification of Knowledge Gaps}{26}{section.2.9}%

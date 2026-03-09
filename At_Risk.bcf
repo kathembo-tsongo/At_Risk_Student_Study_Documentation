@@ -3073,33 +3073,6 @@
     <bcf:citekey order="10" intorder="1">KIPPRA2024</bcf:citekey>
     <bcf:citekey order="11" intorder="1">Lundberg2017</bcf:citekey>
     <bcf:citekey order="12" intorder="1">Chen2016</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">Lundberg2017</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">citep</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">ahmed2024student</bcf:citekey>
-    <bcf:citekey order="15" intorder="2">gandhi2025machine</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">moloi2024predictive</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">wachira2024predictive</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">ngemu2015student</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">tinto1993</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">pascarella1980predicting</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">musasia2025postgraduate</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">romero2020educational</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">baker2014educational</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">ramos2025machine</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">georgia2024approaching</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">renick2024access</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">arnold2023course</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">moloi2024predictive</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">wachira2024predictive</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">ngemu2015student</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">wang2025artificial</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">breiman2001random</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">chen2016xgboost</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">zhang2024temporal</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">ngemu2015student</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">moloi2024predictive</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">bouihi2024prediction</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">jayaprakash2014early</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

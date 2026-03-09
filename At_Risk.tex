@@ -12,6 +12,9 @@
 \usepackage{hyperref} 
 \usepackage{tocloft}  
 \usepackage{titlesec}
+\usepackage[table]{xcolor}
+\usepackage{longtable}
+\usepackage{caption}
 
 % --- 2. Global Formatting & Fixes ---
 \doublespacing       
@@ -102,12 +105,40 @@ This thesis has been submitted for examination with my approval as the Universit
 
 \newpage
 
-\tableofcontents
+% --- Centered Table of Contents Title ---
+\begin{center}
+    \tableofcontents
+\end{center}
 
+\newpage
+
+% --- Table of Abbreviations ---
+\section*{\centering Table of Abbreviations}
+\addcontentsline{toc}{section}{Table of Abbreviations}
+
+\begin{center}
+% Start alternating colors at row 2 to include AMS but keep header clean
+{\rowcolors{2}{green!80!yellow!50}{green!70!yellow!40}
+\begin{tabular}{|p{3cm}|p{10cm}|}
+\hline
+\textbf{Abbreviation} & \textbf{Description} \\ \hline
+AMS & Academic Management System  \\
+CBET & Competency-Based Education and Training  \\
+CESA & Continental Education Strategy for Africa (2016-2025)  \\
+EDM & Educational Data Mining  \\
+GPA & Grade Point Average  \\
+LMS & Learning Management System  \\
+ROC-AUC & Receiver Operating Characteristic – Area Under Curve  \\
+SHAP & SHapley Additive exPlanations  \\
+SVM & Support Vector Machines  \\ 
+\hline
+\end{tabular}}
+\end{center}
 
 \pagenumbering{arabic}
 
 \chapter{INTRODUCTION}
+
 
 \section{Background to the Study}
 
@@ -268,45 +299,44 @@ The system capabilities are delimited to identifying risk levels and suggesting 
 
 \section{Definition of Terms}
 
-\paragraph{At-Risk Student} A student whose data patterns statistically indicate a high probability of dropout, course failure, or program delay prior to the actual event.
-
-\paragraph{Dropout Risk} The predicted probability of a student discontinuing enrolment before completing their degree requirements.
-
-\paragraph{Course Failure Risk} The predicted likelihood of a student failing a course or becoming exam-ineligible due to attendance falling below the mandatory 67\% threshold at Strathmore University.
-
-\paragraph{Program Delay Risk} The probability that a student will exceed the standard programme duration due to academic probation, course repetition, or accumulated failed semesters.
-
-\paragraph{Academic Management System (AMS)} The primary institutional database for official student records, including demographic information, enrolment status, and academic history.
-
-\paragraph{Learning Management System (LMS)} A digital platform used to deliver course content and track student engagement through behavioural data such as login frequency, resource access, and assignment submissions.
-
-\paragraph{Early Warning System} An integrated tool that uses data and predictive modelling to trigger timely alerts for students identified as requiring academic intervention.
-
-\paragraph{Engagement Metrics} Quantitative measures of student participation derived from institutional systems, such as LMS login frequency, assignment submission timeliness, and attendance rate trajectories.
-
-\paragraph{Ensemble Learning} A machine learning technique that combines multiple algorithms—such as Random Forest, Gradient Boosting, and XGBoost—to produce predictions that are more accurate and stable than any single model alone.
-
-\paragraph{Feature Engineering} The process of transforming raw institutional data into optimised input variables for machine learning model training, including the creation of derived indicators such as attendance flags and GPA thresholds.
-
-\paragraph{Intervention} A proactive support action—such as academic mentoring, tutoring referral, or advisor outreach—triggered by a student's identified risk status and designed to prevent academic failure or withdrawal.
-
-\paragraph{Predictive Analytics} A branch of data analytics that uses statistical modelling and machine learning techniques applied to historical data to forecast future outcomes. In this study, predictive analytics refers specifically to the use of student historical records to generate probabilistic risk classifications for dropout, course failure, and programme delay.
-
-\paragraph{Explainability (Model Explainability)} The capacity of a predictive model to provide human-interpretable reasons for its predictions. In this study, explainability is implemented through SHAP (SHapley Additive exPlanations) values, which quantify each feature's contribution to an individual student's risk score, enabling advisors to understand why a student has been flagged and what specific factors require intervention \parencite{Lundberg2017}.
 
 
+{\rowcolors{2}{blue!10!yellow!80}{green!50!yellow!10}
+\begin{longtable}{|p{3.5cm}|p{10cm}|}
+\hline
+\textbf{Term} & \textbf{Description} \\ \hline
+\endfirsthead
 
-\paragraph{Historical Cohort} A defined group of students whose complete academic trajectories—from enrolment to graduation, withdrawal, or dropout—are known and documented. In this study, the historical cohort comprises undergraduate students who enrolled at Strathmore University in 2021 and whose outcomes are fully recorded by 2024, providing the labelled training data required for supervised machine learning.
+\hline
+\textbf{Term} & \textbf{Description} \\ \hline
+\endhead
 
-\paragraph{Model Accuracy} The proportion of correct predictions (both at-risk and not-at-risk) made by a model relative to total observations. Accuracy is one of five evaluation metrics used in this study; it is most informative when class distributions are balanced.
+\hline
+\endfoot
 
-\paragraph{Precision} The proportion of students predicted as at-risk who are genuinely at-risk. High precision minimises false alarms and ensures that limited intervention resources are directed towards students who actually need support.
+At-Risk Student & A student whose data patterns statistically indicate a high probability of dropout, course failure, or program delay prior to the actual event. \\ \hline
+Dropout Risk & The predicted probability of a student discontinuing enrolment before completing their degree requirements. \\ \hline
+Course Failure Risk & The predicted likelihood of a student failing a course or becoming exam-ineligible due to attendance falling below the mandatory 67\% threshold at Strathmore University. \\ \hline
+Program Delay Risk & The probability that a student will exceed the standard programme duration due to academic probation, course repetition, or accumulated failed semesters. \\ \hline
+Academic Management System & The primary institutional database for official student records, including demographic information, enrolment status, and academic history. \\ \hline
+Learning Management System & A digital platform used to deliver course content and track student engagement through behavioural data such as login frequency, resource access, and assignment submissions. \\ \hline
+Early Warning System & An integrated tool that uses data and predictive modelling to trigger timely alerts for students identified as requiring academic intervention. \\ \hline
+Engagement Metrics & Quantitative measures of student participation derived from institutional systems, such as LMS login frequency, assignment submission timeliness, and attendance rate trajectories. \\ \hline
+Ensemble Learning & A machine learning technique that combines multiple algorithms—such as Random Forest, Gradient Boosting, and XGBoost—to produce predictions that are more accurate and stable than any single model alone. \\ \hline
+Feature Engineering & The process of transforming raw institutional data into optimised input variables for machine learning model training, including the creation of derived indicators such as attendance flags and GPA thresholds. \\ \hline
+Intervention & A proactive support action—such as academic mentoring, tutoring referral, or advisor outreach—triggered by a student's identified risk status and designed to prevent academic failure or withdrawal. \\ \hline
+Predictive Analytics & A branch of data analytics that uses statistical modelling and machine learning techniques applied to historical data to forecast future outcomes. \\ \hline
+Explainability & The capacity of a predictive model to provide human-interpretable reasons for its predictions, often implemented through SHAP values. \\ \hline
+Historical Cohort & A defined group of students whose complete academic trajectories—from enrolment to graduation—are known and documented. \\ \hline
+Model Accuracy & The proportion of correct predictions (both at-risk and not-at-risk) made by a model relative to total observations. \\ \hline
+Precision & The proportion of students predicted as at-risk who are genuinely at-risk. High precision minimises false alarms. \\ \hline
+Recall (Sensitivity) & The proportion of genuinely at-risk students who are correctly identified by the model. \\ \hline
+F1-Score & The harmonic mean of Precision and Recall, providing a single balanced metric. \\ \hline
+ROC-AUC & A threshold-independent metric measuring a model's ability to discriminate between classes. A value of 1.0 indicates perfect discrimination. \\ \hline
+\end{longtable}}
 
-\paragraph{Recall (Sensitivity)} The proportion of genuinely at-risk students who are correctly identified by the model. High recall is the primary optimisation target in this study, as failing to identify a student who subsequently drops out (a false negative) carries greater institutional cost than a false alarm.
 
-\paragraph{F1-Score} The harmonic mean of Precision and Recall, providing a single balanced metric that accounts for both false positives and false negatives. Particularly useful in this study given the class imbalance between at-risk and non-at-risk students.
 
-\paragraph{ROC-AUC (Receiver Operating Characteristic – Area Under Curve)} A threshold-independent metric measuring a model's ability to discriminate between at-risk and non-at-risk students across all possible classification thresholds. A value of $1.0$ indicates perfect discrimination; $0.5$ indicates performance no better than random chance.
 
 \section{Significance}
 \subsection{Theoretical and Methodological Significance}
@@ -361,626 +391,325 @@ The study responds by developing, ML-based predictive
 % ============================
 
 \chapter{LITERATURE REVIEW}
-
 \section{Introduction}
+The purpose of this chapter is to synthesize the multidisciplinary body of research that underpins 
+this study's design and motivation. The review spans three interconnected domains: the theoretical
+ frameworks governing student retention, the global evolution of predictive analytics and Educational 
+ Data Mining (EDM) in higher education, and the African and Kenyan institutional contexts in which this
+  research is embedded. Together, these streams establish both the intellectual foundation and the practical 
+  necessity of a machine learning-based Early Warning System (EWS) calibrated to Strathmore University's 
+  academic policies and data infrastructure.
 
-Chapter One established that student retention represents a critical challenge in higher education globally.
-It documented that 23.3\% of undergraduates leave universities annually worldwide \parencite{citep}{irwin2024report}.
-Machine learning-based predictive analytics has demonstrated 88--92\% accuracy in identifying at-risk students \parencite{ahmed2024student,gandhi2025machine}.
-Georgia State University's GPS Advising system exemplifies proven success: 7.8 percentage point graduation rate improvement through tracking 800+ risk factors for 40,000 students \citep{georgia2024approaching}.
+The chapter is organized to trace a deliberate logical arc. It begins with the macroeconomic and human costs
+ of student attrition, then narrows progressively from global best practices to regional pilot studies, and 
+ finally focuses on the specific institutional gaps this research is designed to fill. Central to this arc is
+  the argument that modern machine learning does not merely add technological convenience—it operationalizes 
+  classical retention theory, transforming abstract constructs such as academic integration and social engagement
+   into measurable, actionable data signals.
 
-However, Chapter One revealed that these benefits remain largely inaccessible to African universities.
-Implementations in Africa exhibit a consistent failure pattern: technically feasible models that collapse institutionally.
-University of Pretoria achieved 81\% accuracy but relied on manual weekly uploads with no real-time capability \parencite{moloi2024predictive}.
-Kenyatta University reduced dropout rates 23\% but the system failed when its sole faculty champion departed \parencite{wachira2024predictive}.
-Machakos University developed a prototype in 2015; no evidence of sustained deployment emerged subsequently \parencite{ngemu2015student}.
+  \section{Theoretical Frameworks for Student Retention}
+  \subsection{Tinto's Student Integration Model}
+  The dominant theoretical anchor for student retention research remains Vincent Tinto's Student Integration Model,
+   which posits that a student's decision to persist or withdraw is governed by their degree of academic and social 
+   integration into the institutional community (Tinto, 1975; 1987). Academic integration encompasses performance 
+   relative to institutional standards, while social integration reflects the quality of peer and faculty relationships.
+    When integration along either dimension is insufficient, the student's commitment to completing their degree erodes, 
+    ultimately increasing the probability of departure.
 
-At Strathmore University specifically, Chapter One identified three interconnected problems.
-First, AMS, LMS, and attendance systems operate in isolation without integrated analytics.
-Second, students are identified only after breaching the 67\% attendance or 2.0 GPA thresholds—too late for recovery.
-Third, no system exists to predict the three critical risk outcomes: dropout, course failure, and program delay.
+This study operationalizes Tinto's model within a contemporary data environment by mapping its constructs onto
+ quantifiable institutional indicators. Academic integration is proxied through variables captured in Strathmore's 
+ Academic Management System (AMS)—specifically cumulative GPA, course grade trajectories, and proximity to the
+  mandatory 2.0 GPA floor for good academic standing. Social and behavioral integration is approximated through
+   engagement metrics derived from the Learning Management System (LMS), including login frequency, assignment 
+   submission timeliness, and resource access patterns, as well as attendance data relative to the institution's 67\% threshold 
+   for examination eligibility. By grounding the predictive models in Tinto's framework, this research ensures that technical 
+   outputs retain theoretical interpretability, translating algorithmic risk scores into language that is credible to academic 
+   advisors and institutional policymakers alike.
 
-This chapter examines existing literature to answer four questions emerging from Chapter One.
-\textit{Question 1:} What theoretical frameworks explain why some students succeed while others fail?
-\textit{Question 2:} What do documented implementations reveal about what works, what fails, and why?
-\textit{Question 3:} Which machine learning approaches are most effective for multi-risk prediction in resource-constrained settings?
-\textit{Question 4:} What factors determine whether technically successful systems achieve institutional sustainability?
+   \subsection{The Shift from Reactive to Proactive Intervention Paradigms}
+   Across Kenyan higher education, the dominant support paradigm remains reactive: students are identified for
+    intervention only after they have manifested what the literature terms 'lag indicators'—cumulative grade collapse, 
+    attendance threshold breach, or formal withdrawal notice (Republic of Kenya Ministry of Education, 2024). By this 
+    stage, the window for effective academic recovery has frequently closed, and the institutional response is necessarily 
+    remedial rather than preventive.
+An emergent body of scholarship advocates a fundamental reorientation toward proactive, evidence-driven intervention, 
+in which behavioral and academic data are continuously analyzed to identify risk trajectories before they become academic 
+crises (Ahmed, 2024; Gathani et al., 2026). This paradigm shift is not merely technical; it reflects a reconceptualization
+ of the advisor's role—from a monitor who responds to failure to a facilitator who intervenes before failure occurs. 
+ This study is explicitly positioned within this proactive paradigm, seeking to automate risk detection so that finite 
+ counseling resources are directed toward students who demonstrate early warning signals rather than those who have 
+ already crossed institutional thresholds.
 
-The chapter is organized as follows.
-Section 2.2 examines retention theory, establishing why attendance, grades, and engagement predict student outcomes.
-Section 2.3 analyzes documented implementations—Georgia State, Purdue, African cases—identifying success factors and failure modes.
-Section 2.4 reviews machine learning methodologies specific to the three risk types this study targets.
-Section 2.5 synthesizes findings into a conceptual framework linking institutional data to predictive models to interventions.
-Section 2.6 identifies precise gaps this study addresses.
+ \section{Global Perspectives on Student Attrition and Institutional Sustainability}
+ Student retention is a global imperative linked directly to both institutional sustainability 
+ and the fulfillment of higher education's social mission. According to Irwin et al. (2024), undergraduate
+  enrollment in degree-granting institutions in the United States decreased by 13\% between 2012 and 2022, 
+  compounded by a persistent annual attrition rate of 23.3\%. Six-year graduation rates reveal substantial 
+  structural disparities: 68\% at private nonprofit institutions, 63\% at public universities, and only
+   29\% at private for-profit institutions.
 
-\section{Theoretical Foundations of Student Retention}
+These figures carry dual consequences. At the institutional level, each departing student represents 
+lost tuition revenue and wasted administrative investment. At the individual level, students who withdraw 
+often exit the system bearing financial debt without the credential necessary for socioeconomic mobility. 
+The following table summarizes graduation rate variation by institution type:
 
-Chapter One established the problem: students fail or leave despite institutional investment.
-This section examines \textit{why} that occurs by reviewing two complementary theoretical frameworks.
+\definecolor{tableblue}{RGB}{31, 56, 100} % Dark blue for header
+\definecolor{rowblue}{RGB}{235, 241, 250} % Light blue for rows
 
-\subsection{Tinto's Student Integration Model}
-
-Vincent Tinto's (1975, 1993) model remains the dominant retention theory.
-Tinto argues that persistence results from academic and social integration into institutional life.
-\textbf{Academic integration} encompasses grades, intellectual development, and faculty relationships.
-\textbf{Social integration} includes peer connections, extracurricular participation, and sense of belonging.
-
-Students enter with pre-entry attributes: family background, prior schooling, and skills \parencite{tinto1993}.
-These shape initial goal commitment (desire to graduate) and institutional commitment (affinity for this specific university).
-Academic and social experiences either strengthen or weaken these commitments.
-Insufficient integration increases voluntary withdrawal likelihood.
-
-Empirical validation across contexts supports the model's core claims.
-\parencite{pascarella1980predicting} found academic integration predicted persistence with 0.71 correlation in U.S. universities.
-\parencite{musasia2025postgraduate} validated the framework in Kenyan public universities, achieving 78\% retention prediction accuracy.
-However, Tinto's model was developed for residential Western universities.
-Applicability to commuter institutions, part-time students, and African contexts requires verification.
-
-\textbf{Operationalization for this study:}
-Academic integration is measured through GPA trajectories, course pass rates, assignment submission patterns, and faculty interaction proxies.
-Social integration is captured via LMS discussion participation, group activity engagement, and attendance regularity.
-The study tests whether these operational proxies—extracted from AMS, LMS, and attendance systems—predict the three risk outcomes at Strathmore University.
-
-\subsection{Educational Data Mining as Methodological Framework}
-
-Educational Data Mining (EDM) applies computational techniques to discover patterns in educational datasets \parencite{romero2020educational}.
-EDM assumes that historical data contains predictive signals discoverable through machine learning.
-
-\parencite{baker2014educational} identify four foundational challenges EDM must address.
-\textbf{Challenge 1: Data quality.} Missing values, inconsistent measurement, and temporal misalignment compromise reliability.
-\textbf{Challenge 2: Feature relevance.} Not all data elements predict outcomes; domain expertise identifies meaningful predictors.
-\textbf{Challenge 3: Model interpretability.} Opaque algorithms face adoption resistance; stakeholders require explanations.
-\textbf{Challenge 4: Ethical deployment.} Models must avoid reinforcing existing inequalities or creating self-fulfilling prophecies.
-
-Recent EDM research emphasizes explainability as essential for educational contexts.
-\parencite{ramos2025machine} found SHAP-based explanations increased faculty intervention rates 34\% versus risk scores alone.
-Stakeholders need to understand \textit{why} students are flagged, not merely \textit{that} they are at-risk.
-
-\textbf{Connection to Chapter One problem:}
-Chapter One identified that Strathmore's isolated systems prevent data transformation into actionable intelligence.
-EDM provides the methodological framework for that transformation.
-The four challenges map directly to Strathmore's context: data quality across three systems, identifying which of 50+ features matter, ensuring advisors understand predictions, and avoiding stigmatization of flagged students.
-
-\subsection{Synthesis: Theory Guiding This Study}
-
-Tinto provides the \textit{what}—academic and social integration predict retention.
-EDM provides the \textit{how}—machine learning operationalizes those constructs computationally.
-
-This study's theoretical contribution is integrating both frameworks.
-Tinto's constructs (academic integration, social integration) map to EDM features (GPA trends, LMS engagement).
-ML algorithms identify complex, non-linear relationships between features and three distinct outcomes (dropout, failure, delay).
-SHAP explainability (EDM Challenge 3) enables advisors to act on predictions grounded in retention theory (Tinto).
-
-The synthesis addresses a gap: most retention research uses Tinto conceptually but measures it through surveys.
-This study operationalizes Tinto through administrative data, testing whether system-extracted proxies predict as well as self-reported integration measures.
-
-\section{Documented Predictive Analytics Implementations}
-
-Chapter One cited Georgia State as proof that predictive analytics works at scale.
-But Chapter One also documented African implementation failures at Kenyatta, Machakos, and Pretoria.
-This section systematically examines what distinguishes successful from failed implementations.
-
-\subsection{High-Resource Western Implementations}
-
-\subsubsection{Georgia State University GPS Advising}
-
-Georgia State's system is the most documented success case \parencite{georgia2024approaching}.
-
-\textbf{What they built:}
-The platform integrates 15+ systems: AMS, LMS, financial aid, housing, admissions, career services.
-It tracks 800+ risk factors updated daily via automated ETL pipelines.
-Machine learning models generate risk scores for 40,000 students.
-Advisors receive automated alerts when students breach thresholds.
-Chatbot "Pounce" handles 200,000+ routine inquiries annually.
-
-\textbf{Documented outcomes:}
-Six-year graduation rate increased from 52\% (2012) to 59.8\% (2023)—7.8 percentage points.
-Achievement gaps eliminated: Black students +22.6pp, Latino students +20.7pp graduation rate gains \parencite{renick2024access}.
-Pell Grant recipients now graduate at higher rates than non-Pell students (reversed historical disadvantage).
-Estimated economic impact: \$200 million additional lifetime earnings for graduates.
-
-\textbf{Critical success factors:}
-Sustained executive sponsorship—university president championed initiative for 12+ years.
-Massive advisor training investment: 40 hours initial, quarterly refreshers, dedicated analytics liaisons.
-Integration into workflows—alerts embedded in existing advisor portals, not separate systems.
-Intervention infrastructure built parallel to technology—tutoring capacity doubled, financial aid counselors added.
-
-\textbf{Limitations and costs:}
-Initial development: \$10 million.
-Annual operating budget: \$5+ million.
-IT staff required: 12+ full-time.
-Infrastructure needs: enterprise data warehouse, 24/7 system monitoring, multi-system integration expertise.
-These resource requirements are prohibitive for most African institutions, including Strathmore.
-
-\subsubsection{Purdue University Course Signals}
-
-Purdue's 15-year implementation (2007--2023) provides longitudinal evidence \parencite{arnold2023course}.
-
-\textbf{System design:}
-Simple traffic light interface: green (on-track), yellow (caution), red (high-risk).
-Faculty receive weekly risk updates for enrolled students.
-System predicts course failure with 85\% accuracy by week 4.
-
-\textbf{Documented outcomes:}
-Students receiving interventions: +8.4\% course completion versus at-risk students without signals.
-Four-year retention: +4.6 percentage points for signal-exposed cohorts.
-
-\textbf{Critical limitations:}
-Only 64\% of eligible faculty used the system consistently despite proven accuracy.
-Intervention quality varied dramatically: some faculty sent personalized outreach, others generic automated emails.
-Impact ranged from +12\% (high-engagement faculty) to -2\% (low-engagement faculty) course completion.
-Oversimplified interface: traffic lights showed \textit{what} (risk level) but not \textit{why} (contributing factors).
-Faculty reported frustration about not knowing which interventions to deploy for flagged students.
-
-\textbf{Key lesson:}
-Technical accuracy alone does not ensure impact.
-Organizational factors—faculty adoption, intervention quality, support infrastructure—matter equally or more.
-
-\subsection{African Implementations: The Sustainability Failure Pattern}
-
-Chapter One identified that African implementations exhibit a consistent pattern: initial technical success followed by institutional collapse.
-This section documents that pattern in detail, revealing \textit{why} it occurs.
-
-\subsubsection{University of Pretoria, South Africa}
-
-\parencite{moloi2024predictive} document Pretoria's lean implementation.
-
-\textbf{System approach:}
-Open-source Python scikit-learn model.
-Annual operating cost: USD 15,000 (versus Georgia State's \$5 million).
-Data sources: attendance records and grade data only (no LMS integration).
-Random Forest algorithm achieved 81\% accuracy identifying at-risk first-year students.
-
-\textbf{Why it's significant:}
-Demonstrates that sophisticated algorithms are not required for meaningful accuracy.
-Proves low-cost implementation is technically feasible in African contexts.
-
-\textbf{Why it failed to sustain:}
-Manual weekly CSV uploads from two systems—no automated integration, no real-time capability.
-Data staleness of 5--7 days limited responsiveness to rapidly changing circumstances.
-No dedicated intervention infrastructure: advisors knew who was at-risk but had no capacity to respond.
-System operated as research project, not embedded institutional process.
-When research grant ended, system usage declined.
-
-\textbf{Root cause of failure:}
-Individual dependency—built by researchers for research, not embedded in institutional operations.
-
-\subsubsection{Kenyatta University, Kenya}
-
-\parencite{wachira2024predictive} document Kenyatta's implementation and collapse.
-
-\textbf{Initial success:}
-Basic early warning system integrated attendance and grade data.
-23\% reduction in first-year dropout rates over two-year implementation period (2020--2022).
-
-\textbf{Why it collapsed:}
-Inconsistent data collection: Engineering tracked daily attendance, Arts weekly, Business inconsistently.
-Biweekly batch updates due to intermittent connectivity—no real-time alerts possible.
-Single faculty champion: When that individual left the institution in 2023, system operation became sporadic.
-No distributed ownership, no institutional processes to maintain system without that one person.
-
-\textbf{Root cause of failure:}
-Hero dependency—system depended on individual rather than institutionalized processes.
-
-\subsubsection{Machakos University College, Kenya}
-
-\parencite{ngemu2015student} developed a WEKA-based prototype in 2015.
-
-\textbf{Technical achievements:}
-Evaluated multiple algorithms: Naïve Bayes, SVM, J48 decision tree.
-J48 achieved 94.4\% dropout prediction accuracy.
-Identified key predictors: financial stability, entry age, health status, parental occupation.
-
-\textbf{What happened after publication:}
-No evidence of operational deployment emerged in the subsequent decade.
-System remained a research prototype, never transitioned to institutional tool.
-
-\textbf{Root cause of failure:}
-Research-practice gap—successful academic publication does not automatically translate to institutional adoption.
-
-\subsection{Comparative Analysis: Success Factors Versus Failure Modes}
-
-Table~\ref{tab:implementation_comparison} synthesizes patterns across documented implementations.
-
-\begin{table}[h]
-\centering
-\caption{Comparative Analysis of Documented Implementations}
-\label{tab:implementation_comparison}
-\begin{tabular}{p{3cm}p{3cm}p{4cm}p{4cm}}
+\begin{center}
+{\rowcolors{2}{rowblue}{white}
+\begin{tabular}{|p{6cm}|p{5cm}|}
 \hline
-\textbf{Institution} & \textbf{Accuracy} & \textbf{Success Factors} & \textbf{Failure Modes} \\
-\hline
-Georgia State (USA) & 88--92\% & Executive sponsorship; Advisor training; Workflow integration; Intervention infrastructure & \$5M annual cost; 12+ IT staff; Prohibitive for most institutions \\
-\hline
-Purdue (USA) & 85\% & Longitudinal evidence; Simple interface; Faculty acceptance & 36\% faculty non-adoption; Oversimplification; Variable intervention quality \\
-\hline
-Pretoria (South Africa) & 81\% & Low-cost (\$15K); Open-source; Proof of feasibility & Manual uploads; No real-time; No intervention capacity; Research dependency \\
-\hline
-Kenyatta (Kenya) & Not reported & 23\% dropout reduction; Basic system effective & Inconsistent data; Hero dependency; System collapsed post-departure \\
-\hline
-Machakos (Kenya) & 94.4\% & High technical accuracy; Multiple algorithms tested & Never operationalized; Research-practice gap; No institutional adoption \\
-\hline
-\end{tabular}
-\end{table}
-
-\textbf{Pattern 1: Technical success $\neq$ institutional success.}
-Machakos achieved 94.4\% accuracy but never deployed.
-Purdue achieved 85\% accuracy but 36\% of faculty refused to use it.
-High prediction performance is necessary but insufficient.
-
-\textbf{Pattern 2: Resource constraints force trade-offs.}
-Georgia State's \$5 million budget enables comprehensive integration and real-time capability.
-Pretoria's \$15K budget forces manual processes and delayed updates.
-African institutions must achieve sustainability within severe budget constraints.
-
-\textbf{Pattern 3: Individual dependency causes collapse.}
-Both Kenyatta and Machakos depended on single faculty champions.
-When those individuals left, systems failed.
-Sustainable systems require distributed ownership and institutionalized processes.
-
-\textbf{Pattern 4: Intervention infrastructure matters as much as prediction.}
-Pretoria identified at-risk students but had no advisor capacity to respond.
-Georgia State's success required doubling tutoring capacity and hiring financial aid counselors.
-Prediction without intervention capability achieves nothing.
-
-\textbf{Implications for this study:}
-Strathmore's platform must navigate the middle ground: more sophisticated than Machakos/Kenyatta (to avoid their failures) but far less expensive than Georgia State (to match African resource realities).
-The study addresses sustainability explicitly by designing for distributed ownership, automated processes, and existing intervention infrastructure rather than requiring massive new investments.
-
-\section{Machine Learning for Multi-Risk Educational Prediction}
-
-Chapter One established that this study predicts three distinct outcomes: dropout risk, course failure risk, and program delay risk.
-This section reviews ML approaches specific to these three prediction tasks.
-
-\subsection{Algorithm Selection for Educational Contexts}
-
-\subsubsection{Ensemble Methods: Meta-Analytic Evidence}
-
-\parencite{wang2025artificial} conducted a meta-analysis of 89 studies (2020--2024) comparing algorithm performance across educational prediction tasks.
-
-\textbf{Dropout prediction:}
-XGBoost: 84--91\% accuracy (median 88\%)
-Random Forest: 82--89\% (median 85\%)
-Gradient Boosting: 81--88\% (median 85\%)
-Logistic Regression: 72--78\% (median 75\%)
-Neural Networks: 79--86\% (median 82\%)
-
-\textbf{Course failure prediction:}
-XGBoost: 83--90\% (median 87\%)
-Random Forest: 81--88\% (median 84\%)
-SVM: 78--85\% (median 82\%)
-
-\textbf{Program delay prediction:}
-Gradient Boosting: 76--84\% (median 79\%)
-Random Forest: 74--82\% (median 78\%)
-
-\textbf{Key finding:}
-Ensemble tree-based methods consistently outperform both simpler algorithms (logistic regression) and complex deep learning (neural networks) for educational datasets of 1,000--10,000 students.
-
-\textbf{Why ensembles excel:}
-Random Forest combines multiple decision trees, reducing overfitting through averaging \parencite{breiman2001random}.
-XGBoost adds regularization and handles missing values natively \parencite{chen2016xgboost}.
-Gradient Boosting sequentially corrects errors, improving weak learners iteratively.
-All three provide feature importance rankings, enabling interpretability.
-
-\subsubsection{Deep Learning Considerations}
-
-Recurrent Neural Networks (RNNs) and LSTMs capture temporal sequences in student behavior.
-\parencite{zhang2024temporal} achieved 89\% retention prediction using weekly LMS activity patterns over semesters.
-
-\textbf{When deep learning helps:}
-Datasets with 10,000+ training examples.
-Complex temporal dependencies across many time steps.
-High-dimensional sequential data (e.g., clickstream logs).
-
-\textbf{When deep learning fails:}
-Small datasets ($<$5,000 students)—risk severe overfitting.
-Need for interpretability—neural networks are black boxes.
-Limited computational resources—require GPU acceleration for reasonable training times.
-
-\textbf{Decision for this study:}
-Strathmore has $\sim$5,000 undergraduate students.
-Interpretability is a core requirement (SO2, RQ2).
-Computational resources are limited.
-Therefore, ensemble tree-based methods are more appropriate than deep learning.
-
-\subsection{The Multi-Outcome Prediction Gap}
-
-\textbf{Problem identified in Chapter One:}
-Existing systems predict single outcomes (dropout \textit{or} failure) but not multiple risk types simultaneously.
-
-\textbf{Literature confirmation:}
-\parencite{ngemu2015student} predicted only dropout (defined as persistent absence).
-\parencite{moloi2024predictive} predicted only first-year non-continuation.
-\parencite{bouihi2024prediction} predicted only dropout in Moroccan universities.
-No reviewed study predicts dropout, course failure, and program delay within a unified platform.
-
-\textbf{Why this matters:}
-Different risks require different interventions.
-Dropout risk $\rightarrow$ financial aid review, family counseling.
-Course failure risk $\rightarrow$ tutoring, academic skills workshops.
-Program delay risk $\rightarrow$ degree planning, course load adjustment.
-
-A unified multi-outcome system enables comparative risk assessment: Is this student at highest risk of dropout or failure?
-Prioritization matters when advisor time is limited.
-
-\textbf{Technical approach for this study:}
-Train three separate Random Forest + XGBoost + Gradient Boosting ensembles:
-Model 1: Dropout risk (binary: enrolled next semester yes/no).
-Model 2: Course failure risk (binary: any course grade $<$ C this semester yes/no).
-Model 3: Program delay risk (binary: on-track for 4-year graduation yes/no).
-
-Each model shares the same input features but predicts distinct outcomes.
-SHAP explanations identify which features drive each specific risk type.
-
-\subsection{Evaluation Methodology for Imbalanced Educational Data}
-
-\textbf{Problem:}
-Educational datasets exhibit class imbalance—typically 10--20\% at-risk versus 80--90\% not at-risk.
-A model predicting "not at-risk" for all students achieves 80--90\% accuracy while identifying zero at-risk students.
-Accuracy alone is therefore misleading.
-
-\textbf{Solution: Comprehensive metric sets.}
-
-\textbf{Precision} = $\frac{TP}{TP + FP}$ measures false alarm rate.
-High precision minimizes wasted intervention resources on false positives.
-
-\textbf{Recall} = $\frac{TP}{TP + FN}$ measures detection rate.
-High recall is the priority—missing genuinely at-risk students (false negatives) carries greater cost than false alarms.
-
-\textbf{F1-Score} = $\frac{2 \times Precision \times Recall}{Precision + Recall}$ balances both metrics.
-
-\textbf{ROC-AUC} measures discrimination ability across all classification thresholds.
-Values near 1.0 indicate excellent discrimination; 0.5 indicates random performance.
-
-\textbf{This study's approach:}
-Report all five metrics (Accuracy, Precision, Recall, F1-Score, ROC-AUC) for each of three risk outcomes.
-Prioritize Recall—better to over-identify and intervene unnecessarily than miss students who subsequently fail.
-
-\subsection{Historical Cohort Validation}
-
-\textbf{Chapter One established:}
-Models will train on 2021--2024 historical cohorts with known complete four-year trajectories.
-
-\textbf{Why this matters:}
-Cross-sectional validation trains and tests on the same cohort using random splits.
-This introduces circular logic: predicting current outcomes using current data.
-Accuracy is inflated because models "see" data from students they are "predicting."
-
-\textbf{Historical cohort approach:}
-Train on students who enrolled 2021--2023 and whose outcomes (graduated/withdrew/delayed) are fully known by 2024.
-Test prospectively on 2025 enrollees whose outcomes are unknown.
-This genuine prediction—models trained only on past data, predicting truly future outcomes.
-
-\parencite{jayaprakash2014early} demonstrate that historical cohort validation produces accuracy estimates 5--12 percentage points lower than cross-sectional validation.
-But those lower estimates are \textit{honest}—they reflect genuine predictive performance, not statistical artifacts.
-
-\section{Conceptual Framework}
-
-This section synthesizes theoretical foundations (Section 2.2), implementation lessons (Section 2.3), and ML methodology (Section 2.4) into an integrated framework guiding this study.
-
-\subsection{Framework Overview}
-
-Figure~\ref{fig:conceptual} presents the conceptual framework.
-The framework has five interconnected layers plus moderating factors.
-
-\begin{figure}[h]
-    \centering
-    \fbox{\parbox{0.85\textwidth}{\centering
-        \textbf{INPUT LAYER}\\
-        AMS (Demographics, GPA, Grades, Enrollment) \\
-        LMS (Logins, Assignments, Discussions, Resources) \\
-        Attendance (Class-by-class records, Trajectories) \\
-        $\downarrow$ \\
-        \textbf{PROCESSING LAYER} \\
-        Feature Engineering (Trends, Flags, Cumulative Metrics) \\
-        ML Models: 3 Ensemble Predictions (Dropout, Failure, Delay) \\
-        SHAP Explainability (Feature Contributions per Prediction) \\
-        $\downarrow$ \\
-        \textbf{OUTPUT LAYER} \\
-        Risk Scores (3 probabilities per student) \\
-        Feature Explanations (Top 5 factors per risk) \\
-        Trajectory Visualizations (Risk evolution over time) \\
-        $\downarrow$ \\
-        \textbf{PRESENTATION LAYER} \\
-        Administrator Dashboard (Aggregate trends, Resource allocation) \\
-        Advisor Dashboard (Student-specific details, Intervention guidance) \\
-        Mentor Dashboard (Engagement metrics, Referral pathways) \\
-        $\downarrow$ \\
-        \textbf{INTERVENTION LAYER} \\
-        High Dropout Risk $\rightarrow$ Dean outreach, Financial review \\
-        High Failure Risk $\rightarrow$ Tutoring, Academic skills \\
-        High Delay Risk $\rightarrow$ Degree planning, Course adjustments \\
-        $\downarrow$ \\
-        \textbf{FEEDBACK LOOP} \\
-        Did interventions work? Were predictions accurate? \\
-        Model recalibration, Intervention optimization
-    }}
-    \caption{Conceptual Framework Linking Data, Prediction, and Intervention}
-    \label{fig:conceptual}
-\end{figure}
-
-\subsection{How Framework Components Address Chapter One Problems}
-
-\textbf{Chapter One Problem 1: Isolated systems.}
-Framework Input Layer integrates AMS, LMS, attendance into unified pipeline, directly addressing fragmentation identified in Chapter One.
-
-\textbf{Chapter One Problem 2: Reactive identification.}
-Framework Processing Layer generates predictions \textit{before} threshold breaches occur, shifting from lag indicators to leading indicators.
-
-\textbf{Chapter One Problem 3: Single-outcome focus.}
-Framework Processing Layer predicts three distinct risks simultaneously, enabling comparative assessment and targeted intervention.
-
-\subsection{How Framework Operationalizes Theory}
-
-\textbf{Tinto's academic integration:}
-Measured through GPA trends, course pass rates, assignment completion—extracted from AMS and LMS (Input Layer).
-These become features for ML models (Processing Layer).
-
-\textbf{Tinto's social integration:}
-Measured through LMS discussion participation, attendance regularity—extracted from LMS and Attendance (Input Layer).
-These become features for ML models (Processing Layer).
-
-\textbf{EDM Challenge 1 (Data quality):}
-Framework includes automated quality monitoring, missing value imputation protocols in Processing Layer.
-
-\textbf{EDM Challenge 2 (Feature relevance):}
-Framework uses feature importance from ensemble models plus SHAP values to identify which predictors matter most.
-
-\textbf{EDM Challenge 3 (Interpretability):}
-Framework embeds SHAP explanations in Output Layer, directly integrated into Presentation Layer dashboards—not post-hoc analysis.
-
-\textbf{EDM Challenge 4 (Ethics):}
-Framework excludes protected characteristics (race, gender, SES) as direct features, focusing only on academic and engagement behaviors.
-
-\subsection{How Framework Addresses African Sustainability Failures}
-
-\textbf{Pretoria failure mode (manual processes):}
-Framework automates ETL pipelines, eliminating manual CSV uploads.
-
-\textbf{Kenyatta failure mode (hero dependency):}
-Framework embeds processes institutionally—automated data flows, scheduled model updates, distributed dashboard access.
-No single person's departure causes system collapse.
-
-\textbf{Machakos failure mode (research-practice gap):}
-Framework designs for operational deployment from inception, not academic proof-of-concept.
-Includes Presentation Layer (dashboards) and Intervention Layer (action protocols), not just Processing Layer (models).
-
-\subsection{Moderating Factors}
-
-Four contextual factors moderate framework effectiveness:
-
-\textbf{Data quality:}
-Missing values, measurement inconsistency reduce prediction accuracy.
-Framework includes quality thresholds—if data quality drops below acceptable levels, system flags warnings.
-
-\textbf{Institutional resources:}
-Advisor capacity, tutoring availability determine intervention feasibility.
-Framework acknowledges resource constraints by suggesting general intervention categories, not resource-intensive personalized plans.
-
-\textbf{Faculty buy-in:}
-Instructor engagement influences intervention quality.
-Framework addresses through explainability (SHAP), training protocols, and celebrating success stories.
-
-\textbf{Student agency:}
-Predictions inform offers; students retain autonomy to accept or decline support.
-Framework respects self-determination—predictions are guidance tools, not deterministic mandates.
-
-\section{Research Gaps This Study Addresses}
-
-Sections 2.2--2.5 synthesized existing knowledge.
-This section identifies five precise gaps in that knowledge and explains how this study addresses each.
-
-\subsection{Gap 1: Sustainable Implementation in East African Private Universities}
-
-\textbf{What literature shows:}
-Georgia State and Purdue prove predictive analytics works at scale in well-resourced Western universities.
-University of Pretoria, Kenyatta, and Machakos demonstrate technical feasibility in Africa but institutional fragility.
-All documented African implementations either: (a) never operationalized (Machakos), (b) collapsed post-champion departure (Kenyatta), or (c) relied on unsustainable manual processes (Pretoria).
-
-\textbf{What remains unknown:}
-Can a predictive analytics platform achieve institutional sustainability (not hero-dependent, not research-project-based) in an East African private university operating under resource constraints similar to Strathmore's?
-
-\textbf{How this study addresses the gap:}
-Explicitly designs for sustainability from inception: automated data integration, distributed ownership via three role-based dashboards, institutional process embedding rather than individual dependency, and complete documentation enabling replication by comparable institutions.
-
-\subsection{Gap 2: Unified Multi-Outcome Risk Prediction}
-
-\textbf{What literature shows:}
-Existing studies predict single outcomes: dropout (Ngemu, Moloi, Bouihi) or failure (Taodzera) or delay (rare in literature).
-When multiple outcomes appear, they are disconnected models without integration or comparative analysis.
-
-\textbf{What remains unknown:}
-Can a unified platform predict dropout risk, course failure risk, and program delay risk simultaneously, enabling advisors to compare relative risk levels and prioritize interventions accordingly?
-
-\textbf{How this study addresses the gap:}
-Develops three integrated ensemble models sharing feature engineering pipeline but predicting distinct outcomes.
-Dashboards present all three risk scores comparatively, with outcome-specific SHAP explanations enabling targeted interventions.
-
-\subsection{Gap 3: Explainability Embedded Operationally}
-
-\textbf{What literature shows:}
-Georgia State tracks 800 factors but advisors report difficulty understanding why students are flagged.
-Purdue's traffic lights communicate risk level but not causal factors.
-Research publications generate SHAP values for academic analysis but do not integrate them into operational stakeholder interfaces.
-
-\textbf{What remains unknown:}
-Does embedding SHAP-based explanations directly into stakeholder dashboards from initial deployment—not as post-hoc research analysis—improve intervention targeting and stakeholder adoption?
-
-\textbf{How this study addresses the gap:}
-Integrates SHAP values as core dashboard components in Advisor and Administrator interfaces.
-For each flagged student, advisors see not just risk scores but top 5 contributing factors with quantified contributions.
-Evaluation (SO5) assesses whether this explainability affects perceived usability and intervention feasibility.
-
-\subsection{Gap 4: Historical Cohort Validation in African Contexts}
-
-\textbf{What literature shows:}
-Most studies use cross-sectional validation (train and test on same cohort).
-This inflates accuracy through circular logic.
-Few studies employ genuine historical cohort methodology: training on students with complete known trajectories, testing prospectively on new enrollees.
-No African implementation documents this rigorous approach.
-
-\textbf{What remains unknown:}
-Do models trained on African university historical cohorts (e.g., 2021--2024 complete trajectories) produce valid, generalizable predictions for newly enrolled students?
-
-\textbf{How this study addresses the gap:}
-Trains models exclusively on 2021--2024 historical cohorts whose four-year outcomes are fully known.
-Tests prospectively on 2025 enrollees whose outcomes are genuinely unknown at prediction time.
-Reports honest accuracy estimates reflecting true predictive performance, not statistical artifacts.
-
-\subsection{Gap 5: Documented Low-Cost Replicable Implementation}
-
-\textbf{What literature shows:}
-Georgia State's success comes at \$5+ million annual cost—prohibitive for most African institutions.
-Purdue's \$800K budget is still beyond typical African university capacity.
-Pretoria's \$15K implementation is documented but lacked critical details: exact staffing requirements, change management protocols, data governance policies, intervention protocols, and organizational factors enabling or preventing sustainability.
-
-\textbf{What remains unknown:}
-What does a replicable, low-cost ($<$\$100K annually), sustainable implementation actually look like in detail?
-What are the minimum viable components?
-What organizational processes ensure sustainability?
-
-\textbf{How this study addresses the gap:}
-Provides complete documentation: open-source code, architecture diagrams, data governance protocols, advisor training materials, intervention guidelines, change management approach, cost breakdown, and sustainability mechanisms.
-Enables other East African universities to replicate without reinventing from scratch.
-
-\section{Chapter Summary and Transition}
-
-This chapter systematically reviewed literature addressing the research problem established in Chapter One.
-
-Section 2.2 examined theoretical foundations.
-Tinto's Student Integration Model explains \textit{why} academic and social integration predict retention.
-Educational Data Mining provides the methodological framework for operationalizing those constructs through machine learning.
-The study integrates both: Tinto's constructs become ML features; ML predictions inform theory-grounded interventions.
-
-Section 2.3 analyzed documented implementations.
-Georgia State University's \$5 million system proves predictive analytics works at scale but is cost-prohibitive.
-Purdue University's 15-year evidence demonstrates that technical accuracy alone is insufficient—organizational factors matter equally.
-University of Pretoria, Kenyatta University, and Machakos University reveal a consistent African failure pattern: technically feasible models undermined by manual processes, hero dependency, and research-practice gaps.
-
-Section 2.4 reviewed machine learning methodologies.
-Ensemble tree-based methods (Random Forest, XGBoost, Gradient Boosting) consistently outperform alternatives for educational datasets of 1,000--10,000 students.
-Deep learning offers minimal advantages at Strathmore's scale while sacrificing interpretability.
-Multi-outcome prediction remains largely unaddressed in literature—existing studies predict single outcomes in isolation.
-Historical cohort validation provides honest accuracy estimates, unlike cross-sectional approaches that inflate performance through circular logic.
-
-Section 2.5 synthesized findings into a conceptual framework integrating five layers: Input (institutional data systems), Processing (feature engineering + ML models + explainability), Output (risk scores + explanations + visualizations), Presentation (role-based dashboards), and Intervention (support services).
-The framework directly addresses Chapter One's identified problems: isolated systems, reactive identification, and single-outcome focus.
-
-Section 2.6 identified five precise gaps this study addresses.
-Gap 1: Sustainable implementation in East African private universities—no existing model combines technical feasibility with institutional sustainability in this context.
-Gap 2: Unified multi-outcome prediction—literature focuses on single outcomes, preventing comparative risk assessment.
-Gap 3: Embedded operational explainability—SHAP values appear in research but not operational dashboards.
-Gap 4: Historical cohort validation in African contexts—rigorous methodology absent from existing African implementations.
-Gap 5: Documented low-cost replication—insufficient detail for other institutions to adopt proven approaches.
-
-The literature review reveals a field with proven technical capabilities but persistent implementation challenges.
-High-performing models exist globally but rarely translate to sustainable African deployments.
-Explainability techniques exist academically but seldom integrate operationally.
-Single-outcome prediction dominates despite multi-risk being more practically useful.
-
-Chapter Three presents the research methodology employed to address these gaps and achieve the study's objectives.
-It details the research design, participant selection, data collection procedures, feature engineering approach, model development and training process, dashboard design methodology, evaluation protocols, and stakeholder assessment methods.
+\rowcolor{tableblue} \textcolor{white}{\textbf{Institution Type}} & \textcolor{white}{\textbf{Six-Year Graduation Rate}} \\ \hline
+Private Nonprofit Institutions & 68\% \\ \hline
+Public Universities & 63\% \\ \hline
+Private For-Profit Institutions & 29\% \\ \hline
+\end{tabular}}
+\end{center}
+
+These global statistics establish the urgency of the problem and demonstrate that student attrition is not a peripheral 
+concern but a structural threat to the viability of higher education institutions worldwide. They provide the macro-level 
+context within which Kenya's institutional challenges must be understood.
+
+\section{Machine Learning in Educational Data Mining (EDM)}
+\subsection{The Paradigm Shift: From Lag Indicators to Predictive Signals}
+
+Educational Data Mining (EDM) has undergone a profound methodological transformation over the past decade. 
+Traditional approaches relied on 'lag indicators'—mid-semester grades, end-of-term transcripts, and formal
+ withdrawal notices—which, by the time they are generated, often arrive too late for meaningful academic
+  intervention (Ahmed, 2024). The emergence of machine learning has fundamentally altered this temporal dynamic.
+
+Research by Ahmed (2024) and Gathani et al. (2026) demonstrates that modern ML algorithms can identify at-risk
+ students with prediction accuracies ranging from 88\% to 92\%, often weeks or months before academic failure
+  becomes irreversible. This temporal advance is the core value proposition of EWS architecture: it converts
+   institutional data from a historical record into a forward-looking instrument.
+
+   \subsection{Model Performance Metrics and Evaluation Standards}
+   In the domain of student risk prediction, accuracy alone is an insufficient evaluation criterion.
+    The asymmetric costs of misclassification—where failing to identify a genuinely at-risk student 
+    carries far greater consequences than a false alarm—necessitate a more nuanced suite of evaluation metrics:
+    \begin{itemize}
+        \item Recall (Sensitivity): The proportion of genuinely at-risk students correctly identified by the model. 
+            High recall is the primary objective in EWS contexts, as missed detections represent failed interventions.
+        \item Precision: The proportion of students flagged as at-risk who are genuinely at-risk. Precision governs the 
+            credibility of the system; excessively low precision generates alert fatigue among advisors.
+        \item F1-Score: The harmonic mean of Precision and Recall, providing a single balanced metric that is particularly 
+            informative when class distributions are imbalanced—a common characteristic of student datasets where at-risk students are a minority.
+        \item ROC-AUC (Receiver Operating Characteristic – Area Under Curve): A threshold-independent measure of the model's 
+            ability to discriminate between successful and at-risk students across all possible classification cutoffs. 
+            A value approaching 1.0 indicates near-perfect discrimination.
+    \end{itemize}
+
+These metrics collectively ensure that model evaluation reflects real-world operational 
+requirements rather than abstract statistical performance.
+
+\subsection{ Ensemble Learning: The Technical Foundation}
+To achieve the predictive stability required for institutional deployment, this research employs Ensemble 
+Learning—a class of machine learning technique that combines the outputs of multiple algorithms to produce
+ predictions that are more accurate and robust than any single model could achieve in isolation.
+
+The three ensemble algorithms selected for this study each offer distinct advantages. Random Forest 
+constructs multiple independent decision trees and aggregates their predictions through majority voting, 
+reducing variance and mitigating overfitting—a particular risk when working with moderately sized institutional 
+datasets of approximately 5,000 students (Breiman, 2001). Gradient Boosting builds trees sequentially, with each
+ tree correcting the errors of its predecessor, producing a powerful predictor that is especially effective on 
+ structured, tabular data characteristic of academic records. XGBoost (Extreme Gradient Boosting), pioneered 
+ by Chen and Guestrin (2016), extends the gradient boosting framework with regularization terms that prevent 
+ overfitting, efficient handling of missing values, and computational optimization that enables scalable deployment. 
+ Its proven performance on structured datasets and widespread adoption in applied predictive analytics make it 
+ particularly well-suited to this research context.
+
+The selection of ensemble tree-based methods over deep learning architectures is a deliberate methodological
+ choice justified by two factors. First, the dataset size of approximately 5,000 undergraduate students is
+  insufficient to fully exploit the representational capacity of deep neural networks without significant 
+  risk of overfitting. Second, and critically, tree-based ensembles yield feature importance rankings that 
+  are inherently more interpretable than deep learning's distributed representations, providing a natural 
+  foundation for explainability tools.
+
+  \subsection{The Black Box Problem and Explainable AI (XAI)}
+  The adoption of complex ensemble models in institutional settings is frequently impeded by what the literature 
+  terms the 'Black Box' problem: the inability of users—advisors, administrators, and students—to understand why a 
+  particular prediction was made (Lundberg & Lee, 2017). In a university context, this opacity is not merely a 
+  technical inconvenience. Advisors who cannot explain why a student has been flagged lack the conversational 
+  foundation to initiate a credible, evidence-led intervention. Students who receive unexplained risk labels may
+   feel stigmatized or surveilled rather than supported.
+
+The most widely adopted framework for addressing this problem is SHAP (SHapley Additive exPlanations), 
+developed by Lundberg and Lee (2017) from cooperative game theory's Shapley values. SHAP assigns each feature 
+a contribution value for each individual prediction, indicating both the direction and magnitude of that feature's 
+influence on the model's output. For a student flagged with high dropout risk, SHAP might reveal that declining LMS 
+engagement over the past three weeks is the primary driver, followed by attendance approaching the 67\% threshold and
+ a drop in the most recent coursework grade.
+
+In resource-constrained environments such as Kenyan universities, where institutional trust must be earned 
+incrementally and advisor capacity is limited, explainability is not a luxury feature—it is a prerequisite for 
+adoption. By transforming the advisor's interaction from 'this student is at risk' to 'this student is at risk 
+because of these specific, documented behaviors,' SHAP-driven dashboards facilitate substantive, reason-led 
+conversations that are both more effective and more defensible.
+
+\subsection{Risk Outcome Categories in the Literature}
+The existing EDM literature predominantly frames student risk as a binary problem—a student either persists or 
+drops out. This study extends the literature by predicting three distinct risk outcomes simultaneously, reflecting
+ the multi-dimensional nature of academic difficulty:
+
+ \begin{itemize}
+    \item Dropout Risk: The probability that a student will discontinue enrollment before completing their degree—the 
+    most consequential outcome for both the student and the institution.
+    \item Course Failure Risk: The likelihood of failing an individual course or becoming examination-ineligible due 
+    to attendance falling below the 67\% threshold mandated by Strathmore University.
+    \item Program Delay Risk: The probability that a student will exceed the standard programme duration due to 
+    academic probation, course repetition, or accumulated failed semesters.
+ \end{itemize}
+
+By distinguishing these three outcomes, the platform enables differentiated intervention strategies rather than 
+a single undifferentiated 'at-risk' label, allowing advisors to tailor responses to the specific nature of each 
+student's vulnerability.
+
+\section{Evidence of Technological Maturity}
+The most extensively documented implementation of ML-based student success analytics is Georgia State University's 
+GPS Advising system (Georgia State University, 2024). The system tracks over 800 risk factors daily for a student
+ population of approximately 40,000, generating 90,000 targeted advisor interventions each academic year.
+  The outcomes are remarkable in scale: the university achieved a 7.8 percentage point increase in its six-year
+   graduation rate and virtually eliminated achievement gaps between demographic groups—outcomes that had previously
+    been attributed to structural inequalities resistant to intervention.
+
+The Georgia State case establishes two critical propositions for this research. First, it demonstrates that the 
+technology is mature, proven, and deployable at institutional scale. Second, and more importantly, it illustrates 
+the mechanism through which data-driven intervention closes equity gaps: by systematically identifying students who 
+would otherwise be overlooked by advisor intuition, the system ensures that support is distributed on the basis of
+ need rather than visibility. This principle is directly relevant to the Strathmore context, where advisor capacity 
+ is finite and unevenly distributed across a population of approximately 5,000 undergraduate students.
+
+ \section{Predictive Analytics in the African Higher Education Context}
+ \subsection{Continental Policy Framework}
+ The African Union's Continental Education Strategy for Africa (CESA 2016–2025) formally identifies student retention 
+ as a continental priority, calling for systemic improvements in the quality and inclusivity of higher education 
+ across member states. Despite this strategic commitment, the operational implementation of retention technology
+  remains nascent across most of the continent. The dominant institutional practice continues to rely on end-of-semester 
+  transcripts as the primary diagnostic tool—a paradigm that, by definition, identifies failure only after it 
+  has occurred.
+
+This gap between continental policy aspiration and institutional practice defines the landscape in which this
+ study operates, providing both a mandate and an opportunity for evidence-based technology adoption.
+
+ \subsection{Regional Case Studies}
+ A small but growing body of African pilot studies demonstrates that ML can extract actionable risk signals 
+ from institutional datasets, even under conditions of data noise and resource constraint.
+In Morocco, Bouihi et al. (2024) conducted a dropout prediction study at Mohammed V University utilizing L2-regularized 
+logistic regression—a technique that applies a mathematical penalty to prevent the model from overfitting sparse 
+institutional data. The study achieved an accuracy rate of 81.66\%, demonstrating the efficacy of regularized models
+ in the African institutional context and establishing a regional benchmark against which more sophisticated ensemble
+  methods can be assessed.
+
+In South Africa, Taodzera (2016) analyzed a cohort of 1,366 engineering students at the University of Johannesburg 
+using Decision Tree algorithms, achieving an accuracy rate of 65.86\%. Despite this more modest performance, the study
+ produced a theoretically significant finding: prior performance in physics and mathematics emerged as the primary
+  predictors of engineering student success, suggesting that discipline-specific feature engineering is essential
+   for contextually valid risk prediction. This insight informs the feature selection strategy of the current study.
+
+These regional cases demonstrate that while African institutional datasets may present greater noise than their Western 
+counterparts—due to data quality issues, inconsistent record-keeping, and structural gaps—machine learning can
+ nonetheless extract patterns of sufficient fidelity to support targeted intervention.
+
+ \section{The Kenyan Higher Education Landscape}
+ \subsection{Structural and Economic Pressures}
+ Within East Africa, Kenya's higher education sector operates under acute financial stress that directly amplifies 
+ the consequences of student attrition. Government capitation currently covers only 57\% of students against an 80\% 
+ target, while the accumulated unpaid obligations of public universities have reached Ksh 62 billion 
+ (Daily Nation, 2024; KIPPRA, 2024). In this resource-constrained environment, each student who withdraws
+  before completing their degree represents a compounded loss: for the student who exits with debt but without 
+  a credential, and for the institution that absorbs the fixed costs of that student's enrollment without 
+  recovering the full tuition investment.
+
+This structural context transforms student retention from a pedagogical aspiration into an economic imperative.
+The status quo of 'universal mentoring'—in which advisor attention is distributed broadly across the student 
+population without systematic risk stratification—is demonstrably unsustainable in an environment of resource 
+scarcity. Evidence-based allocation, directed by automated risk prediction, offers a more efficient and equitable 
+alternative.
+
+\subsection{National Policy Mandate}
+The Republic of Kenya Ministry of Education's Sessional Paper No. 1 of 2024 on Reforming Education and Training 
+for Sustainable Development explicitly identifies 'inaccurate, unreliable data and inadequate utilisation of
+ technology' as a core bottleneck impeding the quality and efficiency of the national education system 
+ (Republic of Kenya Ministry of Education, 2024). This policy declaration establishes a formal mandate for 
+ institutional investment in data-driven student support systems, providing a regulatory context that supports
+  the current research's implementation and replication agenda.
+
+  \subsection{Foundational Kenyan Study: Machakos University College}
+  A foundational study in the Kenyan EDM literature was conducted by Ngemu et al. (2015) at Machakos University College, 
+  utilizing the WEKA machine learning toolkit to evaluate multiple classification algorithms on historical institutional 
+  data. The study assessed Naïve Bayes, Support Vector Machines (SVM), and the J48 Decision Tree algorithm, 
+  identifying four variables as the primary predictors of student dropout risk:
+  \begin{itemize}
+    \item Financial stability, specifically measured through fee payment status and timeliness.
+    \item Entry age, reflecting the relationship between non-traditional enrollment age and retention challenges.
+    \item Health status, capturing the impact of chronic illness or disability on academic continuity.
+    \item Parental occupation, serving as a proxy for socioeconomic background and domestic support structures.
+  \end{itemize}
+
+While the Machakos study demonstrates that even basic machine learning tools applied to existing institutional 
+records can yield actionable risk signals, it also highlights important limitations relative to the current research.
+ The study relied on a limited set of variables predominantly capturing socioeconomic background rather than 
+ real-time behavioral engagement, and it employed single-algorithm approaches rather than the ensemble methods 
+ that have since been established as superior in terms of predictive stability. This study extends the Kenyan 
+ literature by incorporating LMS engagement metrics as behavioral lead indicators, deploying ensemble learning
+ for enhanced accuracy, and producing SHAP-based explanations that are absent from prior Kenyan research.
+
+ \section{Data Integration and Institutional System Architecture}
+ \subsection{Siloed Administrative Repositories}
+ A persistent structural challenge in the deployment of institutional EWS is the fragmentation of student data
+  across isolated administrative systems. In most universities, including Strathmore, student information is 
+  distributed across at least three distinct platforms: the Academic Management System (AMS), which maintains 
+  official records of enrollment, academic history, course grades, and demographic information; the Learning
+   Management System (LMS), which captures behavioral engagement data such as login frequency, resource access,
+    and assignment submission patterns; and attendance tracking infrastructure, which records real-time class 
+    participation.
+
+These systems were designed as independent administrative tools rather than integrated analytics 
+infrastructure, and they typically lack the interoperability required for unified risk computation. 
+The consequence is a 'fragmentation gap': institutions possess the raw data necessary for sophisticated 
+risk prediction but lack the pipeline architecture to harmonize and analyze it in real time (Republic 
+of Kenya Ministry of Education, 2024).
+
+\subsection{Engagement Metrics as Lead Indicators}
+A critical contribution of the EDM literature has been the identification of LMS engagement metrics as 'lead 
+indicators'—behavioral signals that precede academic decline by days or weeks and therefore provide an earlier
+ intervention window than grade-based measures alone. Research consistently demonstrates that declining login 
+ frequency, missed assignment deadlines, and reduced resource access correlate strongly with subsequent academic 
+ failure, often manifesting two to four weeks before a course grade reflects the underlying disengagement
+  (Ahmed, 2024; Gathani et al., 2026).
+
+For Strathmore University, where attendance records are maintained in real time and LMS activity is comprehensively 
+logged, these engagement metrics represent an underutilized predictive resource. By integrating them with AMS
+ academic records through a unified analytics pipeline, this study unlocks their lead-indicator value for the 
+ first time within the institution's data environment.
+
+ \section{Summary and Identification of Knowledge Gaps}
+ This literature review has traced the intellectual lineage and operational context of this study across four
+  interconnected domains. Theoretically, Tinto's Student Integration Model provides the conceptual architecture 
+  through which student risk is understood: as a function of diminishing academic and social integration that 
+  can be detected through behavioral and performance data before withdrawal occurs. Technologically, the EDM 
+  literature demonstrates that ensemble machine learning algorithms—particularly Random Forest, Gradient Boosting,
+   and XGBoost—can achieve prediction accuracies of 88–92\% on institutional datasets, and that SHAP-based 
+   explainability transforms opaque risk scores into advisor-actionable intelligence. Regionally, studies in
+    Morocco, South Africa, and Kenya confirm that ML can extract meaningful risk signals from African institutional 
+    data, though existing studies are constrained by limited algorithm sophistication, narrow variable sets, 
+    and the absence of real-time integration. Institutionally, Strathmore University possesses the data 
+    infrastructure necessary for a sophisticated EWS but currently operates those systems as isolated 
+    administrative silos within a reactive support paradigm.
+
+This review identifies a specific and critical gap in the existing literature: no prior study has developed an
+ integrated, real-time risk stratification system that simultaneously satisfies four conditions: (1) harmonizing 
+ multiple institutional data streams—AMS, LMS, and attendance records—into a unified analytics pipeline; (2)
+  predicting three distinct and clinically relevant risk outcomes (dropout risk, course failure risk, and program 
+  delay risk) rather than a single binary outcome; (3) calibrating predictive models to the specific academic
+   policy thresholds of a Kenyan institution, including the 67\% attendance requirement and the 2.0 GPA floor 
+that characterize Strathmore's academic standards; and (4) producing SHAP-driven, role-differentiated
+explanations that enable non-technical academic advisors to conduct evidence-led, credible interventions.
+
+This study is designed to fill precisely that gap. Chapter Three presents the research methodology through which
+these four objectives are operationalized, detailing the data pipeline architecture, feature engineering strategy,
+model development and validation approach, and the design of the role-based dashboard interface.
 
 % \chapter{RESEARCH METHODOLOGY}
 % \chapter{SYSTEM DESIGN AND IMPLEMENTATION}
