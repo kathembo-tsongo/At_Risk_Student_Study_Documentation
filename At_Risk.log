@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  9 MAR 2026 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  16 MAR 2026 22:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -555,34 +555,41 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
  (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-))
-Package hyperref Info: Option `colorlinks' set `true' on input line 35.
-\@quotelevel=\count424
-\@quotereset=\count425
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 39.
+)) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count424
+\float@exts=\toks25
+\float@box=\box60
+\@float@everytoks=\toks26
+\@floatcapt=\box61
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 38.
+\@quotelevel=\count425
+\@quotereset=\count426
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 42.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (./At_Risk.aux)
 \openout1 = `At_Risk.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -620,17 +627,17 @@ LaTeX Font Info:    ... okay on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count426
+\scratchcounter=\count427
 \scratchdimen=\dimen171
-\scratchbox=\box60
-\nofMPsegments=\count427
-\nofMParguments=\count428
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count429
+\scratchbox=\box62
+\nofMPsegments=\count428
+\nofMParguments=\count429
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count430
 \MPscratchDim=\dimen172
-\MPnumerator=\count430
-\makeMPintoPDFobject=\count431
-\everyMPtoPDFconversion=\toks26
+\MPnumerator=\count431
+\makeMPintoPDFobject=\count432
+\everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -666,44 +673,30 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'At_Risk.bbl' found.
- (./At_Risk.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Ngemu2015
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Taodzera2016
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 39.
-Package biblatex Info: Reference segment=0 on input line 39.
-Package hyperref Info: Link coloring ON on input line 39.
+ (./At_Risk.bbl)
+Package biblatex Info: Reference section=0 on input line 42.
+Package biblatex Info: Reference segment=0 on input line 42.
+Package hyperref Info: Link coloring ON on input line 42.
 \@outlinefile=\write4
 \openout4 = `At_Risk.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 <./images/strathmore_logo.png, id=4, 324.21124pt x 156.585pt>
 File: ./images/strathmore_logo.png Graphic file (type png)
 <use ./images/strathmore_logo.png>
-Package pdftex.def Info: ./images/strathmore_logo.png  used on input line 45.
+Package pdftex.def Info: ./images/strathmore_logo.png  used on input line 48.
 (pdftex.def)             Requested size: 166.7306pt x 80.52629pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/strathmore_logo.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 88.
+(Font)              <12> on input line 89.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 88.
+(Font)              <8> on input line 89.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 88.
+(Font)              <6> on input line 89.
  [2
 
 ]
@@ -714,64 +707,59 @@ No file At_Risk.toc.
 [3]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 117.
+(hyperref)                be the same. Added a new anchor on input line 116.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.140 \chapter
+l.141 \chapter
               {INTRODUCTION} [1]
 Chapter 1.
-
-LaTeX Warning: Citation 'Taodzera2016' on page 2 undefined on input line 172.
-
 [2
 
 ]
-
-LaTeX Warning: Citation 'Ngemu2015' on page 3 undefined on input line 183.
-
-
-LaTeX Warning: Citation 'Ngemu2015' on page 3 undefined on input line 188.
-
-
-Overfull \hbox (4.15877pt too wide) in paragraph at lines 180--189
+Overfull \hbox (4.15877pt too wide) in paragraph at lines 181--190
 []\T1/ptm/m/n/12 Recognizing the chal-lenge of stu-dent at-tri-tion, re-searchers from the Uni-ver-sity of Nairobi
  []
 
-[3] [4] [5] [6]
-Overfull \hbox (0.53345pt too wide) in paragraph at lines 273--274
+[3] [4] [5]
+Overfull \hbox (0.5102pt too wide) in paragraph at lines 255--257
+[]\T1/ptm/m/n/12 To de-sign a Ma-chine Learn-ing pre-dic-tive tool for uni-ver-sity ad-min-is-tra-tors, school
+ []
+
+
+Overfull \hbox (0.53345pt too wide) in paragraph at lines 259--261
 []\T1/ptm/m/n/12 To as-sess the plat-form's us-abil-ity and per-ceived in-sti-tu-tional im-pact through struc-
  []
 
 
-Overfull \hbox (4.4102pt too wide) in paragraph at lines 280--281
+Overfull \hbox (4.4102pt too wide) in paragraph at lines 265--267
 []\T1/ptm/m/n/12 How can risk pre-dic-tions be ef-fec-tively pre-sented to dif-fer-ent stake-holder groups---
  []
 
-
-Overfull \hbox (10.53134pt too wide) in paragraph at lines 287--294
+[6]
+Overfull \hbox (10.53134pt too wide) in paragraph at lines 294--301
 \T1/ptm/m/n/12 dic-tion mod-els^^Vtargeting dropout risk, course fail-ure risk, and pro-gram de-lay risk^^Vusing
  []
 
 
-Overfull \hbox (6.9191pt too wide) in paragraph at lines 287--294
+Overfull \hbox (6.9191pt too wide) in paragraph at lines 294--301
 \T1/ptm/m/n/12 en-sem-ble al-go-rithms in-clud-ing Ran-dom For-est, Gra-di-ent Boost-ing, and XG-Boost, trained
  []
 
 [7] [8]
-Underfull \hbox (badness 2529) in paragraph at lines 321--321
+Underfull \hbox (badness 2529) in paragraph at lines 328--328
 []|\T1/ptm/m/n/12 Academic Man-age-
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 321--321
+Underfull \hbox (badness 1902) in paragraph at lines 328--328
 []|\T1/ptm/m/n/12 The pri-mary in-sti-tu-tional database for of-fi-cial stu-dent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 []|\T1/ptm/m/n/12 Learning Man-age-
  []
 
@@ -779,23 +767,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--322
 Chapter 2.
 [14
 
-] [15] [16]
-Overfull \hbox (18.79219pt too wide) in paragraph at lines 474--474
+]
+Underfull \hbox (badness 5403) in paragraph at lines 453--453
+[]|[]\T1/ptm/b/n/12 Six-Year Grad-u-a-tion
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 459.
+See the caption package documentation for explanation.
+
+[15] [16]
+<images/TintoModel1.jpg, id=165, 1284.8pt x 827.09pt>
+File: images/TintoModel1.jpg Graphic file (type jpg)
+<use images/TintoModel1.jpg>
+Package pdftex.def Info: images/TintoModel1.jpg  used on input line 508.
+(pdftex.def)             Requested size: 416.83289pt x 268.3341pt.
+ [17 <./images/TintoModel1.jpg>] [18]
+Overfull \hbox (27.52173pt too wide) in paragraph at lines 578--587
+\T1/ptm/m/n/12 tently demon-strate sig-nif-i-cantly higher lev-els of par-tic-i-pa-tion in learn-ing ac-tiv-i-ties^^Vmeasured
+ []
+
+[19]
+<images/AstinModel.png, id=209, 719.68875pt x 443.6575pt>
+File: images/AstinModel.png Graphic file (type png)
+<use images/AstinModel.png>
+Package pdftex.def Info: images/AstinModel.png  used on input line 639.
+(pdftex.def)             Requested size: 416.83289pt x 256.9695pt.
+ [20]
+Overfull \hbox (8.65782pt too wide) in paragraph at lines 653--667
+[]\T1/ptm/b/n/12 Environment \T1/ptm/m/n/12 en-com-passes the full range of in-sti-tu-tional ex-pe-ri-ences, pro-grammes,
+ []
+
+[21 <./images/AstinModel.png>] [22]
+Overfull \hbox (2.87453pt too wide) in paragraph at lines 726--738
+[]\T1/ptm/b/n/12 Environmental vari-ables \T1/ptm/m/n/12 are op-er-a-tional-ized through LMS en-gage-ment met-rics^^Vlogin
+ []
+
+[23]
+Overfull \hbox (4.31386pt too wide) in paragraph at lines 756--766
+[]\T1/ptm/m/n/12 A fur-ther lim-i-ta-tion is the model's lin-ear input-to-environment-to-output struc-ture, which
+ []
+
+
+Overfull \hbox (18.79219pt too wide) in paragraph at lines 772--772
 |[]\T1/ptm/b/n/17.28 Machine Learn-ing in Ed-u-ca-tional Data Min-ing (EDM)| 
  []
 
-[17]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 492.
+[24]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 790.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Overfull \hbox (0.90497pt too wide) in paragraph at lines 498--501
+) [25]
+Overfull \hbox (0.90497pt too wide) in paragraph at lines 796--799
 []\T1/ptm/m/n/12 ROC-AUC (Re-ceiver Op-er-at-ing Char-ac-ter-is-tic ^^U Area Un-der Curve): A threshold-
  []
 
-[18]
-/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex:532: Misplaced alignment tab character &.
-l.532   particular prediction was made (Lundberg &
+[26]
+/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex:830: Misplaced alignment tab character &.
+l.830   particular prediction was made (Lundberg &
                                                    Lee, 2017). In a universi...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -805,23 +835,38 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (20.82657pt too wide) in paragraph at lines 530--536
+Overfull \hbox (20.82657pt too wide) in paragraph at lines 828--834
 \T1/ptm/m/n/12 peded by what the lit-er-a-ture terms the 'Black Box' prob-lem: the in-abil-ity of users^^Vadvisors,
  []
 
 
-Overfull \hbox (6.85924pt too wide) in paragraph at lines 530--536
+Overfull \hbox (6.85924pt too wide) in paragraph at lines 828--834
 \T1/ptm/m/n/12 ad-min-is-tra-tors, and stu-dents^^Vto un-der-stand why a par-tic-u-lar pre-dic-tion was made (Lund-
  []
 
-[19] [20]
-Overfull \hbox (2.85094pt too wide) in paragraph at lines 576--582
+[27] [28]
+Overfull \hbox (2.85094pt too wide) in paragraph at lines 874--880
 \T1/ptm/m/n/12 driven in-ter-ven-tion closes eq-uity gaps: by sys-tem-at-i-cally iden-ti-fy-ing stu-dents who would
  []
 
-[21] [22] [23] [24] [25] [26] [27] [28
+[29] [30] [31] [32] [33]
 
-] [29] (./At_Risk.aux)
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1018.
+
+[34] [35] [36
+
+]
+Overfull \hbox (8.85013pt too wide) in paragraph at lines 1033--1033
+\T1/ptm/m/n/12 Un-der-grad-u-ate stu-dent re-ten-tion ac-tiv-i-ties: Chal-lenges and re-search agenda. \T1/ptm/m/it/12 SAGE
+ []
+
+[37]
+Overfull \hbox (12.64394pt too wide) in paragraph at lines 1033--1033
+\T1/ptm/m/it/12 2024 re-port \T1/ptm/m/n/12 (tech. rep.). Na-tional Stu-dent Clear-ing-house. [][]$https : / / nscresearchcenter .
+ []
+
+[38] (./At_Risk.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -831,13 +876,16 @@ L3 programming layer <2024-01-22>
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package rerunfilecheck Warning: File `At_Risk.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `At_Risk.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  546F521E5A381A61C22E60452007F6B1;10257.
+(rerunfilecheck)             After:  7E6B9BA6352FC93E30DA054F473169C1;13206.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                At_Risk
@@ -848,18 +896,18 @@ Package logreq Info: Writing requests to 'At_Risk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19873 strings out of 474222
- 349841 string characters out of 5748734
+ 20059 strings out of 474222
+ 354508 string characters out of 5748734
  1948975 words of memory out of 5000000
- 41821 multiletter control sequences out of 15000+600000
+ 41958 multiletter control sequences out of 15000+600000
  583597 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,9n,81p,1253b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on At_Risk.pdf (32 pages, 120383 bytes).
+Output written on At_Risk.pdf (41 pages, 303111 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
- 100 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 422 PDF objects out of 1000 (max. 8388607)
+ 363 compressed objects within 4 object streams
+ 145 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

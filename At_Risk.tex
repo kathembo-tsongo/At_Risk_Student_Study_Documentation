@@ -15,10 +15,13 @@
 \usepackage[table]{xcolor}
 \usepackage{longtable}
 \usepackage{caption}
-
+\usepackage{float}
 % --- 2. Global Formatting & Fixes ---
 \doublespacing       
 \graphicspath{{./images/}}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\setlength{\cftsubsubsecnumwidth}{4em} % Adjusts space for the 4-digit number
 
 % Fix for the "Big Space" above Chapter Titles
 \titleformat{\chapter}[display]
@@ -50,9 +53,7 @@
         
         \vfill
         
-        \textbf{\Large A PREDICTIVE ANALYTICS PLATFORM FOR STUDENT SUCCESS:}\\
-        \vspace{0.5cm}
-        \textbf{\large MACHINE LEARNING-BASED EARLY DETECTION OF AT-RISK STUDENTS IN HIGHER EDUCATION}
+        \textbf{\large MACHINE LEARNING-BASED TOOL FOR EARLY DETECTION OF AT-RISK STUDENTS IN HIGHER EDUCATION: CASE OF STRATHMORE UNIVERSITY}
         
         \vfill
         
@@ -106,11 +107,9 @@ This thesis has been submitted for examination with my approval as the Universit
 \newpage
 
 % --- Centered Table of Contents Title ---
-\begin{center}
-    \tableofcontents
-\end{center}
-
+\tableofcontents
 \newpage
+
 
 % --- Table of Abbreviations ---
 \section*{\centering Table of Abbreviations}
@@ -128,8 +127,10 @@ CESA & Continental Education Strategy for Africa (2016-2025)  \\
 EDM & Educational Data Mining  \\
 GPA & Grade Point Average  \\
 LMS & Learning Management System  \\
+ML & Machine Learning\\
 ROC-AUC & Receiver Operating Characteristic – Area Under Curve  \\
 SHAP & SHapley Additive exPlanations  \\
+SIM & Student Integration Model \\
 SVM & Support Vector Machines  \\ 
 \hline
 \end{tabular}}
@@ -169,7 +170,7 @@ achieved an 81.66\% dropout-prediction accuracy in a pilot study that utilized L
 regression \parencite{Bouihi2024}. "Similarly, a study at the University of Johannesburg 
 in South Africa utilized machine learning to predict the performance of 1,366 engineering students, 
 achieving a 65.86\% accuracy rate using Decision Tree algorithms and identifying prior performance in
- physics and mathematics as primary success factors.  \parencite{Taodzera2016} 
+ physics and mathematics as primary success factors \parencite{taodzera2}.
 
 Within East Africa, Kenya's higher education sector faces particularly acute retention pressures. 
 Government capitation covers only 57\% of students against an 80\% target, while public universities
@@ -180,15 +181,15 @@ Government capitation covers only 57\% of students against an 80\% target, while
   Recognizing the challenge of student attrition, researchers 
   from the University of Nairobi in collaboration with one researcher at the Free University of Brussels conducted a study utilizing Machakos
    University College as a case study to apply Business Intelligence and machine learning to dropout
-    prediction \parencite{Ngemu2015}. Using the WEKA toolkit to analyze historical institutional data, 
+    prediction \parencite{ngemu2015}. Using the WEKA toolkit to analyze historical institutional data, 
     the research team—comprising Ngemu, Odongo, Omulo, and Manderick—evaluated multiple classification 
     algorithms, including Naïve Bayes, Support Vector Machines (SVM), and the J48 decision tree.
-     Their findings identified that at-risk students could be accurately flagged based on critical 
+     Their findings identified that students at-risk  of dropping out could be accurately flagged based on critical 
      predictors such as financial stability (fee payment), entry age, health status, and parental 
-     occupation \parencite{Ngemu2015}.
+     occupation \parencite{ngemu2015}.
 
 
-Strathmore University operates within this challenging Kenyan landscape while maintaining distinct academic 
+Strathmore University operates within this challenging global landscape. While maintaining distinct academic 
 standards that intensify the consequences of delayed intervention. The institution enforces a 67\% minimum
  attendance threshold for examination eligibility and a 2.0 GPA floor for good academic standing—policy
   thresholds that render early identification especially critical, as students who breach them may be 
@@ -200,8 +201,7 @@ standards that intensify the consequences of delayed intervention. The instituti
   Despite this data richness, these systems operate as isolated 
   administrative repositories with no integrated analytics capability, preventing the transformation of raw
    institutional data into actionable early warnings. Students are typically identified for intervention only
-    after manifesting lag indicators—cumulative grade decline, attendance threshold breach, or formal withdrawal
-     notice—by which point the window for effective academic recovery has frequently closed. This reactive paradigm, 
+    after manifesting metrics confirming trends and outcomes after events have occured. This reactive paradigm, 
      though common across Kenyan institutions, is inconsistent both with international best practice
       (Georgia State University, 2024) and with Kenya's national call for greater technology utilisation in higher
        education (Republic of Kenya Ministry of Education, 2024). This study addresses that gap directly: by developing 
@@ -218,31 +218,58 @@ student support. Although the institution maintains robust data streams through 
   predictive tools. This fragmentation prevents the university from transforming raw 
   institutional data into early warnings for at-risk undergraduate students.
 
-The primary consequence of this gap is a reactive support paradigm. Students are typically 
-identified for intervention only after manifesting lag-indicators of failure, cumulative low 
-grades, breach of the mandatory 67\% attendance threshold for examination eligibility, or 
-formal withdrawal. By this stage, the window for effective academic recovery has often closed. 
-This reactive approach is not only inefficient but inconsistent with the Republic of Kenya
- Ministry of Education's \parencite{MOE2024} Sessional Paper No. 1, which explicitly 
- identifies `inaccurate, unreliable data and inadequate utilisation of technology' as 
- a core bottleneck in the national education sector.
+The primary consequence of this fragmentation is a reactive support paradigm that 
+carries measurable human costs. Students are typically identified for intervention 
+only after manifesting indicators of failure---cumulative low grades, breach of 
+the mandatory 67\% attendance threshold for examination eligibility, or formal 
+withdrawal notice. By this stage, the window for effective academic recovery has 
+often closed, and the outcomes that follow are both predictable and preventable: 
+students drop out of programmes they could have completed, fail courses that timely 
+tutoring referrals could have salvaged, and accumulate delays that extend their 
+studies by entire semesters---each outcome representing a personal and institutional 
+loss that earlier detection would have averted.
 
-
-
-Despite possessing the necessary digital infrastructure and longitudinal student datasets, 
-Strathmore University lacks a specialised machine learning architecture capable of integrating
- these data streams into a coherent, real-time risk stratification system. Without an 
- automated platform to predict dropout risk, course failure risk, and program delay 
- risk simultaneously, the university remains unable to allocate its limited counselling
-  and mentoring resources to the students who need them most, and advisors are left to 
-  act on intuition rather than evidence.
+Despite possessing the necessary digital infrastructure and longitudinal student 
+datasets, Strathmore University lacks a specialised machine learning architecture 
+capable of integrating these data streams into a coherent risk 
+stratification system. This absence is consequential: without the capability to 
+detect deteriorating engagement trajectories weeks before they manifest as failed 
+grades or breached attendance thresholds, the institution cannot intervene at the 
+point when intervention is still effective. Without an automated ML-based tool to predict 
+dropout risk, course failure risk, and program delay risk simultaneously, the 
+university remains unable to allocate its limited counselling and mentoring resources 
+to the students who need them most---and advisors are left to act on intuition 
+rather than evidence, on crisis rather than prevention.
 
 This study therefore develops, implements, and evaluates an integrated predictive analytics 
-platform tailored to Strathmore University's academic policies, data infrastructure, 
-and resource constraints. By producing explainable, actionable risk predictions across
- three distinct outcomes, the platform is designed to transition the institution from 
- reactive monitoring to proactive, data-driven intervention.
- 
+ML-based tool tailored to Strathmore University's academic policies, data infrastructure, 
+and resource constraints. By producing explainable and actionable risk predictions across
+ three distinct outcomes, the ML-based tool is designed to transition the institution from 
+ reactive to proactive monitoring and data-driven intervention.
+
+\section{Research Objectives}
+\subsection{Main Objective}
+To design, develop, and evaluate a machine learning-based predictive analytics tool for early identification of at-risk undergraduate students at Strathmore University.
+\subsection{Specific Objectives}
+\begin{enumerate}
+    \item To design a Machine Learning predictive tool for university administrators, school administrators, and academic mentors that present 
+    actionable risk predictions with supporting intervention guidance.
+    \item To evaluate model accuracy and predictive performance using historical student cohort data (2021-2024) and standard machine learning evaluation 
+    metrics including Accuracy, Precision, Recall, F1-score, and ROC-AUC.
+    \item To assess the platform's usability and perceived institutional impact through structured evaluation with academic advisors, school 
+    administrators, and mentors, with specific attention to intervention feasibility and long-term sustainability.
+\end{enumerate}
+
+\section{Research Questions}
+\begin{enumerate}
+   \item How can risk predictions be effectively presented to different stakeholder groups---university administrators, school administrators,
+    and academic mentors---to support informed decision-making?
+    \item To what extent does training predictive models on historical student cohort data (2021-2024) with known outcomes produce valid and 
+    generalisable predictions for current enrolled students?
+    \item How do academic advisors, school administrators, and mentors perceive the platform's usability, intervention feasibility,
+     and potential for long-term institutional adoption?
+\end{enumerate}
+
 \section{Justification}
 \subsection{Operational Necessity}
 This research is justified by the need to bridge the gap between data collection and data 
@@ -260,26 +287,6 @@ inadequate technology use as a core bottleneck in higher education \parencite{KI
  of rising enrollments and limited government funding, the status quo of universal mentoring is no 
  longer sustainable. This research is justified as an economic necessity to ensure that finite counseling 
  resources are directed only where they are most needed.
-
-\section{Research Objectives}
-\subsection{Main Objective}
-To design, develop, and evaluate a machine learning-based predictive analytics platform for early identification of at-risk undergraduate students at Strathmore University.
-\subsection{Specific Objectives}
-\begin{enumerate}
-    \item To consolidate and harmonise student data from institutional systems (AMS, LMS, and attendance tracking) into an integrated analytics pipeline capable of supporting real-time risk computation.
-    \item To develop and validate explainable machine learning models that predict three distinct risk outcomes: dropout risk, course failure risk, and program delay risk.
-    \item To design role-based dashboards for university administrators, school administrators, and academic mentors that present actionable risk predictions with supporting intervention guidance.
-    \item To evaluate model accuracy and predictive performance using historical student cohort data (2021-2024) and standard machine learning evaluation metrics including Accuracy, Precision, Recall, F1-score, and ROC-AUC.
-    \item To assess the platform's usability and perceived institutional impact through structured evaluation with academic advisors, school administrators, and mentors, with specific attention to intervention feasibility and long-term sustainability.
-\end{enumerate}
-
-\section{Research Questions}
-\begin{enumerate}
-    \item What student data features from AMS, LMS, and attendance systems are most predictive of dropout risk, course failure risk, and program delay risk?
-    \item Which machine learning algorithms provide the most accurate and explainable predictions for each of the three risk categories, and what features drive each prediction?
-    \item How can risk predictions be effectively presented to different stakeholder groups---university administrators, school administrators, and academic mentors---to support timely and informed decision-making?
-    \item To what extent does training predictive models on historical student cohort data (2021-2024) with known outcomes produce valid and generalisable predictions for current enrolled students?\item How do academic advisors, school administrators, and mentors perceive the platform's usability, intervention feasibility, and potential for long-term institutional adoption?
-\end{enumerate}
 
 \section{Scope and Delimitations of the Study}
 
@@ -400,76 +407,367 @@ this study's design and motivation. The review spans three interconnected domain
   necessity of a machine learning-based Early Warning System (EWS) calibrated to Strathmore University's 
   academic policies and data infrastructure.
 
-The chapter is organized to trace a deliberate logical arc. It begins with the macroeconomic and human costs
- of student attrition, then narrows progressively from global best practices to regional pilot studies, and 
- finally focuses on the specific institutional gaps this research is designed to fill. Central to this arc is
-  the argument that modern machine learning does not merely add technological convenience—it operationalizes 
+The chapter is organized to trace a deliberate logical arc. First, it begins with the macroeconomic and human costs
+ of student attrition. Second, it narrows progressively from global best practices to regional pilot studies. And 
+ finally, it focuses on the specific institutional gaps this research is designed to fill. Central to this arc is
+  the argument that modern machine learning does not merely add technological convenience; it operationalizes 
   classical retention theory, transforming abstract constructs such as academic integration and social engagement
-   into measurable, actionable data signals.
+   into measurable and actionable data signals.
 
-  \section{Theoretical Frameworks for Student Retention}
-  \subsection{Tinto's Student Integration Model}
-  The dominant theoretical anchor for student retention research remains Vincent Tinto's Student Integration Model,
-   which posits that a student's decision to persist or withdraw is governed by their degree of academic and social 
-   integration into the institutional community (Tinto, 1975; 1987). Academic integration encompasses performance 
-   relative to institutional standards, while social integration reflects the quality of peer and faculty relationships.
-    When integration along either dimension is insufficient, the student's commitment to completing their degree erodes, 
-    ultimately increasing the probability of departure.
+\section{Global Perspectives on Student Attrition}
 
-This study operationalizes Tinto's model within a contemporary data environment by mapping its constructs onto
- quantifiable institutional indicators. Academic integration is proxied through variables captured in Strathmore's 
- Academic Management System (AMS)—specifically cumulative GPA, course grade trajectories, and proximity to the
-  mandatory 2.0 GPA floor for good academic standing. Social and behavioral integration is approximated through
-   engagement metrics derived from the Learning Management System (LMS), including login frequency, assignment 
-   submission timeliness, and resource access patterns, as well as attendance data relative to the institution's 67\% threshold 
-   for examination eligibility. By grounding the predictive models in Tinto's framework, this research ensures that technical 
-   outputs retain theoretical interpretability, translating algorithmic risk scores into language that is credible to academic 
-   advisors and institutional policymakers alike.
+Student retention is a global imperative linked directly to both institutional 
+sustainability and the fulfillment of higher education's social mission. 
+According to \textcite{NCES2024}, undergraduate enrollment in degree-granting 
+institutions in the United States decreased by 13\% between 2012 and 2022, 
+compounded by a persistent annual attrition rate of 23.3\%. Six-year graduation 
+rates reveal substantial structural disparities: 68\% at private nonprofit 
+institutions, 63\% at public universities, and only 29\% at private for-profit 
+institutions. Despite a modest recent recovery---the 2024 National Student 
+Clearinghouse report recorded a national first-year retention rate of 68\%, 
+described as the highest in the past decade \parencite{NSC2024}---the 
+structural problem of attrition remains unresolved, with large proportions of 
+students continuing to exit before degree completion.
 
-   \subsection{The Shift from Reactive to Proactive Intervention Paradigms}
-   Across Kenyan higher education, the dominant support paradigm remains reactive: students are identified for
-    intervention only after they have manifested what the literature terms 'lag indicators'—cumulative grade collapse, 
-    attendance threshold breach, or formal withdrawal notice (Republic of Kenya Ministry of Education, 2024). By this 
-    stage, the window for effective academic recovery has frequently closed, and the institutional response is necessarily 
-    remedial rather than preventive.
-An emergent body of scholarship advocates a fundamental reorientation toward proactive, evidence-driven intervention, 
-in which behavioral and academic data are continuously analyzed to identify risk trajectories before they become academic 
-crises (Ahmed, 2024; Gathani et al., 2026). This paradigm shift is not merely technical; it reflects a reconceptualization
- of the advisor's role—from a monitor who responds to failure to a facilitator who intervenes before failure occurs. 
- This study is explicitly positioned within this proactive paradigm, seeking to automate risk detection so that finite 
- counseling resources are directed toward students who demonstrate early warning signals rather than those who have 
- already crossed institutional thresholds.
-
- \section{Global Perspectives on Student Attrition and Institutional Sustainability}
- Student retention is a global imperative linked directly to both institutional sustainability 
- and the fulfillment of higher education's social mission. According to Irwin et al. (2024), undergraduate
-  enrollment in degree-granting institutions in the United States decreased by 13\% between 2012 and 2022, 
-  compounded by a persistent annual attrition rate of 23.3\%. Six-year graduation rates reveal substantial 
-  structural disparities: 68\% at private nonprofit institutions, 63\% at public universities, and only
-   29\% at private for-profit institutions.
-
-These figures carry dual consequences. At the institutional level, each departing student represents 
-lost tuition revenue and wasted administrative investment. At the individual level, students who withdraw 
-often exit the system bearing financial debt without the credential necessary for socioeconomic mobility. 
-The following table summarizes graduation rate variation by institution type:
-
-\definecolor{tableblue}{RGB}{31, 56, 100} % Dark blue for header
-\definecolor{rowblue}{RGB}{235, 241, 250} % Light blue for rows
+These figures carry dual consequences. At the institutional level, each 
+departing student represents lost tuition revenue, wasted administrative 
+investment, and diminished institutional capacity to fulfill its educational 
+mission. At the individual level, students who withdraw often exit the system 
+bearing financial debt without the credential necessary for socioeconomic 
+mobility. A systematic review of 125 peer-reviewed studies on undergraduate 
+retention published between 2014 and 2022 concluded that, despite decades of 
+research and institutional intervention, student dropout remains a persistent 
+and structurally significant problem across higher education globally, with 
+research in the field remaining fragmented and without a unified evidence base 
+for effective remediation \parencite{Goncalves2024}. The following table 
+summarizes graduation rate variation by institution type:
 
 \begin{center}
+\definecolor{tableblue}{RGB}{31,56,100}
+\definecolor{rowblue}{RGB}{235,241,250}
 {\rowcolors{2}{rowblue}{white}
-\begin{tabular}{|p{6cm}|p{5cm}|}
+\begin{tabular}{|p{7cm}|p{4cm}|}
 \hline
-\rowcolor{tableblue} \textcolor{white}{\textbf{Institution Type}} & \textcolor{white}{\textbf{Six-Year Graduation Rate}} \\ \hline
+\rowcolor{tableblue}
+\textcolor{white}{\textbf{Institution Type}} & 
+\textcolor{white}{\textbf{Six-Year Graduation Rate}} \\ \hline
 Private Nonprofit Institutions & 68\% \\ \hline
-Public Universities & 63\% \\ \hline
+Public Universities            & 63\% \\ \hline
 Private For-Profit Institutions & 29\% \\ \hline
 \end{tabular}}
+\captionof{table}{Six-Year Graduation Rates by Institution Type 
+\parencite{NCES2024}}
 \end{center}
 
-These global statistics establish the urgency of the problem and demonstrate that student attrition is not a peripheral 
-concern but a structural threat to the viability of higher education institutions worldwide. They provide the macro-level 
-context within which Kenya's institutional challenges must be understood.
+Beyond the United States, the problem is not geographically bounded. 
+Widening access policies across the Global South have expanded enrollment 
+without proportional improvements in completion, meaning that participation 
+gains mask a deepening completion deficit \parencite{Goncalves2024}. In 
+sub-Saharan Africa and Kenya specifically, this deficit is compounded by 
+resource constraints, infrastructure gaps, and the financial pressures 
+documented in Section 2.7, making the attrition problem both more acute and 
+less resourced than in high-income institutional contexts. These global 
+statistics therefore establish the urgency of the problem and demonstrate that 
+student attrition is not a peripheral concern but a structural threat to the 
+viability of higher education institutions worldwide---providing the macro-level 
+context within which Kenya's institutional challenges, and this study's 
+intervention, must be understood.
+
+ \section{Theoretical Frameworks for Student Retention}
+ 
+\subsection{Tinto's Student Integration Model}
+
+The dominant theoretical anchor for student retention research remains Vincent 
+Tinto's Student Integration Model (SIM). First proposed by Tinto and 
+Cullen in 1973 and formally published as a peer-reviewed synthesis in 1975, the 
+model draws its conceptual foundations from Émile Durkheim's theory of suicide—
+specifically the proposition that a deficit of social cohesion precipitates 
+withdrawal from the community \parencite{Tinto1975}. Tinto's scholarly influence 
+has been exceptional: his works have been cited in more than 700 studies across 
+multiple disciplines, establishing the SIM as the most widely adopted
+theoretical lens in higher education retention research \parencite{Bento2025}.
+
+At its core, the SIM conceptualizes the university as a microcosm comprising two 
+interdependent systems—the academic and the social—and posits that a student's 
+persistence is governed by their degree of integration into both 
+\parencite{Tinto1975, Tinto1993}. Critically, Tinto frames dropout not as a 
+single discrete event but as a \textit{longitudinal process}: the student's 
+commitment to persist is continuously reconfigured through ongoing interactions. This 
+interactional character means that dropout cannot be attributed to any one 
+variable in isolation; it emerges from the cumulative weight of how individual 
+attributes, academic performance, and social relationships interact and 
+accumulate over time \parencite{Tinto1993, Nicoletti2019}.
+
+\subsubsection{The Longitudinal Mechanism}
+
+The SIM operates through a structured, multi-stage sequence linking 
+pre-institutional characteristics to eventual persistence: 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/TintoModel1.jpg}
+    \caption{Tinto's Model of Institutional Departure}
+    \label{fig:tinto_model}
+\end{figure}
+
+% Use [H] to force the figure to stay exactly here
+
+\begin{enumerate}
+    \item \textbf{Pre-Entry Attributes:} Students enter the institution carrying 
+    three foundational background variables: family background, individual skills 
+    and abilities, and prior schooling. These attributes do not directly determine 
+    persistence but collectively shape the intellectual and social disposition the 
+    student brings to the institution \parencite{Tinto1975}.
+
+    \item \textbf{Initial Goals and Commitments:} Pre-entry attributes feed into 
+    two parallel commitment structures. \textit{Intentions and goal commitments} 
+    reflect the student's desire to earn a degree, while \textit{goal and 
+    institutional commitments} reflect the desire to graduate from a specific 
+    institution. Alongside these sits a third force---\textit{external 
+    commitments}---representing obligations outside the institution, such as 
+    family or employment, which compete with academic integration from the outset 
+    \parencite{Tinto1975, Tinto1993}.
+
+    \item \textbf{Institutional Experiences:} Once enrolled, students interact 
+    simultaneously with two systems. The \textit{Academic System} operates 
+    through both formal channels---academic performance---and informal 
+    channels---faculty and staff interactions. The \textit{Social System} 
+    operates through formal extracurricular activities and informal peer group 
+    interactions. Both systems are embedded within and influenced by the broader 
+    \textit{External Community} \parencite{Tinto1993}.
+
+    \item \textbf{Integration:} The quality of institutional experiences 
+    determines the degree of integration achieved along two dimensions. 
+    \textit{Academic integration} results from engagement with the Academic 
+    System, while \textit{social integration} results from engagement with the 
+    Social System. These two dimensions are interdependent---weakness in either 
+    increases the probability of departure \parencite{Tinto1975, Nicoletti2019}.
+
+    \item \textbf{Re-evaluated Goals and Commitments:} Integration feeds back 
+    into a revised set of commitments---updated intentions, goal and institutional 
+    commitments, and external commitments---which are now reconfigured by the 
+    student's actual lived experience within the institution. This re-evaluation 
+    stage is what makes the model longitudinal and iterative rather than static: 
+    commitments are not fixed at entry but continuously reshaped over time 
+    \parencite{Nicoletti2019, Tinto1993}.
+
+    \item \textbf{Departure Decision (Outcome):} The re-evaluated commitments 
+    produce the final outcome: a \textit{departure decision}. If the cumulative 
+    weight of academic and social integration has reinforced the student's goal 
+    and institutional commitment, persistence follows. If integration has been 
+    insufficient and external commitments or personal costs outweigh the perceived 
+    benefits of continued enrollment, departure follows. Critically, the entire 
+    process unfolds across time (\textit{t}), underscoring that dropout is a 
+    process, not a moment \parencite{Tinto1975}.
+\end{enumerate}
+
+\subsubsection{The Two Pillars of Integration}
+
+Tinto distinguishes two primary and interdependent dimensions of integration, 
+both of which must be achieved to sustain persistence \parencite{Tinto1993}:
+
+\textbf{Academic Integration} encompasses both structural and normative 
+dimensions. Structural integration is measured by grade performance (GPA) 
+relative to institutional standards, while normative integration reflects 
+intellectual development and alignment with the academic community's values. 
+Grades function not merely as performance records but as institutional signals 
+of belonging within the academic system; a declining GPA is therefore not simply 
+a performance metric but a symptom of deteriorating academic integration 
+\parencite{Tinto1975, Bento2025}.
+
+\textbf{Social Integration} reflects the quality of peer-group interactions and 
+faculty relationships. Research on blended and online learning environments has 
+confirmed that when instructors provided timely support, appropriate feedback, 
+and interactive engagement, students were substantially more likely to persist 
+\parencite{Ivankova2007}. Furthermore, studies measuring LMS engagement have 
+established that completers consistently demonstrate significantly higher levels 
+of participation in learning activities—measured through discussion posts, 
+resource access, and login frequency—than withdrawers, validating these 
+behavioral signals as digital proxies for integration \parencite{Morris2005}.
+
+\subsubsection{Limitations and Critiques}
+
+Despite its canonical status, the SIM carries limitations directly relevant to 
+this study's context. Its key constructs—integration, commitment, fit—lack 
+precise operational definitions, creating interpretive challenges when 
+translating the model into computable variables \parencite{Nicoletti2019}. The 
+model was also developed within a Western, residential university context and 
+requires careful contextual recalibration before application in non-Western 
+institutions such as Strathmore University. 
+Additionally, traditional SIM-based research has relied predominantly on 
+retrospective, correlational designs: the model identifies \textit{what} predicts 
+departure but does not generate prospective, real-time predictions for individual 
+students. This retrospective limitation is the precise gap that machine learning 
+addresses—where the SIM identifies the risk factors, ML determines when those 
+factors are currently activating for a specific student.
+
+\subsubsection{Operationalization in This Study}
+
+This study operationalizes Tinto's model within Strathmore's digital 
+infrastructure by systematically mapping each theoretical construct onto a 
+measurable institutional variable. The mapping is deliberate and bidirectional: 
+every predictor variable selected for the ML models corresponds to a specific 
+SIM construct, ensuring that algorithmic outputs retain theoretical 
+interpretability.
+
+\subsection{Astin's Input-Environment-Output (I-E-O) Model}
+
+Alongside Tinto's SIM, Alexander Astin's Input-Environment-Output (I-E-O) 
+model provides a complementary and practically powerful theoretical lens for 
+this study. Originally developed as a conceptual guide for institutional 
+assessment, the model was empirically consolidated in Astin's landmark study 
+\textit{What Matters in College? Four Critical Years Revisited}, which drew on 
+surveys of more than 20,000 students, 25,000 faculty members, and 200 
+institutions to examine how academic programmes, faculty, peer groups, and 
+institutional policies shape student development and outcomes 
+\parencite{Astin1993}. The model's philosophical foundation is a 
+\textit{talent development} approach to institutional excellence: quality is 
+not measured by institutional prestige or resource endowment, but by the 
+degree to which the institution succeeds in developing the potential of the 
+students it admits \parencite{AstinAntonio2012}. This orientation makes the 
+I-E-O model especially relevant to the Strathmore context, where the goal is 
+not to rank students but to identify and support those whose potential is at 
+risk of being lost.
+
+\subsubsection{Structure of the Model}
+
+The I-E-O model organizes the variables relevant to student success into three 
+sequential, interacting components \parencite{AstinAntonio2012}:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/AstinModel.png}
+    \caption{Astin’s input-environment-output (I-E-O) model (1993).}
+    \label{fig:tinto_model}
+\end{figure}
+
+\begin{enumerate}
+    \item \textbf{Inputs} refer to the personal qualities and characteristics 
+    students bring with them at the point of entry. This includes demographic 
+    attributes (age, sex), family background, prior academic achievement such 
+    as secondary school GPA, and initial motivations and goals. Astin's 
+    framework treats no single input as deterministic; rather, inputs establish 
+    the baseline against which the effects of institutional experiences must 
+    be measured \parencite{AstinAntonio2012}.
+
+    \item \textbf{Environment} encompasses the full range of institutional 
+    experiences, programmes, policies, and interactions to which the student 
+    is exposed during enrollment. This includes both tangible elements 
+    (classrooms, library resources, residential halls) and intangible 
+    elements (teaching pedagogy, administrative policies, peer group 
+    composition, and the quality of faculty interaction). Environmental 
+    variables are particularly significant in the I-E-O framework because 
+    they represent the factors that educators and institutional administrators 
+    can directly control to maximize talent development 
+    \parencite{AstinAntonio2012}. Applied research using this framework has 
+    confirmed that student-advisor interaction, student-faculty interaction, 
+    extracurricular participation, and library utilization are each positively 
+    and independently associated with first-to-second year retention 
+    \parencite{Xiao2020}.
+
+    \item \textbf{Outputs} (or Outcomes) represent the measurable results of 
+    the educational programme: academic achievement, retention, degree 
+    completion, and the full range of skills, values, and attitudes the 
+    institution aims to develop. In the I-E-O framework, outcomes are 
+    understood as the product of how environmental conditions transform a 
+    student's initial input characteristics. Evaluating outcomes without 
+    accounting for inputs is explicitly identified by Astin as an incomplete 
+    assessment design, as it fails to capture how much students actually 
+    developed relative to their starting point \parencite{AstinAntonio2012}.
+\end{enumerate}
+
+\subsubsection{Methodological Logic: The Natural Experiment}
+
+A defining methodological feature of the I-E-O model is its use of what 
+Astin terms \textit{natural experiments}. Because students cannot be randomly 
+assigned to different institutional environments, the model relies on complex 
+multivariate statistical analyses—such as multiple logistic regression—to 
+control for input differences and isolate the true effect of environmental 
+variables on outcomes \parencite{AstinAntonio2012}. This approach offers two 
+practical advantages. First, it avoids the artificial conditions of laboratory 
+experiments by studying real institutional variation. Second, it allows 
+researchers to examine the simultaneous effects of many environmental 
+variables, which is precisely the analytical challenge confronted in this 
+study's multi-stream data pipeline. The machine learning models developed in 
+Chapter Three operationalize this same logic: by training on historical student 
+cohort data with known outcomes (2021--2024), the models statistically isolate 
+which combinations of input and environmental variables most strongly predict 
+each risk outcome, mirroring Astin's natural experiment methodology in a 
+computational framework.
+
+\subsubsection{Complementarity with Tinto's Model}
+
+The I-E-O model and Tinto's SIM are theoretically complementary rather than 
+competing. Tinto explains \textit{why} students depart through the mechanism 
+of diminishing integration; Astin provides the \textit{variable architecture}—
+the structured categorization of inputs, environmental conditions, and 
+outcomes—that a predictive model must measure \parencite{Nicoletti2019, 
+Bento2025}. This complementarity is particularly significant for the 
+three-outcome prediction framework of this study. Dropout risk maps most 
+directly to Tinto's integration failure mechanism. Course failure risk and 
+programme delay risk, however, are better understood through Astin's 
+environmental lens: they reflect whether the institution's academic policies, 
+attendance requirements, and support resources are functioning as effective 
+environmental buffers against disengagement. A student may remain enrolled—
+not a dropout in Tinto's terms—while still accumulating course failures or 
+programme delays that Astin's output variables would capture.
+
+\subsubsection{Operationalization in This Study}
+
+The I-E-O model maps directly and systematically onto the three institutional 
+data streams integrated in this study's analytics pipeline:
+
+\textbf{Inputs} are operationalized through Academic Management System (AMS) 
+variables: entry qualifications, prior GPA trajectory, school of enrollment, 
+and year of study. These correspond to Astin's input variables and establish 
+the baseline characteristics against which environmental effects are assessed 
+\parencite{AstinAntonio2012}.
+
+\textbf{Environmental variables} are operationalized through LMS engagement 
+metrics—login frequency, resource access, and assignment submission 
+timeliness—and real-time attendance records. These capture the student's 
+degree of active interaction with the institutional environment. Empirical 
+research applying the I-E-O framework has demonstrated that student-advisor 
+interaction, student-faculty interaction, extracurricular participation, and 
+library utilization are each positively associated with first-to-second year 
+retention \parencite{Xiao2020}, directly validating the use of engagement 
+metrics as environmental proxies in this study. Strathmore's specific 
+institutional policies—the 67\% attendance threshold and the 2.0 GPA floor—
+function as measurable environmental constraints that the predictive models 
+are explicitly calibrated to reflect.
+
+\textbf{Outputs} are the three predicted risk outcomes: dropout risk, course 
+failure risk, and programme delay risk. By framing these as distinct output 
+categories, this study extends Astin's output framework beyond the traditional 
+graduation/dropout binary to capture the graduated spectrum of academic 
+difficulty that students actually experience. This extension is methodologically 
+consistent with Astin's own recognition that institutional outcomes are 
+multidimensional and that talent development can be undermined in forms that 
+fall short of full withdrawal \parencite{AstinAntonio2012}.
+\subsubsection{Limitations and Critiques of the I-E-O Model}
+
+Despite its widespread adoption, the I-E-O model carries documented limitations 
+that must be acknowledged. The model was developed within a Western, residential, 
+four-year university context, where full-time on-campus participation is assumed 
+to be the primary channel of environmental engagement \parencite{Astin1993}. 
+This assumption does not transfer without recalibration to commuter, part-time, 
+or non-Western institutional settings \parencite{Karp2008}. 
+
+A further limitation is the model's linear input-to-environment-to-output 
+structure, which oversimplifies the recursive nature of student development. 
+In practice, outputs such as academic performance continuously reshape 
+subsequent environmental engagement, creating feedback loops that a static 
+framework cannot capture \parencite{AstinAntonio2012}. These limitations do not 
+invalidate the I-E-O model as a theoretical anchor for this study; rather, 
+they motivate the adoption of a longitudinal machine learning architecture 
+that continuously re-evaluates risk as new engagement and performance data 
+arrives, compensating for the model's structural simplifications in a 
+real institutional deployment context.
+
+
+%  =====================================
+
+
 
 \section{Machine Learning in Educational Data Mining (EDM)}
 \subsection{The Paradigm Shift: From Lag Indicators to Predictive Signals}
@@ -710,6 +1008,20 @@ explanations that enable non-technical academic advisors to conduct evidence-led
 This study is designed to fill precisely that gap. Chapter Three presents the research methodology through which
 these four objectives are operationalized, detailing the data pipeline architecture, feature engineering strategy,
 model development and validation approach, and the design of the role-based dashboard interface.
+
+\section{Logical Flow of LR}
+\subsection*{Introduction} 
+\subsection*{ Global Perspectives on Student Attrition } 
+\subsection*{ Theoretical Frameworks for Student Retention } 
+\subsection*{Machine Learning in Educational Data Mining } 
+\subsection*{Existing Predictive Analytics for at-risk students} 
+\subsubsection{Georgia State University}
+\subsubsection{Moroko}
+\subsubsection{South Africa: Joanesbourg}
+\subsubsection{South Africa:Cap Town}
+\subsubsection{Machakose case}
+\subsection*{Summary and Knowledge Gaps   } 
+
 
 % \chapter{RESEARCH METHODOLOGY}
 % \chapter{SYSTEM DESIGN AND IMPLEMENTATION}

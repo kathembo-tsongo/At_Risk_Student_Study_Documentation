@@ -58,6 +58,59 @@
       \verb https://onlinelibrary.wiley.com/doi/10.1155/2024/4067721
       \endverb
     \endentry
+    \entry{Bento2025}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0f3d4651cb0dea6e0e0289c3fab80f26}{%
+           family={Bento\bibnamedelima Júnior},
+           familyi={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Genival\bibnamedelima Souza},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba50c096b15b6902997c72f3e0b3b09b}{%
+           family={Bento},
+           familyi={B\bibinitperiod},
+           given={Bráulio\bibnamedelimb Ferreira\bibnamedelima Souza},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2fac178684ca531487796e43f40d40b}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Uriana\bibnamedelimb Fernandes\bibnamedelima Curcino},
+           giveni={U\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e304f0bb9298acb2f1b6914b1a58660}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Henrique\bibnamedelimb Tadeu\bibnamedelima dos},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7cf7833f29e042f3fb24437b396ba85f}
+      \strng{fullhash}{9204c0e53c5a3b7802644a58e88c304c}
+      \strng{bibnamehash}{9204c0e53c5a3b7802644a58e88c304c}
+      \strng{authorbibnamehash}{9204c0e53c5a3b7802644a58e88c304c}
+      \strng{authornamehash}{7cf7833f29e042f3fb24437b396ba85f}
+      \strng{authorfullhash}{9204c0e53c5a3b7802644a58e88c304c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educação e Pesquisa}
+      \field{title}{Dropout in Higher Education and {Vincent Tinto's} Models: Bibliographical Research}
+      \field{volume}{51}
+      \field{year}{2025}
+      \field{pages}{e285842}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/394443435_Dropout_in_higher_education_and_Vincent_Tinto's_models_bibliographical_research
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/394443435_Dropout_in_higher_education_and_Vincent_Tinto's_models_bibliographical_research
+      \endverb
+    \endentry
     \entry{Bouihi2024}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=2b6be983150eaf3d011deeb3620bbedb}{%
@@ -358,6 +411,45 @@
       \verb https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024144
       \endverb
     \endentry
+    \entry{Ivankova2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=988ae5147b60175444f01f54a6b29712}{%
+           family={Ivankova},
+           familyi={I\bibinitperiod},
+           given={Nataliya\bibnamedelima V.},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdeb031123c086b436c37e71ade7231f}{%
+           family={Stick},
+           familyi={S\bibinitperiod},
+           given={Sheldon\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f51b660c1e2db8daaa139edce1d84ceb}
+      \strng{fullhash}{f51b660c1e2db8daaa139edce1d84ceb}
+      \strng{bibnamehash}{f51b660c1e2db8daaa139edce1d84ceb}
+      \strng{authorbibnamehash}{f51b660c1e2db8daaa139edce1d84ceb}
+      \strng{authornamehash}{f51b660c1e2db8daaa139edce1d84ceb}
+      \strng{authorfullhash}{f51b660c1e2db8daaa139edce1d84ceb}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Research in Higher Education}
+      \field{number}{1}
+      \field{title}{Students' Persistence in a Distributed Doctoral Program in Educational Leadership in Higher Education: A Mixed Methods Study}
+      \field{volume}{48}
+      \field{year}{2007}
+      \field{pages}{93\bibrangedash 135}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1007/s11162-006-9025-4
+      \endverb
+    \endentry
     \entry{KIPPRA2024}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3e11aefd323a759479031710424f68e5}{%
@@ -421,31 +513,227 @@
       \field{pages}{4765\bibrangedash 4774}
       \range{pages}{10}
     \endentry
-    \entry{MOE2024}{report}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d6f5af383d772e25314cd4edfec3da38}{%
-           family={{Republic of Kenya Ministry of Education}},
-           familyi={R\bibinitperiod}}}%
+    \entry{Morris2005}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=836b7c7c32862e6d6e623bc6f8a9c149}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Libby\bibnamedelima V.},
+           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d69b3c5b0cc2285ea146152276fa75e}{%
+           family={Finnegan},
+           familyi={F\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11b82cbc5231e7b15421eed51da28228}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Sz-Shyan},
+           giveni={S\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
       }
-      \list{institution}{1}{%
-        {Government Printer, Nairobi}%
-      }
-      \strng{namehash}{d6f5af383d772e25314cd4edfec3da38}
-      \strng{fullhash}{d6f5af383d772e25314cd4edfec3da38}
-      \strng{bibnamehash}{d6f5af383d772e25314cd4edfec3da38}
-      \strng{authorbibnamehash}{d6f5af383d772e25314cd4edfec3da38}
-      \strng{authornamehash}{d6f5af383d772e25314cd4edfec3da38}
-      \strng{authorfullhash}{d6f5af383d772e25314cd4edfec3da38}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \strng{namehash}{418c077edae720eb7158d4a1907396f5}
+      \strng{fullhash}{ae9815f29be35e37d2ae1413e1203306}
+      \strng{bibnamehash}{ae9815f29be35e37d2ae1413e1203306}
+      \strng{authorbibnamehash}{ae9815f29be35e37d2ae1413e1203306}
+      \strng{authornamehash}{418c077edae720eb7158d4a1907396f5}
+      \strng{authorfullhash}{ae9815f29be35e37d2ae1413e1203306}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Sessional Paper No. 1 of 2024 on Reforming Education and Training for Sustainable Development}
-      \field{type}{techreport}
-      \field{year}{2024}
+      \field{journaltitle}{The Internet and Higher Education}
+      \field{number}{3}
+      \field{title}{Tracking Student Behavior, Persistence, and Achievement in Online Courses}
+      \field{volume}{8}
+      \field{year}{2005}
+      \field{pages}{221\bibrangedash 231}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.iheduc.2005.06.009
+      \endverb
+    \endentry
+    \entry{ngemu2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d54f4ecf4c35c44b739603bbc736dfb0}{%
+           family={Ngemu},
+           familyi={N\bibinitperiod},
+           given={J.\bibnamedelimi K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45dd36647a85346f456c16af713e1fd2}{%
+           family={Odongo},
+           familyi={O\bibinitperiod},
+           given={C.\bibnamedelimi O.},
+           giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49d233f88c576c319c16ac5574a32748}{%
+           family={Omulo},
+           familyi={O\bibinitperiod},
+           given={E.\bibnamedelimi O.},
+           giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9eed0bc7ee3136a14a983ce1aa85a989}{%
+           family={Manderick},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{03e15a98694d090c89b0d896b01a728d}
+      \strng{fullhash}{7aabc5a9cddcbd1c4c3544cce10cc854}
+      \strng{bibnamehash}{7aabc5a9cddcbd1c4c3544cce10cc854}
+      \strng{authorbibnamehash}{7aabc5a9cddcbd1c4c3544cce10cc854}
+      \strng{authornamehash}{03e15a98694d090c89b0d896b01a728d}
+      \strng{authorfullhash}{7aabc5a9cddcbd1c4c3544cce10cc854}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 2015 International Conference on Computing Research and Innovations}
+      \field{title}{Student dropout prediction using business intelligence for higher education institution}
+      \field{year}{2015}
+    \endentry
+    \entry{Nicoletti2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ae3e3517135fa5f247206eb6fca1f298}{%
+           family={Nicoletti},
+           familyi={N\bibinitperiod},
+           given={Maria\bibnamedelimb do\bibnamedelima Carmo},
+           giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Canadian Center of Science}%
+        {Education}%
+      }
+      \strng{namehash}{ae3e3517135fa5f247206eb6fca1f298}
+      \strng{fullhash}{ae3e3517135fa5f247206eb6fca1f298}
+      \strng{bibnamehash}{ae3e3517135fa5f247206eb6fca1f298}
+      \strng{authorbibnamehash}{ae3e3517135fa5f247206eb6fca1f298}
+      \strng{authornamehash}{ae3e3517135fa5f247206eb6fca1f298}
+      \strng{authorfullhash}{ae3e3517135fa5f247206eb6fca1f298}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Higher Education Studies}
+      \field{number}{3}
+      \field{title}{Revisiting the {Tinto's} Theoretical Dropout Model}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{52\bibrangedash 64}
+      \range{pages}{13}
+      \verb{urlraw}
+      \verb https://files.eric.ed.gov/fulltext/EJ1220246.pdf
+      \endverb
+      \verb{url}
+      \verb https://files.eric.ed.gov/fulltext/EJ1220246.pdf
+      \endverb
+    \endentry
+    \entry{taodzera2}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8c1ac49d186f9de735310e1fa4fc90fd}{%
+           family={Taodzera},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Johannesburg}%
+      }
+      \strng{namehash}{8c1ac49d186f9de735310e1fa4fc90fd}
+      \strng{fullhash}{8c1ac49d186f9de735310e1fa4fc90fd}
+      \strng{bibnamehash}{8c1ac49d186f9de735310e1fa4fc90fd}
+      \strng{authorbibnamehash}{8c1ac49d186f9de735310e1fa4fc90fd}
+      \strng{authornamehash}{8c1ac49d186f9de735310e1fa4fc90fd}
+      \strng{authorfullhash}{8c1ac49d186f9de735310e1fa4fc90fd}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Predicting the performance of engineering students at the {U}niversity of {J}ohannesburg using machine learning techniques}
+      \field{type}{Master's thesis}
+      \field{year}{2016}
+    \endentry
+    \entry{Tinto1975}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
+           family={Tinto},
+           familyi={T\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{fullhash}{112fee32f4834c2d2d63667db2201663}
+      \strng{bibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Educational Research}
+      \field{number}{1}
+      \field{title}{Dropout from higher education: A theoretical synthesis of recent research}
+      \field{volume}{45}
+      \field{year}{1975}
+      \field{pages}{89\bibrangedash 125}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.3102/00346543045001089
+      \endverb
+    \endentry
+    \entry{Tinto1993}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
+           family={Tinto},
+           familyi={T\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{fullhash}{112fee32f4834c2d2d63667db2201663}
+      \strng{bibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{Leaving college: Rethinking the causes and cures of student attrition}
+      \field{year}{1993}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
@@ -488,6 +776,59 @@
       \verb https://onlinelibrary.wiley.com/doi/10.1155/2024/4067721
       \endverb
     \endentry
+    \entry{Bento2025}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=0f3d4651cb0dea6e0e0289c3fab80f26}{%
+           family={Bento\bibnamedelima Júnior},
+           familyi={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Genival\bibnamedelima Souza},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba50c096b15b6902997c72f3e0b3b09b}{%
+           family={Bento},
+           familyi={B\bibinitperiod},
+           given={Bráulio\bibnamedelimb Ferreira\bibnamedelima Souza},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2fac178684ca531487796e43f40d40b}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Uriana\bibnamedelimb Fernandes\bibnamedelima Curcino},
+           giveni={U\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e304f0bb9298acb2f1b6914b1a58660}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Henrique\bibnamedelimb Tadeu\bibnamedelima dos},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7cf7833f29e042f3fb24437b396ba85f}
+      \strng{fullhash}{9204c0e53c5a3b7802644a58e88c304c}
+      \strng{bibnamehash}{9204c0e53c5a3b7802644a58e88c304c}
+      \strng{authorbibnamehash}{9204c0e53c5a3b7802644a58e88c304c}
+      \strng{authornamehash}{7cf7833f29e042f3fb24437b396ba85f}
+      \strng{authorfullhash}{9204c0e53c5a3b7802644a58e88c304c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educação e Pesquisa}
+      \field{title}{Dropout in Higher Education and {Vincent Tinto's} Models: Bibliographical Research}
+      \field{volume}{51}
+      \field{year}{2025}
+      \field{pages}{e285842}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/394443435_Dropout_in_higher_education_and_Vincent_Tinto's_models_bibliographical_research
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/394443435_Dropout_in_higher_education_and_Vincent_Tinto's_models_bibliographical_research
+      \endverb
+    \endentry
     \entry{Bouihi2024}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=2b6be983150eaf3d011deeb3620bbedb}{%
@@ -788,6 +1129,45 @@
       \verb https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024144
       \endverb
     \endentry
+    \entry{Ivankova2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=988ae5147b60175444f01f54a6b29712}{%
+           family={Ivankova},
+           familyi={I\bibinitperiod},
+           given={Nataliya\bibnamedelima V.},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cdeb031123c086b436c37e71ade7231f}{%
+           family={Stick},
+           familyi={S\bibinitperiod},
+           given={Sheldon\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f51b660c1e2db8daaa139edce1d84ceb}
+      \strng{fullhash}{f51b660c1e2db8daaa139edce1d84ceb}
+      \strng{bibnamehash}{f51b660c1e2db8daaa139edce1d84ceb}
+      \strng{authorbibnamehash}{f51b660c1e2db8daaa139edce1d84ceb}
+      \strng{authornamehash}{f51b660c1e2db8daaa139edce1d84ceb}
+      \strng{authorfullhash}{f51b660c1e2db8daaa139edce1d84ceb}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Research in Higher Education}
+      \field{number}{1}
+      \field{title}{Students' Persistence in a Distributed Doctoral Program in Educational Leadership in Higher Education: A Mixed Methods Study}
+      \field{volume}{48}
+      \field{year}{2007}
+      \field{pages}{93\bibrangedash 135}
+      \range{pages}{43}
+      \verb{doi}
+      \verb 10.1007/s11162-006-9025-4
+      \endverb
+    \endentry
     \entry{KIPPRA2024}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3e11aefd323a759479031710424f68e5}{%
@@ -851,56 +1231,229 @@
       \field{pages}{4765\bibrangedash 4774}
       \range{pages}{10}
     \endentry
-    \entry{MOE2024}{report}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d6f5af383d772e25314cd4edfec3da38}{%
-           family={{Republic of Kenya Ministry of Education}},
-           familyi={R\bibinitperiod}}}%
+    \entry{Morris2005}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=836b7c7c32862e6d6e623bc6f8a9c149}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Libby\bibnamedelima V.},
+           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d69b3c5b0cc2285ea146152276fa75e}{%
+           family={Finnegan},
+           familyi={F\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11b82cbc5231e7b15421eed51da28228}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Sz-Shyan},
+           giveni={S\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
       }
-      \list{institution}{1}{%
-        {Government Printer, Nairobi}%
-      }
-      \strng{namehash}{d6f5af383d772e25314cd4edfec3da38}
-      \strng{fullhash}{d6f5af383d772e25314cd4edfec3da38}
-      \strng{bibnamehash}{d6f5af383d772e25314cd4edfec3da38}
-      \strng{authorbibnamehash}{d6f5af383d772e25314cd4edfec3da38}
-      \strng{authornamehash}{d6f5af383d772e25314cd4edfec3da38}
-      \strng{authorfullhash}{d6f5af383d772e25314cd4edfec3da38}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \strng{namehash}{418c077edae720eb7158d4a1907396f5}
+      \strng{fullhash}{ae9815f29be35e37d2ae1413e1203306}
+      \strng{bibnamehash}{ae9815f29be35e37d2ae1413e1203306}
+      \strng{authorbibnamehash}{ae9815f29be35e37d2ae1413e1203306}
+      \strng{authornamehash}{418c077edae720eb7158d4a1907396f5}
+      \strng{authorfullhash}{ae9815f29be35e37d2ae1413e1203306}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Sessional Paper No. 1 of 2024 on Reforming Education and Training for Sustainable Development}
-      \field{type}{techreport}
-      \field{year}{2024}
+      \field{journaltitle}{The Internet and Higher Education}
+      \field{number}{3}
+      \field{title}{Tracking Student Behavior, Persistence, and Achievement in Online Courses}
+      \field{volume}{8}
+      \field{year}{2005}
+      \field{pages}{221\bibrangedash 231}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.iheduc.2005.06.009
+      \endverb
+    \endentry
+    \entry{ngemu2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d54f4ecf4c35c44b739603bbc736dfb0}{%
+           family={Ngemu},
+           familyi={N\bibinitperiod},
+           given={J.\bibnamedelimi K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45dd36647a85346f456c16af713e1fd2}{%
+           family={Odongo},
+           familyi={O\bibinitperiod},
+           given={C.\bibnamedelimi O.},
+           giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49d233f88c576c319c16ac5574a32748}{%
+           family={Omulo},
+           familyi={O\bibinitperiod},
+           given={E.\bibnamedelimi O.},
+           giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9eed0bc7ee3136a14a983ce1aa85a989}{%
+           family={Manderick},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{03e15a98694d090c89b0d896b01a728d}
+      \strng{fullhash}{7aabc5a9cddcbd1c4c3544cce10cc854}
+      \strng{bibnamehash}{7aabc5a9cddcbd1c4c3544cce10cc854}
+      \strng{authorbibnamehash}{7aabc5a9cddcbd1c4c3544cce10cc854}
+      \strng{authornamehash}{03e15a98694d090c89b0d896b01a728d}
+      \strng{authorfullhash}{7aabc5a9cddcbd1c4c3544cce10cc854}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 2015 International Conference on Computing Research and Innovations}
+      \field{title}{Student dropout prediction using business intelligence for higher education institution}
+      \field{year}{2015}
+    \endentry
+    \entry{Nicoletti2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ae3e3517135fa5f247206eb6fca1f298}{%
+           family={Nicoletti},
+           familyi={N\bibinitperiod},
+           given={Maria\bibnamedelimb do\bibnamedelima Carmo},
+           giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Canadian Center of Science}%
+        {Education}%
+      }
+      \strng{namehash}{ae3e3517135fa5f247206eb6fca1f298}
+      \strng{fullhash}{ae3e3517135fa5f247206eb6fca1f298}
+      \strng{bibnamehash}{ae3e3517135fa5f247206eb6fca1f298}
+      \strng{authorbibnamehash}{ae3e3517135fa5f247206eb6fca1f298}
+      \strng{authornamehash}{ae3e3517135fa5f247206eb6fca1f298}
+      \strng{authorfullhash}{ae3e3517135fa5f247206eb6fca1f298}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Higher Education Studies}
+      \field{number}{3}
+      \field{title}{Revisiting the {Tinto's} Theoretical Dropout Model}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{52\bibrangedash 64}
+      \range{pages}{13}
+      \verb{urlraw}
+      \verb https://files.eric.ed.gov/fulltext/EJ1220246.pdf
+      \endverb
+      \verb{url}
+      \verb https://files.eric.ed.gov/fulltext/EJ1220246.pdf
+      \endverb
+    \endentry
+    \entry{taodzera2}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8c1ac49d186f9de735310e1fa4fc90fd}{%
+           family={Taodzera},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Johannesburg}%
+      }
+      \strng{namehash}{8c1ac49d186f9de735310e1fa4fc90fd}
+      \strng{fullhash}{8c1ac49d186f9de735310e1fa4fc90fd}
+      \strng{bibnamehash}{8c1ac49d186f9de735310e1fa4fc90fd}
+      \strng{authorbibnamehash}{8c1ac49d186f9de735310e1fa4fc90fd}
+      \strng{authornamehash}{8c1ac49d186f9de735310e1fa4fc90fd}
+      \strng{authorfullhash}{8c1ac49d186f9de735310e1fa4fc90fd}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Predicting the performance of engineering students at the {U}niversity of {J}ohannesburg using machine learning techniques}
+      \field{type}{Master's thesis}
+      \field{year}{2016}
+    \endentry
+    \entry{Tinto1975}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
+           family={Tinto},
+           familyi={T\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{fullhash}{112fee32f4834c2d2d63667db2201663}
+      \strng{bibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Educational Research}
+      \field{number}{1}
+      \field{title}{Dropout from higher education: A theoretical synthesis of recent research}
+      \field{volume}{45}
+      \field{year}{1975}
+      \field{pages}{89\bibrangedash 125}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.3102/00346543045001089
+      \endverb
+    \endentry
+    \entry{Tinto1993}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
+           family={Tinto},
+           familyi={T\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{fullhash}{112fee32f4834c2d2d63667db2201663}
+      \strng{bibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
+      \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{Leaving college: Rethinking the causes and cures of student attrition}
+      \field{year}{1993}
     \endentry
   \enddatalist
-  \missing{Ngemu2015}
-  \missing{Taodzera2016}
-  \missing{ahmed2024student}
-  \missing{arnold2023course}
-  \missing{baker2014educational}
-  \missing{bouihi2024prediction}
-  \missing{breiman2001random}
-  \missing{chen2016xgboost}
-  \missing{gandhi2025machine}
-  \missing{georgia2024approaching}
-  \missing{irwin2024report}
-  \missing{jayaprakash2014early}
-  \missing{moloi2024predictive}
-  \missing{musasia2025postgraduate}
-  \missing{ngemu2015student}
-  \missing{pascarella1980predicting}
-  \missing{ramos2025machine}
-  \missing{renick2024access}
-  \missing{romero2020educational}
-  \missing{tinto1993}
-  \missing{wachira2024predictive}
-  \missing{wang2025artificial}
-  \missing{zhang2024temporal}
 \endrefsection
 \endinput
 
