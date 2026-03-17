@@ -36,26 +36,18 @@
 \contentsline {subsubsection}{\numberline {2.3.2.4}Operationalization in This Study}{23}{subsubsection.2.3.2.4}%
 \contentsline {subsubsection}{\numberline {2.3.2.5}Limitations and Critiques of the I-E-O Model}{24}{subsubsection.2.3.2.5}%
 \contentsline {section}{\numberline {2.4}Machine Learning in Educational Data Mining (EDM)}{25}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}The Paradigm Shift: From Lag Indicators to Predictive Signals}{25}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Model Performance Metrics and Evaluation Standards}{25}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3} Ensemble Learning: The Technical Foundation}{26}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}The Black Box Problem and Explainable AI (XAI)}{27}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Risk Outcome Categories in the Literature}{28}{subsection.2.4.5}%
-\contentsline {section}{\numberline {2.5}Evidence of Technological Maturity}{28}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Predictive Analytics in the African Higher Education Context}{29}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Continental Policy Framework}{29}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Regional Case Studies}{30}{subsection.2.6.2}%
-\contentsline {section}{\numberline {2.7}The Kenyan Higher Education Landscape}{30}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Structural and Economic Pressures}{30}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}National Policy Mandate}{31}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Foundational Kenyan Study: Machakos University College}{31}{subsection.2.7.3}%
-\contentsline {section}{\numberline {2.8}Data Integration and Institutional System Architecture}{32}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}Siloed Administrative Repositories}{32}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2.8.2}Engagement Metrics as Lead Indicators}{33}{subsection.2.8.2}%
-\contentsline {section}{\numberline {2.9}Summary and Identification of Knowledge Gaps}{33}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Logical Flow of LR}{35}{section.2.10}%
-\contentsline {subsubsection}{\numberline {2.10.0.1}Georgia State University}{35}{subsubsection.2.10.0.1}%
-\contentsline {subsubsection}{\numberline {2.10.0.2}Moroko}{35}{subsubsection.2.10.0.2}%
-\contentsline {subsubsection}{\numberline {2.10.0.3}South Africa: Joanesbourg}{35}{subsubsection.2.10.0.3}%
-\contentsline {subsubsection}{\numberline {2.10.0.4}South Africa:Cap Town}{35}{subsubsection.2.10.0.4}%
-\contentsline {subsubsection}{\numberline {2.10.0.5}Machakose case}{35}{subsubsection.2.10.0.5}%
+\contentsline {subsection}{\numberline {2.4.1}Overview of the Field}{25}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Core Applications in Higher Education}{25}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Machine Learning Algorithms and Techniques}{26}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Data Sources and Feature Engineering}{27}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Explainability, Fairness, and Ethical Considerations}{27}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Existing ML-based predictive analytics for at-risk students}{29}{subsection.2.4.6}%
+\contentsline {subsubsection}{\numberline {2.4.6.1}Georgia State University: GPS Advising System}{29}{subsubsection.2.4.6.1}%
+\contentsline {subsubsection}{\numberline {2.4.6.2}Mohammed V University, Morocco: A Modular and Explainable Machine Learning Pipeline}{32}{subsubsection.2.4.6.2}%
+\contentsline {subsubsection}{\numberline {2.4.6.3}Moroko}{38}{subsubsection.2.4.6.3}%
+\contentsline {subsubsection}{\numberline {2.4.6.4}South Africa: Joanesbourg}{38}{subsubsection.2.4.6.4}%
+\contentsline {subsubsection}{\numberline {2.4.6.5}South Africa:Cap Town}{38}{subsubsection.2.4.6.5}%
+\contentsline {subsubsection}{\numberline {2.4.6.6}Machakose case}{38}{subsubsection.2.4.6.6}%
+\contentsline {subsubsection}{\numberline {2.4.6.7}Research Gaps table}{38}{subsubsection.2.4.6.7}%
+\contentsline {subsubsection}{\numberline {2.4.6.8}Relevances to this study table}{38}{subsubsection.2.4.6.8}%
+\contentsline {subsubsection}{\numberline {2.4.6.9}Conceptual Framework}{38}{subsubsection.2.4.6.9}%

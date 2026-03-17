@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  16 MAR 2026 22:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  17 MAR 2026 20:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -569,7 +569,11 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 38.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 42.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (./At_Risk.aux)
+) (./At_Risk.aux
+
+LaTeX Warning: Label `fig:tinto_model' multiply defined.
+
+)
 \openout1 = `At_Risk.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -677,13 +681,14 @@ Package biblatex Info: ... file 'At_Risk.bbl' found.
 Package biblatex Info: Reference section=0 on input line 42.
 Package biblatex Info: Reference segment=0 on input line 42.
 Package hyperref Info: Link coloring ON on input line 42.
+ (./At_Risk.out) (./At_Risk.out)
 \@outlinefile=\write4
 \openout4 = `At_Risk.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<./images/strathmore_logo.png, id=4, 324.21124pt x 156.585pt>
+<./images/strathmore_logo.png, id=217, 324.21124pt x 156.585pt>
 File: ./images/strathmore_logo.png Graphic file (type png)
 <use ./images/strathmore_logo.png>
 Package pdftex.def Info: ./images/strathmore_logo.png  used on input line 48.
@@ -699,12 +704,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 89.
  [2
 
-]
-No file At_Risk.toc.
+] (./At_Risk.toc [3] [4])
 \tf@toc=\write5
 \openout5 = `At_Risk.toc'.
 
-[3]
+ [5]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 116.
@@ -778,7 +782,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [15] [16]
-<images/TintoModel1.jpg, id=165, 1284.8pt x 827.09pt>
+<images/TintoModel1.jpg, id=413, 1284.8pt x 827.09pt>
 File: images/TintoModel1.jpg Graphic file (type jpg)
 <use images/TintoModel1.jpg>
 Package pdftex.def Info: images/TintoModel1.jpg  used on input line 508.
@@ -789,7 +793,7 @@ Overfull \hbox (27.52173pt too wide) in paragraph at lines 578--587
  []
 
 [19]
-<images/AstinModel.png, id=209, 719.68875pt x 443.6575pt>
+<images/AstinModel.png, id=455, 719.68875pt x 443.6575pt>
 File: images/AstinModel.png Graphic file (type png)
 <use images/AstinModel.png>
 Package pdftex.def Info: images/AstinModel.png  used on input line 639.
@@ -810,104 +814,158 @@ Overfull \hbox (4.31386pt too wide) in paragraph at lines 756--766
  []
 
 
-Overfull \hbox (18.79219pt too wide) in paragraph at lines 772--772
+Overfull \hbox (18.79219pt too wide) in paragraph at lines 767--767
 |[]\T1/ptm/b/n/17.28 Machine Learn-ing in Ed-u-ca-tional Data Min-ing (EDM)| 
  []
 
+
+Overfull \hbox (7.96295pt too wide) in paragraph at lines 771--785
+\T1/ptm/m/n/12 making. By ap-ply-ing com-pu-ta-tional anal-y-sis to data orig-i-nat-ing in ed-u-ca-tional contexts---
+ []
+
 [24]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 790.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [25]
-Overfull \hbox (0.90497pt too wide) in paragraph at lines 796--799
-[]\T1/ptm/m/n/12 ROC-AUC (Re-ceiver Op-er-at-ing Char-ac-ter-is-tic ^^U Area Un-der Curve): A threshold-
+Overfull \hbox (3.93132pt too wide) in paragraph at lines 791--797
+[]\T1/ptm/b/n/12 Performance Pre-dic-tion \T1/ptm/m/n/12 in-volves fore-cast-ing aca-demic outcomes--- such as fi-nal course
+ []
+
+
+Overfull \hbox (5.45473pt too wide) in paragraph at lines 791--797
+\T1/ptm/m/n/12 grades, semester GPA, or ex-am-i-na-tion results---by an-a-lyz-ing his-tor-i-cal aca-demic records,
+ []
+
+[25]
+Overfull \hbox (7.19542pt too wide) in paragraph at lines 834--842
+[]\T1/ptm/b/n/12 Deep Learn-ing \T1/ptm/m/n/12 models---including Multi-Layer Per-cep-trons (MLP), Con-vo-lu-tional Neu-
  []
 
 [26]
-/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex:830: Misplaced alignment tab character &.
-l.830   particular prediction was made (Lundberg &
-                                                   Lee, 2017). In a universi...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+Overfull \hbox (9.4259pt too wide) in paragraph at lines 873--877
+\T1/ptm/m/n/12 As ML be-comes em-bed-ded in in-sti-tu-tional decision-making, three in-ter-re-lated concerns---
+ []
 
-
-Overfull \hbox (20.82657pt too wide) in paragraph at lines 828--834
-\T1/ptm/m/n/12 peded by what the lit-er-a-ture terms the 'Black Box' prob-lem: the in-abil-ity of users^^Vadvisors,
+[27] [28] [29]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 981.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [30] [31] [32]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 1084.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Overfull \hbox (0.77788pt too wide) in paragraph at lines 1092--1099
+\T1/ptm/m/n/12 specif-i-cally \T1/pcr/m/n/12 scikit-learn 1.7.1\T1/ptm/m/n/12 , \T1/pcr/m/n/12 xgboost 3.0.3\T1/ptm/m/n/12 , and \T1/pcr/m/n/12 shap 0.48.0\T1/ptm/m/n/12 . This
  []
 
 
-Overfull \hbox (6.85924pt too wide) in paragraph at lines 828--834
-\T1/ptm/m/n/12 ad-min-is-tra-tors, and stu-dents^^Vto un-der-stand why a par-tic-u-lar pre-dic-tion was made (Lund-
+Overfull \hbox (6.55754pt too wide) in paragraph at lines 1104--1110
+[]\T1/ptm/b/n/12 Data In-ges-tion and Clean-ing: \T1/ptm/m/n/12 Au-to-matic de-lim-iter de-tec-tion; re-moval of columns
  []
 
-[27] [28]
-Overfull \hbox (2.85094pt too wide) in paragraph at lines 874--880
-\T1/ptm/m/n/12 driven in-ter-ven-tion closes eq-uity gaps: by sys-tem-at-i-cally iden-ti-fy-ing stu-dents who would
+[33]
+Overfull \hbox (31.56654pt too wide) in paragraph at lines 1111--1115
+\T1/ptm/m/n/12 tured pre-dic-tors, in-clud-ing tem-po-ral fea-tures such as hold du-ra-tions (e.g., \T1/pcr/m/n/12 AP_END_DTE
  []
 
-[29] [30] [31] [32] [33]
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1018.
+Overfull \hbox (0.6425pt too wide) in paragraph at lines 1120--1125
+\T1/ptm/m/n/12 Sup-port Vec-tor Ma-chine (SVM), Gra-di-ent Boost-ing (GB), XG-Boost, Naïve Bayes
+ []
 
-[34] [35] [36
+
+Overfull \hbox (8.8139pt too wide) in paragraph at lines 1154--1154
+[]|[]\T1/ptm/b/n/12 Accuracy[]| 
+ []
+
+
+Overfull \hbox (7.27771pt too wide) in paragraph at lines 1155--1155
+[]|[]\T1/ptm/b/n/12 Precision[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1158
+[]|[]\T1/ptm/b/n/12 AUC-
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 1171.
+See the caption package documentation for explanation.
+
+[34]
+Overfull \hbox (8.32132pt too wide) in paragraph at lines 1192--1196
+[]\T1/pcr/m/n/12 AP_END_DTE \T1/ptm/m/n/12 (pre-registration dead-line times-tamp) emerged as the sin-gle highest-
+ []
+
+[35]
+Overfull \hbox (4.71288pt too wide) in paragraph at lines 1200--1202
+[]\T1/pcr/m/n/12 FAILED_CRS_COUNT\T1/ptm/m/n/12 , \T1/pcr/m/n/12 CAREER_HRS_EARNED\T1/ptm/m/n/12 , and \T1/pcr/m/n/12 TOTAL_D_STATUS \T1/ptm/m/n/12 con-
+ []
+
+
+Overfull \hbox (11.59879pt too wide) in paragraph at lines 1232--1240
+[]\T1/ptm/b/n/12 Institution-Specific Fea-tures: \T1/ptm/m/n/12 Ad-min-is-tra-tive hold times-tamps such as \T1/pcr/m/n/12 AP_START_DTE
+ []
+
+[36]
+Overfull \hbox (4.1229pt too wide) in paragraph at lines 1241--1246
+\T1/ptm/m/n/12 mary mod-els were trained on data from a sin-gle Mo-roc-can HEI. Broader multi-institution
+ []
+
+
+Overfull \hbox (0.17542pt too wide) in paragraph at lines 1262--1280
+\T1/pcr/m/n/12 xgboost\T1/ptm/m/n/12 , \T1/pcr/m/n/12 shap\T1/ptm/m/n/12 ) es-tab-lishes the tech-ni-cal fea-si-bil-ity of de-ploy-ing a high-performance,
+ []
+
+[37] [38] [39
 
 ]
-Overfull \hbox (8.85013pt too wide) in paragraph at lines 1033--1033
+Overfull \hbox (2.03822pt too wide) in paragraph at lines 1306--1306
+\T1/ptm/m/n/12 demic sup-port. [][]$https : / / edtechmagazine . com / higher / article / 2019 / 04 / %20georgia -[]
+ []
+
+
+Overfull \hbox (8.85013pt too wide) in paragraph at lines 1306--1306
 \T1/ptm/m/n/12 Un-der-grad-u-ate stu-dent re-ten-tion ac-tiv-i-ties: Chal-lenges and re-search agenda. \T1/ptm/m/it/12 SAGE
  []
 
-[37]
-Overfull \hbox (12.64394pt too wide) in paragraph at lines 1033--1033
+[40]
+Overfull \hbox (172.40681pt too wide) in paragraph at lines 1306--1306
+\T1/ptm/m/n/12 ver-sity of East Lon-don. [][]$https : / / repository . uel . ac . uk / download / %206c0960ac0855e05febf31922490fe34ac8ed4ba9 %
+ []
+
+[41]
+Overfull \hbox (12.64394pt too wide) in paragraph at lines 1306--1306
 \T1/ptm/m/it/12 2024 re-port \T1/ptm/m/n/12 (tech. rep.). Na-tional Stu-dent Clear-ing-house. [][]$https : / / nscresearchcenter .
  []
 
-[38] (./At_Risk.aux)
+[42] [43] (./At_Risk.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `At_Risk.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `At_Risk.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  7E6B9BA6352FC93E30DA054F473169C1;13206.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                At_Risk
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `At_Risk.out' has not changed.
+(rerunfilecheck)             Checksum: CC9039B169E76CA2F4F9EF65393728C1;11169.
 Package logreq Info: Writing requests to 'At_Risk.run.xml'.
 \openout1 = `At_Risk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20059 strings out of 474222
- 354508 string characters out of 5748734
+ 20392 strings out of 474222
+ 360676 string characters out of 5748734
  1948975 words of memory out of 5000000
- 41958 multiletter control sequences out of 15000+600000
- 583597 words of font info for 62 fonts, out of 8000000 for 9000
+ 42259 multiletter control sequences out of 15000+600000
+ 586940 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,9n,81p,1253b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on At_Risk.pdf (41 pages, 303111 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on At_Risk.pdf (48 pages, 369765 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 363 compressed objects within 4 object streams
- 145 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 800 PDF objects out of 1000 (max. 8388607)
+ 721 compressed objects within 8 object streams
+ 165 named destinations out of 1000 (max. 500000)
+ 440 words of extra memory for PDF output out of 10000 (max. 10000000)
 
