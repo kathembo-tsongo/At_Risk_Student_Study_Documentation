@@ -16,6 +16,9 @@
 \usepackage{longtable}
 \usepackage{caption}
 \usepackage{float}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{ragged2e}
 % --- 2. Global Formatting & Fixes ---
 \doublespacing       
 \graphicspath{{./images/}}
@@ -29,6 +32,17 @@
 
 % Pulls the title up: -30pt removes the default gap to align with the 1-inch top margin
 \titlespacing*{\chapter}{0pt}{-30pt}{20pt}
+
+
+
+
+% Define colors
+\definecolor{tableheader}{RGB}{31, 56, 100}
+\definecolor{tablerowlight}{RGB}{220, 230, 242}
+\definecolor{tablerowwhite}{RGB}{215, 255, 255}
+
+% Left-aligned column types with fixed width
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
 
 \hypersetup{
     colorlinks=true,
@@ -1055,8 +1069,7 @@ simply inspired by the Georgia State model---it is explicitly designed
 to resolve the transferability and transparency gaps that prevent that 
 model from being deployed in a Kenyan institutional context.
 
-\subsubsection{Mohammed V University, Morocco: A Modular and Explainable 
-Machine Learning Pipeline}
+\subsubsection{Morocco: A Modular and Explainable Machine Learning Pipeline at Mohammed V University}
 
 \textbf{Institutional Context and Motivation}
 
@@ -1183,47 +1196,6 @@ full pipeline was replicated on the public UCI Portugal dataset
 = 0.792, AUC-ROC = 0.922), confirming model ordering preservation across 
 feature-shifted datasets.
 
-\textbf{Explainability Findings}
-
-The SHAP analysis identified a compact set of dominant predictors 
-\parencite{Bettahi2025}:
-
-\begin{itemize}
-    \item \texttt{AP\_END\_DTE} (pre-registration deadline timestamp) 
-    emerged as the single highest-impact risk feature with a mean 
-    absolute SHAP value of $\approx$1.902 for XGBoost, functioning as 
-    a structural timing signal for enrollment disruption.
-    \item \texttt{CAREER\_GPA} and \texttt{PASSED\_CRS\_COUNT} ranked 
-    consistently in the top predictors across all three models (XGBoost, 
-    Random Forest, and MLP), confirming academic momentum as the primary 
-    driver of both persistence and attrition.
-    \item \texttt{FAILED\_CRS\_COUNT}, \texttt{CAREER\_HRS\_EARNED}, 
-    and \texttt{TOTAL\_D\_STATUS} constituted the secondary risk tier.
-\end{itemize}
-
-Crucially, the SHAP layer distinguished between \textit{risk factors} 
-(features positively associated with dropout) and \textit{protective 
-factors} (features negatively associated with dropout), a distinction 
-absent from most prior studies that report only global feature 
-importance rankings \parencite{Bettahi2025}. Approximately 5\% of 
-students presented as anomalous (high SHAP complexity relative to their 
-predicted probability), and 1\% formed ambiguous mid-probability 
-clusters ($\hat{p} \approx 0.5$)---both categories flagged for 
-mandatory human-in-the-loop review before any institutional action 
-was taken.
-
-\textbf{Fairness and Subgroup Reporting}
-
-Subgroup analysis by credit-load bin demonstrated consistently high 
-recall across enrollment intensities: 0.932 for students carrying 
-fewer than 9 credits, 0.969 for the 9--12 credit range, and 0.936 
-for those carrying more than 12 credits, with False Negative Rates 
-(FNR) ranging from 3.1\% to 6.8\% \parencite{Bettahi2025}. This 
-stability is significant for the current study's context: Strathmore 
-University students carry varying course loads across its five schools, 
-and a system that degrades in sensitivity for lighter or heavier credit 
-loads would produce inequitable intervention patterns.
-
 \textbf{Limitations}
 
 The authors explicitly acknowledge several limitations directly relevant 
@@ -1237,19 +1209,6 @@ institution-specific feature engineering strategy, which maps
 Strathmore's 67\% attendance threshold and 2.0 GPA floor as 
 policy-calibrated features rather than relying on transferable generic 
 variables.
-
-\textbf{Single-Institution Training:} Despite external replication on 
-the UCI dataset, the primary models were trained on data from a single 
-Moroccan HEI. Broader multi-institution validation across African 
-universities remains necessary before generalizable policy 
-recommendations can be drawn.
-
-\textbf{Restricted Fairness Auditing:} The subgroup analysis was 
-intentionally limited to academic operational variables (credit load, 
-division, and major). Protected attributes such as gender and 
-socioeconomic status were neither available nor approved for analysis, 
-meaning that the system's differential impact across these dimensions 
-remains unaudited.
 
 \textbf{Batch Processing:} The pipeline is designed as a static 
 train/test evaluation rather than a real-time streaming system. 
@@ -1272,27 +1231,514 @@ institutional dataset validates the algorithm selection rationale for
 this study. Third, the SHAP-based risk versus protective factor 
 distinction provides the explainability architecture template for the 
 role-based advisor dashboards developed in Chapter Four. The key 
-departure of this study from Bettahi et al. (2025) is the 
-simultaneous prediction of three distinct risk outcomes---dropout risk, 
+departure of this study is then  the simultaneous prediction of three distinct risk outcomes---dropout risk, 
 course failure risk, and programme delay risk---rather than a single 
 binary dropout outcome, and the explicit calibration of all models to 
 Strathmore University's specific policy thresholds.
 
+\subsubsection{South Africa: Machine Learning for Engineering Student 
+Success at the University of Johannesburg}
 
+One of the earliest investigations of ML-based student performance 
+prediction in the South African context was conducted by Taodzera, Twala, 
+and Carroll at the University of Johannesburg's Department of Electrical 
+and Electronics Engineering Science \parencite{Taodzera2016}. South 
+Africa presents a uniquely complex setting for educational data mining: 
+engineering programmes face critically low throughput rates, students 
+arrive with profoundly unequal secondary school preparation resulting 
+from the enduring effects of apartheid-era education, and socioeconomic 
+disparity produces wide variation in academic readiness within the same 
+classroom \parencite{Taodzera2016}.
+
+\textbf{Dataset and Features}
+
+The study worked with 1,366 engineering 
+student records drawn from a South African university. Available features 
+spanned demographic and academic entry indicators: high school 
+Mathematics score, Physics score, English score, Life Orientation score, 
+ethnicity, home language, age, school province, and religion. The 
+response variable was defined as the number of subjects passed to 
+qualify for progression to second year---a binary pass/fail 
+classification motivated by the institution's own progression 
+regulations \parencite{Taodzera2016}.
+
+\textbf{Feature Selection}
+
+Correlation analysis identified Physics 
+score (r = 0.2391) and Mathematics score (r = 0.1836) as the strongest 
+predictors of first-year success, followed by age (r = 0.1191) and 
+ethnicity (r = 0.0808). The significance of ethnicity as a predictor 
+directly reflects structural inequalities in South African secondary 
+schooling, where historically advantaged schools continue to produce 
+students substantially better prepared for the quantitative demands of 
+engineering study \parencite{Taodzera2016}. Wrapper-based feature 
+selection confirmed Mathematics and Physics as the primary predictors, 
+with ethnicity and school province also identified as significant---the 
+latter functioning as an indirect proxy for geographic inequality and 
+school system quality differentials across provinces.
+
+\textbf{Models and Results} 
+
+Five algorithms were evaluated: Logistic 
+Regression (LR), Naïve Bayes (NB), Artificial Neural Network (ANN), 
+Support Vector Machine (SVM), and Decision Tree (DT). The DT algorithm 
+performed best with 65.86\% accuracy, an F1-score of 0.658, and a Kappa 
+statistic of 0.316---classifying it as a fair predictor. SVM ranked 
+second (64.63\%), followed by NB (63.41\%) and LR (63.17\%). ANN 
+performed weakest (60.24\%). All models were significantly better than 
+the prior South African study by Mashiloane (2015), which failed to 
+exceed 50\% accuracy on a Computer Science dataset from the University 
+of the Witwatersrand \parencite{Taodzera2016}.
+
+\textbf{Critical Assessment}
+
+The Taodzera et al. study makes two 
+contributions of direct relevance to this thesis. First, it demonstrates 
+that standard ML algorithms can be operationalized in a resource-limited 
+African institutional setting using only enrollment-time features 
+available at the point of admission---without requiring LMS integration, 
+real-time data pipelines, or proprietary vendor platforms. Second, the 
+identification of school province and ethnicity as statistically 
+significant predictors highlights a structural feature of African 
+educational data that does not appear in the North American literature: 
+that secondary schooling inequality is itself a measurable risk factor 
+that encodes into university-level performance data.
+
+However, the study carries significant limitations. The overall accuracy 
+ceiling of 65.86\% reflects the constraints of using enrollment-time 
+data only, without any longitudinal academic performance features. The 
+absence of SHAP-based or any form of explainability analysis means the 
+model cannot be operationalized as a policy-actionable early warning 
+system: advisers cannot understand which specific factors triggered a 
+risk flag for an individual student. Furthermore, the modest Kappa 
+values (all below 0.32) suggest that all five models classify at a 
+level only slightly above what chance would produce, and none would 
+meet the precision threshold required for institutional deployment 
+without substantial risk of false positives that misdirect support 
+resources \parencite{Taodzera2016}.
+
+
+\subsubsection{South Africa: Bayesian Network Classification for Computer
+ Science Student Risk Prediction at the University of Cape Town}
+
+At the University of Cape Town's Department of Computer Science, Hassen conducted a study 
+applying Bayesian Network classifiers to predict which second-year Computer
+  Science students that were at risk of failing CSC2001F \parencite{Hassen2020}. This was a core data structures 
+  course widely regarded as the critical attrition point in the UCT Computer Science major.
+   The institutional motivation was explicit: while first-year pass rates remained 
+   comparatively stable, the transition to senior courses caused a substantial proportion
+    of students to either exceed the standard three-year degree duration or abandon the 
+    Computer Science major entirely \parencite{Hassen2020}. This pattern of second-year 
+    attrition, compounded by South Africa's post-apartheid imperative to produce technically
+     skilled graduates from historically disadvantaged backgrounds, provided the normative urgency for the study.
+
+\textbf{Dataset and Features}
+
+The study drew on 728 student records spanning six cohorts from 2013 to 2019. Features were 
+selected through iterative consultation with the course convenor and spanned both pre-entry
+ and early in-course indicators: Matric Mathematics mark, Matric English mark, National
+  Benchmark Test (NBT) scores in Mathematics, Quantitative Literacy and Academic Literacy, 
+  first-year Computer Science course final marks (CSC1015F and CSC1016S), the first assignment
+   mark for CSC2001F, and the CSC2001F Test 1 mark \parencite{Hassen2020}. The target variable
+    was binarised as Pass (final mark above 49) or Fail (final mark below 50). Several candidate 
+    features --- including UCTScore and first-year GPA --- were ultimately excluded, the former 
+    because its inclusion would have reduced the usable dataset by approximately ten percent due
+     to missingness \parencite{Hassen2020}.
+
+\textbf{Methodological Design}
+
+Three Bayesian Network models were developed using the Netica platform. The first was manually
+ constructed from expert knowledge gathered in faculty consultations. The second was generated 
+ automatically using Netica's Tree Augmented Naïve Bayes (TAN) structure learning algorithm,
+  which approximates variable interactions through a tree structure imposed on a naïve Bayesian 
+  base \parencite{Hassen2020}. The third was a combined model synthesising insights from both,
+   with direct links to the AtRisk target node drawn from whichever predecessor model demonstrated 
+   greater sensitivity for each predictor. The gradient descent algorithm was selected for conditional 
+   probability table learning in both the TAN and combined models following comparative evaluation 
+   of three available learning procedures.
+
+A notable methodological contribution was the adoption of incremental training, wherein each cohort's
+ model was trained exclusively on all preceding years' data and evaluated on the subsequent 
+ cohort --- replicating the temporal constraints of genuine deployment \parencite{Hassen2020}.
+  This approach avoids the data leakage that afflicts many EDM studies that train and test on 
+  cross-sectional splits of the same cohort. Additionally, class imbalance --- a persistent
+   challenge in student risk datasets where passing students substantially outnumber failing
+    students --- was addressed through SMOTE oversampling, and continuous features were discretised 
+    into uniform ten-point intervals in accordance with EDM literature recommending discretisation
+     for improved Bayesian classifier accuracy \parencite{Hassen2020}.
+
+\textbf{Models and Results}
+
+The three models produced substantially different performance profiles when evaluated on the 
+2019 holdout cohort (n=108). The manually constructed model performed poorly, achieving only 
+a 67.59\% accuracy rate alongside a recall of 0.33 and a near-negligible F1 score of 0.10, 
+indicating that expert intuition alone was insufficient to capture the probabilistic dependencies 
+embedded in the data \parencite{Hassen2020}. The TAN model improved substantially on accuracy (84.25\%) 
+and recall (0.50), though its precision remained low at 0.17. The combined model produced the most 
+instructive outcome: while its accuracy (83.33\%) was marginally below the TAN model's, it achieved 
+a perfect recall score of 1.0 --- correctly identifying every at-risk student in the test
+ cohort --- alongside an F1 score of 0.40 and a precision of 0.25 \parencite{Hassen2020}. 
+ The study's most important finding was the identification of CSC2001F Assignment 1, CSC2001F Test 1,
+  CSC1016S final mark and Matric Mathematics as the variables exerting the greatest influence on the 
+  AtRisk node, as determined through Netica's variance reduction sensitivity analysis.
+
+\textbf{Critical Assessment}
+
+The Hassen study makes several contributions of direct relevance to this thesis. First, it demonstrates
+ that Bayesian Network classifiers can be operationalised effectively within a South African Computer 
+ Science institutional context using a modest dataset without requiring large-scale LMS integration or
+  commercial predictive analytics platforms. Second, the adoption of incremental cohort-based training
+   represents a methodologically sound simulation of real-world deployment that is absent from many 
+   comparable EDM studies. Third, the explicit prioritisation of recall over accuracy as the primary
+    evaluation criterion is theoretically well-motivated in the student support context: the asymmetric
+     cost of missing a genuinely at-risk student substantially outweighs the cost of providing unnecessary 
+     support to a student who would have passed regardless \parencite{Hassen2020}.
+
+However, the study carries significant limitations that circumscribe its generalisability. The dataset of 
+728 records spread across six cohorts is small by machine learning standards, and the per-cohort test sets 
+are consequently limited --- the 2019 evaluation cohort contained only 108 students, of whom just six were 
+classified as failing. This severe class imbalance, even after SMOTE augmentation of the training sets, 
+means that the combined model's perfect recall of 1.0 must be interpreted cautiously: correctly identifying 
+all six failing students in a 108-student cohort is an encouraging result but constitutes insufficient 
+evidence of robust generalisability across larger or differently composed populations \parencite{Hassen2020}. 
+The precision score of 0.25 further reveals that for every genuine at-risk student correctly flagged, three 
+false positives were generated --- an operational burden that could misallocate scarce advising resources and
+ undermine institutional confidence in the system.
+
+The study also notably excludes social and demographic features on ethical grounds, explicitly acknowledging
+ that school-level quality and apartheid-era structural inequality are likely significant unobserved
+  confounders \parencite{Hassen2020}. While this decision is ethically defensible, it means the model 
+  cannot surface the structural drivers of differential risk that are most actionable at the policy level.
+   Furthermore, the absence of any explainability framework beyond Netica's sensitivity analysis means 
+   that, while a course convenor can observe that Assignment 1 is the strongest predictor, they cannot
+    generate student-level explanations sufficient to guide individualised advising conversations. 
+    
+
+\subsubsection{Ethiopia: Predictive Analytics at Scale with African 
+Institutional Data}
+
+A more recent and methodologically stronger study from the East African 
+context was conducted by Esmael (2024) at Wollo University and the 
+Kombolcha Institute of Technology in Ethiopia \parencite{Esmael2024}. 
+Using a dataset of 32,582 students from academic years 2017--2022 
+extracted from the institutional student information system, this study 
+applied ML algorithms including Random Forest, Gradient Boosting, and 
+Decision Tree classifiers to predict final academic results from 
+demographic and academic entry features: gender, region, entrance 
+examination results, number of previous attempts, studied credits, and 
+disability status. Python was used for all preprocessing and modeling.
+
+The study found that ensemble methods---particularly gradient 
+boosting---outperformed single classifiers on Ethiopian institutional 
+data, echoing the pattern observed in both the Moroccan Bettahi et al. 
+(2025) pipeline and the global EDM literature. Entrance examination 
+results and studied credits emerged as the strongest predictors, 
+consistent with findings from both the South African and Moroccan 
+contexts that prior academic achievement and engagement intensity are 
+the most transferable cross-institutional risk signals 
+\parencite{Esmael2024}.
+
+This study's principal contribution to the present literature review 
+is confirmation that ensemble tree-based methods retain their predictive 
+advantage over classical algorithms even on African institutional data 
+with limited feature dimensionality. Its limitation is the absence of 
+any explainability layer (no SHAP or LIME analysis is conducted), 
+meaning that model outputs cannot be directly translated into 
+student-specific intervention recommendations \parencite{Esmael2024}.
+
+\subsubsection{Kenya: Business Intelligence and Decision Tree Classification for Student Retention Prediction ---case of Machakos University College}
+
+One of the few published East African studies applying machine learning techniques to student retention prediction
+ in a higher education context was conducted by Ngemu, Odongo, Omulo, and Manderick, drawing on data from Machakos 
+ University College in Kenya \parencite{Ngemu2015}. The study was situated within a broader business intelligence (BI) 
+ framing, positioning educational data mining not merely as an academic exercise but as a strategic institutional tool
+  for evidence-based decision making in student management. The motivating concern was the well-documented but
+   institutionally underaddressed problem of student withdrawal in Kenyan higher learning institutions, where 
+   personal, financial, and socioeconomic factors converge to produce attrition patterns that existing student 
+   information systems lacked the analytical capacity to anticipate or explain \parencite{Ngemu2015}.
+
+\textbf{Dataset and Features}
+
+The study drew on secondary survey data sourced from Machakos University College's institutional database, 
+comprising 270 instances and 14 attributes. The feature set was notable for its emphasis on socioeconomic
+ and demographic indicators rather than prior academic performance: variables included course enrolled, KCSE 
+ grade, gender, father's and mother's educational qualifications, difficulty in fees payment, parental occupation,
+  marital status of parents, sponsor or guardian type, age on entry, whether course expectations were met, health 
+  status, and course-programme match \parencite{Ngemu2015}. The binary target variable distinguished between students
+   classified as PERSIST or DROPOUT. The deliberate inclusion of family financial circumstances, parental employment
+    status, and student health as primary predictors reflects the Kenyan institutional context, where economic precarity
+     and household-level resource constraints constitute the dominant structural drivers of non-completion rather than 
+     the academic preparation deficits more characteristic of South African engineering attrition \parencite{Ngemu2015}.
+
+\textbf{Feature Selection}
+
+Attribute importance analysis was conducted using both information gain and gain ratio measures within the WEKA 
+environment, with Ranker search used to order predictors by significance. Both evaluators converged on the same top 
+four predictors: difficulty in fees payment (DFP), age on entry (AOE), parental occupation (PO), and student health 
+status (HTH) \parencite{Ngemu2015}. The dominance of fees payment difficulty as the single most informative
+ predictor --- with a gain ratio of 0.424, substantially exceeding the second-ranked predictor at 0.153 --- is a finding 
+ of considerable structural significance. It positions financial exclusion, rather than academic underpreparation,
+  as the primary mechanism of student attrition in this Kenyan institutional setting, a pattern consistent with 
+  broader literature on non-completion in sub-Saharan African higher education where fee-dependent public universities 
+  serve students from predominantly low-income households \parencite{Ngemu2015}. Gender and course type ranked lowest
+   among predictors in both evaluators, suggesting that the withdrawal risk in this population was predominantly
+    socioeconomic rather than programme-specific or gender-differentiated.
+
+\textbf{Models and Results}
+
+Four classification algorithms were evaluated using WEKA: the J48 decision tree (an implementation of C4.5), 
+Naïve Bayes, Multilayer Perceptron (ANN), and Support Vector Machine (SMO). All four were assessed on ten-fold
+ cross-validation accuracy and recall, as well as model building execution time \parencite{Ngemu2015}. The J48
+  decision tree outperformed all competitors, achieving a cross-validation accuracy of 94.8\% and a recall of 94.4\%,
+   while also being the fastest to train at 0.02 seconds. Multilayer Perceptron ranked second in accuracy (93.4\%) but 
+   required more than two seconds to train --- over 100 times slower than J48. Naïve Bayes and SVM both achieved approximately 
+   90\% accuracy and recall. On the training set, J48 correctly classified 153 of 162 instances with an accuracy of 94.4\% and 
+   a Kappa statistic of 0.872. On the holdout test set, J48 classified 78 of 81 instances correctly, yielding a test accuracy 
+   of 96.3\% and a Kappa of 0.925 \parencite{Ngemu2015}. The decision tree structure surfaced interpretable classification 
+   rules, including the finding that fee payment difficulty alone was sufficient to classify a student as DROPOUT, while a
+    student with no fee difficulties and good health was classified as PERSIST regardless of other attributes \parencite{Ngemu2015}.
+
+\textbf{Critical Assessment}
+
+The Ngemu et al. study makes several contributions relevant to this thesis and to the broader East African educational 
+data mining literature. First, it represents one of the earliest published attempts to apply supervised classification 
+methods to student retention prediction within a Kenyan public university, demonstrating that WEKA-based BI tools can 
+be operationalised using institutional administrative data without requiring specialist data infrastructure or proprietary
+ analytics platforms \parencite{Ngemu2015}. Second, the feature set's emphasis on socioeconomic and household-level variables
+  rather than academic performance metrics is theoretically well-grounded in Tinto's model of student departure and its 
+  African adaptations, and produces a predictor profile that is meaningfully distinct from both the South African engineering 
+  context of Taodzera et al. and the Computer Science course performance context of Hassen. Third, the decision tree output
+   generates directly interpretable classification rules that an institutional registrar or student affairs officer could 
+   apply without specialist data science literacy, addressing a practical barrier to deployment that more opaque models 
+   such as ANNs and SVMs do not overcome.
+
+However, the study carries critical methodological limitations that substantially circumscribe the interpretability and
+ generalisability of its reported results. The most significant concern is the extreme smallness of the dataset: 270 
+ instances with 14 attributes is a very limited sample for constructing robust machine learning models, and the ten-fold 
+ cross-validation accuracy of 94.8\% and test set accuracy of 96.3\% are almost certainly inflated by overfitting to a 
+ dataset too small to capture genuine population-level variation in attrition patterns \parencite{Ngemu2015}. The Kappa 
+ statistic of 0.872 on the training set and 0.925 on the test set suggest strong agreement, but these figures must be
+  treated with caution given the dataset size. The study does not report precision and recall separately for each
+   class --- a critical omission when the class distribution between PERSIST and DROPOUT students is unknown and 
+   potentially imbalanced, since high overall accuracy can mask poor identification of the minority dropout class 
+   in exactly the manner the authors of subsequent studies such as Hassen explicitly sought to avoid \parencite{Ngemu2015}.
+
+Furthermore, the study provides no discussion of class imbalance, no oversampling or resampling adjustment for minority
+ class representation, and no SHAP-based or equivalent explainability analysis beyond the tree structure itself. The 
+ absence of any longitudinal or cohort-based evaluation means the reported accuracy figures reflect model performance
+  on a single static cross-section of institutional data, rather than the temporally realistic scenario in which a model
+   trained on prior cohorts is used to flag at-risk students in a new intake. The feature set, while theoretically motivated, 
+   relies entirely on enrollment-time socioeconomic and demographic data and includes no in-course academic performance 
+   indicators --- meaning the model cannot be updated or refined as early course performance data becomes available, 
+   limiting its utility as a dynamic early warning system. Finally, the authors acknowledge that social and cultural
+    factors could not be collected, and do not discuss the ethical implications of using parental occupation, family 
+    financial status, and health as institutional risk flags, dimensions of the deployment context that are increasingly
+     recognised as requiring explicit equity and bias auditing before any model is operationalised for advising or support
+      allocation decisions \parencite{Ngemu2015}.
+
+\subsubsection{Research Gaps Table}
+
+\rowcolors{2}{tablerowwhite}{tablerowlight}
+\begin{longtable}{L{2.4cm} L{2.2cm} L{2.4cm} L{2.4cm} L{3.4cm}}
+
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Study}} &
+\textcolor{white}{\textbf{Context}} &
+\textcolor{white}{\textbf{Technique Used}} &
+\textcolor{white}{\textbf{Key Predictors}} &
+\textcolor{white}{\textbf{Identified Gaps}} \\
+\endfirsthead
+
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Study}} &
+\textcolor{white}{\textbf{Context}} &
+\textcolor{white}{\textbf{Technique Used}} &
+\textcolor{white}{\textbf{Key Predictors}} &
+\textcolor{white}{\textbf{Identified Gaps}} \\
+\endhead
+
+Georgia State University GPS Advising \parencite{GSU2024} &
+USA, 50,000+ students &
+800+ risk markers; proprietary EAB Navigate platform &
+Grades, LMS engagement, financial status, registration anomalies &
+Proprietary and non-transferable; no model transparency; resource-intensive staffing; unaffordable for Global South institutions \\[6pt]
+
+Bettahi et al.\ \parencite{Bettahi2025} &
+Morocco, 17,883 undergraduate records &
+XGBoost, Random Forest, SHAP explainability &
+GPA, credits earned, course failures, financial hold flags &
+Static batch pipeline; no real-time retraining; institution-specific features limit transferability; single binary dropout outcome only \\[6pt]
+
+Taodzera et al.\ \parencite{Taodzera2016} &
+South Africa, 1,366 engineering students &
+Decision Tree, SVM, Naïve Bayes, ANN, Logistic Regression &
+Physics score, Mathematics score, age, ethnicity &
+Enrollment-time data only; no longitudinal features; no explainability layer; Kappa values below 0.32 indicate near-chance classification \\[6pt]
+
+Hassen \parencite{Hassen2020} &
+South Africa, 728 CS students (UCT) &
+Bayesian Network (manual, TAN, combined) &
+CSC2001F Assignment 1, Test 1, CSC1016S mark, Matric Mathematics &
+Very small dataset; high false positive rate (precision = 0.25); no SHAP-based explainability; limited generalisability beyond single course \\[6pt]
+
+Esmael \parencite{Esmael2024} &
+Ethiopia, 32,582 students &
+Random Forest, Gradient Boosting, Decision Tree &
+Entrance exam results, studied credits, gender, region &
+No explainability layer; no SHAP or LIME analysis; cannot generate student-specific intervention recommendations \\[6pt]
+
+Ngemu et al.\ \parencite{Ngemu2015} &
+Kenya, 270 instances (Machakos University College) &
+J48 Decision Tree, Naïve Bayes, SVM, MLP (WEKA) &
+Fee payment difficulty, age on entry, parental occupation, health status &
+Extremely small dataset; accuracy likely inflated by overfitting; no class imbalance handling; no per-class precision/recall; enrollment-time features only; no explainability \\[6pt]
+
+\caption{Summary of Research Gaps in Existing ML-Based Student Attrition Studies}
+\label{tab:research_gaps}
+\end{longtable}
+
+
+\subsubsection{Relevance to our study}
+
+\rowcolors{2}{tablerowwhite}{tablerowlight}
+\begin{longtable}{L{2.4cm} L{3.3cm} L{3.3cm} L{3.8cm}}
+
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Study}} &
+\textcolor{white}{\textbf{Contribution to This Study}} &
+\textcolor{white}{\textbf{Design Element Adopted}} &
+\textcolor{white}{\textbf{Design Element Improved or Departed From}} \\
+\endfirsthead
+
+\rowcolor{tableheader}
+\textcolor{white}{\textbf{Study}} &
+\textcolor{white}{\textbf{Contribution to This Study}} &
+\textcolor{white}{\textbf{Design Element Adopted}} &
+\textcolor{white}{\textbf{Design Element Improved or Departed From}} \\
+\endhead
+
+Georgia State University GPS Advising \parencite{GSU2024} &
+Proof of concept that predictive analytics at scale can raise graduation rates and eliminate equity gaps &
+Role-based dashboards; frequenty risk score updates; adviser-initiated intervention model &
+Replaced proprietary platform with open-source pipeline; calibrated to Strathmore-specific thresholds (67\% attendance, 2.0 GPA); eliminated vendor dependency \\[6pt]
+
+Bettahi et al.\ \parencite{Bettahi2025} &
+Most methodologically aligned study; validates XGBoost and SHAP for African HEI dropout prediction using open-source tools &
+Python open-source stack (scikit-learn, XGBoost, SHAP); stratified train/test split; SHAP risk vs.\ protective factor visualisation &
+Extended from single binary dropout outcome to three simultaneous outcomes (dropout, course failure, programme delay); added Strathmore-specific policy features \\[6pt]
+
+Taodzera et al.\ \parencite{Taodzera2016} &
+Demonstrates ML operationalisation in a resource-limited African setting; highlights structural inequality as a measurable risk factor &
+Confirms feasibility of African institutional ML deployment without proprietary infrastructure &
+Added longitudinal LMS and attendance features beyond enrollment-time data; incorporated SHAP explainability; targeted higher accuracy ceiling \\[6pt]
+
+Hassen \parencite{Hassen2020} &
+Validates incremental cohort-based training as deployment-realistic evaluation; establishes recall as the primary metric in student support contexts &
+Incremental training logic; prioritisation of recall over accuracy; SMOTE oversampling for class imbalance &
+Replaced Bayesian Networks with ensemble methods (Random Forest, XGBoost); added SHAP explainability for student-level advisor guidance \\[6pt]
+
+Esmael \parencite{Esmael2024} &
+Confirms ensemble methods outperform classical classifiers on African institutional data even with limited feature dimensionality &
+Validates Random Forest and Gradient Boosting as primary algorithm candidates for African HEI contexts &
+Added SHAP explainability layer; extended feature set to include LMS engagement and attendance beyond demographic and entry variables \\[6pt]
+
+Ngemu et al.\ \parencite{Ngemu2015} &
+Earliest Kenyan institutional ML study; establishes financial exclusion as the dominant attrition driver in Kenyan public universities &
+Theoretical grounding of socioeconomic risk factors in Tinto's model; confirms feasibility of Kenyan institutional deployment &
+Replaced WEKA with Python ensemble pipeline; addressed class imbalance via SMOTE; added SHAP explainability; incorporated in-course academic and engagement features; used substantially larger dataset \\[6pt]
+
+\caption{Relevance of Reviewed Studies to our study's Design}
+\label{tab:relevance}
+\end{longtable}
+
+
+\subsubsection{Conceptual Framework}
+
+\subsubsection*{Framework Explanation}
+
+The solution architecture presented in Figure~\ref{fig:solution_framework} 
+describes a nine-stage end-to-end pipeline through which raw institutional 
+data is transformed into actionable, explainable risk predictions for 
+Strathmore University's academic support staff. The framework flows 
+strictly from top to bottom, with each stage building on the output of 
+the preceding one.
+
+\textbf{Stage 1 — Data Sources:} The pipeline originates from three 
+institutional systems operating in parallel: the Academic Management 
+System (AMS), which supplies enrollment records, GPA trajectories, and 
+academic standing data; the Learning Management System (LMS), which 
+contributes behavioral engagement signals including login frequency, 
+resource access, and assignment submission patterns; and the Attendance 
+Tracking Platform, which provides real-time attendance rates and flags 
+students approaching the mandatory 67\% examination eligibility 
+threshold.
+
+\textbf{Stage 2 — ETL Pipeline:} Raw data extracted from the three 
+source systems is passed through an Extract-Transform-Load (ETL) 
+interface that merges records across systems, resolves inconsistencies, 
+and validates data integrity before any modelling takes place.
+
+\textbf{Stage 3 — Feature Engineering:} The cleaned dataset is 
+transformed into a structured feature matrix. This stage applies 
+normalization, categorical encoding, SMOTE oversampling to address 
+class imbalance, and the construction of derived indicators such as 
+attendance breach flags, GPA floor proximity scores, and temporal 
+engagement patterns.
+
+\textbf{Stage 4 — Model Training:} Three ensemble algorithms — Random 
+Forest, XGBoost, and Gradient Boosting — are trained on the engineered 
+feature matrix using historical student cohort data from 2021 to 2024. 
+Stratified cross-validation and hyperparameter tuning are applied to 
+maximise generalisation performance.
+
+\textbf{Stage 5 — Prediction Engine:} The trained models generate three 
+simultaneous risk scores for each currently enrolled student: dropout 
+risk, course failure risk, and programme delay risk. This multi-outcome 
+architecture reflects the graduated spectrum of academic difficulty that 
+students experience, extending beyond the binary dropout classification 
+common in prior literature.
+
+\textbf{Stage 6 — SHAP Explainability:} Risk scores alone are 
+insufficient for institutional deployment. This stage applies SHAP 
+(SHapley Additive exPlanations) to decompose each prediction into its 
+contributing feature drivers, identifying both risk factors and 
+protective factors at the individual student level. This transforms 
+opaque model outputs into human-interpretable explanations that 
+advisors can act on.
+
+\textbf{Stage 7 — REST API:} A role-gated REST API serves as the 
+interface between the ML pipeline and the frontend dashboards, ensuring 
+that each user role receives only the data and predictions appropriate 
+to their institutional responsibilities.
+
+\textbf{Stage 8 — Role-Based Dashboards:} Predictions and SHAP 
+explanations are surfaced through three distinct dashboards calibrated 
+to different institutional roles. The University Administrator dashboard 
+provides a university-wide retention overview and escalation controls. 
+The School Administrator dashboard enables course-level drill-down and 
+mentor assignment. The Mentor and Advisor dashboard presents individual 
+student risk cards with SHAP-driven explanations and intervention 
+logging capability. All three dashboards are connected to a push 
+notification and email alert engine that triggers outreach when risk 
+thresholds are breached.
+
+\textbf{Stage 9 — Institutional Actors:} The pipeline terminates with 
+the three human actors who consume the system's outputs: the University 
+Administrator, the School Administrator, and the Academic Mentor or 
+Advisor. This human-in-the-loop design ensures that the platform 
+functions as a decision-support tool that augments rather than replaces 
+professional academic judgment.
+
+Taken together, the framework operationalizes the transition from 
+Strathmore University's current reactive support paradigm — where 
+students are identified only after breaching academic thresholds — to a 
+proactive, evidence-driven intervention model in which at-risk students 
+are flagged weeks before failure occurs, and advisors are equipped with 
+the specific reasons behind each risk classification.
 
 
 %  =====================================
 
-
- 
-=========
-\subsubsection{Moroko}
-\subsubsection{South Africa: Joanesbourg}
-\subsubsection{South Africa:Cap Town}
-\subsubsection{Machakose case}
-\subsubsection{Research Gaps table}
-\subsubsection{Relevances to this study table}
-\subsubsection{Conceptual Framework}
 \subsection*{Summary and Knowledge Gaps   } 
 
 

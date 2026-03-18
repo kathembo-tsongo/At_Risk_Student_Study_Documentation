@@ -545,6 +545,42 @@
       \verb https://edtechmagazine.com/higher/article/2019/04/%20georgia-state-tackles-racial-disparities-data-%20driven-academic-support
       \endverb
     \endentry
+    \entry{Esmael2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=167e23db77de15ca493cacc1d2b3cd7d}{%
+           family={Esmael},
+           familyi={E\bibinitperiod},
+           given={Bilal},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley--Hindawi}%
+      }
+      \strng{namehash}{167e23db77de15ca493cacc1d2b3cd7d}
+      \strng{fullhash}{167e23db77de15ca493cacc1d2b3cd7d}
+      \strng{bibnamehash}{167e23db77de15ca493cacc1d2b3cd7d}
+      \strng{authorbibnamehash}{167e23db77de15ca493cacc1d2b3cd7d}
+      \strng{authornamehash}{167e23db77de15ca493cacc1d2b3cd7d}
+      \strng{authorfullhash}{167e23db77de15ca493cacc1d2b3cd7d}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Computational Intelligence and Soft Computing}
+      \field{note}{Dataset: Wollo University and Kombolcha Institute of Technology, Ethiopia, 2017--2022; N = 32,582}
+      \field{title}{Student Performance Prediction Using Machine Learning Algorithms}
+      \field{volume}{2024}
+      \field{year}{2024}
+      \field{pages}{4067721}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1155/2024/4067721
+      \endverb
+    \endentry
     \entry{Gathani2026}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=f1854da238018d799cc1e25b69679072}{%
@@ -687,6 +723,42 @@
       \verb{doi}
       \verb 10.1177/21582440241249334
       \endverb
+    \endentry
+    \entry{Hassen2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c0beb5ef8f1593f0fbc562939f475c77}{%
+           family={Hassen},
+           familyi={H\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Department of Computer Science, University of Cape Town}%
+      }
+      \list{location}{1}{%
+        {Cape Town, South Africa}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{c0beb5ef8f1593f0fbc562939f475c77}
+      \strng{fullhash}{c0beb5ef8f1593f0fbc562939f475c77}
+      \strng{bibnamehash}{c0beb5ef8f1593f0fbc562939f475c77}
+      \strng{authorbibnamehash}{c0beb5ef8f1593f0fbc562939f475c77}
+      \strng{authornamehash}{c0beb5ef8f1593f0fbc562939f475c77}
+      \strng{authorfullhash}{c0beb5ef8f1593f0fbc562939f475c77}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Annual Conference of the South African Institute of Computer Scientists and Information Technologists}
+      \field{series}{SAICSIT '20}
+      \field{title}{Using a {Bayesian} Network to Predict {Computer Science} Students at Risk}
+      \field{year}{2020}
     \endentry
     \entry{NCES2024}{report}{}
       \name{author}{9}{}{%
@@ -1105,12 +1177,12 @@
     \endentry
     \entry{ngemu2015}{article}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=d54f4ecf4c35c44b739603bbc736dfb0}{%
+        {{un=1,uniquepart=given,hash=d54f4ecf4c35c44b739603bbc736dfb0}{%
            family={Ngemu},
            familyi={N\bibinitperiod},
            given={J.\bibnamedelimi K.},
            giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=45dd36647a85346f456c16af713e1fd2}{%
            family={Odongo},
            familyi={O\bibinitperiod},
@@ -1140,12 +1212,65 @@
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the 2015 International Conference on Computing Research and Innovations}
       \field{title}{Student dropout prediction using business intelligence for higher education institution}
       \field{year}{2015}
+    \endentry
+    \entry{Ngemu2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=850c311df18d5c457615061566b322ed}{%
+           family={Ngemu},
+           familyi={N\bibinitperiod},
+           given={Joseph\bibnamedelima Mutuku},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a74b5435dec2d612207454b8a22b9744}{%
+           family={Odongo},
+           familyi={O\bibinitperiod},
+           given={William\bibnamedelima Okelo},
+           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcd8d487c437e584273abc1b72938550}{%
+           family={Omulo},
+           familyi={O\bibinitperiod},
+           given={Elisha\bibnamedelima Opiyo},
+           giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9cf4adcad40050281aaa34bfa3ca936}{%
+           family={Manderick},
+           familyi={M\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3082c8bb965c235c0ad0a3ccc718b682}
+      \strng{fullhash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \strng{bibnamehash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \strng{authorbibnamehash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \strng{authornamehash}{3082c8bb965c235c0ad0a3ccc718b682}
+      \strng{authorfullhash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2279-0764}
+      \field{journaltitle}{International Journal of Computer and Information Technology}
+      \field{number}{2}
+      \field{title}{Student Retention Prediction in Higher Learning Institutions: The {Machakos} University College Case}
+      \field{volume}{4}
+      \field{year}{2015}
+      \field{pages}{489\bibrangedash 497}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb https://www.ijcit.com
+      \endverb
+      \verb{url}
+      \verb https://www.ijcit.com
+      \endverb
     \endentry
     \entry{Nicoletti2019}{article}{}
       \name{author}{1}{}{%
@@ -1269,12 +1394,12 @@
     \endentry
     \entry{taodzera2}{thesis}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=8c1ac49d186f9de735310e1fa4fc90fd}{%
+        {{un=1,uniquepart=given,hash=8c1ac49d186f9de735310e1fa4fc90fd}{%
            family={Taodzera},
            familyi={T\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{institution}{1}{%
         {University of Johannesburg}%
@@ -1289,12 +1414,54 @@
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Predicting the performance of engineering students at the {U}niversity of {J}ohannesburg using machine learning techniques}
       \field{type}{Master's thesis}
       \field{year}{2016}
+    \endentry
+    \entry{Taodzera2016}{unpublished}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=a6ba3709dc32d86cd37dee7568688f42}{%
+           family={Taodzera},
+           familyi={T\bibinitperiod},
+           given={Tatenda},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=20eb0dac462d28083c34468432fa882c}{%
+           family={Twala},
+           familyi={T\bibinitperiod},
+           given={Bhekisipho},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f019ed4b9fdc9cc3aac33afa3bc26b7}{%
+           family={Carroll},
+           familyi={C\bibinitperiod},
+           given={Johnson},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9033fad1098d26f55caa6e4a517266ba}
+      \strng{fullhash}{90324c80a37bdc18cecf103b4020b2d2}
+      \strng{bibnamehash}{90324c80a37bdc18cecf103b4020b2d2}
+      \strng{authorbibnamehash}{90324c80a37bdc18cecf103b4020b2d2}
+      \strng{authornamehash}{9033fad1098d26f55caa6e4a517266ba}
+      \strng{authorfullhash}{90324c80a37bdc18cecf103b4020b2d2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Working paper, Department of Electrical and Electronics Engineering Science, University of Johannesburg, South Africa. Available via the UJ Institutional Repository}
+      \field{title}{Predicting Engineering Student Success Using Machine Learning}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://hdl.handle.net/10210/476756
+      \endverb
+      \verb{url}
+      \verb https://hdl.handle.net/10210/476756
+      \endverb
     \endentry
     \entry{Signal2019}{misc}{}
       \name{author}{1}{}{%
@@ -2035,6 +2202,42 @@
       \verb https://edtechmagazine.com/higher/article/2019/04/%20georgia-state-tackles-racial-disparities-data-%20driven-academic-support
       \endverb
     \endentry
+    \entry{Esmael2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=167e23db77de15ca493cacc1d2b3cd7d}{%
+           family={Esmael},
+           familyi={E\bibinitperiod},
+           given={Bilal},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley--Hindawi}%
+      }
+      \strng{namehash}{167e23db77de15ca493cacc1d2b3cd7d}
+      \strng{fullhash}{167e23db77de15ca493cacc1d2b3cd7d}
+      \strng{bibnamehash}{167e23db77de15ca493cacc1d2b3cd7d}
+      \strng{authorbibnamehash}{167e23db77de15ca493cacc1d2b3cd7d}
+      \strng{authornamehash}{167e23db77de15ca493cacc1d2b3cd7d}
+      \strng{authorfullhash}{167e23db77de15ca493cacc1d2b3cd7d}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Computational Intelligence and Soft Computing}
+      \field{note}{Dataset: Wollo University and Kombolcha Institute of Technology, Ethiopia, 2017--2022; N = 32,582}
+      \field{title}{Student Performance Prediction Using Machine Learning Algorithms}
+      \field{volume}{2024}
+      \field{year}{2024}
+      \field{pages}{4067721}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1155/2024/4067721
+      \endverb
+    \endentry
     \entry{Gathani2026}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=f1854da238018d799cc1e25b69679072}{%
@@ -2177,6 +2380,42 @@
       \verb{doi}
       \verb 10.1177/21582440241249334
       \endverb
+    \endentry
+    \entry{Hassen2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c0beb5ef8f1593f0fbc562939f475c77}{%
+           family={Hassen},
+           familyi={H\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Department of Computer Science, University of Cape Town}%
+      }
+      \list{location}{1}{%
+        {Cape Town, South Africa}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{c0beb5ef8f1593f0fbc562939f475c77}
+      \strng{fullhash}{c0beb5ef8f1593f0fbc562939f475c77}
+      \strng{bibnamehash}{c0beb5ef8f1593f0fbc562939f475c77}
+      \strng{authorbibnamehash}{c0beb5ef8f1593f0fbc562939f475c77}
+      \strng{authornamehash}{c0beb5ef8f1593f0fbc562939f475c77}
+      \strng{authorfullhash}{c0beb5ef8f1593f0fbc562939f475c77}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Annual Conference of the South African Institute of Computer Scientists and Information Technologists}
+      \field{series}{SAICSIT '20}
+      \field{title}{Using a {Bayesian} Network to Predict {Computer Science} Students at Risk}
+      \field{year}{2020}
     \endentry
     \entry{NCES2024}{report}{}
       \name{author}{9}{}{%
@@ -2595,12 +2834,12 @@
     \endentry
     \entry{ngemu2015}{article}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=d54f4ecf4c35c44b739603bbc736dfb0}{%
+        {{un=1,uniquepart=given,hash=d54f4ecf4c35c44b739603bbc736dfb0}{%
            family={Ngemu},
            familyi={N\bibinitperiod},
            given={J.\bibnamedelimi K.},
            giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=45dd36647a85346f456c16af713e1fd2}{%
            family={Odongo},
            familyi={O\bibinitperiod},
@@ -2630,12 +2869,65 @@
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the 2015 International Conference on Computing Research and Innovations}
       \field{title}{Student dropout prediction using business intelligence for higher education institution}
       \field{year}{2015}
+    \endentry
+    \entry{Ngemu2015}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=850c311df18d5c457615061566b322ed}{%
+           family={Ngemu},
+           familyi={N\bibinitperiod},
+           given={Joseph\bibnamedelima Mutuku},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a74b5435dec2d612207454b8a22b9744}{%
+           family={Odongo},
+           familyi={O\bibinitperiod},
+           given={William\bibnamedelima Okelo},
+           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcd8d487c437e584273abc1b72938550}{%
+           family={Omulo},
+           familyi={O\bibinitperiod},
+           given={Elisha\bibnamedelima Opiyo},
+           giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9cf4adcad40050281aaa34bfa3ca936}{%
+           family={Manderick},
+           familyi={M\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3082c8bb965c235c0ad0a3ccc718b682}
+      \strng{fullhash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \strng{bibnamehash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \strng{authorbibnamehash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \strng{authornamehash}{3082c8bb965c235c0ad0a3ccc718b682}
+      \strng{authorfullhash}{9c9e41b712bb0f1f34f2fd48898f2815}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2279-0764}
+      \field{journaltitle}{International Journal of Computer and Information Technology}
+      \field{number}{2}
+      \field{title}{Student Retention Prediction in Higher Learning Institutions: The {Machakos} University College Case}
+      \field{volume}{4}
+      \field{year}{2015}
+      \field{pages}{489\bibrangedash 497}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb https://www.ijcit.com
+      \endverb
+      \verb{url}
+      \verb https://www.ijcit.com
+      \endverb
     \endentry
     \entry{Nicoletti2019}{article}{}
       \name{author}{1}{}{%
@@ -2759,12 +3051,12 @@
     \endentry
     \entry{taodzera2}{thesis}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=8c1ac49d186f9de735310e1fa4fc90fd}{%
+        {{un=1,uniquepart=given,hash=8c1ac49d186f9de735310e1fa4fc90fd}{%
            family={Taodzera},
            familyi={T\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{institution}{1}{%
         {University of Johannesburg}%
@@ -2779,12 +3071,54 @@
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Predicting the performance of engineering students at the {U}niversity of {J}ohannesburg using machine learning techniques}
       \field{type}{Master's thesis}
       \field{year}{2016}
+    \endentry
+    \entry{Taodzera2016}{unpublished}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=a6ba3709dc32d86cd37dee7568688f42}{%
+           family={Taodzera},
+           familyi={T\bibinitperiod},
+           given={Tatenda},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=20eb0dac462d28083c34468432fa882c}{%
+           family={Twala},
+           familyi={T\bibinitperiod},
+           given={Bhekisipho},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f019ed4b9fdc9cc3aac33afa3bc26b7}{%
+           family={Carroll},
+           familyi={C\bibinitperiod},
+           given={Johnson},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9033fad1098d26f55caa6e4a517266ba}
+      \strng{fullhash}{90324c80a37bdc18cecf103b4020b2d2}
+      \strng{bibnamehash}{90324c80a37bdc18cecf103b4020b2d2}
+      \strng{authorbibnamehash}{90324c80a37bdc18cecf103b4020b2d2}
+      \strng{authornamehash}{9033fad1098d26f55caa6e4a517266ba}
+      \strng{authorfullhash}{90324c80a37bdc18cecf103b4020b2d2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Working paper, Department of Electrical and Electronics Engineering Science, University of Johannesburg, South Africa. Available via the UJ Institutional Repository}
+      \field{title}{Predicting Engineering Student Success Using Machine Learning}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://hdl.handle.net/10210/476756
+      \endverb
+      \verb{url}
+      \verb https://hdl.handle.net/10210/476756
+      \endverb
     \endentry
     \entry{Signal2019}{misc}{}
       \name{author}{1}{}{%

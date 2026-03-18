@@ -43,11 +43,11 @@
 \contentsline {subsection}{\numberline {2.4.5}Explainability, Fairness, and Ethical Considerations}{27}{subsection.2.4.5}%
 \contentsline {subsection}{\numberline {2.4.6}Existing ML-based predictive analytics for at-risk students}{29}{subsection.2.4.6}%
 \contentsline {subsubsection}{\numberline {2.4.6.1}Georgia State University: GPS Advising System}{29}{subsubsection.2.4.6.1}%
-\contentsline {subsubsection}{\numberline {2.4.6.2}Mohammed V University, Morocco: A Modular and Explainable Machine Learning Pipeline}{32}{subsubsection.2.4.6.2}%
-\contentsline {subsubsection}{\numberline {2.4.6.3}Moroko}{38}{subsubsection.2.4.6.3}%
-\contentsline {subsubsection}{\numberline {2.4.6.4}South Africa: Joanesbourg}{38}{subsubsection.2.4.6.4}%
-\contentsline {subsubsection}{\numberline {2.4.6.5}South Africa:Cap Town}{38}{subsubsection.2.4.6.5}%
-\contentsline {subsubsection}{\numberline {2.4.6.6}Machakose case}{38}{subsubsection.2.4.6.6}%
-\contentsline {subsubsection}{\numberline {2.4.6.7}Research Gaps table}{38}{subsubsection.2.4.6.7}%
-\contentsline {subsubsection}{\numberline {2.4.6.8}Relevances to this study table}{38}{subsubsection.2.4.6.8}%
-\contentsline {subsubsection}{\numberline {2.4.6.9}Conceptual Framework}{38}{subsubsection.2.4.6.9}%
+\contentsline {subsubsection}{\numberline {2.4.6.2}Morocco: A Modular and Explainable Machine Learning Pipeline at Mohammed V University}{32}{subsubsection.2.4.6.2}%
+\contentsline {subsubsection}{\numberline {2.4.6.3}South Africa: Machine Learning for Engineering Student Success at the University of Johannesburg}{36}{subsubsection.2.4.6.3}%
+\contentsline {subsubsection}{\numberline {2.4.6.4}South Africa: Bayesian Network Classification for Computer Science Student Risk Prediction at the University of Cape Town}{39}{subsubsection.2.4.6.4}%
+\contentsline {subsubsection}{\numberline {2.4.6.5}Ethiopia: Predictive Analytics at Scale with African Institutional Data}{42}{subsubsection.2.4.6.5}%
+\contentsline {subsubsection}{\numberline {2.4.6.6}Kenya: Business Intelligence and Decision Tree Classification for Student Retention Prediction ---case of Machakos University College}{43}{subsubsection.2.4.6.6}%
+\contentsline {subsubsection}{\numberline {2.4.6.7}Research Gaps Table}{47}{subsubsection.2.4.6.7}%
+\contentsline {subsubsection}{\numberline {2.4.6.8}Relevance to our study}{49}{subsubsection.2.4.6.8}%
+\contentsline {subsubsection}{\numberline {2.4.6.9}Conceptual Framework}{51}{subsubsection.2.4.6.9}%

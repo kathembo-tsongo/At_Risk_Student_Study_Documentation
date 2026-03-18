@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber At_Risk"] 1773739775.06768 "At_Risk.bcf" "At_Risk.bbl" "At_Risk" 1773768471.62222 0
-  "At_Risk.bcf" 1773768471.54311 141031 2e30ed6a50d3ebb15317cf71a98f4b8f "pdflatex"
-  "references.bib" 1773739771.23924 38733 ad2809cb4f396780218450866ca539ea ""
+["biber At_Risk"] 1773821691.62915 "At_Risk.bcf" "At_Risk.bbl" "At_Risk" 1773821700.13217 0
+  "At_Risk.bcf" 1773821700.01563 143906 73654d91077504b19e985cf7c286b10c "pdflatex"
+  "references.bib" 1773815145.33349 43801 8884766cbe1fcc21ab143f3f6ea061ec ""
   (generated)
   "At_Risk.bbl"
   "At_Risk.blg"
   (rewritten before read)
-["pdflatex"] 1773768469.34515 "/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex" "At_Risk.pdf" "At_Risk" 1773768471.62258 0
+["pdflatex"] 1773821696.74416 "/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex" "At_Risk.pdf" "At_Risk" 1773821700.13263 0
   "/etc/texmf/web2c/texmf.cnf" 1770489521.4762 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex" 1773768466.57661 75826 df0ea7ed8cdbca5f182bbda77ea4c67f ""
+  "/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex" 1773821688.65748 106469 ea8fd79df17c74c0e0052fe8752fea7a ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -115,6 +115,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd" 1137110629 774 61d7da1e9f9e74989b196d147e623736 ""
   "/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty" 1586716065 856 8e0e5c8cca7b18e0400f97f5a2b90a99 ""
   "/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd" 1137110629 619 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
+  "/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty" 1687466457 10085 3dececaeed388e31285c366e124c0c4e ""
   "/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty" 1670275497 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
@@ -128,12 +129,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1770489545.30875 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1770489573 8213748 9b2ca307748213d8bf2581e3767b4fc7 ""
-  "At_Risk.aux" 1773768471.53573 27867 9370bb58b826b7794360c4ec40d8dcfb "pdflatex"
-  "At_Risk.bbl" 1773739776.23366 126286 7f9e783d5e5d75bc639f5ef9c6353e34 "biber At_Risk"
-  "At_Risk.out" 1773768471.54074 11169 cc9039b169e76ca2f4f9ef65393728c1 "pdflatex"
-  "At_Risk.run.xml" 1773768471.54384 2448 d2947389279650008fa0e913e8a6c5b8 "pdflatex"
-  "At_Risk.tex" 1773768466.57661 75826 df0ea7ed8cdbca5f182bbda77ea4c67f ""
-  "At_Risk.toc" 1773768471.54384 5201 f788cd985e43951426b15767576b42b9 "pdflatex"
+  "At_Risk.aux" 1773821700.00363 35306 63f43a750ff798f664ee2b60ecb57668 "pdflatex"
+  "At_Risk.bbl" 1773821693.16546 140260 5e5af86e53dd2e5f51ca263e973391c9 "biber At_Risk"
+  "At_Risk.out" 1773821700.01363 13045 ba4faf9ee00559e260539c16d6d792d3 "pdflatex"
+  "At_Risk.run.xml" 1773821700.01694 2448 d2947389279650008fa0e913e8a6c5b8 "pdflatex"
+  "At_Risk.tex" 1773821688.65748 106469 ea8fd79df17c74c0e0052fe8752fea7a ""
+  "At_Risk.toc" 1773821700.01694 5550 ee1a40e22e41b6a1ffd54ecd49cbb2d8 "pdflatex"
   "images/AstinModel.png" 1773677662.64966 41650 abcad6e0f0fcacda9305df6318dd65f0 ""
   "images/TintoModel1.jpg" 1773599259.04433 126172 782b114dc7444355b47b7de55a1a4141 ""
   "images/strathmore_logo.png" 1770492596.12661 8364 00ca8e15eb27af2c1f5f815760099607 ""
