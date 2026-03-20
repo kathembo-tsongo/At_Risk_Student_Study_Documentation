@@ -27,27 +27,37 @@
 \contentsline {subsection}{\numberline {2.3.1}Tinto's Student Integration Model}{16}{subsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.1.1}The Longitudinal Mechanism}{17}{subsubsection.2.3.1.1}%
 \contentsline {subsubsection}{\numberline {2.3.1.2}The Two Pillars of Integration}{19}{subsubsection.2.3.1.2}%
-\contentsline {subsubsection}{\numberline {2.3.1.3}Limitations and Critiques}{19}{subsubsection.2.3.1.3}%
-\contentsline {subsubsection}{\numberline {2.3.1.4}Operationalization in This Study}{20}{subsubsection.2.3.1.4}%
+\contentsline {subsubsection}{\numberline {2.3.1.3}Operationalization in This Study}{20}{subsubsection.2.3.1.3}%
 \contentsline {subsection}{\numberline {2.3.2}Astin's Input-Environment-Output (I-E-O) Model}{20}{subsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.2.1}Structure of the Model}{20}{subsubsection.2.3.2.1}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}Structure of the Model}{21}{subsubsection.2.3.2.1}%
 \contentsline {subsubsection}{\numberline {2.3.2.2}Methodological Logic: The Natural Experiment}{22}{subsubsection.2.3.2.2}%
 \contentsline {subsubsection}{\numberline {2.3.2.3}Complementarity with Tinto's Model}{22}{subsubsection.2.3.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.2.4}Operationalization in This Study}{23}{subsubsection.2.3.2.4}%
-\contentsline {subsubsection}{\numberline {2.3.2.5}Limitations and Critiques of the I-E-O Model}{24}{subsubsection.2.3.2.5}%
-\contentsline {section}{\numberline {2.4}Machine Learning in Educational Data Mining (EDM)}{25}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Overview of the Field}{25}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Core Applications in Higher Education}{25}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.4}Operationalization in this Study}{23}{subsubsection.2.3.2.4}%
+\contentsline {subsubsection}{\numberline {2.3.2.5}Limitation Critical Assessment}{23}{subsubsection.2.3.2.5}%
+\contentsline {section}{\numberline {2.4}Machine Learning in Educational Data Mining (EDM)}{24}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Overview of EDM}{24}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Core Applications of Machine Learning in Higher Education}{25}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.1}Performance Prediction}{25}{subsubsection.2.4.2.1}%
+\contentsline {subsubsection}{\numberline {2.4.2.2}Risk Identification}{25}{subsubsection.2.4.2.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.3}Study Path and Programme Guidance}{25}{subsubsection.2.4.2.3}%
+\contentsline {subsubsection}{\numberline {2.4.2.4}Adaptive and Personalized Learning}{25}{subsubsection.2.4.2.4}%
 \contentsline {subsection}{\numberline {2.4.3}Machine Learning Algorithms and Techniques}{26}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Data Sources and Feature Engineering}{27}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Explainability, Fairness, and Ethical Considerations}{27}{subsection.2.4.5}%
-\contentsline {subsection}{\numberline {2.4.6}Existing ML-based predictive analytics for at-risk students}{29}{subsection.2.4.6}%
-\contentsline {subsubsection}{\numberline {2.4.6.1}Georgia State University: GPS Advising System}{29}{subsubsection.2.4.6.1}%
-\contentsline {subsubsection}{\numberline {2.4.6.2}Morocco: A Modular and Explainable Machine Learning Pipeline at Mohammed V University}{32}{subsubsection.2.4.6.2}%
-\contentsline {subsubsection}{\numberline {2.4.6.3}South Africa: Machine Learning for Engineering Student Success at the University of Johannesburg}{36}{subsubsection.2.4.6.3}%
+\contentsline {subsubsection}{\numberline {2.4.3.1}Machine Learning Algorithms}{26}{subsubsection.2.4.3.1}%
+\contentsline {subsubsection}{\numberline {2.4.3.2}Techniques}{27}{subsubsection.2.4.3.2}%
+\contentsline {subsection}{\numberline {2.4.4}Data Sources and Feature Engineering}{28}{subsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.4.1}Data Sources}{28}{subsubsection.2.4.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.4.2}Feature Engineering}{28}{subsubsection.2.4.4.2}%
+\contentsline {subsection}{\numberline {2.4.5}Explainability, Fairness, and Ethical Considerations}{29}{subsection.2.4.5}%
+\contentsline {subsubsection}{\numberline {2.4.5.1}Explainability and the Black Box Problem}{29}{subsubsection.2.4.5.1}%
+\contentsline {subsubsection}{\numberline {2.4.5.2}Fairness and Bias}{30}{subsubsection.2.4.5.2}%
+\contentsline {subsubsection}{\numberline {2.4.5.3}Ethical Considerations}{30}{subsubsection.2.4.5.3}%
+\contentsline {subsection}{\numberline {2.4.6}Existing ML-based predictive analytics for at-risk students}{30}{subsection.2.4.6}%
+\contentsline {subsubsection}{\numberline {2.4.6.1}Georgia State University: GPS Advising System}{30}{subsubsection.2.4.6.1}%
+\contentsline {subsubsection}{\numberline {2.4.6.2}Morocco: A Modular and Explainable Machine Learning Pipeline at Mohammed V University}{34}{subsubsection.2.4.6.2}%
+\contentsline {subsubsection}{\numberline {2.4.6.3}South Africa: Machine Learning for Engineering Student Success at the University of Johannesburg}{37}{subsubsection.2.4.6.3}%
 \contentsline {subsubsection}{\numberline {2.4.6.4}South Africa: Bayesian Network Classification for Computer Science Student Risk Prediction at the University of Cape Town}{39}{subsubsection.2.4.6.4}%
-\contentsline {subsubsection}{\numberline {2.4.6.5}Ethiopia: Predictive Analytics at Scale with African Institutional Data}{42}{subsubsection.2.4.6.5}%
+\contentsline {subsubsection}{\numberline {2.4.6.5}Ethiopia: Predictive Analytics at Scale with African Institutional Data}{43}{subsubsection.2.4.6.5}%
 \contentsline {subsubsection}{\numberline {2.4.6.6}Kenya: Business Intelligence and Decision Tree Classification for Student Retention Prediction ---case of Machakos University College}{43}{subsubsection.2.4.6.6}%
 \contentsline {subsubsection}{\numberline {2.4.6.7}Research Gaps Table}{47}{subsubsection.2.4.6.7}%
-\contentsline {subsubsection}{\numberline {2.4.6.8}Relevance to our study}{49}{subsubsection.2.4.6.8}%
-\contentsline {subsubsection}{\numberline {2.4.6.9}Conceptual Framework}{51}{subsubsection.2.4.6.9}%
+\contentsline {subsubsection}{\numberline {2.4.6.8}Relevance to our study table}{50}{subsubsection.2.4.6.8}%
+\contentsline {subsubsection}{\numberline {2.4.6.9}Conceptual Framework}{53}{subsubsection.2.4.6.9}%

@@ -408,25 +408,27 @@ The study responds by developing, ML-based predictive
    examining theoretical frameworks, documented system implementations with their successes 
    and limitations, and the precise knowledge gaps this study is designed to fill.
 
+
+
+
+
+
+   
 % Chapter 2 Literature Review 
 % ============================
 
 \chapter{LITERATURE REVIEW}
 \section{Introduction}
-The purpose of this chapter is to synthesize the multidisciplinary body of research that underpins 
-this study's design and motivation. The review spans three interconnected domains: the theoretical
- frameworks governing student retention, the global evolution of predictive analytics and Educational 
- Data Mining (EDM) in higher education, and the African and Kenyan institutional contexts in which this
-  research is embedded. Together, these streams establish both the intellectual foundation and the practical 
-  necessity of a machine learning-based Early Warning System (EWS) calibrated to Strathmore University's 
-  academic policies and data infrastructure.
-
-The chapter is organized to trace a deliberate logical arc. First, it begins with the macroeconomic and human costs
- of student attrition. Second, it narrows progressively from global best practices to regional pilot studies. And 
- finally, it focuses on the specific institutional gaps this research is designed to fill. Central to this arc is
-  the argument that modern machine learning does not merely add technological convenience; it operationalizes 
-  classical retention theory, transforming abstract constructs such as academic integration and social engagement
-   into measurable and actionable data signals.
+This chapter examines the theoretical and empirical foundations underpinning 
+the development of a machine learning-based early warning system for at-risk students. 
+It begins by situating student attrition within a global context, establishing retention
+ as a persistent structural challenge across higher education systems. It then reviews
+  two dominant theoretical frameworks — Tinto's Student Integration Model and Astin's 
+  Input-Environment-Output Model — which together provide the conceptual architecture
+   for feature selection and outcome definition. Secondly, it surveys the field of Educational
+    Data Mining, critically analyzing existing ML-based predictive systems across the United
+     States, Africa, and Kenya as far as regional level is concerned. Finally, it identified
+      methodological gaps this study will be directly addressing.
 
 \section{Global Perspectives on Student Attrition}
 
@@ -460,7 +462,7 @@ summarizes graduation rate variation by institution type:
 \definecolor{tableblue}{RGB}{31,56,100}
 \definecolor{rowblue}{RGB}{235,241,250}
 {\rowcolors{2}{rowblue}{white}
-\begin{tabular}{|p{7cm}|p{4cm}|}
+\begin{tabular}{|p{7cm}|p{5cm}|}
 \hline
 \rowcolor{tableblue}
 \textcolor{white}{\textbf{Institution Type}} & 
@@ -478,8 +480,7 @@ Widening access policies across the Global South have expanded enrollment
 without proportional improvements in completion, meaning that participation 
 gains mask a deepening completion deficit \parencite{Goncalves2024}. In 
 sub-Saharan Africa and Kenya specifically, this deficit is compounded by 
-resource constraints, infrastructure gaps, and the financial pressures 
-documented in Section 2.7, making the attrition problem both more acute and 
+resource constraints, infrastructure gaps, and the financial pressures, making the attrition problem both more acute and 
 less resourced than in high-income institutional contexts. These global 
 statistics therefore establish the urgency of the problem and demonstrate that 
 student attrition is not a peripheral concern but a structural threat to the 
@@ -488,12 +489,22 @@ context within which Kenya's institutional challenges, and this study's
 intervention, must be understood.
 
  \section{Theoretical Frameworks for Student Retention}
- 
+
+This section is anchored in two complementary theoretical frameworks that 
+together provide the conceptual architecture for understanding and predicting 
+student attrition. Tinto's Student Integration Model explains the longitudinal 
+mechanism through which diminishing academic and social integration drives 
+departure, while Astin's I-E-O Model provides the variable 
+architecture — categorizing student inputs, institutional environmental 
+conditions, and measurable outcomes — that a predictive system must capture. 
+Both frameworks were developed in Western institutional contexts but carry 
+constructs directly mappable to Strathmore University's data infrastructure.
+
 \subsection{Tinto's Student Integration Model}
 
 The dominant theoretical anchor for student retention research remains Vincent 
-Tinto's Student Integration Model (SIM). First proposed by Tinto and 
-Cullen in 1973 and formally published as a peer-reviewed synthesis in 1975, the 
+Tinto's Student Integration Model (SIM). First, it was proposed by Tinto and 
+Cullen in 1973 and formally published as a peer-reviewed synthesis in 1975. This 
 model draws its conceptual foundations from Émile Durkheim's theory of suicide—
 specifically the proposition that a deficit of social cohesion precipitates 
 withdrawal from the community \parencite{Tinto1975}. Tinto's scholarly influence 
@@ -507,8 +518,7 @@ persistence is governed by their degree of integration into both
 \parencite{Tinto1975, Tinto1993}. Critically, Tinto frames dropout not as a 
 single discrete event but as a \textit{longitudinal process}: the student's 
 commitment to persist is continuously reconfigured through ongoing interactions. This 
-interactional character means that dropout cannot be attributed to any one 
-variable in isolation; it emerges from the cumulative weight of how individual 
+interactional character includes the cumulative weight of how individual 
 attributes, academic performance, and social relationships interact and 
 accumulate over time \parencite{Tinto1993, Nicoletti2019}.
 
@@ -580,39 +590,41 @@ pre-institutional characteristics to eventual persistence:
 Tinto distinguishes two primary and interdependent dimensions of integration, 
 both of which must be achieved to sustain persistence \parencite{Tinto1993}:
 
-\textbf{Academic Integration} encompasses both structural and normative 
-dimensions. Structural integration is measured by grade performance (GPA) 
-relative to institutional standards, while normative integration reflects 
-intellectual development and alignment with the academic community's values. 
-Grades function not merely as performance records but as institutional signals 
-of belonging within the academic system; a declining GPA is therefore not simply 
-a performance metric but a symptom of deteriorating academic integration 
-\parencite{Tinto1975, Bento2025}.
+\begin{enumerate}
+    \item \textbf{Academic Integration:} encompasses both structural and normative 
+    dimensions. Structural integration is measured by grade performance (GPA) 
+    relative to institutional standards, while normative integration reflects 
+    intellectual development and alignment with the academic community's values. 
+    Grades function not merely as performance records but as institutional signals 
+    of belonging within the academic system; a declining GPA is therefore not simply 
+    a performance metric but a symptom of deteriorating academic integration 
+    \parencite{Tinto1975, Bento2025}.
 
-\textbf{Social Integration} reflects the quality of peer-group interactions and 
-faculty relationships. Research on blended and online learning environments has 
-confirmed that when instructors provided timely support, appropriate feedback, 
-and interactive engagement, students were substantially more likely to persist 
-\parencite{Ivankova2007}. Furthermore, studies measuring LMS engagement have 
-established that completers consistently demonstrate significantly higher levels 
-of participation in learning activities—measured through discussion posts, 
-resource access, and login frequency—than withdrawers, validating these 
-behavioral signals as digital proxies for integration \parencite{Morris2005}.
+    \item \textbf{Social Integration:} reflects the quality of peer-group interactions and 
+    faculty relationships. Research on blended and online learning environments has 
+    confirmed that when instructors provided timely support, appropriate feedback, 
+    and interactive engagement, students were substantially more likely to persist 
+    \parencite{Ivankova2007}. Furthermore, studies measuring LMS engagement have 
+    established that completers consistently demonstrate significantly higher levels 
+    of participation in learning activities—measured through discussion posts, 
+    resource access, and login frequency—than withdrawers, validating these 
+    behavioral signals as digital proxies for integration \parencite{Morris2005}.
+\end{enumerate}
 
-\subsubsection{Limitations and Critiques}
+\textbf{Limitation Critical Assessment}
 
-Despite its canonical status, the SIM carries limitations directly relevant to 
-this study's context. Its key constructs—integration, commitment, fit—lack 
+Despite its canonical status, the SIM carries limitations directly relevant 
+to this study. Its key constructs---integration, commitment, and fit---lack 
 precise operational definitions, creating interpretive challenges when 
-translating the model into computable variables \parencite{Nicoletti2019}. The 
-model was also developed within a Western, residential university context and 
-requires careful contextual recalibration before application in non-Western 
-institutions such as Strathmore University. 
-Additionally, traditional SIM-based research has relied predominantly on 
-retrospective, correlational designs: the model identifies \textit{what} predicts 
-departure but does not generate prospective, real-time predictions for individual 
-students. This retrospective limitation is the precise gap that machine learning 
-addresses—where the SIM identifies the risk factors, ML determines when those 
+translating the model into computable variables \parencite{Nicoletti2019}. 
+The model was also developed within a Western, residential university context 
+and requires careful recalibration before application at Strathmore University.
+
+More fundamentally, traditional SIM-based research relies on retrospective, 
+correlational designs: the model identifies what predicts departure but does 
+not generate prospective, real-time predictions for individual students. This 
+retrospective limitation is the precise gap that machine learning addresses---
+where the SIM identifies the structural risk factors, ML determines when those 
 factors are currently activating for a specific student.
 
 \subsubsection{Operationalization in This Study}
@@ -702,12 +714,7 @@ practical advantages. First, it avoids the artificial conditions of laboratory
 experiments by studying real institutional variation. Second, it allows 
 researchers to examine the simultaneous effects of many environmental 
 variables, which is precisely the analytical challenge confronted in this 
-study's multi-stream data pipeline. The machine learning models developed in 
-Chapter Three operationalize this same logic: by training on historical student 
-cohort data with known outcomes (2021--2024), the models statistically isolate 
-which combinations of input and environmental variables most strongly predict 
-each risk outcome, mirroring Astin's natural experiment methodology in a 
-computational framework.
+study's multi-stream data pipeline. 
 
 \subsubsection{Complementarity with Tinto's Model}
 
@@ -722,65 +729,51 @@ directly to Tinto's integration failure mechanism. Course failure risk and
 programme delay risk, however, are better understood through Astin's 
 environmental lens: they reflect whether the institution's academic policies, 
 attendance requirements, and support resources are functioning as effective 
-environmental buffers against disengagement. A student may remain enrolled—
-not a dropout in Tinto's terms—while still accumulating course failures or 
-programme delays that Astin's output variables would capture.
+environmental buffers against disengagement. 
 
-\subsubsection{Operationalization in This Study}
+\subsubsection{Operationalization in this Study}
 
-The I-E-O model maps directly and systematically onto the three institutional 
-data streams integrated in this study's analytics pipeline:
+The I-E-O model maps onto the three institutional data streams in this 
+study's analytics pipeline:
 
-\textbf{Inputs} are operationalized through Academic Management System (AMS) 
-variables: entry qualifications, prior GPA trajectory, school of enrollment, 
-and year of study. These correspond to Astin's input variables and establish 
-the baseline characteristics against which environmental effects are assessed 
-\parencite{AstinAntonio2012}.
+\begin{enumerate}
+    \item \textbf{Inputs} are operationalized through Academic Management System (AMS) 
+    variables: entry qualifications, prior GPA trajectory, school of enrollment, 
+    and year of study—establishing baseline characteristics against which 
+    environmental effects are assessed \parencite{AstinAntonio2012}.
 
-\textbf{Environmental variables} are operationalized through LMS engagement 
-metrics—login frequency, resource access, and assignment submission 
-timeliness—and real-time attendance records. These capture the student's 
-degree of active interaction with the institutional environment. Empirical 
-research applying the I-E-O framework has demonstrated that student-advisor 
-interaction, student-faculty interaction, extracurricular participation, and 
-library utilization are each positively associated with first-to-second year 
-retention \parencite{Xiao2020}, directly validating the use of engagement 
-metrics as environmental proxies in this study. Strathmore's specific 
-institutional policies—the 67\% attendance threshold and the 2.0 GPA floor—
-function as measurable environmental constraints that the predictive models 
-are explicitly calibrated to reflect.
+    \item \textbf{Environment} is operationalized through LMS engagement metrics and 
+    attendance records. Strathmore's 67\% attendance threshold and 2.0 GPA floor 
+    function as measurable environmental constraints explicitly reflected in the 
+    predictive models. Prior research confirms that engagement variables are 
+    positively associated with retention \parencite{Xiao2020}.
 
-\textbf{Outputs} are the three predicted risk outcomes: dropout risk, course 
-failure risk, and programme delay risk. By framing these as distinct output 
-categories, this study extends Astin's output framework beyond the traditional 
-graduation/dropout binary to capture the graduated spectrum of academic 
-difficulty that students actually experience. This extension is methodologically 
-consistent with Astin's own recognition that institutional outcomes are 
-multidimensional and that talent development can be undermined in forms that 
-fall short of full withdrawal \parencite{AstinAntonio2012}.
-\subsubsection{Limitations and Critiques of the I-E-O Model}
+    \item \textbf{Outputs} are the three predicted risk outcomes: dropout, course 
+    failure, and programme delay—extending Astin's framework beyond the 
+    graduation/dropout binary to capture the fuller spectrum of academic 
+    difficulty \parencite{AstinAntonio2012}.
+\end{enumerate}
 
-Despite its widespread adoption, the I-E-O model carries documented limitations 
-that must be acknowledged. The model was developed within a Western, residential, 
-four-year university context, where full-time on-campus participation is assumed 
-to be the primary channel of environmental engagement \parencite{Astin1993}. 
-This assumption does not transfer without recalibration to commuter, part-time, 
-or non-Western institutional settings \parencite{Karp2008}. 
+\subsubsection{Limitation Critical Assessment}
 
-A further limitation is the model's linear input-to-environment-to-output 
-structure, which oversimplifies the recursive nature of student development. 
-In practice, outputs such as academic performance continuously reshape 
-subsequent environmental engagement, creating feedback loops that a static 
-framework cannot capture \parencite{AstinAntonio2012}. These limitations do not 
-invalidate the I-E-O model as a theoretical anchor for this study; rather, 
-they motivate the adoption of a longitudinal machine learning architecture 
-that continuously re-evaluates risk as new engagement and performance data 
-arrives, compensating for the model's structural simplifications in a 
-real institutional deployment context.
+The I-E-O model carries documented limitations relevant to this study. 
+Developed within a Western, residential, four-year university context, it 
+assumes full-time on-campus participation as the primary environmental channel 
+\parencite{Astin1993}---an assumption requiring recalibration for commuter, 
+part-time, or non-Western settings \parencite{Karp2008}.
+
+The model's linear input-to-environment-to-output structure further 
+oversimplifies student development. In practice, outputs such as academic 
+performance continuously reshape subsequent engagement, creating feedback 
+loops a static framework cannot capture \parencite{AstinAntonio2012}. These 
+limitations do not invalidate the I-E-O model as a theoretical anchor; rather, 
+they motivate a longitudinal machine learning architecture that continuously 
+re-evaluates risk as new engagement and performance data arrives---compensating 
+for the model's structural simplifications in live institutional deployment.
 
 \section{Machine Learning in Educational Data Mining (EDM)}
 
-\subsection{Overview of the Field}
+\subsection{Overview of EDM}
 
 Educational Data Mining (EDM) is a rapidly developing interdisciplinary 
 field that investigates techniques for identifying significant patterns in 
@@ -797,78 +790,136 @@ studies concluded that research in this domain has matured significantly,
 with ensemble methods, deep learning, and explainable AI now representing 
 the three dominant technical paradigms \parencite{Aldowah2026}.
 
-\subsection{Core Applications in Higher Education}
+\subsection{Core Applications of Machine Learning in Higher Education}
 
 The primary applications of machine learning in EDM converge on four 
 objectives that are directly relevant to this study:
 
-\textbf{Performance Prediction} involves forecasting academic outcomes---
-such as final course grades, semester GPA, or examination results---by 
-analyzing historical academic records, engagement trajectories, and 
-behavioral patterns. These models allow institutions to move beyond 
-end-of-term assessment toward continuous, data-informed monitoring of 
-student progress \parencite{Kwakye2025}.
+\subsubsection{Performance Prediction}
+Academic performance prediction involves forecasting outcomes---such as 
+final course grades, semester GPA, or examination results---by analyzing 
+historical academic records, engagement trajectories, and behavioral 
+patterns. These models allow institutions to move beyond end-of-term 
+assessment toward continuous, data-informed monitoring of student progress 
+\parencite{Kwakye2025}.
 
-\textbf{Risk Identification} applies ML models to flag at-risk students 
-early in a term, enabling timely and targeted interventions before failure 
-becomes irreversible. This is the primary objective of the Early Warning 
-System (EWS) architecture developed in this study \parencite{Bello2025}.
+\subsubsection{Risk Identification}
+Early risk identification applies ML models to flag at-risk students early 
+in a term, enabling timely and targeted interventions before failure becomes 
+irreversible. This is the primary objective of the Early Warning System 
+(EWS) architecture developed in this study \parencite{Bello2025}.
 
-\textbf{Study Path and Programme Guidance} uses algorithmic predictions 
-of student preferences, strengths, and motivational orientations to 
-recommend appropriate academic specializations. Research at Haaga-Helia 
-University demonstrated that Random Forest (94\% accuracy) and Decision 
-Tree (93\% accuracy) are effective classifiers for study path selection, 
-outperforming logistic regression when non-linear motivational and 
-demographic features are included \parencite{Dirin2022}.
+\subsubsection{Study Path and Programme Guidance}
+Programme guidance uses algorithmic predictions of student preferences, 
+strengths, and motivational orientations to recommend appropriate academic 
+specializations. Research at Haaga-Helia University demonstrated that 
+Random Forest (94\% accuracy) and Decision Tree (93\% accuracy) are 
+effective classifiers for study path selection, outperforming logistic 
+regression when non-linear motivational and demographic features are 
+included \parencite{Dirin2022}.
 
-\textbf{Adaptive and Personalized Learning} supports the creation of 
-intelligent learning environments that tailor content, pacing, and 
-feedback to individual student profiles based on continuous engagement 
-monitoring \parencite{Kwakye2025}.
+\subsubsection{Adaptive and Personalized Learning}
+Personalized learning supports the creation of intelligent environments 
+that tailor content, pacing, and feedback to individual student profiles 
+based on continuous engagement monitoring \parencite{Kwakye2025}.
 
 \subsection{Machine Learning Algorithms and Techniques}
 
-Supervised learning is the most widely adopted paradigm in EDM, 
+\subsubsection{Machine Learning Algorithms}
+Machine Learning especially its type of Supervised learning, 
+is the most widely adopted paradigm in EDM, 
 primarily applied to classification tasks---predicting categorical 
 outcomes such as pass/fail, dropout/persist, or risk level---and 
 regression tasks that produce continuous scores \parencite{Bello2025, 
-Dirin2022}.
+Dirin2022}. Three families of supervised learning algorithms are 
+prominent in the EDM literature: ensemble methods, deep learning 
+models, and traditional classifiers.
 
-\textbf{Ensemble Methods} such as Random Forest, XGBoost, and Gradient 
-Boosting are consistently identified as top performers in EDM contexts 
-due to their ability to manage complex, non-linear relationships in 
-educational data more effectively than baseline linear models. Bello 
-et al. (2025) demonstrated this directly: on a dataset of 1,163 student 
-records, a baseline Linear Regression model achieved an R\textsuperscript{2} 
-of only .32, while Random Forest achieved .69 and XGBoost achieved .70, 
-confirming the superior generalization capacity of ensemble methods 
-\parencite{Bello2025}.
+\begin{enumerate}
+    \item Ensemble Methods such as Random Forest, XGBoost, and Gradient 
+    Boosting are consistently identified as top performers in EDM contexts 
+    due to their ability to manage complex, non-linear relationships in 
+    educational data more effectively than baseline linear models. Bello 
+    et al. (2025) demonstrated this directly: on a dataset of 1,163 student 
+    records, a baseline Linear Regression model achieved an R\textsuperscript{2} 
+    of only .32, while Random Forest achieved .69 and XGBoost achieved .70, 
+    confirming the superior generalisation capacity of ensemble methods 
+    \parencite{Bello2025}.
 
-\textbf{Deep Learning} models---including Multi-Layer Perceptrons (MLP), 
-Convolutional Neural Networks (CNN), and Long Short-Term Memory (LSTM) 
-networks---are increasingly utilized to capture intricate temporal 
-interactions between features. While these architectures often achieve 
-high predictive accuracy, they operate as ``black boxes,'' providing 
-limited insight into the reasoning behind individual predictions, which 
-significantly limits their institutional adoption in advisory contexts 
-\parencite{Kwakye2025, Aldowah2026}.
+  \item Deep Learning models---including Multi-Layer Perceptrons (MLP), 
+    Convolutional Neural Networks (CNN), and Long Short-Term Memory (LSTM) 
+    networks---are increasingly utilised to capture intricate temporal 
+    interactions between features. While these architectures often achieve 
+    high predictive accuracy, they operate as ``black boxes,'' providing 
+    limited insight into the reasoning behind individual predictions, which 
+    significantly limits their institutional adoption in advisory contexts 
+    \parencite{Kwakye2025, Aldowah2026}.
 
-\textbf{Traditional Classifiers} including Decision Trees, Support 
-Vector Machines (SVM), Naïve Bayes, and Logistic Regression remain 
-widely used for their relative simplicity, computational efficiency, 
-and inherent interpretability. Their performance, however, is generally 
-outpaced by ensemble methods when the underlying data contains 
-non-linear feature interactions \parencite{Bello2025}.
+   \item Traditional Classifiers including Decision Trees, Support 
+    Vector Machines (SVM), Naïve Bayes, and Logistic Regression remain 
+    widely used for their relative simplicity, computational efficiency, 
+    and inherent interpretability. Their performance, however, is generally 
+    outpaced by ensemble methods when the underlying data contains 
+    non-linear feature interactions \parencite{Bello2025}.
+\end{enumerate}
+
+
+\subsubsection{Techniques}
+Selecting the right algorithm is necessary but insufficient; the 
+techniques governing how that algorithm is trained and validated 
+determine whether its performance generalises reliably to unseen 
+students. Of the three algorithm families reviewed above, ensemble 
+methods in particular require careful deployment discipline---their 
+capacity to fit complex non-linear patterns makes them equally capable 
+of overfitting when training and evaluation procedures are not 
+rigorously controlled. Standard practice in EDM therefore applies 
+four core techniques to ensure that reported performance reflects 
+genuine generalisation rather than dataset-specific memorisation 
+\parencite{Bello2025, Aldowah2026}.
+
+\begin{enumerate}
+    \item \textbf{Stratified train/test splitting} preserves the empirical 
+    class ratio across training and holdout partitions, preventing 
+    artificially optimistic evaluation on imbalanced datasets.
+    \item \textbf{$k$-fold cross-validation} assesses generalisation across 
+    multiple data subsets rather than a single holdout, producing more 
+    stable performance estimates.
+    \item \textbf{SMOTE} (Synthetic Minority Oversampling Technique) addresses 
+    the class imbalance characteristic of student risk datasets---where 
+    at-risk students constitute a minority---by generating synthetic 
+    minority-class instances during training.
+    \item \textbf{Hyperparameter tuning} optimises each algorithm's 
+    configuration prior to final evaluation, ensuring that reported 
+    performance reflects a properly calibrated model rather than 
+    default settings \parencite{Bello2025, Aldowah2026}.
+\end{enumerate}
 
 \subsection{Data Sources and Feature Engineering}
 
-ML models in EDM rely on diverse institutional data sources, including 
-Academic Management Systems, Learning Management Systems, and clickstream logs from digital 
-platforms \parencite{Kwakye2025}. Feature engineering is a critical 
-intermediate step, transforming raw institutional records into structured 
-model inputs such as attendance rates, prior grade trajectories, 
-assignment submission timeliness, and temporal engagement patterns.
+\subsubsection{Data Sources}
+A data source is any institutional system that generates raw 
+student records---such as grade histories, login activity, or attendance 
+logs---that can be extracted for predictive modelling. Without reliable 
+and comprehensive data sources, no algorithm or engineering procedure 
+can produce valid risk predictions. ML models in EDM rely on three 
+primary institutional data sources: Academic Management Systems, which 
+supply enrollment records, GPA trajectories, and academic standing 
+data; Learning Management Systems, which contribute behavioral 
+engagement signals including login frequency, resource access, and 
+assignment submission patterns; and clickstream logs from digital 
+platforms, which capture fine-grained temporal interaction data 
+\parencite{Kwakye2025}. Together, these sources provide the longitudinal, 
+multi-dimensional student record that predictive models require.
+
+\subsubsection{Feature Engineering}
+Raw institutional records cannot be fed directly into predictive models; 
+they must first be transformed into structured, model-ready input 
+variables that meaningfully represent student behaviour and academic 
+trajectory. This transformation process is \textbf{feature engineering}, 
+and it constitutes the critical intermediate step between data 
+extraction and model training. Typical engineered features include 
+attendance rates, prior grade trajectories, assignment submission 
+timeliness, and temporal engagement patterns.
 
 Research has established that \textit{time-based features}---such as 
 the intervals between LMS interactions, the recency of last login, and 
@@ -876,56 +927,67 @@ the ``burstiness'' of activity relative to assignment deadlines---carry
 significant predictive power, often capturing early disengagement signals 
 that static features such as a single GPA value cannot detect 
 \parencite{Dirin2022}. To ensure model stability and address the class 
-imbalance that characterizes most student risk datasets---where at-risk 
+imbalance that characterises most student risk datasets---where at-risk 
 students constitute a minority---standard pre-processing techniques 
-including normalization, one-hot encoding, and the Synthetic Minority 
+including normalisation, one-hot encoding, and the Synthetic Minority 
 Oversampling Technique (SMOTE) are routinely applied 
 \parencite{Bello2025, Aldowah2026}.
 
 \subsection{Explainability, Fairness, and Ethical Considerations}
 
-As ML becomes embedded in institutional decision-making, three 
-interrelated concerns---fairness, accountability, and transparency---
-have emerged as critical prerequisites for responsible deployment 
-\parencite{Kwakye2025, Bello2025}.
+Three foundational concepts structure this subsection. 
+\textbf{Explainability} refers to the capacity of a predictive model 
+to provide human-interpretable reasons for its outputs---enabling 
+advisors and administrators to understand, interrogate, and defend 
+risk classifications. Fairness refers to the requirement that 
+model predictions do not systematically disadvantage students on the 
+basis of protected or socioeconomic characteristics. Ethical 
+considerations encompass the broader governance obligations---including 
+data privacy, accountability, and human oversight---that arise when 
+algorithmic outputs are used to make or inform decisions affecting 
+students' academic futures. As ML becomes embedded in institutional 
+decision-making, all three have emerged as critical prerequisites for 
+responsible deployment \parencite{Kwakye2025, Bello2025}.
 
-\textbf{The Black Box Problem and Explainable AI (XAI):} Complex 
-ensemble and deep learning models produce predictions without 
+\subsubsection{Explainability and the Black Box Problem}
+Complex ensemble and deep learning models produce predictions without 
 human-interpretable reasoning, creating an institutional trust deficit 
 that prevents adoption by advisors and administrators who cannot 
 interrogate or defend the model's outputs \parencite{Kwakye2025}. 
-To address this, researchers now employ XAI techniques---most 
-prominently SHAP (SHapley Additive exPlanations), LIME (Local 
-Interpretable Model-agnostic Explanations), and Partial Dependence 
-Plots (PDP)---to provide feature-level explanations for individual 
-predictions \parencite{Kwakye2025}. A Springer study applying 
-CatBoost--SHAP to student academic crisis warning demonstrated that 
-explainable predictions provide ``intuitive decision support and 
-guidance assistance for education administrators,'' validating SHAP's 
+To address this, researchers now employ XAI (Explainable AI) 
+techniques---most prominently SHAP (SHapley Additive exPlanations), 
+LIME (Local Interpretable Model-agnostic Explanations), and Partial 
+Dependence Plots (PDP)---to provide feature-level explanations for 
+individual predictions \parencite{Kwakye2025}. A Springer study 
+applying CatBoost--SHAP to student academic crisis warning demonstrated 
+that explainable predictions provide intuitive decision support and 
+guidance assistance for education administrators, validating SHAP's 
 role as a trust-enabling layer in institutional deployments 
 \parencite{Zhang2021}.
 
-\textbf{Bias and Fairness:} Predictive models trained on historically 
-biased institutional data risk reinforcing systemic inequalities, 
-particularly for students from disadvantaged socioeconomic backgrounds. 
-Without deliberate fairness auditing, a model may achieve high aggregate 
-accuracy while systematically misclassifying vulnerable subpopulations 
+\subsubsection{Fairness and Bias}
+Predictive models trained on historically biased institutional data 
+risk reinforcing systemic inequalities, particularly for students from 
+disadvantaged socioeconomic backgrounds. Without deliberate fairness 
+auditing, a model may achieve high aggregate accuracy while 
+systematically misclassifying vulnerable subpopulations---a failure 
+mode that is especially consequential when model outputs determine 
+which students receive scarce advising and support resources 
 \parencite{Bello2025}.
 
-\textbf{Human-in-the-Loop Deployment:} Ethical best practice 
-consistently emphasizes that ML models should function as 
-decision-\textit{support} tools that complement rather than replace 
-human pedagogical judgment \parencite{Kwakye2025}. The advisor remains 
-the responsible agent; the model supplies evidence. This principle 
-directly informs the role-based dashboard architecture of this study, 
-where SHAP outputs are presented as advisor-facing explanations rather 
-than autonomous risk verdicts.
-
-\textbf{Data Privacy:} Institutional deployment of student analytics 
-systems requires compliance with data protection frameworks---including 
-GDPR in European contexts and equivalent national regulations---
-mandating robust data anonymization, access controls, and transparent 
-data governance policies \parencite{Kwakye2025}.
+\subsubsection{Ethical Considerations}
+Two interrelated ethical obligations govern institutional deployment 
+of student analytics systems. First, human-in-the-loop 
+deployment requires that ML models function as decision-support 
+tools that complement rather than replace human pedagogical judgment 
+\parencite{Kwakye2025}. The advisor remains the responsible agent; the 
+model supplies evidence. This principle directly informs the role-based 
+dashboard architecture of this study, where SHAP outputs are presented 
+as advisor-facing explanations rather than autonomous risk verdicts. 
+Second, data privacy requires compliance with data protection 
+frameworks---including GDPR in European contexts and equivalent national 
+regulations---mandating robust data anonymisation, access controls, and 
+transparent data governance policies \parencite{Kwakye2025}.
 
 \subsection{Existing ML-based predictive analytics for at-risk students} 
 
@@ -1037,16 +1099,6 @@ and 2.0 GPA floor require that predictive models be explicitly tuned
 to local policy parameters, which is impossible within a black-box 
 commercial system \parencite{Hechinger2019, Signal2019}.
 
-\textbf{Bias Risk from Historical Data:} The risk markers were derived 
-from historical institutional data that may encode pre-existing systemic 
-inequalities. Scholars have raised concerns that predictive systems 
-trained on historically biased data risk reinforcing those patterns, 
-particularly when racial and socioeconomic variables are correlated with 
-risk markers \parencite{Hechinger2019}. Although GSU explicitly excludes 
-race from its algorithmic inputs, proxy variables such as financial aid 
-status and registration patterns may still function as demographic 
-proxies \parencite{Hechinger2019}.
-
 \textbf{Resource-Intensive Implementation:} GSU's success was not 
 solely the product of technology. More than 90\% of the total programme 
 cost was in staffing: GSU hired 42 new academic advisers in the first 
@@ -1102,9 +1154,9 @@ imbalanced classification problem typical of real institutional data
 
 \textbf{Methodology and Pipeline Architecture}
 
-The pipeline was implemented entirely in \textbf{Python 3.12.0} using 
-open-source libraries, specifically \texttt{scikit-learn 1.7.1}, 
-\texttt{xgboost 3.0.3}, and \texttt{shap 0.48.0}. This is a significant 
+The pipeline was implemented entirely in Python 3.12.0 using 
+open-source libraries, specifically scikit-learn 1.7.1, 
+xgboost 3.0.3, and shap 0.48.0. This is a significant 
 methodological distinction from the proprietary EAB \textit{Navigate} 
 platform used by Georgia State: every component of the Moroccan pipeline 
 is reproducible, auditable, and transferable without licensing costs 
@@ -1117,14 +1169,13 @@ The six-stage modular architecture proceeded as follows
     \item \textbf{Data Ingestion and Cleaning:} Automatic delimiter 
     detection; removal of columns with $>90\%$ missingness; median 
     imputation for numeric fields; label encoding for categorical variables 
-    with an explicit \texttt{<MISSING>} token; date normalization to 
+    with an explicit <MISSING> token; date normalization to 
     elapsed days; and leakage prevention by dropping direct student 
     identifiers.
 
     \item \textbf{Feature Engineering:} Transformation of raw institutional 
     records into 91 structured predictors, including temporal features such 
-    as hold durations (e.g., \texttt{AP\_END\_DTE} $-$ 
-    \texttt{AP\_START\_DTE}) and derived academic momentum indicators.
+    as hold durations and derived academic momentum indicators.
 
     \item \textbf{Train/Test Split:} A stratified 80/20 split yielding 
     14,306 training and 3,577 test students, preserving the empirical 
@@ -1138,7 +1189,7 @@ The six-stage modular architecture proceeded as follows
 
     \item \textbf{Explainability Layer (SHAP):} SHAP TreeExplainer 
     applied to all tree-based models on the full 3,577-test-case set; 
-    KernelExplainer with $k$-means background ($k=100$) applied to 
+    KernelExplainer with $k$-means background applied to 
     MLP on a 300-sample subset.
 
     \item \textbf{Reporting and Visualization:} Structured output 
@@ -1160,7 +1211,7 @@ performance of all nine models.
 \definecolor{tableblue}{RGB}{31,56,100}
 \definecolor{rowblue}{RGB}{235,241,250}
 {\rowcolors{2}{rowblue}{white}
-\begin{tabular}{|p{3.8cm}|p{1.4cm}|p{1.4cm}|p{1.4cm}|p{1.4cm}|p{1.8cm}|}
+\begin{tabular}{|p{3.5cm}|p{1.6cm}|p{1.5cm}|p{1.4cm}|p{1.0cm}|p{2.0cm}|}
 \hline
 \rowcolor{tableblue}
 \textcolor{white}{\textbf{Model}} & 
@@ -1180,8 +1231,7 @@ Logistic Regression & 0.917 & 0.682 & 0.904 & 0.777 & 0.968 \\ \hline
 Na\"{i}ve Bayes   & 0.689 & 0.322 & 0.858 & 0.468 & 0.881 \\ \hline
 \end{tabular}}
 \captionof{table}{Model performance on the Moroccan HEI test set 
-(N=3,577; dropout rate 16\%). Adapted from 
-\textcite{Bettahi2025}.}
+adapted from \textcite{Bettahi2025}.}
 \label{tab:bettahi_results}
 \end{center}
 
@@ -1196,45 +1246,38 @@ full pipeline was replicated on the public UCI Portugal dataset
 = 0.792, AUC-ROC = 0.922), confirming model ordering preservation across 
 feature-shifted datasets.
 
-\textbf{Limitations}
+\textbf{Limitation Critical Assessment}
 
-The authors explicitly acknowledge several limitations directly relevant 
-to this study's design \parencite{Bettahi2025}:
+The Bettahi et al. pipeline is the most methodologically aligned existing 
+system in the literature relative to the platform developed in this 
+thesis. It validates XGBoost and SHAP as the dominant tools for 
+structured, imbalanced HEI dropout prediction using entirely open-source 
+infrastructure---directly addressing the transferability limitation of 
+the Georgia State model \parencite{Bettahi2025}. The use of Python with 
+open-source libraries (\texttt{scikit-learn}, \texttt{xgboost}, 
+\texttt{shap}) establishes the technical feasibility of deploying a 
+high-performance, explainable EWS without commercial licensing, while 
+the SHAP-based risk versus protective factor distinction provides the 
+explainability architecture template for the role-based advisor 
+dashboards developed in Chapter Four.
 
-\textbf{Institution-Specific Features:} Administrative hold timestamps 
-such as \texttt{AP\_START\_DTE} and \texttt{AP\_END\_DTE} are 
-Moroccan HEI-specific and may not exist or carry equivalent semantics 
-in other institutional contexts. This motivates this study's 
-institution-specific feature engineering strategy, which maps 
-Strathmore's 67\% attendance threshold and 2.0 GPA floor as 
-policy-calibrated features rather than relying on transferable generic 
-variables.
-
-\textbf{Batch Processing:} The pipeline is designed as a static 
-train/test evaluation rather than a real-time streaming system. 
-Deployment as a live Early Warning System would require architectural 
-extension to support continuous model retraining as new semester data 
-arrives.
-
-\textbf{Relevance to This Study}
-
-The Bettahi et al. (2025) pipeline is the most methodologically aligned 
-existing system in the literature relative to the platform developed in 
-this thesis. Three direct connections are drawn. First, the use of 
-Python with open-source libraries (\texttt{scikit-learn}, 
-\texttt{xgboost}, \texttt{shap}) establishes the technical feasibility 
-of deploying a high-performance, explainable EWS without commercial 
-licensing---directly addressing the transferability limitation of the 
-Georgia State model. Second, the confirmation of XGBoost as the 
-dominant algorithm for structured, imbalanced HEI data on an African 
-institutional dataset validates the algorithm selection rationale for 
-this study. Third, the SHAP-based risk versus protective factor 
-distinction provides the explainability architecture template for the 
-role-based advisor dashboards developed in Chapter Four. The key 
-departure of this study is then  the simultaneous prediction of three distinct risk outcomes---dropout risk, 
-course failure risk, and programme delay risk---rather than a single 
-binary dropout outcome, and the explicit calibration of all models to 
-Strathmore University's specific policy thresholds.
+However, the study carries two significant limitations that this thesis 
+directly addresses. First, the institution-specific features central to 
+the pipeline---particularly administrative timestamp variables such as 
+\texttt{AP\_START\_DTE} and \texttt{AP\_END\_DTE}---are Moroccan 
+HEI-specific and carry no equivalent semantics in other institutional 
+contexts, limiting the direct transferability of the feature engineering 
+strategy to universities with different administrative infrastructures 
+\parencite{Bettahi2025}. This motivates this study's institution-specific 
+feature engineering, which encodes Strathmore's 67\% attendance threshold 
+and 2.0 GPA floor as policy-calibrated variables rather than generic 
+proxies. Second, the pipeline predicts a single binary dropout outcome 
+only, failing to capture the graduated spectrum of academic difficulty 
+that students actually experience. This study departs from that binary 
+framing through the simultaneous prediction of three distinct risk 
+outcomes---dropout risk, course failure risk, and programme delay 
+risk---with all models explicitly calibrated to Strathmore University's 
+specific policy thresholds.
 
 \subsubsection{South Africa: Machine Learning for Engineering Student 
 Success at the University of Johannesburg}
@@ -1242,13 +1285,7 @@ Success at the University of Johannesburg}
 One of the earliest investigations of ML-based student performance 
 prediction in the South African context was conducted by Taodzera, Twala, 
 and Carroll at the University of Johannesburg's Department of Electrical 
-and Electronics Engineering Science \parencite{Taodzera2016}. South 
-Africa presents a uniquely complex setting for educational data mining: 
-engineering programmes face critically low throughput rates, students 
-arrive with profoundly unequal secondary school preparation resulting 
-from the enduring effects of apartheid-era education, and socioeconomic 
-disparity produces wide variation in academic readiness within the same 
-classroom \parencite{Taodzera2016}.
+and Electronics Engineering Science \parencite{Taodzera2016}. 
 
 \textbf{Dataset and Features}
 
@@ -1273,10 +1310,7 @@ schooling, where historically advantaged schools continue to produce
 students substantially better prepared for the quantitative demands of 
 engineering study \parencite{Taodzera2016}. Wrapper-based feature 
 selection confirmed Mathematics and Physics as the primary predictors, 
-with ethnicity and school province also identified as significant---the 
-latter functioning as an indirect proxy for geographic inequality and 
-school system quality differentials across provinces.
-
+with ethnicity and school province also identified as significant.
 \textbf{Models and Results} 
 
 Five algorithms were evaluated: Logistic 
@@ -1290,7 +1324,7 @@ the prior South African study by Mashiloane (2015), which failed to
 exceed 50\% accuracy on a Computer Science dataset from the University 
 of the Witwatersrand \parencite{Taodzera2016}.
 
-\textbf{Critical Assessment}
+\textbf{Limitation Critical Assessment}
 
 The Taodzera et al. study makes two 
 contributions of direct relevance to this thesis. First, it demonstrates 
@@ -1304,12 +1338,10 @@ educational data that does not appear in the North American literature:
 that secondary schooling inequality is itself a measurable risk factor 
 that encodes into university-level performance data.
 
-However, the study carries significant limitations. The overall accuracy 
-ceiling of 65.86\% reflects the constraints of using enrollment-time 
-data only, without any longitudinal academic performance features. The 
+However, the study carries significant limitations. The 
 absence of SHAP-based or any form of explainability analysis means the 
 model cannot be operationalized as a policy-actionable early warning 
-system: advisers cannot understand which specific factors triggered a 
+system. The advisers cannot understand which specific factors triggered a 
 risk flag for an individual student. Furthermore, the modest Kappa 
 values (all below 0.32) suggest that all five models classify at a 
 level only slightly above what chance would produce, and none would 
@@ -1567,7 +1599,7 @@ Bettahi et al.\ \parencite{Bettahi2025} &
 Morocco, 17,883 undergraduate records &
 XGBoost, Random Forest, SHAP explainability &
 GPA, credits earned, course failures, financial hold flags &
-Static batch pipeline; no real-time retraining; institution-specific features limit transferability; single binary dropout outcome only \\[6pt]
+Institution-specific features limit transferability; single binary dropout outcome only \\[6pt]
 
 Taodzera et al.\ \parencite{Taodzera2016} &
 South Africa, 1,366 engineering students &
@@ -1598,7 +1630,7 @@ Extremely small dataset; accuracy likely inflated by overfitting; no class imbal
 \end{longtable}
 
 
-\subsubsection{Relevance to our study}
+\subsubsection{Relevance to our study table}
 
 \rowcolors{2}{tablerowwhite}{tablerowlight}
 \begin{longtable}{L{2.4cm} L{3.3cm} L{3.3cm} L{3.8cm}}
@@ -1620,7 +1652,7 @@ Extremely small dataset; accuracy likely inflated by overfitting; no class imbal
 Georgia State University GPS Advising \parencite{GSU2024} &
 Proof of concept that predictive analytics at scale can raise graduation rates and eliminate equity gaps &
 Role-based dashboards; frequenty risk score updates; adviser-initiated intervention model &
-Replaced proprietary platform with open-source pipeline; calibrated to Strathmore-specific thresholds (67\% attendance, 2.0 GPA); eliminated vendor dependency \\[6pt]
+Calibrated to Strathmore-specific thresholds (67\% attendance, 2.0 GPA); eliminated vendor dependency \\[6pt]
 
 Bettahi et al.\ \parencite{Bettahi2025} &
 Most methodologically aligned study; validates XGBoost and SHAP for African HEI dropout prediction using open-source tools &
@@ -1653,6 +1685,12 @@ Replaced WEKA with Python ensemble pipeline; addressed class imbalance via SMOTE
 
 
 \subsubsection{Conceptual Framework}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/conceptual.png}
+    \caption{Conceptual Framework diagram}
+    \label{fig:tinto_model}
+\end{figure}
 
 \subsubsection*{Framework Explanation}
 
@@ -1737,9 +1775,23 @@ are flagged weeks before failure occurs, and advisors are equipped with
 the specific reasons behind each risk classification.
 
 
-%  =====================================
+\subsection*{Summary} 
+This chapter established the theoretical and empirical foundations for the 
+study's predictive analytics platform. Global attrition statistics confirmed 
+student dropout as a structurally significant challenge, while Tinto's Student 
+Integration Model and Astin's I-E-O Model provided the conceptual framework mapping 
+institutional data variables to retention outcomes. The review of existing ML-based 
+systems — spanning Georgia State University, Morocco, South Africa, Ethiopia, and 
+Kenya — demonstrated that ensemble methods, particularly XGBoost and Random Forest,
+ consistently outperform classical algorithms, while SHAP-based explainability remains 
+ critically underutilized in African contexts. All gaps identified directly inform the platform's design.
+  Chapter Three now presents the research methodology, detailing the data collection strategy, 
+  feature engineering process, model development approach, and evaluation framework employed 
+  to build and validate the system.
 
-\subsection*{Summary and Knowledge Gaps   } 
+% =========================================
+
+
 
 
 % \chapter{RESEARCH METHODOLOGY}

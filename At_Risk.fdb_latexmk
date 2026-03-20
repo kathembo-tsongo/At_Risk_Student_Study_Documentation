@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber At_Risk"] 1773821691.62915 "At_Risk.bcf" "At_Risk.bbl" "At_Risk" 1773821700.13217 0
-  "At_Risk.bcf" 1773821700.01563 143906 73654d91077504b19e985cf7c286b10c "pdflatex"
+["biber At_Risk"] 1774037534.52956 "At_Risk.bcf" "At_Risk.bbl" "At_Risk" 1774037670.835 0
+  "At_Risk.bcf" 1774037670.75434 144031 3024316570cba9a973cc84e6f3477794 "pdflatex"
   "references.bib" 1773815145.33349 43801 8884766cbe1fcc21ab143f3f6ea061ec ""
   (generated)
   "At_Risk.bbl"
   "At_Risk.blg"
   (rewritten before read)
-["pdflatex"] 1773821696.74416 "/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex" "At_Risk.pdf" "At_Risk" 1773821700.13263 0
+["pdflatex"] 1774037667.8307 "/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex" "At_Risk.pdf" "At_Risk" 1774037670.83534 0
   "/etc/texmf/web2c/texmf.cnf" 1770489521.4762 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex" 1773821688.65748 106469 ea8fd79df17c74c0e0052fe8752fea7a ""
+  "/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex" 1774037667.63038 108612 046ca35c85033e4af14fcdcc62b056b9 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -32,7 +32,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb" 1136849748 45758 19968a0990191524e34e1994d4a31cb6 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1136849748 44729 811d6c62865936705a31c797a1d5dada ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1136849748 46026 6dab18b61c907687b520c72847215a68 ""
@@ -129,14 +128,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1770489545.30875 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1770489573 8213748 9b2ca307748213d8bf2581e3767b4fc7 ""
-  "At_Risk.aux" 1773821700.00363 35306 63f43a750ff798f664ee2b60ecb57668 "pdflatex"
-  "At_Risk.bbl" 1773821693.16546 140260 5e5af86e53dd2e5f51ca263e973391c9 "biber At_Risk"
-  "At_Risk.out" 1773821700.01363 13045 ba4faf9ee00559e260539c16d6d792d3 "pdflatex"
-  "At_Risk.run.xml" 1773821700.01694 2448 d2947389279650008fa0e913e8a6c5b8 "pdflatex"
-  "At_Risk.tex" 1773821688.65748 106469 ea8fd79df17c74c0e0052fe8752fea7a ""
-  "At_Risk.toc" 1773821700.01694 5550 ee1a40e22e41b6a1ffd54ecd49cbb2d8 "pdflatex"
+  "At_Risk.aux" 1774037670.74734 37094 bc13a9d4ffc7c4a6dc4bda978e32b5dd "pdflatex"
+  "At_Risk.bbl" 1774037535.72777 140260 5e5af86e53dd2e5f51ca263e973391c9 "biber At_Risk"
+  "At_Risk.out" 1774037670.75302 14999 5d2f03d9aeb09282dc855756deb42761 "pdflatex"
+  "At_Risk.run.xml" 1774037670.75597 2448 d2947389279650008fa0e913e8a6c5b8 "pdflatex"
+  "At_Risk.tex" 1774037667.63038 108612 046ca35c85033e4af14fcdcc62b056b9 ""
+  "At_Risk.toc" 1774037670.75597 6596 ae143541c683633b6dd6f96e45b60891 "pdflatex"
   "images/AstinModel.png" 1773677662.64966 41650 abcad6e0f0fcacda9305df6318dd65f0 ""
   "images/TintoModel1.jpg" 1773599259.04433 126172 782b114dc7444355b47b7de55a1a4141 ""
+  "images/conceptual.png" 1773994415.2277 992854 cc8465d4881b2b142075e9d725544c14 ""
   "images/strathmore_logo.png" 1770492596.12661 8364 00ca8e15eb27af2c1f5f815760099607 ""
   (generated)
   "At_Risk.aux"
