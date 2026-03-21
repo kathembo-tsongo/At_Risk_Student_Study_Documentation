@@ -79,59 +79,15 @@
       \strng{authorbibnamehash}{324492611f377550ce764f0d053b1491}
       \strng{authornamehash}{8df7087b91529758cded7e03c4f83ba2}
       \strng{authorfullhash}{324492611f377550ce764f0d053b1491}
-      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computers and Education: Artificial Intelligence}
       \field{title}{Predicting student performance: A comprehensive review of machine learning, deep learning, and explainable {AI} approaches}
-      \field{year}{2026}
-      \verb{doi}
-      \verb 10.1016/j.caeai.2026.100003
-      \endverb
-    \endentry
-    \entry{Aldowah2026}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=b5b09e690b36ad81e13d30901674749e}{%
-           family={Aldowah},
-           familyi={A\bibinitperiod},
-           given={Hanan},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f189023ef8c0c3f075480230a0fafd31}{%
-           family={Al-Samarraie},
-           familyi={A\bibinithyphendelim S\bibinitperiod},
-           given={Hosam},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=81a793c3d6cca59493a4811a128e30e6}{%
-           family={Fauzy},
-           familyi={F\bibinitperiod},
-           given={Wan\bibnamedelima Mohamad},
-           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b3daaa29866b43b67c3dd05f51b14094}
-      \strng{fullhash}{9842a3e3753a099520c0b400d1e94918}
-      \strng{bibnamehash}{9842a3e3753a099520c0b400d1e94918}
-      \strng{authorbibnamehash}{9842a3e3753a099520c0b400d1e94918}
-      \strng{authornamehash}{b3daaa29866b43b67c3dd05f51b14094}
-      \strng{authorfullhash}{9842a3e3753a099520c0b400d1e94918}
-      \field{extraname}{2}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computers and Education: Artificial Intelligence}
-      \field{note}{Published online January 2026, ScienceDirect}
-      \field{title}{Predicting Student Performance: A Comprehensive Review of Machine Learning, Deep Learning, and Explainable {AI} Approaches}
       \field{year}{2026}
       \verb{doi}
       \verb 10.1016/j.caeai.2026.100003
@@ -166,6 +122,34 @@
       \verb https://agb.org/wp-content/uploads/2019/01/case_study_innovation_georgia.pdf
       \endverb
     \endentry
+    \entry{astin1993}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=925ab295813e3893c1adec31382f5efd}{%
+           family={Astin},
+           familyi={A\bibinitperiod},
+           given={A.\bibnamedelimi W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Jossey-Bass}%
+      }
+      \strng{namehash}{925ab295813e3893c1adec31382f5efd}
+      \strng{fullhash}{925ab295813e3893c1adec31382f5efd}
+      \strng{bibnamehash}{925ab295813e3893c1adec31382f5efd}
+      \strng{authorbibnamehash}{925ab295813e3893c1adec31382f5efd}
+      \strng{authornamehash}{925ab295813e3893c1adec31382f5efd}
+      \strng{authorfullhash}{925ab295813e3893c1adec31382f5efd}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What Matters in College? Four Critical Years Revisited}
+      \field{year}{1993}
+    \endentry
     \entry{astin2012}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=925ab295813e3893c1adec31382f5efd}{%
@@ -190,140 +174,16 @@
       \strng{authorbibnamehash}{e6e4fef1228dbda9705d7df25f4824d4}
       \strng{authornamehash}{e6e4fef1228dbda9705d7df25f4824d4}
       \strng{authorfullhash}{e6e4fef1228dbda9705d7df25f4824d4}
-      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd}
       \field{title}{Assessment for Excellence: The Philosophy and Practice of Assessment and Evaluation in Higher Education}
       \field{year}{2012}
-    \endentry
-    \entry{Astin1993}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=24568fdefd3347e8e636cd412423104a}{%
-           family={Astin},
-           familyi={A\bibinitperiod},
-           given={Alexander\bibnamedelima W.},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {San Francisco, CA}%
-      }
-      \list{publisher}{1}{%
-        {Jossey-Bass}%
-      }
-      \strng{namehash}{24568fdefd3347e8e636cd412423104a}
-      \strng{fullhash}{24568fdefd3347e8e636cd412423104a}
-      \strng{bibnamehash}{24568fdefd3347e8e636cd412423104a}
-      \strng{authorbibnamehash}{24568fdefd3347e8e636cd412423104a}
-      \strng{authornamehash}{24568fdefd3347e8e636cd412423104a}
-      \strng{authorfullhash}{24568fdefd3347e8e636cd412423104a}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9780787908386}
-      \field{title}{What Matters in College? {Four Critical Years Revisited}}
-      \field{year}{1993}
-    \endentry
-    \entry{AstinAntonio2012}{book}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=24568fdefd3347e8e636cd412423104a}{%
-           family={Astin},
-           familyi={A\bibinitperiod},
-           given={Alexander\bibnamedelima W.},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=67ef7601ec6bccad670c05934b826e0c}{%
-           family={Antonio},
-           familyi={A\bibinitperiod},
-           given={Anthony\bibnamedelima Lising},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Lanham, MD}%
-      }
-      \list{publisher}{1}{%
-        {Rowman \& Littlefield}%
-      }
-      \strng{namehash}{bf5368397fe93aba4b3a3d2c2c717c52}
-      \strng{fullhash}{bf5368397fe93aba4b3a3d2c2c717c52}
-      \strng{bibnamehash}{bf5368397fe93aba4b3a3d2c2c717c52}
-      \strng{authorbibnamehash}{bf5368397fe93aba4b3a3d2c2c717c52}
-      \strng{authornamehash}{bf5368397fe93aba4b3a3d2c2c717c52}
-      \strng{authorfullhash}{bf5368397fe93aba4b3a3d2c2c717c52}
-      \field{extraname}{2}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{isbn}{9781442213616}
-      \field{title}{Assessment for Excellence: The Philosophy and Practice of Assessment and Evaluation in Higher Education}
-      \field{year}{2012}
-    \endentry
-    \entry{Bello2025}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=0f77474e5bfe1ec705249512b26e90ec}{%
-           family={Bello},
-           familyi={B\bibinitperiod},
-           given={Abdul-waliyyu},
-           giveni={A\bibinithyphendelim w\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a22a0c5918bf91f431629f45ce4e1338}{%
-           family={Ajibade},
-           familyi={A\bibinitperiod},
-           given={Idris},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9cf6f73a9ebdd0df50542233b23efbf7}{%
-           family={Wonuola},
-           familyi={W\bibinitperiod},
-           given={Idris},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=10a429c9650a3c3366a9f0a87afe1783}{%
-           family={Ekweli},
-           familyi={E\bibinitperiod},
-           given={Darlington},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{0b3cf163a323d20966428b1efa67846e}
-      \strng{fullhash}{6040e58012058b02c527d08fd7b49dbf}
-      \strng{bibnamehash}{6040e58012058b02c527d08fd7b49dbf}
-      \strng{authorbibnamehash}{6040e58012058b02c527d08fd7b49dbf}
-      \strng{authornamehash}{0b3cf163a323d20966428b1efa67846e}
-      \strng{authorfullhash}{6040e58012058b02c527d08fd7b49dbf}
-      \field{extraname}{1}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Science and Research Archive}
-      \field{number}{03}
-      \field{title}{Developing a Predictive Model for Student Academic Performance Using Machine Learning Techniques}
-      \field{volume}{16}
-      \field{year}{2025}
-      \field{pages}{219\bibrangedash 234}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.30574/ijsra.2025.16.3.2539
-      \endverb
     \endentry
     \entry{bello2025}{article}{}
       \name{author}{4}{}{%
@@ -358,12 +218,11 @@
       \strng{authorbibnamehash}{9d7bf0502878bd29a0b4d65fea77dd95}
       \strng{authornamehash}{354c1ee557cf28389b9670f64d71a98e}
       \strng{authorfullhash}{9d7bf0502878bd29a0b4d65fea77dd95}
-      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Science and Research Archive}
@@ -410,12 +269,11 @@
       \strng{authorbibnamehash}{86b9bb5314ac07fc62bc3abd76b8a162}
       \strng{authornamehash}{376f85b28f58cb0e48279c9a2c5274a7}
       \strng{authorfullhash}{86b9bb5314ac07fc62bc3abd76b8a162}
-      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Educação e Pesquisa}
@@ -429,60 +287,6 @@
       \endverb
       \verb{url}
       \verb https://www.researchgate.net/publication/394443435
-      \endverb
-    \endentry
-    \entry{Bento2025}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=0f3d4651cb0dea6e0e0289c3fab80f26}{%
-           family={Bento\bibnamedelima Júnior},
-           familyi={B\bibinitperiod\bibinitdelim J\bibinitperiod},
-           given={Genival\bibnamedelima Souza},
-           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ba50c096b15b6902997c72f3e0b3b09b}{%
-           family={Bento},
-           familyi={B\bibinitperiod},
-           given={Bráulio\bibnamedelimb Ferreira\bibnamedelima Souza},
-           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f2fac178684ca531487796e43f40d40b}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Uriana\bibnamedelimb Fernandes\bibnamedelima Curcino},
-           giveni={U\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2e304f0bb9298acb2f1b6914b1a58660}{%
-           family={Santos},
-           familyi={S\bibinitperiod},
-           given={Henrique\bibnamedelimb Tadeu\bibnamedelima dos},
-           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim d\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7cf7833f29e042f3fb24437b396ba85f}
-      \strng{fullhash}{9204c0e53c5a3b7802644a58e88c304c}
-      \strng{bibnamehash}{9204c0e53c5a3b7802644a58e88c304c}
-      \strng{authorbibnamehash}{9204c0e53c5a3b7802644a58e88c304c}
-      \strng{authornamehash}{7cf7833f29e042f3fb24437b396ba85f}
-      \strng{authorfullhash}{9204c0e53c5a3b7802644a58e88c304c}
-      \field{extraname}{2}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Educação e Pesquisa}
-      \field{title}{Dropout in Higher Education and {Vincent Tinto's} Models: Bibliographical Research}
-      \field{volume}{51}
-      \field{year}{2025}
-      \field{pages}{e285842}
-      \range{pages}{-1}
-      \verb{urlraw}
-      \verb https://www.researchgate.net/publication/394443435_Dropout_in_higher_education_and_Vincent_Tinto's_models_bibliographical_research
-      \endverb
-      \verb{url}
-      \verb https://www.researchgate.net/publication/394443435_Dropout_in_higher_education_and_Vincent_Tinto's_models_bibliographical_research
       \endverb
     \endentry
     \entry{bettahi2025}{article}{}
@@ -512,64 +316,16 @@
       \strng{authorbibnamehash}{0e2c4fb6425c1a0af810b4e6b82438ec}
       \strng{authornamehash}{0fe8120c529dc1ad77130fb80ae77a10}
       \strng{authorfullhash}{0e2c4fb6425c1a0af810b4e6b82438ec}
-      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Algorithms}
       \field{number}{10}
       \field{title}{A modular and explainable machine learning pipeline for student dropout prediction in higher education}
-      \field{volume}{18}
-      \field{year}{2025}
-      \field{pages}{662}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/a18100662
-      \endverb
-    \endentry
-    \entry{Bettahi2025}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=120b48cce412cccce8022bd473c860ee}{%
-           family={Bettahi},
-           familyi={B\bibinitperiod},
-           given={Abdelkarim},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=67a655831e22d90a0e9d190b82e6d510}{%
-           family={Belouadha},
-           familyi={B\bibinitperiod},
-           given={Fatima-Zahra},
-           giveni={F\bibinithyphendelim Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4c31b98e7f81fc82d17aee6ab450b8b2}{%
-           family={Harroud},
-           familyi={H\bibinitperiod},
-           given={Hamid},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{58d3341ad07009232a966b1790a17d2f}
-      \strng{fullhash}{16c71c04e1ed54f71114d805fbcc9152}
-      \strng{bibnamehash}{16c71c04e1ed54f71114d805fbcc9152}
-      \strng{authorbibnamehash}{16c71c04e1ed54f71114d805fbcc9152}
-      \strng{authornamehash}{58d3341ad07009232a966b1790a17d2f}
-      \strng{authorfullhash}{16c71c04e1ed54f71114d805fbcc9152}
-      \field{extraname}{2}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Algorithms}
-      \field{note}{Published 18 October 2025. Open access, MDPI.}
-      \field{number}{10}
-      \field{title}{A Modular and Explainable Machine Learning Pipeline for Student Dropout Prediction in Higher Education}
       \field{volume}{18}
       \field{year}{2025}
       \field{pages}{662}
@@ -760,53 +516,15 @@
       \strng{authorbibnamehash}{ee5669d9f7b9698d494126d036059732}
       \strng{authornamehash}{ee5669d9f7b9698d494126d036059732}
       \strng{authorfullhash}{ee5669d9f7b9698d494126d036059732}
-      \field{extraname}{1}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Computational Intelligence and Soft Computing}
       \field{title}{Student performance prediction using machine learning algorithms}
-      \field{volume}{2024}
-      \field{year}{2024}
-      \field{pages}{4067721}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1155/2024/4067721
-      \endverb
-    \endentry
-    \entry{Esmael2024}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=167e23db77de15ca493cacc1d2b3cd7d}{%
-           family={Esmael},
-           familyi={E\bibinitperiod},
-           given={Bilal},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley--Hindawi}%
-      }
-      \strng{namehash}{167e23db77de15ca493cacc1d2b3cd7d}
-      \strng{fullhash}{167e23db77de15ca493cacc1d2b3cd7d}
-      \strng{bibnamehash}{167e23db77de15ca493cacc1d2b3cd7d}
-      \strng{authorbibnamehash}{167e23db77de15ca493cacc1d2b3cd7d}
-      \strng{authornamehash}{167e23db77de15ca493cacc1d2b3cd7d}
-      \strng{authorfullhash}{167e23db77de15ca493cacc1d2b3cd7d}
-      \field{extraname}{2}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Computational Intelligence and Soft Computing}
-      \field{note}{Dataset: Wollo University and Kombolcha Institute of Technology, Ethiopia, 2017--2022; N = 32,582}
-      \field{title}{Student Performance Prediction Using Machine Learning Algorithms}
       \field{volume}{2024}
       \field{year}{2024}
       \field{pages}{4067721}
@@ -869,7 +587,7 @@
       \field{pages}{32}
       \range{pages}{1}
     \endentry
-    \entry{gsu2024}{online}{}
+    \entry{gsu202}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=834fff5ac9ea1d5e423efcfecb18b6ed}{%
            family={{Georgia State University}},
@@ -899,11 +617,14 @@
       \verb https://success.gsu.edu/approach/
       \endverb
     \endentry
-    \entry{GSU2024}{online}{}
+    \entry{GSU2024}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=834fff5ac9ea1d5e423efcfecb18b6ed}{%
            family={{Georgia State University}},
            familyi={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {GSU Institutional Research}%
       }
       \strng{namehash}{834fff5ac9ea1d5e423efcfecb18b6ed}
       \strng{fullhash}{834fff5ac9ea1d5e423efcfecb18b6ed}
@@ -920,16 +641,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{12}
-      \field{note}{Accessed: February 8, 2026}
-      \field{title}{Approaching Student Success With Predictive Analytics}
+      \field{title}{The GPS Advising Impact Report}
+      \field{type}{techreport}
       \field{year}{2024}
-      \verb{urlraw}
-      \verb https://success.gsu.edu/approach/
-      \endverb
-      \verb{url}
-      \verb https://success.gsu.edu/approach/
-      \endverb
     \endentry
     \entry{Goncalves2024}{article}{}
       \name{author}{5}{}{%
@@ -1001,53 +715,15 @@
       \strng{authorbibnamehash}{1ad003f3d94cbbc9c5548dbb35ce6421}
       \strng{authornamehash}{1ad003f3d94cbbc9c5548dbb35ce6421}
       \strng{authorfullhash}{1ad003f3d94cbbc9c5548dbb35ce6421}
-      \field{extraname}{1}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the Annual Conference of the South African Institute of Computer Scientists and Information Technologists}
       \field{title}{Using a {B}ayesian network to predict {C}omputer {S}cience students at risk}
-      \field{year}{2020}
-    \endentry
-    \entry{Hassen2020}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c0beb5ef8f1593f0fbc562939f475c77}{%
-           family={Hassen},
-           familyi={H\bibinitperiod},
-           given={Muhammad},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Department of Computer Science, University of Cape Town}%
-      }
-      \list{location}{1}{%
-        {Cape Town, South Africa}%
-      }
-      \list{publisher}{1}{%
-        {Association for Computing Machinery}%
-      }
-      \strng{namehash}{c0beb5ef8f1593f0fbc562939f475c77}
-      \strng{fullhash}{c0beb5ef8f1593f0fbc562939f475c77}
-      \strng{bibnamehash}{c0beb5ef8f1593f0fbc562939f475c77}
-      \strng{authorbibnamehash}{c0beb5ef8f1593f0fbc562939f475c77}
-      \strng{authornamehash}{c0beb5ef8f1593f0fbc562939f475c77}
-      \strng{authorfullhash}{c0beb5ef8f1593f0fbc562939f475c77}
-      \field{extraname}{2}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the Annual Conference of the South African Institute of Computer Scientists and Information Technologists}
-      \field{series}{SAICSIT '20}
-      \field{title}{Using a {Bayesian} Network to Predict {Computer Science} Students at Risk}
       \field{year}{2020}
     \endentry
     \entry{NCES2024}{report}{}
@@ -1387,53 +1063,16 @@
       \strng{authorbibnamehash}{852c00c09476ac778d36945c2b6c1b22}
       \strng{authornamehash}{852c00c09476ac778d36945c2b6c1b22}
       \strng{authorfullhash}{852c00c09476ac778d36945c2b6c1b22}
-      \field{extraname}{1}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Towards Transparent and Interpretable Predictions of Student Performance Using Explainable {AI}}
       \field{type}{Professional Doctorate in Data Science}
       \field{year}{2025}
-    \endentry
-    \entry{Kwakye2025}{thesis}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=899c13524e479bfd6c46b819a54608f9}{%
-           family={Kwakye},
-           familyi={K\bibinitperiod},
-           given={Samuel\bibnamedelima Forson},
-           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {University of East London}%
-      }
-      \strng{namehash}{899c13524e479bfd6c46b819a54608f9}
-      \strng{fullhash}{899c13524e479bfd6c46b819a54608f9}
-      \strng{bibnamehash}{899c13524e479bfd6c46b819a54608f9}
-      \strng{authorbibnamehash}{899c13524e479bfd6c46b819a54608f9}
-      \strng{authornamehash}{899c13524e479bfd6c46b819a54608f9}
-      \strng{authorfullhash}{899c13524e479bfd6c46b819a54608f9}
-      \field{extraname}{2}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Towards Transparent and Interpretable Predictions of Student Performance Using Explainable {AI}}
-      \field{type}{Professional Doctorate in Data Science}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://repository.uel.ac.uk/download/ 6c0960ac0855e05febf31922490fe34ac8ed4ba9 548c6213674216d8d9646aab/4452022/ 2025_D.DataSc_Kwakye.pdf
-      \endverb
-      \verb{url}
-      \verb https://repository.uel.ac.uk/download/%206c0960ac0855e05febf31922490fe34ac8ed4ba9%20548c6213674216d8d9646aab/4452022/%202025_D.DataSc_Kwakye.pdf
-      \endverb
     \endentry
     \entry{Lundberg2017}{article}{}
       \name{author}{2}{}{%
@@ -1870,61 +1509,15 @@
       \strng{authorbibnamehash}{538becda1585544d20df5a6ccbb30d1d}
       \strng{authornamehash}{13f0f080cd5875c7498ab1ff1589deb8}
       \strng{authorfullhash}{538becda1585544d20df5a6ccbb30d1d}
-      \field{extraname}{1}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Predicting engineering student success using machine learning}
       \field{type}{mathesis}
-      \field{year}{2016}
-      \verb{urlraw}
-      \verb https://hdl.handle.net/10210/476756
-      \endverb
-      \verb{url}
-      \verb https://hdl.handle.net/10210/476756
-      \endverb
-    \endentry
-    \entry{Taodzera2016}{unpublished}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=a6ba3709dc32d86cd37dee7568688f42}{%
-           family={Taodzera},
-           familyi={T\bibinitperiod},
-           given={Tatenda},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=20eb0dac462d28083c34468432fa882c}{%
-           family={Twala},
-           familyi={T\bibinitperiod},
-           given={Bhekisipho},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3f019ed4b9fdc9cc3aac33afa3bc26b7}{%
-           family={Carroll},
-           familyi={C\bibinitperiod},
-           given={Johnson},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9033fad1098d26f55caa6e4a517266ba}
-      \strng{fullhash}{90324c80a37bdc18cecf103b4020b2d2}
-      \strng{bibnamehash}{90324c80a37bdc18cecf103b4020b2d2}
-      \strng{authorbibnamehash}{90324c80a37bdc18cecf103b4020b2d2}
-      \strng{authornamehash}{9033fad1098d26f55caa6e4a517266ba}
-      \strng{authorfullhash}{90324c80a37bdc18cecf103b4020b2d2}
-      \field{extraname}{2}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Working paper, Department of Electrical and Electronics Engineering Science, University of Johannesburg, South Africa. Available via the UJ Institutional Repository}
-      \field{title}{Predicting Engineering Student Success Using Machine Learning}
       \field{year}{2016}
       \verb{urlraw}
       \verb https://hdl.handle.net/10210/476756
@@ -1962,7 +1555,7 @@
       \verb https://georgiastatesignal.com/your-data-says-a-%20lot-about-you/
       \endverb
     \endentry
-    \entry{Tinto1975}{article}{}
+    \entry{tinto1975}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
            family={Tinto},
@@ -1980,45 +1573,8 @@
       \field{extraname}{1}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Review of Educational Research}
-      \field{number}{1}
-      \field{title}{Dropout from higher education: A theoretical synthesis of recent research}
-      \field{volume}{45}
-      \field{year}{1975}
-      \field{pages}{89\bibrangedash 125}
-      \range{pages}{37}
-      \verb{doi}
-      \verb 10.3102/00346543045001089
-      \endverb
-    \endentry
-    \entry{tinto1975}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
-           family={Tinto},
-           familyi={T\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{fullhash}{112fee32f4834c2d2d63667db2201663}
-      \strng{bibnamehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
-      \field{extraname}{2}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Review of Educational Research}
@@ -2047,13 +1603,12 @@
       \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
       \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
       \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd}
@@ -2062,33 +1617,32 @@
     \endentry
     \entry{Tinto1993}{book}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
+        {{un=0,uniquepart=base,hash=0639cf717707198c69ed7c41ba030a4f}{%
            family={Tinto},
            familyi={T\bibinitperiod},
-           given={V.},
+           given={Vincent},
            giveni={V\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
         {University of Chicago Press}%
       }
-      \strng{namehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{fullhash}{112fee32f4834c2d2d63667db2201663}
-      \strng{bibnamehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
-      \field{extraname}{4}
+      \strng{namehash}{0639cf717707198c69ed7c41ba030a4f}
+      \strng{fullhash}{0639cf717707198c69ed7c41ba030a4f}
+      \strng{bibnamehash}{0639cf717707198c69ed7c41ba030a4f}
+      \strng{authorbibnamehash}{0639cf717707198c69ed7c41ba030a4f}
+      \strng{authornamehash}{0639cf717707198c69ed7c41ba030a4f}
+      \strng{authorfullhash}{0639cf717707198c69ed7c41ba030a4f}
+      \field{extraname}{3}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd}
-      \field{title}{Leaving college: Rethinking the causes and cures of student attrition}
+      \field{title}{Leaving College: Rethinking the Causes and Cures of Student Attrition}
       \field{year}{1993}
     \endentry
     \entry{wan2019}{misc}{}
@@ -2226,55 +1780,15 @@
       \strng{authorbibnamehash}{78c767594567373afd2e74383a4ef380}
       \strng{authornamehash}{78c767594567373afd2e74383a4ef380}
       \strng{authorfullhash}{78c767594567373afd2e74383a4ef380}
-      \field{extraname}{1}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Complex \& Intelligent Systems}
       \field{title}{An interpretable prediction method for university student academic crisis warning}
-      \field{volume}{7}
-      \field{year}{2021}
-      \field{pages}{1603\bibrangedash 1618}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1007/s40747-021-00383-0
-      \endverb
-    \endentry
-    \entry{Zhang2021}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=948f26b38fba102b6f820808e554bc53}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Jing},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8b4ba2a1f24f5dd943626d719810ce76}{%
-           family={Tao},
-           familyi={T\bibinitperiod},
-           given={Dan},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e4c1736a601a11b28766541dd88ea85e}
-      \strng{fullhash}{e4c1736a601a11b28766541dd88ea85e}
-      \strng{bibnamehash}{e4c1736a601a11b28766541dd88ea85e}
-      \strng{authorbibnamehash}{e4c1736a601a11b28766541dd88ea85e}
-      \strng{authornamehash}{e4c1736a601a11b28766541dd88ea85e}
-      \strng{authorfullhash}{e4c1736a601a11b28766541dd88ea85e}
-      \field{extraname}{2}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Complex \& Intelligent Systems}
-      \field{title}{An Interpretable Prediction Method for University Student Academic Crisis Warning}
       \field{volume}{7}
       \field{year}{2021}
       \field{pages}{1603\bibrangedash 1618}
@@ -2345,59 +1859,15 @@
       \strng{authorbibnamehash}{324492611f377550ce764f0d053b1491}
       \strng{authornamehash}{8df7087b91529758cded7e03c4f83ba2}
       \strng{authorfullhash}{324492611f377550ce764f0d053b1491}
-      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computers and Education: Artificial Intelligence}
       \field{title}{Predicting student performance: A comprehensive review of machine learning, deep learning, and explainable {AI} approaches}
-      \field{year}{2026}
-      \verb{doi}
-      \verb 10.1016/j.caeai.2026.100003
-      \endverb
-    \endentry
-    \entry{Aldowah2026}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=b5b09e690b36ad81e13d30901674749e}{%
-           family={Aldowah},
-           familyi={A\bibinitperiod},
-           given={Hanan},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f189023ef8c0c3f075480230a0fafd31}{%
-           family={Al-Samarraie},
-           familyi={A\bibinithyphendelim S\bibinitperiod},
-           given={Hosam},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=81a793c3d6cca59493a4811a128e30e6}{%
-           family={Fauzy},
-           familyi={F\bibinitperiod},
-           given={Wan\bibnamedelima Mohamad},
-           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b3daaa29866b43b67c3dd05f51b14094}
-      \strng{fullhash}{9842a3e3753a099520c0b400d1e94918}
-      \strng{bibnamehash}{9842a3e3753a099520c0b400d1e94918}
-      \strng{authorbibnamehash}{9842a3e3753a099520c0b400d1e94918}
-      \strng{authornamehash}{b3daaa29866b43b67c3dd05f51b14094}
-      \strng{authorfullhash}{9842a3e3753a099520c0b400d1e94918}
-      \field{extraname}{2}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computers and Education: Artificial Intelligence}
-      \field{note}{Published online January 2026, ScienceDirect}
-      \field{title}{Predicting Student Performance: A Comprehensive Review of Machine Learning, Deep Learning, and Explainable {AI} Approaches}
       \field{year}{2026}
       \verb{doi}
       \verb 10.1016/j.caeai.2026.100003
@@ -2432,6 +1902,34 @@
       \verb https://agb.org/wp-content/uploads/2019/01/case_study_innovation_georgia.pdf
       \endverb
     \endentry
+    \entry{astin1993}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=925ab295813e3893c1adec31382f5efd}{%
+           family={Astin},
+           familyi={A\bibinitperiod},
+           given={A.\bibnamedelimi W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Jossey-Bass}%
+      }
+      \strng{namehash}{925ab295813e3893c1adec31382f5efd}
+      \strng{fullhash}{925ab295813e3893c1adec31382f5efd}
+      \strng{bibnamehash}{925ab295813e3893c1adec31382f5efd}
+      \strng{authorbibnamehash}{925ab295813e3893c1adec31382f5efd}
+      \strng{authornamehash}{925ab295813e3893c1adec31382f5efd}
+      \strng{authorfullhash}{925ab295813e3893c1adec31382f5efd}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What Matters in College? Four Critical Years Revisited}
+      \field{year}{1993}
+    \endentry
     \entry{astin2012}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=925ab295813e3893c1adec31382f5efd}{%
@@ -2456,140 +1954,16 @@
       \strng{authorbibnamehash}{e6e4fef1228dbda9705d7df25f4824d4}
       \strng{authornamehash}{e6e4fef1228dbda9705d7df25f4824d4}
       \strng{authorfullhash}{e6e4fef1228dbda9705d7df25f4824d4}
-      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd}
       \field{title}{Assessment for Excellence: The Philosophy and Practice of Assessment and Evaluation in Higher Education}
       \field{year}{2012}
-    \endentry
-    \entry{Astin1993}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=24568fdefd3347e8e636cd412423104a}{%
-           family={Astin},
-           familyi={A\bibinitperiod},
-           given={Alexander\bibnamedelima W.},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {San Francisco, CA}%
-      }
-      \list{publisher}{1}{%
-        {Jossey-Bass}%
-      }
-      \strng{namehash}{24568fdefd3347e8e636cd412423104a}
-      \strng{fullhash}{24568fdefd3347e8e636cd412423104a}
-      \strng{bibnamehash}{24568fdefd3347e8e636cd412423104a}
-      \strng{authorbibnamehash}{24568fdefd3347e8e636cd412423104a}
-      \strng{authornamehash}{24568fdefd3347e8e636cd412423104a}
-      \strng{authorfullhash}{24568fdefd3347e8e636cd412423104a}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9780787908386}
-      \field{title}{What Matters in College? {Four Critical Years Revisited}}
-      \field{year}{1993}
-    \endentry
-    \entry{AstinAntonio2012}{book}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=24568fdefd3347e8e636cd412423104a}{%
-           family={Astin},
-           familyi={A\bibinitperiod},
-           given={Alexander\bibnamedelima W.},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=67ef7601ec6bccad670c05934b826e0c}{%
-           family={Antonio},
-           familyi={A\bibinitperiod},
-           given={Anthony\bibnamedelima Lising},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Lanham, MD}%
-      }
-      \list{publisher}{1}{%
-        {Rowman \& Littlefield}%
-      }
-      \strng{namehash}{bf5368397fe93aba4b3a3d2c2c717c52}
-      \strng{fullhash}{bf5368397fe93aba4b3a3d2c2c717c52}
-      \strng{bibnamehash}{bf5368397fe93aba4b3a3d2c2c717c52}
-      \strng{authorbibnamehash}{bf5368397fe93aba4b3a3d2c2c717c52}
-      \strng{authornamehash}{bf5368397fe93aba4b3a3d2c2c717c52}
-      \strng{authorfullhash}{bf5368397fe93aba4b3a3d2c2c717c52}
-      \field{extraname}{2}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{isbn}{9781442213616}
-      \field{title}{Assessment for Excellence: The Philosophy and Practice of Assessment and Evaluation in Higher Education}
-      \field{year}{2012}
-    \endentry
-    \entry{Bello2025}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=0f77474e5bfe1ec705249512b26e90ec}{%
-           family={Bello},
-           familyi={B\bibinitperiod},
-           given={Abdul-waliyyu},
-           giveni={A\bibinithyphendelim w\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a22a0c5918bf91f431629f45ce4e1338}{%
-           family={Ajibade},
-           familyi={A\bibinitperiod},
-           given={Idris},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9cf6f73a9ebdd0df50542233b23efbf7}{%
-           family={Wonuola},
-           familyi={W\bibinitperiod},
-           given={Idris},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=10a429c9650a3c3366a9f0a87afe1783}{%
-           family={Ekweli},
-           familyi={E\bibinitperiod},
-           given={Darlington},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{0b3cf163a323d20966428b1efa67846e}
-      \strng{fullhash}{6040e58012058b02c527d08fd7b49dbf}
-      \strng{bibnamehash}{6040e58012058b02c527d08fd7b49dbf}
-      \strng{authorbibnamehash}{6040e58012058b02c527d08fd7b49dbf}
-      \strng{authornamehash}{0b3cf163a323d20966428b1efa67846e}
-      \strng{authorfullhash}{6040e58012058b02c527d08fd7b49dbf}
-      \field{extraname}{1}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Science and Research Archive}
-      \field{number}{03}
-      \field{title}{Developing a Predictive Model for Student Academic Performance Using Machine Learning Techniques}
-      \field{volume}{16}
-      \field{year}{2025}
-      \field{pages}{219\bibrangedash 234}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.30574/ijsra.2025.16.3.2539
-      \endverb
     \endentry
     \entry{bello2025}{article}{}
       \name{author}{4}{}{%
@@ -2624,12 +1998,11 @@
       \strng{authorbibnamehash}{9d7bf0502878bd29a0b4d65fea77dd95}
       \strng{authornamehash}{354c1ee557cf28389b9670f64d71a98e}
       \strng{authorfullhash}{9d7bf0502878bd29a0b4d65fea77dd95}
-      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Science and Research Archive}
@@ -2676,12 +2049,11 @@
       \strng{authorbibnamehash}{86b9bb5314ac07fc62bc3abd76b8a162}
       \strng{authornamehash}{376f85b28f58cb0e48279c9a2c5274a7}
       \strng{authorfullhash}{86b9bb5314ac07fc62bc3abd76b8a162}
-      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Educação e Pesquisa}
@@ -2695,60 +2067,6 @@
       \endverb
       \verb{url}
       \verb https://www.researchgate.net/publication/394443435
-      \endverb
-    \endentry
-    \entry{Bento2025}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=0f3d4651cb0dea6e0e0289c3fab80f26}{%
-           family={Bento\bibnamedelima Júnior},
-           familyi={B\bibinitperiod\bibinitdelim J\bibinitperiod},
-           given={Genival\bibnamedelima Souza},
-           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ba50c096b15b6902997c72f3e0b3b09b}{%
-           family={Bento},
-           familyi={B\bibinitperiod},
-           given={Bráulio\bibnamedelimb Ferreira\bibnamedelima Souza},
-           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f2fac178684ca531487796e43f40d40b}{%
-           family={Ribeiro},
-           familyi={R\bibinitperiod},
-           given={Uriana\bibnamedelimb Fernandes\bibnamedelima Curcino},
-           giveni={U\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2e304f0bb9298acb2f1b6914b1a58660}{%
-           family={Santos},
-           familyi={S\bibinitperiod},
-           given={Henrique\bibnamedelimb Tadeu\bibnamedelima dos},
-           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim d\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7cf7833f29e042f3fb24437b396ba85f}
-      \strng{fullhash}{9204c0e53c5a3b7802644a58e88c304c}
-      \strng{bibnamehash}{9204c0e53c5a3b7802644a58e88c304c}
-      \strng{authorbibnamehash}{9204c0e53c5a3b7802644a58e88c304c}
-      \strng{authornamehash}{7cf7833f29e042f3fb24437b396ba85f}
-      \strng{authorfullhash}{9204c0e53c5a3b7802644a58e88c304c}
-      \field{extraname}{2}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Educação e Pesquisa}
-      \field{title}{Dropout in Higher Education and {Vincent Tinto's} Models: Bibliographical Research}
-      \field{volume}{51}
-      \field{year}{2025}
-      \field{pages}{e285842}
-      \range{pages}{-1}
-      \verb{urlraw}
-      \verb https://www.researchgate.net/publication/394443435_Dropout_in_higher_education_and_Vincent_Tinto's_models_bibliographical_research
-      \endverb
-      \verb{url}
-      \verb https://www.researchgate.net/publication/394443435_Dropout_in_higher_education_and_Vincent_Tinto's_models_bibliographical_research
       \endverb
     \endentry
     \entry{bettahi2025}{article}{}
@@ -2778,64 +2096,16 @@
       \strng{authorbibnamehash}{0e2c4fb6425c1a0af810b4e6b82438ec}
       \strng{authornamehash}{0fe8120c529dc1ad77130fb80ae77a10}
       \strng{authorfullhash}{0e2c4fb6425c1a0af810b4e6b82438ec}
-      \field{extraname}{1}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Algorithms}
       \field{number}{10}
       \field{title}{A modular and explainable machine learning pipeline for student dropout prediction in higher education}
-      \field{volume}{18}
-      \field{year}{2025}
-      \field{pages}{662}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/a18100662
-      \endverb
-    \endentry
-    \entry{Bettahi2025}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=120b48cce412cccce8022bd473c860ee}{%
-           family={Bettahi},
-           familyi={B\bibinitperiod},
-           given={Abdelkarim},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=67a655831e22d90a0e9d190b82e6d510}{%
-           family={Belouadha},
-           familyi={B\bibinitperiod},
-           given={Fatima-Zahra},
-           giveni={F\bibinithyphendelim Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4c31b98e7f81fc82d17aee6ab450b8b2}{%
-           family={Harroud},
-           familyi={H\bibinitperiod},
-           given={Hamid},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{58d3341ad07009232a966b1790a17d2f}
-      \strng{fullhash}{16c71c04e1ed54f71114d805fbcc9152}
-      \strng{bibnamehash}{16c71c04e1ed54f71114d805fbcc9152}
-      \strng{authorbibnamehash}{16c71c04e1ed54f71114d805fbcc9152}
-      \strng{authornamehash}{58d3341ad07009232a966b1790a17d2f}
-      \strng{authorfullhash}{16c71c04e1ed54f71114d805fbcc9152}
-      \field{extraname}{2}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Algorithms}
-      \field{note}{Published 18 October 2025. Open access, MDPI.}
-      \field{number}{10}
-      \field{title}{A Modular and Explainable Machine Learning Pipeline for Student Dropout Prediction in Higher Education}
       \field{volume}{18}
       \field{year}{2025}
       \field{pages}{662}
@@ -3026,53 +2296,15 @@
       \strng{authorbibnamehash}{ee5669d9f7b9698d494126d036059732}
       \strng{authornamehash}{ee5669d9f7b9698d494126d036059732}
       \strng{authorfullhash}{ee5669d9f7b9698d494126d036059732}
-      \field{extraname}{1}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Computational Intelligence and Soft Computing}
       \field{title}{Student performance prediction using machine learning algorithms}
-      \field{volume}{2024}
-      \field{year}{2024}
-      \field{pages}{4067721}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1155/2024/4067721
-      \endverb
-    \endentry
-    \entry{Esmael2024}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=167e23db77de15ca493cacc1d2b3cd7d}{%
-           family={Esmael},
-           familyi={E\bibinitperiod},
-           given={Bilal},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley--Hindawi}%
-      }
-      \strng{namehash}{167e23db77de15ca493cacc1d2b3cd7d}
-      \strng{fullhash}{167e23db77de15ca493cacc1d2b3cd7d}
-      \strng{bibnamehash}{167e23db77de15ca493cacc1d2b3cd7d}
-      \strng{authorbibnamehash}{167e23db77de15ca493cacc1d2b3cd7d}
-      \strng{authornamehash}{167e23db77de15ca493cacc1d2b3cd7d}
-      \strng{authorfullhash}{167e23db77de15ca493cacc1d2b3cd7d}
-      \field{extraname}{2}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Computational Intelligence and Soft Computing}
-      \field{note}{Dataset: Wollo University and Kombolcha Institute of Technology, Ethiopia, 2017--2022; N = 32,582}
-      \field{title}{Student Performance Prediction Using Machine Learning Algorithms}
       \field{volume}{2024}
       \field{year}{2024}
       \field{pages}{4067721}
@@ -3135,7 +2367,7 @@
       \field{pages}{32}
       \range{pages}{1}
     \endentry
-    \entry{gsu2024}{online}{}
+    \entry{gsu202}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=834fff5ac9ea1d5e423efcfecb18b6ed}{%
            family={{Georgia State University}},
@@ -3165,11 +2397,14 @@
       \verb https://success.gsu.edu/approach/
       \endverb
     \endentry
-    \entry{GSU2024}{online}{}
+    \entry{GSU2024}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=834fff5ac9ea1d5e423efcfecb18b6ed}{%
            family={{Georgia State University}},
            familyi={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {GSU Institutional Research}%
       }
       \strng{namehash}{834fff5ac9ea1d5e423efcfecb18b6ed}
       \strng{fullhash}{834fff5ac9ea1d5e423efcfecb18b6ed}
@@ -3186,16 +2421,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{12}
-      \field{note}{Accessed: February 8, 2026}
-      \field{title}{Approaching Student Success With Predictive Analytics}
+      \field{title}{The GPS Advising Impact Report}
+      \field{type}{techreport}
       \field{year}{2024}
-      \verb{urlraw}
-      \verb https://success.gsu.edu/approach/
-      \endverb
-      \verb{url}
-      \verb https://success.gsu.edu/approach/
-      \endverb
     \endentry
     \entry{Goncalves2024}{article}{}
       \name{author}{5}{}{%
@@ -3267,53 +2495,15 @@
       \strng{authorbibnamehash}{1ad003f3d94cbbc9c5548dbb35ce6421}
       \strng{authornamehash}{1ad003f3d94cbbc9c5548dbb35ce6421}
       \strng{authorfullhash}{1ad003f3d94cbbc9c5548dbb35ce6421}
-      \field{extraname}{1}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the Annual Conference of the South African Institute of Computer Scientists and Information Technologists}
       \field{title}{Using a {B}ayesian network to predict {C}omputer {S}cience students at risk}
-      \field{year}{2020}
-    \endentry
-    \entry{Hassen2020}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c0beb5ef8f1593f0fbc562939f475c77}{%
-           family={Hassen},
-           familyi={H\bibinitperiod},
-           given={Muhammad},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Department of Computer Science, University of Cape Town}%
-      }
-      \list{location}{1}{%
-        {Cape Town, South Africa}%
-      }
-      \list{publisher}{1}{%
-        {Association for Computing Machinery}%
-      }
-      \strng{namehash}{c0beb5ef8f1593f0fbc562939f475c77}
-      \strng{fullhash}{c0beb5ef8f1593f0fbc562939f475c77}
-      \strng{bibnamehash}{c0beb5ef8f1593f0fbc562939f475c77}
-      \strng{authorbibnamehash}{c0beb5ef8f1593f0fbc562939f475c77}
-      \strng{authornamehash}{c0beb5ef8f1593f0fbc562939f475c77}
-      \strng{authorfullhash}{c0beb5ef8f1593f0fbc562939f475c77}
-      \field{extraname}{2}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the Annual Conference of the South African Institute of Computer Scientists and Information Technologists}
-      \field{series}{SAICSIT '20}
-      \field{title}{Using a {Bayesian} Network to Predict {Computer Science} Students at Risk}
       \field{year}{2020}
     \endentry
     \entry{NCES2024}{report}{}
@@ -3653,53 +2843,16 @@
       \strng{authorbibnamehash}{852c00c09476ac778d36945c2b6c1b22}
       \strng{authornamehash}{852c00c09476ac778d36945c2b6c1b22}
       \strng{authorfullhash}{852c00c09476ac778d36945c2b6c1b22}
-      \field{extraname}{1}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Towards Transparent and Interpretable Predictions of Student Performance Using Explainable {AI}}
       \field{type}{Professional Doctorate in Data Science}
       \field{year}{2025}
-    \endentry
-    \entry{Kwakye2025}{thesis}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=899c13524e479bfd6c46b819a54608f9}{%
-           family={Kwakye},
-           familyi={K\bibinitperiod},
-           given={Samuel\bibnamedelima Forson},
-           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {University of East London}%
-      }
-      \strng{namehash}{899c13524e479bfd6c46b819a54608f9}
-      \strng{fullhash}{899c13524e479bfd6c46b819a54608f9}
-      \strng{bibnamehash}{899c13524e479bfd6c46b819a54608f9}
-      \strng{authorbibnamehash}{899c13524e479bfd6c46b819a54608f9}
-      \strng{authornamehash}{899c13524e479bfd6c46b819a54608f9}
-      \strng{authorfullhash}{899c13524e479bfd6c46b819a54608f9}
-      \field{extraname}{2}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Towards Transparent and Interpretable Predictions of Student Performance Using Explainable {AI}}
-      \field{type}{Professional Doctorate in Data Science}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://repository.uel.ac.uk/download/ 6c0960ac0855e05febf31922490fe34ac8ed4ba9 548c6213674216d8d9646aab/4452022/ 2025_D.DataSc_Kwakye.pdf
-      \endverb
-      \verb{url}
-      \verb https://repository.uel.ac.uk/download/%206c0960ac0855e05febf31922490fe34ac8ed4ba9%20548c6213674216d8d9646aab/4452022/%202025_D.DataSc_Kwakye.pdf
-      \endverb
     \endentry
     \entry{Lundberg2017}{article}{}
       \name{author}{2}{}{%
@@ -4136,61 +3289,15 @@
       \strng{authorbibnamehash}{538becda1585544d20df5a6ccbb30d1d}
       \strng{authornamehash}{13f0f080cd5875c7498ab1ff1589deb8}
       \strng{authorfullhash}{538becda1585544d20df5a6ccbb30d1d}
-      \field{extraname}{1}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Predicting engineering student success using machine learning}
       \field{type}{mathesis}
-      \field{year}{2016}
-      \verb{urlraw}
-      \verb https://hdl.handle.net/10210/476756
-      \endverb
-      \verb{url}
-      \verb https://hdl.handle.net/10210/476756
-      \endverb
-    \endentry
-    \entry{Taodzera2016}{unpublished}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=a6ba3709dc32d86cd37dee7568688f42}{%
-           family={Taodzera},
-           familyi={T\bibinitperiod},
-           given={Tatenda},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=20eb0dac462d28083c34468432fa882c}{%
-           family={Twala},
-           familyi={T\bibinitperiod},
-           given={Bhekisipho},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3f019ed4b9fdc9cc3aac33afa3bc26b7}{%
-           family={Carroll},
-           familyi={C\bibinitperiod},
-           given={Johnson},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9033fad1098d26f55caa6e4a517266ba}
-      \strng{fullhash}{90324c80a37bdc18cecf103b4020b2d2}
-      \strng{bibnamehash}{90324c80a37bdc18cecf103b4020b2d2}
-      \strng{authorbibnamehash}{90324c80a37bdc18cecf103b4020b2d2}
-      \strng{authornamehash}{9033fad1098d26f55caa6e4a517266ba}
-      \strng{authorfullhash}{90324c80a37bdc18cecf103b4020b2d2}
-      \field{extraname}{2}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Working paper, Department of Electrical and Electronics Engineering Science, University of Johannesburg, South Africa. Available via the UJ Institutional Repository}
-      \field{title}{Predicting Engineering Student Success Using Machine Learning}
       \field{year}{2016}
       \verb{urlraw}
       \verb https://hdl.handle.net/10210/476756
@@ -4228,7 +3335,7 @@
       \verb https://georgiastatesignal.com/your-data-says-a-%20lot-about-you/
       \endverb
     \endentry
-    \entry{Tinto1975}{article}{}
+    \entry{tinto1975}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
            family={Tinto},
@@ -4246,45 +3353,8 @@
       \field{extraname}{1}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Review of Educational Research}
-      \field{number}{1}
-      \field{title}{Dropout from higher education: A theoretical synthesis of recent research}
-      \field{volume}{45}
-      \field{year}{1975}
-      \field{pages}{89\bibrangedash 125}
-      \range{pages}{37}
-      \verb{doi}
-      \verb 10.3102/00346543045001089
-      \endverb
-    \endentry
-    \entry{tinto1975}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
-           family={Tinto},
-           familyi={T\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{fullhash}{112fee32f4834c2d2d63667db2201663}
-      \strng{bibnamehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
-      \field{extraname}{2}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Review of Educational Research}
@@ -4313,13 +3383,12 @@
       \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
       \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
       \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd}
@@ -4328,33 +3397,32 @@
     \endentry
     \entry{Tinto1993}{book}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=112fee32f4834c2d2d63667db2201663}{%
+        {{un=0,uniquepart=base,hash=0639cf717707198c69ed7c41ba030a4f}{%
            family={Tinto},
            familyi={T\bibinitperiod},
-           given={V.},
+           given={Vincent},
            giveni={V\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
         {University of Chicago Press}%
       }
-      \strng{namehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{fullhash}{112fee32f4834c2d2d63667db2201663}
-      \strng{bibnamehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{authorbibnamehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{authornamehash}{112fee32f4834c2d2d63667db2201663}
-      \strng{authorfullhash}{112fee32f4834c2d2d63667db2201663}
-      \field{extraname}{4}
+      \strng{namehash}{0639cf717707198c69ed7c41ba030a4f}
+      \strng{fullhash}{0639cf717707198c69ed7c41ba030a4f}
+      \strng{bibnamehash}{0639cf717707198c69ed7c41ba030a4f}
+      \strng{authorbibnamehash}{0639cf717707198c69ed7c41ba030a4f}
+      \strng{authornamehash}{0639cf717707198c69ed7c41ba030a4f}
+      \strng{authorfullhash}{0639cf717707198c69ed7c41ba030a4f}
+      \field{extraname}{3}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd}
-      \field{title}{Leaving college: Rethinking the causes and cures of student attrition}
+      \field{title}{Leaving College: Rethinking the Causes and Cures of Student Attrition}
       \field{year}{1993}
     \endentry
     \entry{wan2019}{misc}{}
@@ -4492,12 +3560,11 @@
       \strng{authorbibnamehash}{78c767594567373afd2e74383a4ef380}
       \strng{authornamehash}{78c767594567373afd2e74383a4ef380}
       \strng{authorfullhash}{78c767594567373afd2e74383a4ef380}
-      \field{extraname}{1}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Complex \& Intelligent Systems}
@@ -4510,46 +3577,10 @@
       \verb 10.1007/s40747-021-00383-0
       \endverb
     \endentry
-    \entry{Zhang2021}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=948f26b38fba102b6f820808e554bc53}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Jing},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8b4ba2a1f24f5dd943626d719810ce76}{%
-           family={Tao},
-           familyi={T\bibinitperiod},
-           given={Dan},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e4c1736a601a11b28766541dd88ea85e}
-      \strng{fullhash}{e4c1736a601a11b28766541dd88ea85e}
-      \strng{bibnamehash}{e4c1736a601a11b28766541dd88ea85e}
-      \strng{authorbibnamehash}{e4c1736a601a11b28766541dd88ea85e}
-      \strng{authornamehash}{e4c1736a601a11b28766541dd88ea85e}
-      \strng{authorfullhash}{e4c1736a601a11b28766541dd88ea85e}
-      \field{extraname}{2}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Complex \& Intelligent Systems}
-      \field{title}{An Interpretable Prediction Method for University Student Academic Crisis Warning}
-      \field{volume}{7}
-      \field{year}{2021}
-      \field{pages}{1603\bibrangedash 1618}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1007/s40747-021-00383-0
-      \endverb
-    \endentry
   \enddatalist
+  \missing{Aldowah2026}
+  \missing{Bello20bello202525}
+  \missing{gsu2024_}
 \endrefsection
 \endinput
 

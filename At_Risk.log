@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  21 MAR 2026 11:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  21 MAR 2026 22:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -711,7 +711,29 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'At_Risk.bbl' found.
- (./At_Risk.bbl)
+ (./At_Risk.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Aldowah2026
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Bello20bello202525
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                gsu2024_
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 70.
 Package biblatex Info: Reference segment=0 on input line 70.
 Package hyperref Info: Link coloring ON on input line 70.
@@ -805,13 +827,30 @@ Overfull \hbox (1.0152pt too wide) in alignment at lines 245--286
 ] [13] [14] [15] [16]
 Chapter 1.
 
+Overfull \hbox (3.27019pt too wide) in paragraph at lines 310--321
+\T1/ptm/m/n/12 than iso-lated aca-demic fail-ure. Astin's Input-Environment-Output (I-E-O) Model ([]Astin,
+ []
+
+
+LaTeX Warning: Citation 'gsu2024_' on page 1 undefined on input line 332.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.333 
        [1
 
-] [2] [3]
+] [2]
+
+LaTeX Warning: Citation 'gsu2024_' on page 3 undefined on input line 377.
+
+
+Overfull \hbox (2.81444pt too wide) in paragraph at lines 364--378
+\T1/ptm/m/n/12 Currently, Strath-more Uni-ver-sity pos-sesses the dig-i-tal in-fras-truc-ture nec-es-sary for proac-
+ []
+
+[3]
 Overfull \hbox (0.5102pt too wide) in paragraph at lines 413--414
 []\T1/ptm/m/n/12 To de-sign a Ma-chine Learn-ing pre-dic-tive tool for uni-ver-sity ad-min-is-tra-tors, school
  []
@@ -841,7 +880,7 @@ Overfull \hbox (3.05412pt too wide) in paragraph at lines 634--643
  []
 
 [14]
-<images/TintoModel1.jpg, id=598, 1284.8pt x 827.09pt>
+<images/TintoModel1.jpg, id=593, 1284.8pt x 827.09pt>
 File: images/TintoModel1.jpg Graphic file (type jpg)
 <use images/TintoModel1.jpg>
 Package pdftex.def Info: images/TintoModel1.jpg  used on input line 673.
@@ -851,7 +890,7 @@ Overfull \hbox (7.96274pt too wide) in paragraph at lines 763--769
 \T1/ptm/m/n/12 tional de-signs: the model iden-ti-fies what pre-dicts de-par-ture but does not gen-er-ate prospec-
  []
 
-<images/AstinModel.png, id=641, 719.68875pt x 443.6575pt>
+<images/AstinModel.png, id=636, 719.68875pt x 443.6575pt>
 File: images/AstinModel.png Graphic file (type png)
 <use images/AstinModel.png>
 Package pdftex.def Info: images/AstinModel.png  used on input line 805.
@@ -867,6 +906,9 @@ Overfull \hbox (18.79219pt too wide) in paragraph at lines 914--914
  []
 
 
+LaTeX Warning: Citation 'Aldowah2026' on page 22 undefined on input line 931.
+
+
 Overfull \hbox (7.96295pt too wide) in paragraph at lines 918--932
 \T1/ptm/m/n/12 making. By ap-ply-ing com-pu-ta-tional anal-y-sis to data orig-i-nat-ing in ed-u-ca-tional contexts---
  []
@@ -877,6 +919,10 @@ Overfull \hbox (5.45473pt too wide) in paragraph at lines 939--945
  []
 
 [23]
+
+LaTeX Warning: Citation 'Aldowah2026' on page 24 undefined on input line 996.
+
+
 Overfull \hbox (10.9142pt too wide) in paragraph at lines 989--997
 \T1/ptm/m/n/12 tional Neu-ral Net-works (CNN), and Long Short-Term Mem-ory (LSTM) networks---
  []
@@ -892,11 +938,27 @@ Overfull \hbox (0.42596pt too wide) in paragraph at lines 998--1004
  []
 
 [24]
+
+LaTeX Warning: Citation 'Aldowah2026' on page 25 undefined on input line 1017.
+
+
 Overfull \hbox (1.27457pt too wide) in paragraph at lines 1023--1026
 []$\OML/cmm/m/it/12 k$\T1/ptm/b/n/12 -fold cross-validation \T1/ptm/m/n/12 as-sesses gen-er-al-i-sa-tion across mul-ti-ple data sub-sets rather
  []
 
-[25] [26]
+
+LaTeX Warning: Citation 'Aldowah2026' on page 25 undefined on input line 1033.
+
+[25]
+
+LaTeX Warning: Citation 'Aldowah2026' on page 26 undefined on input line 1073.
+
+
+Overfull \hbox (25.74673pt too wide) in paragraph at lines 1063--1074
+\T1/ptm/m/n/12 Syn-thetic Mi-nor-ity Over-sam-pling Tech-nique (SMOTE) are rou-tinely ap-plied ([];
+ []
+
+[26]
 Overfull \hbox (32.76698pt too wide) in paragraph at lines 1092--1106
 \T1/ptm/m/n/12 Complex en-sem-ble and deep learn-ing mod-els pro-duce pre-dic-tions with-out human-interpretable
  []
@@ -910,6 +972,9 @@ Overfull \hbox (3.64192pt too wide) in paragraph at lines 1092--1106
 Overfull \hbox (14.30972pt too wide) in paragraph at lines 1092--1106
 \T1/ptm/m/n/12 nently SHAP (SHap-ley Ad-di-tive ex-Pla-na-tions), LIME (Lo-cal In-ter-pretable Model-agnostic
  []
+
+
+LaTeX Warning: Citation 'Bello20bello202525' on page 27 undefined on input line 1115.
 
 [27] [28] [29]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1195.
@@ -965,7 +1030,7 @@ Overfull \hbox (7.36157pt too wide) in alignment at lines 1487--1526
  []
 
 [39] [40]
-<images/conceptual.png, id=888, 689.57625pt x 1355.0625pt>
+<images/conceptual.png, id=869, 689.57625pt x 1355.0625pt>
 File: images/conceptual.png Graphic file (type png)
 <use images/conceptual.png>
 Package pdftex.def Info: images/conceptual.png  used on input line 1582.
@@ -990,7 +1055,7 @@ Overfull \hbox (3.93445pt too wide) in paragraph at lines 1673--1673
 
 [46
 
-] [47]
+]
 Overfull \hbox (2.03822pt too wide) in paragraph at lines 1673--1673
 \T1/ptm/m/n/12 demic sup-port. [][]$https : / / edtechmagazine . com / higher / article / 2019 / 04 / %20georgia -[]
  []
@@ -1000,17 +1065,12 @@ Overfull \hbox (8.85013pt too wide) in paragraph at lines 1673--1673
 \T1/ptm/m/n/12 Un-der-grad-u-ate stu-dent re-ten-tion ac-tiv-i-ties: Chal-lenges and re-search agenda. \T1/ptm/m/it/12 SAGE
  []
 
-[48]
-Overfull \hbox (190.10664pt too wide) in paragraph at lines 1673--1673
-\T1/ptm/m/n/12 Uni-ver-sity of East Lon-don. [][]$https : / / repository . uel . ac . uk / download / %206c0960ac0855e05febf31922490fe34ac8ed4ba9 %
- []
-
-[49]
+[47] [48]
 Overfull \hbox (12.64394pt too wide) in paragraph at lines 1673--1673
 \T1/ptm/m/it/12 2024 re-port \T1/ptm/m/n/12 (tech. rep.). Na-tional Stu-dent Clear-ing-house. [][]$https : / / nscresearchcenter .
  []
 
-[50] [51] [52] (./At_Risk.aux)
+[49] [50] (./At_Risk.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1022,18 +1082,18 @@ Package logreq Info: Writing requests to 'At_Risk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21297 strings out of 474222
- 377283 string characters out of 5748734
+ 21221 strings out of 474222
+ 374838 string characters out of 5748734
  1973975 words of memory out of 5000000
- 43072 multiletter control sequences out of 15000+600000
+ 43009 multiletter control sequences out of 15000+600000
  591432 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,11n,81p,1341b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on At_Risk.pdf (68 pages, 648279 bytes).
+Output written on At_Risk.pdf (66 pages, 644175 bytes).
 PDF statistics:
- 1101 PDF objects out of 1200 (max. 8388607)
- 1000 compressed objects within 10 object streams
- 232 named destinations out of 1000 (max. 500000)
+ 1051 PDF objects out of 1200 (max. 8388607)
+ 952 compressed objects within 10 object streams
+ 219 named destinations out of 1000 (max. 500000)
  557 words of extra memory for PDF output out of 10000 (max. 10000000)
 
