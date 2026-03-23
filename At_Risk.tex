@@ -1564,10 +1564,96 @@ specific factors triggered a risk classification for an individual
 student \parencite{esmael2024}.
 
 
-\subsubsection{Kenya: Business Intelligence and Decision Tree Classification for Student Retention Prediction --- case of Machakos University College}
 
-One of the few published East African studies applying machine learning techniques to student retention prediction in a higher education context was conducted by Ngemu, Odongo, Omulo, and Manderick, drawing on data from Machakos University College in Kenya \parencite{Ngemu2015}. The J48 decision tree outperformed all competitors, achieving a cross-validation accuracy of 94.8\% and a recall of 94.4\%. The dominance of fees payment difficulty as the single most informative predictor --- with a gain ratio of 0.424 --- positions financial exclusion as the primary mechanism of student attrition in this Kenyan institutional setting \parencite{Ngemu2015}. However, the dataset of 270 instances is extremely small, and the study provides no class imbalance handling, no SHAP-based explainability, and no longitudinal or cohort-based evaluation.
+\subsubsection{Kenya: Business Intelligence and Decision Tree Classification for Student Retention Prediction ---case of Machakos University College}
 
+One of the few published East African studies applying machine learning techniques to student retention prediction
+ in a higher education context was conducted by Ngemu, Odongo, Omulo, and Manderick, drawing on data from Machakos 
+ University College in Kenya \parencite{Ngemu2015}. The study was situated within a broader business intelligence (BI) 
+ framing, positioning educational data mining not merely as an academic exercise but as a strategic institutional tool
+  for evidence-based decision making in student management. The motivating concern was the well-documented but
+   institutionally underaddressed problem of student withdrawal in Kenyan higher learning institutions, where 
+   personal, financial, and socioeconomic factors converge to produce attrition patterns that existing student 
+   information systems lacked the analytical capacity to anticipate or explain \parencite{Ngemu2015}.
+
+\textbf{Dataset and Features}
+
+The study drew on secondary survey data sourced from Machakos University College's institutional database, 
+comprising 270 instances and 14 attributes. The feature set was notable for its emphasis on socioeconomic
+ and demographic indicators rather than prior academic performance: variables included course enrolled, KCSE 
+ grade, gender, father's and mother's educational qualifications, difficulty in fees payment, parental occupation,
+  marital status of parents, sponsor or guardian type, age on entry, whether course expectations were met, health 
+  status, and course-programme match \parencite{Ngemu2015}. The binary target variable distinguished between students
+   classified as PERSIST or DROPOUT. The deliberate inclusion of family financial circumstances, parental employment
+    status, and student health as primary predictors reflects the Kenyan institutional context, where economic precarity
+     and household-level resource constraints constitute the dominant structural drivers of non-completion rather than 
+     the academic preparation deficits more characteristic of South African engineering attrition \parencite{Ngemu2015}.
+
+\textbf{Feature Selection}
+
+Attribute importance analysis was conducted using both information gain and gain ratio measures within the WEKA 
+environment, with Ranker search used to order predictors by significance. Both evaluators converged on the same top 
+four predictors: difficulty in fees payment (DFP), age on entry (AOE), parental occupation (PO), and student health 
+status (HTH) \parencite{Ngemu2015}. The dominance of fees payment difficulty as the single most informative
+ predictor --- with a gain ratio of 0.424, substantially exceeding the second-ranked predictor at 0.153 --- is a finding 
+ of considerable structural significance. It positions financial exclusion, rather than academic underpreparation,
+  as the primary mechanism of student attrition in this Kenyan institutional setting, a pattern consistent with 
+  broader literature on non-completion in sub-Saharan African higher education where fee-dependent public universities 
+  serve students from predominantly low-income households \parencite{Ngemu2015}. Gender and course type ranked lowest
+   among predictors in both evaluators, suggesting that the withdrawal risk in this population was predominantly
+    socioeconomic rather than programme-specific or gender-differentiated.
+
+\textbf{Models and Results}
+
+Four classification algorithms were evaluated using WEKA: the J48 decision tree (an implementation of C4.5), 
+Naïve Bayes, Multilayer Perceptron (ANN), and Support Vector Machine (SMO). All four were assessed on ten-fold
+ cross-validation accuracy and recall, as well as model building execution time \parencite{Ngemu2015}. The J48
+  decision tree outperformed all competitors, achieving a cross-validation accuracy of 94.8\% and a recall of 94.4\%,
+   while also being the fastest to train at 0.02 seconds. Multilayer Perceptron ranked second in accuracy (93.4\%) but 
+   required more than two seconds to train --- over 100 times slower than J48. Naïve Bayes and SVM both achieved approximately 
+   90\% accuracy and recall. On the training set, J48 correctly classified 153 of 162 instances with an accuracy of 94.4\% and 
+   a Kappa statistic of 0.872. On the holdout test set, J48 classified 78 of 81 instances correctly, yielding a test accuracy 
+   of 96.3\% and a Kappa of 0.925 \parencite{Ngemu2015}. The decision tree structure surfaced interpretable classification 
+   rules, including the finding that fee payment difficulty alone was sufficient to classify a student as DROPOUT, while a
+    student with no fee difficulties and good health was classified as PERSIST regardless of other attributes \parencite{Ngemu2015}.
+
+\textbf{Critical Assessment}
+
+The Ngemu et al. study makes several contributions relevant to this thesis and to the broader East African educational 
+data mining literature. First, it represents one of the earliest published attempts to apply supervised classification 
+methods to student retention prediction within a Kenyan public university, demonstrating that WEKA-based BI tools can 
+be operationalised using institutional administrative data without requiring specialist data infrastructure or proprietary
+ analytics platforms \parencite{Ngemu2015}. Second, the feature set's emphasis on socioeconomic and household-level variables
+  rather than academic performance metrics is theoretically well-grounded in Tinto's model of student departure and its 
+  African adaptations, and produces a predictor profile that is meaningfully distinct from both the South African engineering 
+  context of Taodzera et al. and the Computer Science course performance context of Hassen. Third, the decision tree output
+   generates directly interpretable classification rules that an institutional registrar or student affairs officer could 
+   apply without specialist data science literacy, addressing a practical barrier to deployment that more opaque models 
+   such as ANNs and SVMs do not overcome.
+
+However, the study carries critical methodological limitations that substantially circumscribe the interpretability and
+ generalisability of its reported results. The most significant concern is the extreme smallness of the dataset: 270 
+ instances with 14 attributes is a very limited sample for constructing robust machine learning models, and the ten-fold 
+ cross-validation accuracy of 94.8\% and test set accuracy of 96.3\% are almost certainly inflated by overfitting to a 
+ dataset too small to capture genuine population-level variation in attrition patterns \parencite{Ngemu2015}. The Kappa 
+ statistic of 0.872 on the training set and 0.925 on the test set suggest strong agreement, but these figures must be
+  treated with caution given the dataset size. The study does not report precision and recall separately for each
+   class --- a critical omission when the class distribution between PERSIST and DROPOUT students is unknown and 
+   potentially imbalanced, since high overall accuracy can mask poor identification of the minority dropout class 
+   in exactly the manner the authors of subsequent studies such as Hassen explicitly sought to avoid \parencite{Ngemu2015}.
+
+Furthermore, the study provides no discussion of class imbalance, no oversampling or resampling adjustment for minority
+ class representation, and no SHAP-based or equivalent explainability analysis beyond the tree structure itself. The 
+ absence of any longitudinal or cohort-based evaluation means the reported accuracy figures reflect model performance
+  on a single static cross-section of institutional data, rather than the temporally realistic scenario in which a model
+   trained on prior cohorts is used to flag at-risk students in a new intake. The feature set, while theoretically motivated, 
+   relies entirely on enrollment-time socioeconomic and demographic data and includes no in-course academic performance 
+   indicators --- meaning the model cannot be updated or refined as early course performance data becomes available, 
+   limiting its utility as a dynamic early warning system. Finally, the authors acknowledge that social and cultural
+    factors could not be collected, and do not discuss the ethical implications of using parental occupation, family 
+    financial status, and health as institutional risk flags, dimensions of the deployment context that are increasingly
+     recognised as requiring explicit equity and bias auditing before any model is operationalised for advising or support
+      allocation decisions \parencite{Ngemu2015}.
 \subsubsection{Research Gaps Table}
 
 % FIX 11: longtable caption moved to BOTTOM (correct position for longtable)

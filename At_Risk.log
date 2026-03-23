@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  23 MAR 2026 19:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  23 MAR 2026 20:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -949,86 +949,86 @@ Overfull \hbox (8.26346pt too wide) in paragraph at lines 1492--1493
 []\T1/ptm/m/n/12 The com-bined model pro-duced the most in-struc-tive out-come: while its ac-cu-racy (83.33%)
  []
 
-[37] [38]
-Overfull \hbox (7.36157pt too wide) in alignment at lines 1575--1582
+[37] [38] [39] [40] [41]
+Overfull \hbox (7.36157pt too wide) in alignment at lines 1661--1668
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (7.36157pt too wide) in alignment at lines 1582--1589
+Overfull \hbox (7.36157pt too wide) in alignment at lines 1668--1675
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (7.36157pt too wide) in alignment at lines 1589--1628
+Overfull \hbox (7.36157pt too wide) in alignment at lines 1675--1714
  [] [] [] [] [] 
  []
 
-[39] [40]
-<images/conceptual.png, id=866, 689.57625pt x 1355.0625pt>
+[42] [43]
+<images/conceptual.png, id=889, 689.57625pt x 1355.0625pt>
 File: images/conceptual.png Graphic file (type png)
 <use images/conceptual.png>
-Package pdftex.def Info: images/conceptual.png  used on input line 1684.
+Package pdftex.def Info: images/conceptual.png  used on input line 1770.
 (pdftex.def)             Requested size: 333.46758pt x 655.28162pt.
- [41]
+ [44]
 Overfull \vbox (14.77031pt too high) has occurred while \output is active []
 
- [42 <./images/Conceptual.png>] [43]
-Overfull \hbox (3.5108pt too wide) in paragraph at lines 1736--1742
+ [45 <./images/Conceptual.png>] [46]
+Overfull \hbox (3.5108pt too wide) in paragraph at lines 1822--1828
 \T1/ptm/m/n/12 plain-abil-ity layer, which de-com-poses each pre-dic-tion into its con-tribut-ing fea-ture drivers,
  []
 
 
-Overfull \hbox (4.05103pt too wide) in paragraph at lines 1751--1757
+Overfull \hbox (4.05103pt too wide) in paragraph at lines 1837--1843
 \T1/ptm/m/n/12 sity's cur-rent re-ac-tive sup-port paradigm---where stu-dents are iden-ti-fied only af-ter breach-
  []
 
-[44] [45]
-Overfull \hbox (3.93445pt too wide) in paragraph at lines 1775--1775
+[47] [48]
+Overfull \hbox (3.93445pt too wide) in paragraph at lines 1861--1861
 \T1/ptm/m/n/12 plain-able AI ap-proaches. \T1/ptm/m/it/12 Com-put-ers and Ed-u-ca-tion: Ar-ti-fi-cial In-tel-li-gence\T1/ptm/m/n/12 . [][]$https :
  []
 
-[46
+[49
 
 ]
-Overfull \hbox (2.03822pt too wide) in paragraph at lines 1775--1775
+Overfull \hbox (2.03822pt too wide) in paragraph at lines 1861--1861
 \T1/ptm/m/n/12 demic sup-port. [][]$https : / / edtechmagazine . com / higher / article / 2019 / 04 / %20georgia -[]
  []
 
 
-Overfull \hbox (8.85013pt too wide) in paragraph at lines 1775--1775
+Overfull \hbox (8.85013pt too wide) in paragraph at lines 1861--1861
 \T1/ptm/m/n/12 Un-der-grad-u-ate stu-dent re-ten-tion ac-tiv-i-ties: Chal-lenges and re-search agenda. \T1/ptm/m/it/12 SAGE
  []
 
-[47] [48]
-Overfull \hbox (12.64394pt too wide) in paragraph at lines 1775--1775
+[50] [51]
+Overfull \hbox (12.64394pt too wide) in paragraph at lines 1861--1861
 \T1/ptm/m/it/12 2024 re-port \T1/ptm/m/n/12 (tech. rep.). Na-tional Stu-dent Clear-ing-house. [][]$https : / / nscresearchcenter .
  []
 
-[49] [50] (./At_Risk.aux)
+[52] [53] (./At_Risk.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `At_Risk.out' has not changed.
-(rerunfilecheck)             Checksum: 5C11975CC406594F77C6A4EDCC9EACCA;14638.
+(rerunfilecheck)             Checksum: F2DCAC4F9DBF136BEC66DBC092EB1DA6;14630.
 Package logreq Info: Writing requests to 'At_Risk.run.xml'.
 \openout1 = `At_Risk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21212 strings out of 474222
- 374733 string characters out of 5748734
+ 21226 strings out of 474222
+ 374886 string characters out of 5748734
  1973975 words of memory out of 5000000
- 43007 multiletter control sequences out of 15000+600000
+ 43018 multiletter control sequences out of 15000+600000
  580894 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,11n,81p,1341b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on At_Risk.pdf (65 pages, 644897 bytes).
+Output written on At_Risk.pdf (68 pages, 651742 bytes).
 PDF statistics:
- 1048 PDF objects out of 1200 (max. 8388607)
- 950 compressed objects within 10 object streams
- 217 named destinations out of 1000 (max. 500000)
+ 1072 PDF objects out of 1200 (max. 8388607)
+ 971 compressed objects within 10 object streams
+ 220 named destinations out of 1000 (max. 500000)
  541 words of extra memory for PDF output out of 10000 (max. 10000000)
 
