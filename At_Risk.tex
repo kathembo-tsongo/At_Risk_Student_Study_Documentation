@@ -1458,9 +1458,74 @@ The combined model produced the most instructive outcome: while its accuracy (83
 
 The Hassen study validates incremental cohort-based training as a deployment-realistic evaluation strategy and establishes recall as the theoretically appropriate primary metric in student support contexts \parencite{hassen2020}. However, the dataset of 728 records is small by ML standards, and the absence of any SHAP-based explainability means the model cannot generate student-level explanations sufficient to guide individualised advising conversations.
 
-\subsubsection{Ethiopia: Predictive Analytics at Scale with African Institutional Data}
+\subsubsection{Ethiopia: Predictive Analytics at Scale with African 
+Institutional Data}
 
-A more recent study from the East African context was conducted by Esmael (2024) at Wollo University and the Kombolcha Institute of Technology in Ethiopia \parencite{esmael2024}. The dataset comprised 32,582 student records from academic years 2017--2022. SVM achieved the highest post-tuning accuracy of 96.0\% (precision 0.94, recall 0.98, Kappa 0.94), followed by Decision Tree at 93.4\%. The Esmael study confirms that hyperparameter tuning is a critical technique for improving model performance on educational datasets, directly validating the tuning strategy adopted in this study. However, the absence of any explainability layer means that model outputs cannot be translated into student-specific intervention recommendations \parencite{esmael2024}.
+
+
+\textbf{Institutional Context and Motivation}
+
+A more recent study from the East African context was conducted by 
+Esmael (2024) at Wollo University and the Kombolcha Institute of 
+Technology in Ethiopia \parencite{esmael2024}. The study was motivated 
+by the growing need to leverage institutional data for improving student 
+outcomes in African higher education, where modern learning institutions 
+face persistent challenges in analysing performance and identifying 
+at-risk students early. The dataset comprised 32,582 student records 
+from academic years 2017--2022, extracted from the institutional student 
+information portal, with features including gender, region, entrance 
+examination results, number of previous attempts, studied credits, 
+disability status, and final result \parencite{esmael2024}.
+
+\textbf{Methodology}
+
+The study employed four classification algorithms---Support Vector 
+Machine (SVM), Decision Tree, Naïve Bayes, and K-Nearest Neighbors 
+(KNN)---evaluated against one another after hyperparameter tuning via 
+grid search. K-means clustering with Davies' Bouldin method was applied 
+first to identify significant features and cluster students into 
+performance groups. Data preprocessing involved cleaning, categorical 
+encoding, and data reduction, while repeated 10-fold cross-validation 
+was used to reduce sample-related bias. Hyperparameter optimisation 
+was applied to all four classifiers to enhance predictive accuracy 
+beyond baseline configurations \parencite{esmael2024}.
+
+ \textbf{Models and Results}
+
+SVM achieved the highest post-tuning accuracy of 96.0\% (precision 
+0.94, recall 0.98, Kappa 0.94), followed by Decision Tree at 93.4\% 
+and KNN at 87.4\%. Naïve Bayes produced the lowest accuracy at 83.3\%, 
+attributed to its strong independence assumption between features. 
+Hyperparameter tuning improved all models substantially---Decision Tree 
+accuracy rose from 90.9\% to 93.4\% and Naïve Bayes from 77.3\% to 
+83.3\%. Entrance examination results and studied credits emerged as the 
+strongest predictors, consistent with findings from both the South 
+African and Moroccan contexts that prior academic achievement and 
+engagement intensity are the most transferable cross-institutional risk 
+signals \parencite{esmael2024}.
+
+\textbf{Limitation and Critical Assessment}
+
+The Esmael study makes two contributions of direct relevance to this 
+thesis. First, it confirms that classical ML classifiers can achieve 
+high predictive accuracy on large-scale African institutional data 
+using only demographic and entry-level features, without requiring 
+LMS integration or commercial analytics platforms. Second, it 
+demonstrates that hyperparameter tuning is a critical technique for 
+improving model performance on educational datasets, directly 
+validating the tuning strategy adopted in this study.
+
+However, the study carries significant limitations. The feature set 
+is restricted entirely to enrollment-time and demographic variables, 
+with no longitudinal academic performance or engagement indicators 
+included---meaning the model cannot be updated as in-course data 
+becomes available, limiting its utility as a dynamic early warning 
+system. More critically, the absence of any explainability layer 
+means that model outputs cannot be translated into student-specific 
+intervention recommendations: an adviser cannot determine which 
+specific factors triggered a risk classification for an individual 
+student \parencite{esmael2024}.
+
 
 \subsubsection{Kenya: Business Intelligence and Decision Tree Classification for Student Retention Prediction --- case of Machakos University College}
 

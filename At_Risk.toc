@@ -61,7 +61,7 @@
 \contentsline {subsubsection}{\numberline {2.4.6.3}South Africa: Machine Learning for Engineering Student Success at the University of Johannesburg}{35}{subsubsection.2.4.6.3}%
 \contentsline {subsubsection}{\numberline {2.4.6.4}South Africa: Bayesian Network Classification for Computer Science Student Risk Prediction at the University of Cape Town}{37}{subsubsection.2.4.6.4}%
 \contentsline {subsubsection}{\numberline {2.4.6.5}Ethiopia: Predictive Analytics at Scale with African Institutional Data}{38}{subsubsection.2.4.6.5}%
-\contentsline {subsubsection}{\numberline {2.4.6.6}Kenya: Business Intelligence and Decision Tree Classification for Student Retention Prediction --- case of Machakos University College}{39}{subsubsection.2.4.6.6}%
-\contentsline {subsubsection}{\numberline {2.4.6.7}Research Gaps Table}{39}{subsubsection.2.4.6.7}%
-\contentsline {subsubsection}{\numberline {2.4.6.8}Relevance to our study Table}{40}{subsubsection.2.4.6.8}%
-\contentsline {subsubsection}{\numberline {2.4.6.9}Conceptual Framework}{42}{subsubsection.2.4.6.9}%
+\contentsline {subsubsection}{\numberline {2.4.6.6}Kenya: Business Intelligence and Decision Tree Classification for Student Retention Prediction --- case of Machakos University College}{40}{subsubsection.2.4.6.6}%
+\contentsline {subsubsection}{\numberline {2.4.6.7}Research Gaps Table}{40}{subsubsection.2.4.6.7}%
+\contentsline {subsubsection}{\numberline {2.4.6.8}Relevance to our study Table}{41}{subsubsection.2.4.6.8}%
+\contentsline {subsubsection}{\numberline {2.4.6.9}Conceptual Framework}{43}{subsubsection.2.4.6.9}%
