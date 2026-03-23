@@ -24,9 +24,8 @@
 % FIX 1: algorithm packages added (were missing)
 \usepackage{algorithm}
 \usepackage{algpseudocode}
-
 % ─────────────────────────────────────────────────────────────────────────────
-% 2. Global Formatting
+% 2. Global Formatting (12pt Headers + Dot Leaders Everywhere)
 % ─────────────────────────────────────────────────────────────────────────────
 \doublespacing
 \graphicspath{{./images/}}
@@ -34,10 +33,49 @@
 \setcounter{tocdepth}{3}
 \setlength{\cftsubsubsecnumwidth}{4em}
 
-\titleformat{\chapter}[display]
-  {\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter}{10pt}{\Huge}
-\titlespacing*{\chapter}{0pt}{-30pt}{20pt}
+% 1. Force Dot Leaders for all high-level entries
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} 
+\renewcommand{\cftfigleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cfttableader}{\cftdotfill{\cftdotsep}}
 
+% 2. Table of Contents: Name, Center, and Force 12pt (normalsize)
+\renewcommand{\contentsname}{Table of Contents}
+
+% This resets the title to be a centered block
+\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\normalsize\bfseries}
+\renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
+
+% Crucial: Some setups require the title to not be treated as a "chapter" style
+% to avoid it inheriting right-alignment or weird margins.
+\setlength{\cftbeforetoctitleskip}{-30pt} 
+\setlength{\cftaftertoctitleskip}{20pt}
+
+% 3. List of Figures & Tables: Center and Force 12pt
+\renewcommand{\cftloftitlefont}{\hfill\normalsize\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\normalsize\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+
+% 4. Force 12pt (normalsize) for all other headers
+\titleformat{\chapter}[display]
+  {\normalfont\normalsize\bfseries\centering}{\chaptertitlename\ \thechapter}{10pt}{\normalsize}
+\titleformat{\section}
+  {\normalfont\normalsize\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+
+% 5. Standardize spacing
+\titlespacing*{\chapter}{0pt}{-30pt}{20pt}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\subsection}{0pt}{10pt}{4pt}
+
+% 6. Formatting for the entries themselves
+\renewcommand{\cftfigfont}{\normalsize}
+\renewcommand{\cfttabfont}{\normalsize}
+\renewcommand{\cftchapfont}{\normalsize\bfseries} % Keep chapter entries 12pt Bold
+\renewcommand{\cftchappagefont}{\normalsize\bfseries}
 % ─────────────────────────────────────────────────────────────────────────────
 % 3. Colors
 % ─────────────────────────────────────────────────────────────────────────────
@@ -103,40 +141,38 @@
 \setcounter{page}{2}
 
 % ── Declaration ──────────────────────────────────────────────────────────────
-\chapter*{DECLARATION}
-\addcontentsline{toc}{chapter}{Declaration}
+\chapter*{Declaration}
+% \addcontentsline{toc}{chapter}{Declaration}
 
-\section*{Student's Declaration}
-I declare that this thesis is my original work and has not been presented to any other institution for examination or any other award. Where other sources of information have been used, they have been properly acknowledged.
+% \section*{Student's Declaration}
+% I declare that this thesis is my original work and has not been presented to any other institution for examination or any other award. Where other sources of information have been used, they have been properly acknowledged.
 
-\vspace{1.2cm}
-\noindent
-\begin{tabular}{@{}p{7cm}p{7cm}@{}}
-    \textbf{Name:} Kathembo Tsongo Dieudonne & \\[0.3cm]
-    \textbf{Registration Number:} 112721 & \\[0.3cm]
-    \textbf{Signature:} \hrulefill & \textbf{Date:} \hrulefill \\
-\end{tabular}
+% \vspace{1.2cm}
+% \noindent
+% \begin{tabular}{@{}p{7cm}p{7cm}@{}}
+%     \textbf{Name:} Kathembo Tsongo Dieudonne & \\[0.3cm]
+%     \textbf{Registration Number:} 112721 & \\[0.3cm]
+%     \textbf{Signature:} \hrulefill & \textbf{Date:} \hrulefill \\
+% \end{tabular}
 
-\section*{Supervisor's Declaration}
-This thesis has been submitted for examination with my approval as the University Supervisor.
+% \section*{Supervisor's Declaration}
+% This thesis has been submitted for examination with my approval as the University Supervisor.
 
-\vspace{1.2cm}
-\noindent
-\begin{tabular}{@{}p{7cm}p{7cm}@{}}
-    \textbf{Name:} Dr. [Supervisor Name] & \\[0.3cm]
-    \textbf{Title:} [Lecturer/Senior Lecturer] & \\[0.3cm]
-    \textbf{Department:} [Department Name] & \\[0.3cm]
-    \textbf{Signature:} \hrulefill & \textbf{Date:} \hrulefill \\
-\end{tabular}
-\newpage
+% \vspace{1.2cm}
+% \noindent
+% \begin{tabular}{@{}p{7cm}p{7cm}@{}}
+%     \textbf{Name:} Dr. [Supervisor Name] & \\[0.3cm]
+%     \textbf{Title:} [Lecturer/Senior Lecturer] & \\[0.3cm]
+%     \textbf{Department:} [Department Name] & \\[0.3cm]
+%     \textbf{Signature:} \hrulefill & \textbf{Date:} \hrulefill \\
+% \end{tabular}
+% \newpage
 
 % ── Abstract ─────────────────────────────────────────────────────────────────
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}
-
 \newpage
 
-% ── Table of Contents ────────────────────────────────────────────────────────
 \tableofcontents
 \newpage
 
@@ -152,9 +188,9 @@ This thesis has been submitted for examination with my approval as the Universit
 \newpage
 
 % ── List of Algorithms ───────────────────────────────────────────────────────
-\listofalgorithms
-\addcontentsline{toc}{chapter}{List of Algorithms}
-\newpage
+% \listofalgorithms
+% \addcontentsline{toc}{chapter}{List of Algorithms}
+% \newpage
 
 % ── Table of Abbreviations ───────────────────────────────────────────────────
 \chapter*{Table of Abbreviations}
@@ -292,8 +328,9 @@ This thesis has been submitted for examination with my approval as the Universit
 % ═════════════════════════════════════════════════════════════════════════════
 \pagenumbering{arabic}
 
+
 % ─────────────────────────────────────────────────────────────────────────────
-\chapter{INTRODUCTION}
+\chapter{Introduction}
 % ─────────────────────────────────────────────────────────────────────────────
 
 \section{Background to the Study}
@@ -433,7 +470,7 @@ submitted a withdrawal notice. The EDM literature is unambiguous that this
 reactive paradigm is both preventable and institutionally costly: Georgia State
 University's GPS Advising system demonstrated that proactive, data-driven
 intervention can raise graduation rates by 7.8 percentage points and generate
-over 90{,}000 annual adviser-student contacts \parencite{gsu202}. Strathmore
+over 90{,}000 annual adviser-student contacts \parencite{gsu2024_}. Strathmore
 possesses the necessary digital infrastructure---AMS, LMS, and attendance
 tracking---but lacks the integrated ML architecture to operationalise it. There
 is therefore an urgent need for a system that transforms underutilised data into
@@ -555,7 +592,7 @@ theoretical frameworks, documented system implementations with their successes a
 limitations, and the precise knowledge gaps this study is designed to fill.
 
 % ─────────────────────────────────────────────────────────────────────────────
-\chapter{LITERATURE REVIEW}
+\chapter{Literature Review}
 % ─────────────────────────────────────────────────────────────────────────────
 
 \section{Introduction}
@@ -751,7 +788,7 @@ both of which must be achieved to sustain persistence \parencite{Tinto1993}:
     proxies for integration \parencite{Morris2005}.
 \end{enumerate}
 
-\textbf{Limitation Critical Assessment}
+\textbf{Limitation and Critical Assessment}
 
 Despite its canonical status, the SIM carries limitations directly relevant
 to this study. Its key constructs---integration, commitment, and fit---lack
@@ -894,7 +931,7 @@ study's analytics pipeline:
     difficulty \parencite{astin2012}.
 \end{enumerate}
 
-\subsubsection{Limitation Critical Assessment}
+\subsubsection{Limitation and Critical Assessment}
 
 The I-E-O model carries documented limitations relevant to this study.
 Developed within a Western, residential, four-year university context, it
@@ -928,7 +965,7 @@ patterns to forecast future student performance and behavior
 \parencite{Dirin2022}. A recent systematic review of 72 peer-reviewed
 studies concluded that research in this domain has matured significantly,
 with ensemble methods, deep learning, and explainable AI now representing
-the three dominant technical paradigms \parencite{Aldowah2026}.
+the three dominant technical paradigms \parencite{aldowah2026}.
 
 \subsection{Core Applications of Machine Learning in Higher Education}
 
@@ -993,7 +1030,7 @@ models, and traditional classifiers.
     high predictive accuracy, they operate as ``black boxes,'' providing
     limited insight into the reasoning behind individual predictions, which
     significantly limits their institutional adoption in advisory contexts
-    \parencite{kwakye2025, Aldowah2026}.
+    \parencite{kwakye2025, aldowah2026}.
 
     \item Traditional Classifiers including Decision Trees, Support
     Vector Machines (SVM), Na\"{i}ve Bayes, and Logistic Regression remain
@@ -1014,7 +1051,7 @@ of overfitting when training and evaluation procedures are not
 rigorously controlled. Standard practice in EDM therefore applies
 four core techniques to ensure that reported performance reflects
 genuine generalisation rather than dataset-specific memorisation
-\parencite{bello2025, Aldowah2026}.
+\parencite{bello2025, aldowah2026}.
 
 \begin{enumerate}
     \item \textbf{Stratified train/test splitting} preserves the empirical
@@ -1030,7 +1067,7 @@ genuine generalisation rather than dataset-specific memorisation
     \item \textbf{Hyperparameter tuning} optimises each algorithm's
     configuration prior to final evaluation, ensuring that reported
     performance reflects a properly calibrated model rather than
-    default settings \parencite{bello2025, Aldowah2026}.
+    default settings \parencite{bello2025, aldowah2026}.
 \end{enumerate}
 
 \subsection{Data Sources and Feature Engineering}
@@ -1070,7 +1107,7 @@ imbalance that characterises most student risk datasets---where at-risk
 students constitute a minority---standard pre-processing techniques
 including normalisation, one-hot encoding, and the Synthetic Minority
 Oversampling Technique (SMOTE) are routinely applied
-\parencite{bello2025, Aldowah2026}.
+\parencite{bello2025, aldowah2026}.
 
 \subsection{Explainability, Fairness, and Ethical Considerations}
 
@@ -1112,7 +1149,7 @@ auditing, a model may achieve high aggregate accuracy while
 systematically misclassifying vulnerable subpopulations---a failure
 mode that is especially consequential when model outputs determine
 which students receive scarce advising and support resources
-\parencite{Bello20bello202525}.
+\parencite{bello2025}.
 
 \subsubsection{Ethical Considerations}
 Two interrelated ethical obligations govern institutional deployment
@@ -1130,7 +1167,7 @@ transparent data governance policies \parencite{kwakye2025}.
 
 \subsection{Existing ML-based predictive analytics for at-risk students}
 
-\subsubsection{Georgia State University: GPS Advising System}
+\subsubsection{U.S.A: GPS Advising System}
 
 \textbf{Institutional Context and Motivation}
 
@@ -1255,7 +1292,7 @@ simply inspired by the Georgia State model---it is explicitly designed
 to resolve the transferability and transparency gaps that prevent that
 model from being deployed in a Kenyan institutional context.
 
-\subsubsection{Morocco: A Modular and Explainable Machine Learning Pipeline at Mohammed V University}
+\subsubsection{Morocco: A Modular and Explainable Machine Learning Pipeline}
 
 \textbf{Institutional Context and Motivation}
 
@@ -1380,7 +1417,7 @@ full pipeline was replicated on the public UCI Portugal dataset
 = 0.792, AUC-ROC = 0.922), confirming model ordering preservation across
 feature-shifted datasets.
 
-\textbf{Limitation Critical Assessment}
+\textbf{Limitation and Critical Assessment}
 
 The Bettahi et al. pipeline is the most methodologically aligned existing
 system in the literature relative to the platform developed in this
@@ -1413,7 +1450,7 @@ outcomes---dropout risk, course failure risk, and programme delay
 risk---with all models explicitly calibrated to Strathmore University's
 specific policy thresholds.
 
-\subsubsection{South Africa: Machine Learning for Engineering Student Success at the University of Johannesburg}
+\subsubsection{South Africa: Machine Learning for Engineering Student Success}
 
 One of the earliest investigations of ML-based student performance
 prediction in the South African context was conducted by Taodzera, Twala,
@@ -1432,13 +1469,13 @@ Correlation analysis identified Physics score (r = 0.2391) and Mathematics score
 
 Five algorithms were evaluated: Logistic Regression (LR), Na\"{i}ve Bayes (NB), Artificial Neural Network (ANN), Support Vector Machine (SVM), and Decision Tree (DT). The DT algorithm performed best with 65.86\% accuracy, an F1-score of 0.658, and a Kappa statistic of 0.316---classifying it as a fair predictor. SVM ranked second (64.63\%), followed by NB (63.41\%) and LR (63.17\%). ANN performed weakest (60.24\%) \parencite{taodzera2016}.
 
-\textbf{Limitation Critical Assessment}
+\textbf{Limitation and Critical Assessment}
 
 The Taodzera et al. study makes two contributions of direct relevance to this thesis. First, it demonstrates that standard ML algorithms can be operationalized in a resource-limited African institutional setting using only enrollment-time features available at the point of admission---without requiring LMS integration, real-time data pipelines, or proprietary vendor platforms. Second, the identification of school province and ethnicity as statistically significant predictors highlights a structural feature of African educational data that does not appear in the North American literature: that secondary schooling inequality is itself a measurable risk factor that encodes into university-level performance data.
 
 However, the absence of SHAP-based or any form of explainability analysis means the model cannot be operationalized as a policy-actionable early warning system. Furthermore, the modest Kappa values (all below 0.32) suggest that all five models classify at a level only slightly above what chance would produce \parencite{taodzera2016}.
 
-\subsubsection{South Africa: Bayesian Network Classification for Computer Science Student Risk Prediction at the University of Cape Town}
+\subsubsection{South Africa: Bayesian Network Classification for Computer Science Student Risk Prediction}
 
 At the University of Cape Town's Department of Computer Science, Hassen conducted a study applying Bayesian Network classifiers to predict which second-year Computer Science students that were at risk of failing CSC2001F \parencite{hassen2020}. This was a core data structures course widely regarded as the critical attrition point in the UCT Computer Science major.
 
@@ -1454,7 +1491,7 @@ Three Bayesian Network models were developed using the Netica platform. The firs
 
 The combined model produced the most instructive outcome: while its accuracy (83.33\%) was marginally below the TAN model's, it achieved a perfect recall score of 1.0 --- correctly identifying every at-risk student in the test cohort --- alongside an F1 score of 0.40 and a precision of 0.25 \parencite{hassen2020}.
 
-\textbf{Limitation Critical Assessment}
+\textbf{Limitation and Critical Assessment}
 
 The Hassen study validates incremental cohort-based training as a deployment-realistic evaluation strategy and establishes recall as the theoretically appropriate primary metric in student support contexts \parencite{hassen2020}. However, the dataset of 728 records is small by ML standards, and the absence of any SHAP-based explainability means the model cannot generate student-level explanations sufficient to guide individualised advising conversations.
 

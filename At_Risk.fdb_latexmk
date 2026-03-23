@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber At_Risk"] 1774250779.94553 "At_Risk.bcf" "At_Risk.bbl" "At_Risk" 1774250851.95956 0
-  "At_Risk.bcf" 1774250851.86328 145347 b65bfd62c4c347dd6c4eda58d274fcd6 "pdflatex"
-  "references.bib" 1774250471.93571 50169 bcf5bd1066ac2059a5bd46c87b214114 ""
+["biber At_Risk"] 1774252322.37532 "At_Risk.bcf" "At_Risk.bbl" "At_Risk" 1774252487.27736 0
+  "At_Risk.bcf" 1774252487.16663 145340 9b86dd7931280fe67c5f88e41d8dcce7 "pdflatex"
+  "references.bib" 1774251254.7242 50171 8eba8e1ebda64dea114ba5f962797ea7 ""
   (generated)
   "At_Risk.bbl"
   "At_Risk.blg"
   (rewritten before read)
-["pdflatex"] 1774250848.36527 "/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex" "At_Risk.pdf" "At_Risk" 1774250851.96003 0
+["pdflatex"] 1774252483.51344 "/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex" "At_Risk.pdf" "At_Risk" 1774252487.27777 0
   "/etc/texmf/web2c/texmf.cnf" 1770489521.4762 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex" 1774250848.05516 110404 66a0dd766e38c2e5fd8a385dca1cd684 ""
+  "/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex" 1774252479.71448 111864 9d065992a4cc6a7c7cf01875e8847f96 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -131,15 +131,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1770489545.30875 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1770489573 8213748 9b2ca307748213d8bf2581e3767b4fc7 ""
-  "At_Risk.aux" 1774250851.84916 40162 3c3dc2d49d1efb3ae2d637a9b616b8c2 "pdflatex"
-  "At_Risk.bbl" 1774250781.54471 149402 35fefa53c94ea14520b58c5ddbb28fa5 "biber At_Risk"
-  "At_Risk.loa" 1774250849.51636 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "At_Risk.lof" 1774250851.86405 405 5e4045ddae9566bafa73554928253cb4 "pdflatex"
-  "At_Risk.lot" 1774250851.86405 774 77030a02cd6da3414a191506948bbac1 "pdflatex"
-  "At_Risk.out" 1774250851.86016 15452 c0264af81346c87bd54346d346e06d99 "pdflatex"
-  "At_Risk.run.xml" 1774250851.86405 2448 d2947389279650008fa0e913e8a6c5b8 "pdflatex"
-  "At_Risk.tex" 1774250848.05516 110404 66a0dd766e38c2e5fd8a385dca1cd684 ""
-  "At_Risk.toc" 1774250851.86405 6808 14ff2eaeb3973d43421da751d94d9b03 "pdflatex"
+  "At_Risk.aux" 1774252487.14998 40024 0e42ed600ac94963541a9c62a45935ac "pdflatex"
+  "At_Risk.bbl" 1774252323.801 149330 d0f0fa4acce56971b68ab9b65480c5e7 "biber At_Risk"
+  "At_Risk.lof" 1774252487.16762 404 54ebaf53bb6500c6ccf044485ce00462 "pdflatex"
+  "At_Risk.lot" 1774252487.16762 774 b6eb73511f45258cd74288b7c90898f5 "pdflatex"
+  "At_Risk.out" 1774252487.16298 14638 5c11975cc406594f77c6a4edcc9eacca "pdflatex"
+  "At_Risk.run.xml" 1774252487.16762 2448 d2947389279650008fa0e913e8a6c5b8 "pdflatex"
+  "At_Risk.tex" 1774252479.71448 111864 9d065992a4cc6a7c7cf01875e8847f96 ""
+  "At_Risk.toc" 1774252487.16762 6587 ab04688d5955656a8c1e4a8cd25d9997 "pdflatex"
   "images/AstinModel.png" 1773677662.64966 41650 abcad6e0f0fcacda9305df6318dd65f0 ""
   "images/Conceptual.png" 1774250471.93523 1002863 5b3c50df150457f8d0131e9780767665 ""
   "images/TintoModel1.jpg" 1773599259.04433 126172 782b114dc7444355b47b7de55a1a4141 ""
@@ -147,7 +146,6 @@
   (generated)
   "At_Risk.aux"
   "At_Risk.bcf"
-  "At_Risk.loa"
   "At_Risk.lof"
   "At_Risk.log"
   "At_Risk.lot"

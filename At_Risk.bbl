@@ -587,7 +587,7 @@
       \field{pages}{32}
       \range{pages}{1}
     \endentry
-    \entry{gsu202}{online}{}
+    \entry{gsu2024_}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=834fff5ac9ea1d5e423efcfecb18b6ed}{%
            family={{Georgia State University}},
@@ -2367,7 +2367,7 @@
       \field{pages}{32}
       \range{pages}{1}
     \endentry
-    \entry{gsu202}{online}{}
+    \entry{gsu2024_}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=834fff5ac9ea1d5e423efcfecb18b6ed}{%
            family={{Georgia State University}},
@@ -3578,9 +3578,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Aldowah2026}
-  \missing{Bello20bello202525}
-  \missing{gsu2024_}
 \endrefsection
 \endinput
 
