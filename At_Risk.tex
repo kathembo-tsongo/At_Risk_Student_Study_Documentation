@@ -2110,7 +2110,7 @@ Prior semester probation flag & Academic standing history & AMS \\
 
 Key engineered features will be described as follows:
 
-\begin{itemize}
+\begin{enumerate}
     \item \textbf{GPA floor proximity score:} The arithmetic distance between a
     student's current cumulative GPA and the institutional minimum threshold
     of 2.0, operationalising Tinto's academic integration construct as a
@@ -2152,10 +2152,10 @@ Key engineered features will be described as follows:
     submitted after their deadlines within a given semester, serving as a
     behavioural proxy for academic disengagement prior to formal grade
     consequences materialising.
-\end{itemize}
+\end{enumerate}
 
 The feature matrix will supporte three separate binary prediction targets:
-\begin{itemize}
+\begin{enumerate}
     \item \textbf{Dropout risk:} active or graduated (0) vs.\ withdrawn before
     degree completion (1).
     \item \textbf{Course failure risk:} passing all enrolled modules (0) vs.\
@@ -2164,7 +2164,7 @@ The feature matrix will supporte three separate binary prediction targets:
     \item \textbf{Programme delay risk:} completing within standard programme
     duration (0) vs.\ exceeding standard duration due to probation, course
     repetition, or accumulated failed semesters (1).
-\end{itemize}
+\end{enumerate}
 
 \subsection{Algorithm Selection}
 
@@ -2282,26 +2282,27 @@ The best-performing model configuration for each prediction target will be selec
 based on cross-validation Recall scores and evaluated on the held-out 20\% test
 set. Five standard evaluation metrics will be computed for each model:
 
-\begin{itemize}
-    \item \textbf{Accuracy:} The proportion of correct predictions (both at-risk
-    and not-at-risk) relative to total test observations.
+\begin{enumerate}   
+ 
+        \item \textbf{Accuracy:} The proportion of correct predictions (both at-risk
+        and not-at-risk) relative to total test observations.
 
-    \item \textbf{Precision:} The proportion of students predicted as at-risk
-    who are genuinely at-risk, minimising the misallocation of scarce
-    counselling resources to students who do not require intervention.
+        \item \textbf{Precision:} The proportion of students predicted as at-risk
+        who are genuinely at-risk, minimising the misallocation of scarce
+        counselling resources to students who do not require intervention.
 
-    \item \textbf{Recall (Sensitivity):} The proportion of genuinely at-risk
-    students correctly identified by the model. 
+        \item \textbf{Recall (Sensitivity):} The proportion of genuinely at-risk
+        students correctly identified by the model. 
 
-    \item \textbf{F1-Score:} The harmonic mean of Precision and Recall,
-    providing a single balanced metric that accounts simultaneously for
-    false negatives and false positives.
+        \item \textbf{F1-Score:} The harmonic mean of Precision and Recall,
+        providing a single balanced metric that accounts simultaneously for
+        false negatives and false positives.
 
-    \item \textbf{ROC-AUC:} The area under the Receiver Operating
-    Characteristic curve, providing a threshold-independent measure of
-    each model's discriminative ability across all classification thresholds.
+        \item \textbf{ROC-AUC:} The area under the Receiver Operating
+        Characteristic curve, providing a threshold-independent measure of
+        each model's discriminative ability across all classification thresholds.    
     
-\end{itemize}
+\end{enumerate}
 
 Statistical comparison between the three algorithms for each prediction target
 will be conducted using McNemar's paired significance test on test-set predictions,
@@ -2381,13 +2382,13 @@ development will use the \texttt{xgboost} library \parencite{chen2016}.
 SHAP explainability outputs will be computed using the \texttt{shap} library 
 \parencite{lundberg2017unified}, and data manipulation will be handled 
 through \texttt{pandas} and \texttt{NumPy}. The dashboard and user interface 
-layer will be built using \texttt{Flask}, Laravel web framework 
+layer will be built using \texttt{Laravel}, a php web framework 
 suitable for prototype web application development. 
 
 \subsection{System Design}
 \label{sec:system_design}
 
-The system architecture followed a layered design comprising four functional tiers:
+The system architecture will follow a layered design comprising four functional tiers:
 (i) the \textbf{Data Integration Layer}, responsible for extracting, merging,
 cleaning, and validating records from the AMS, LMS, and attendance platform;
 (ii) the \textbf{Analytics Layer}, housing the feature engineering pipeline,
@@ -2398,13 +2399,13 @@ interface; and (iv) the \textbf{Presentation Layer}, delivering role-based
 dashboards through a web interface accessible via authenticated university
 credentials integrated with Strathmore's Active Directory.
 
-The role-based dashboard architecture distinguished three user views. The
-\textbf{University Administrator} dashboard presented institution-wide risk
+The role-based dashboard architecture will distinguish three user views. The
+\textbf{University Administrator} dashboard presenting institution-wide risk
 distribution summaries, school-level at-risk counts across all three risk
 dimensions, and temporal trend visualisations. The \textbf{School Administrator}
-dashboard presented school-specific student risk rankings and cohort-level risk
+dashboard presenting school-specific student risk rankings and cohort-level risk
 profiles, stratified by dropout, course failure, and programme delay risk. The
-\textbf{Academic Mentor} dashboard presented individual student risk profiles,
+\textbf{Academic Mentor} dashboard presenting individual student risk profiles,
 SHAP feature contribution visualisations identifying each student's top
 risk-amplifying and protective factors, and suggested intervention
 categories---such as attendance counselling, tutoring referral, or academic
@@ -2415,29 +2416,29 @@ student by the SHAP outputs.
 
 System implementation followed the sprint-based Agile schedule, with development
 proceeding iteratively from the data pipeline and model training components
-outward to the dashboard and alert systems. The data pipeline was implemented
+outward to the dashboard and alert systems. The data pipeline will be implemented
 and validated first against a subset of real institutional data under the data
-access agreement. Model training and evaluation were conducted in the second
+access agreement. Model training and evaluation will be conducted in the second
 phase, with the best-performing algorithm for each prediction target selected
-for deployment. Dashboard development and SHAP integration were implemented
+for deployment. Dashboard development and SHAP integration will be implemented
 in the final phase, with the completed prototype subjected to stakeholder
-usability evaluation as described in Section~\ref{sec:data_collection}.
+usability evaluation.
 
 \section{Research Quality Aspects}
 
 \subsection{Validity}
 
-Internal validity was addressed through the use of stratified train/test splits
+Internal validity will be addressed through the use of stratified train/test splits
 and stratified $k$-fold cross-validation, ensuring that performance estimates
-reflected genuine generalisation to unseen students rather than artefacts of a
+reflect genuine generalisation to unseen students rather than artefacts of a
 single data partition. Leakage prevention---excluding final outcome labels from
 the training feature set and computing normalisation parameters exclusively on
 the training partition---further protected against artificially optimistic
-performance estimates. SMOTE oversampling was applied exclusively within the
-training partition, ensuring test-set class distribution mirrored real-world
+performance estimates. SMOTE oversampling will be applied exclusively within the
+training partition, ensuring test-set class distribution mirrors real-world
 deployment conditions.
 
-External validity was addressed through the use of a complete institutional
+External validity will be addressed through the use of a complete institutional
 cohort rather than a convenience sample, maximising the representativeness of
 training data for the target deployment population. Pipeline replication on the
 publicly available UCI Portugal student dataset \parencite{realinho2021predict}
@@ -2446,34 +2447,34 @@ methodological approach of \parencite{bettahi2025}.
 
 \subsection{Reliability}
 
-Reliability was ensured through the use of fixed random seeds across all
+Reliability will be ensured through the use of fixed random seeds across all
 stochastic pipeline components---data splitting, SMOTE oversampling, model
 initialisation, and cross-validation fold generation---ensuring that all results
 are fully reproducible from the documented configuration. All pipeline code,
-trained model artefacts, and evaluation outputs were version-controlled using
+trained model artefacts, and evaluation outputs will be version-controlled using
 Git, providing a complete audit trail. McNemar's statistical significance
-testing was applied to all model performance comparisons to ensure that reported
-differences were not attributable to sampling variability.
+testing will be applied to all model performance comparisons to ensure that reported
+differences are not attributable to sampling variability.
 
 \subsection{Objectivity}
 
-Objectivity was maintained through the pre-registration of model evaluation
+Objectivity will be maintained through the pre-registration of model evaluation
 criteria and metric priorities---particularly the prioritisation of Recall over
 Accuracy as the primary metric---prior to conducting final test-set evaluation,
 preventing post-hoc selection of metrics favourable to specific model outcomes.
-Stakeholder evaluation instruments were administered in a standardised format,
+Stakeholder evaluation instruments will be administered in a standardised format,
 with participants completing feedback instruments independently to minimise
 social desirability effects in usability ratings.
 
 \section{Ethical Considerations}
 
-The study was conducted in accordance with Strathmore University's research
+The study will be conducted in accordance with Strathmore University's research
 ethics framework and the principles of the Kenya Data Protection Act (2019).
 Ethical clearance was obtained from the Strathmore University Institutional
-Review Board prior to data collection. The following ethical safeguards were
+Review Board prior to data collection. The following ethical safeguards will be
 implemented throughout the study:
 
-\begin{itemize}
+\begin{enumerate}
     \item \textbf{Data anonymisation:} All student records were de-identified
     prior to extraction by replacing personally identifiable information with
     pseudonymous identifiers. No data capable of re-identifying individual
@@ -2485,29 +2486,50 @@ implemented throughout the study:
 
     \item \textbf{Data minimisation:} Only the data fields strictly necessary
     for the research objectives were extracted, consistent with the data
-    minimisation principle of the Kenya Data Protection Act (2019).
+    minimisation principle of the Kenya Data Protection Act \parencite{kenya2019dataprotection}.
 
-    \item \textbf{Access controls:} The extracted dataset was stored in a
+    \item \textbf{Access controls:} The extracted dataset will be stored in a
     password-protected, encrypted repository accessible only to the researcher
     and supervising faculty.
 
-    \item \textbf{Human-in-the-loop deployment:} The platform was designed
+    \item \textbf{Human-in-the-loop deployment:} This softeware will be designed
     as a decision-support tool that augments rather than replaces professional
-    advisor judgment. All risk classifications were presented as
+    advisor judgment. All risk classifications will be presented as
     evidence-based recommendations, not autonomous verdicts, preserving the
     advisor's role as the responsible decision-making agent \parencite{kwakye2025}.
 
-    \item \textbf{Fairness and bias audit:} The trained models were assessed
+    \item \textbf{Fairness and bias audit:} The trained models will be assessed
     for differential prediction performance across student subgroups defined
-    by school of enrolment and year of study, ensuring that the platform
-    did not systematically disadvantage any student subgroup through biased
-    risk classifications \citparenciteep{bello2025developing, kwakye2025}.
-    Results of the fairness audit are reported in Chapter Four.
-\end{itemize}
+    by school of enrolment and year of study, ensuring that the tool does not 
+    systematically disadvantage any student subgroup through biased
+    risk classifications \parencite{bello2025developing, kwakye2025}.
+    Results of the fairness audit will be reported in Chapter Four.
+\end{enumerate}
 
-Chapter Four now presents the system implementation results, model evaluation
-findings, SHAP explainability outputs, and stakeholder usability evaluation
-outcomes.
+\section{Summary}
+
+This chapter presented the research methodology for the design, development,
+and evaluation of a machine learning-based predictive analytics tool for
+early identification of at-risk undergraduate students at Strathmore
+University. Grounded in a mixed-methods Design Science Research paradigm,
+the study draws on a census of approximately 5,000 undergraduate student
+records from the 2021--2024 historical cohort, extracted from the Academic
+Management System, the Learning Management System, and the attendance
+tracking platform. Every engineered predictor maps to constructs from
+Tinto's Student Integration Model and Astin's Input-Environment-Output
+Model, and three simultaneous prediction targets --- dropout risk, course
+failure risk, and programme delay risk --- are calibrated to Strathmore's
+67\% attendance threshold and 2.0 GPA floor. Random Forest, Gradient
+Boosting, and XGBoost were selected as candidate algorithms and will be
+evaluated through stratified splitting, SMOTE oversampling, $k$-fold
+cross-validation, and hyperparameter tuning, with Recall as the primary
+metric and SHAP integrated as a design prerequisite for explainability.
+The platform will be developed as a prototype on a personal computer using
+an open-source software stack, following an Agile iterative methodology,
+with ethical safeguards implemented throughout in accordance with the
+Kenya Data Protection Act \parencite{kenya2019dataprotection}. Chapter
+Four coming next to present the implementation outcomes, model evaluation results, and
+stakeholder usability findings.
 
 % ─────────────────────────────────────────────────────────────────────────────
 % REFERENCES

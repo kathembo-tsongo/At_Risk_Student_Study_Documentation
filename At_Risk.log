@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  31 MAR 2026 13:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.7)  31 MAR 2026 15:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -607,8 +607,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 94.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 108.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)
-No file At_Risk.aux.
+) (./At_Risk.aux)
 \openout1 = `At_Risk.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
@@ -629,6 +628,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
 LaTeX Font Info:    ... okay on input line 108.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
 LaTeX Font Info:    ... okay on input line 108.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -711,25 +711,18 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'At_Risk.bbl' found.
- (./At_Risk.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                bettahi2025modular
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (./At_Risk.bbl)
 Package biblatex Info: Reference section=0 on input line 108.
 Package biblatex Info: Reference segment=0 on input line 108.
 Package hyperref Info: Link coloring ON on input line 108.
+ (./At_Risk.out) (./At_Risk.out)
 \@outlinefile=\write4
 \openout4 = `At_Risk.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<./images/strathmore_logo.png, id=4, 324.21124pt x 156.585pt>
+<./images/strathmore_logo.png, id=387, 324.21124pt x 156.585pt>
 File: ./images/strathmore_logo.png Graphic file (type png)
 <use ./images/strathmore_logo.png>
 Package pdftex.def Info: ./images/strathmore_logo.png  used on input line 117.
@@ -740,24 +733,38 @@ Package pdftex.def Info: ./images/strathmore_logo.png  used on input line 117.
 
 ] [3
 
-]
-No file At_Risk.toc.
+] (./At_Risk.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 1.
+ [4] [5]
+Overfull \hbox (3.01077pt too wide) in paragraph at lines 58--58
+ [][] [][][]\T1/ptm/m/n/12 Morocco: A Mod-u-lar and Ex-plain-able Ma-chine Learn- 
+ []
+
+
+Overfull \hbox (12.26265pt too wide) in paragraph at lines 60--60
+ [][] [][][]\T1/ptm/m/n/12 South Africa: Bayesian Net-work Clas-si-fi-ca-tion for Com- 
+ []
+
+[6])
 \tf@toc=\write5
 \openout5 = `At_Risk.toc'.
 
-[4]
-No file At_Risk.lof.
+ [7] (./At_Risk.lof)
 \tf@lof=\write6
 \openout6 = `At_Risk.lof'.
 
-[5]
-No file At_Risk.lot.
+ [8] (./At_Risk.lot)
 \tf@lot=\write7
 \openout7 = `At_Risk.lot'.
 
-[6] [7
+ [9] [10
 
-] [8]
+] [11]
 Overfull \hbox (1.0152pt too wide) in alignment at lines 266--271
  [] [] 
  []
@@ -787,9 +794,9 @@ Overfull \hbox (1.0152pt too wide) in alignment at lines 281--322
  [] [] 
  []
 
-[9
+[12
 
-] [10] [11] [12] [13]
+] [13] [14] [15] [16]
 Chapter 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -828,19 +835,12 @@ Chapter 2.
 [11
 
 ]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 645.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 645.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 645.
-
 Overfull \hbox (3.05412pt too wide) in paragraph at lines 671--680
 \T1/ptm/m/n/12 di-min-ish-ing aca-demic and so-cial in-te-gra-tion drives de-par-ture, while Astin's I-E-O Model
  []
 
 [12]
-<images/TintoModel1.jpg, id=241, 1284.8pt x 827.09pt>
+<images/TintoModel1.jpg, id=733, 1284.8pt x 827.09pt>
 File: images/TintoModel1.jpg Graphic file (type jpg)
 <use images/TintoModel1.jpg>
 Package pdftex.def Info: images/TintoModel1.jpg  used on input line 710.
@@ -851,7 +851,7 @@ Overfull \hbox (7.96274pt too wide) in paragraph at lines 800--806
  []
 
 [16]
-<images/AstinModel.png, id=292, 719.68875pt x 443.6575pt>
+<images/AstinModel.png, id=781, 719.68875pt x 443.6575pt>
 File: images/AstinModel.png Graphic file (type png)
 <use images/AstinModel.png>
 Package pdftex.def Info: images/AstinModel.png  used on input line 842.
@@ -862,11 +862,6 @@ Overfull \hbox (8.65782pt too wide) in paragraph at lines 856--870
  []
 
 [18 <./images/AstinModel.png>] [19] [20]
-Overfull \hbox (7.96295pt too wide) in paragraph at lines 955--969
-\T1/ptm/m/n/12 making. By ap-ply-ing com-pu-ta-tional anal-y-sis to data orig-i-nat-ing in ed-u-ca-tional contexts---
- []
-
-
 Overfull \hbox (5.45473pt too wide) in paragraph at lines 976--982
 \T1/ptm/m/n/12 grades, semester GPA, or ex-am-i-na-tion results---by an-a-lyz-ing his-tor-i-cal aca-demic records,
  []
@@ -925,9 +920,6 @@ Overfull \hbox (0.6425pt too wide) in paragraph at lines 1355--1360
  []
 
 
-LaTeX Warning: Reference `tab:bettahi_results' on page 32 undefined on input line 1378.
-
-
 Overfull \hbox (3.123pt too wide) in paragraph at lines 1392--1392
 []|[]\T1/ptm/b/n/12 Accuracy[]| 
  []
@@ -963,7 +955,7 @@ Overfull \hbox (7.36157pt too wide) in alignment at lines 1679--1719
  []
 
 [42] [43] [44] [45] [46]
-<images/conceptual.png, id=609, 689.57625pt x 1355.0625pt>
+<images/conceptual.png, id=1062, 689.57625pt x 1355.0625pt>
 File: images/conceptual.png Graphic file (type png)
 <use images/conceptual.png>
 Package pdftex.def Info: images/conceptual.png  used on input line 1779.
@@ -1006,10 +998,6 @@ Overfull \hbox (2.56195pt too wide) in paragraph at lines 1942--1950
  []
 
 [54] [55] [56]
-
-LaTeX Warning: Reference `tab:features' on page 57 undefined on input line 2083.
-
-
 Overfull \hbox (2.37086pt too wide) in paragraph at lines 2077--2084
 \T1/ptm/m/n/12 Stu-dent In-te-gra-tion Model and Astin's Input-Environment-Output (I-E-O) Model ([]Astin,
  []
@@ -1079,84 +1067,52 @@ Overfull \hbox (5.9467pt too wide) in paragraph at lines 2178--2189
 \T1/ptm/m/n/12 source in-sti-tu-tional data con-tain-ing non-linear fea-ture in-ter-ac-tions ([]Al-dowah et al., [][]2026[][]).
  []
 
-[60] [61] [62] [63] [64] [65]
-
-LaTeX Warning: Reference `sec:data_collection' on page 66 undefined on input line 2424.
-
-[66] [67] [68]
-/home/dieudonne/SPECIALIZATION/PROJECT AT RISK STUDENT/At_Risk.tex:2504: Undefined control sequence.
-l.2504     risk classifications \citparenciteep
-                                               {bello2025developing, kwakye2...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[69]
-Overfull \hbox (3.93445pt too wide) in paragraph at lines 2515--2515
+[60] [61] [62] [63] [64] [65] [66] [67] [68] [69]
+Overfull \hbox (3.93445pt too wide) in paragraph at lines 2537--2537
 \T1/ptm/m/n/12 plain-able AI ap-proaches. \T1/ptm/m/it/12 Com-put-ers and Ed-u-ca-tion: Ar-ti-fi-cial In-tel-li-gence\T1/ptm/m/n/12 . [][]$https :
  []
 
 [70
 
 ]
-Overfull \hbox (2.03822pt too wide) in paragraph at lines 2515--2515
+Overfull \hbox (2.03822pt too wide) in paragraph at lines 2537--2537
 \T1/ptm/m/n/12 demic sup-port. [][]$https : / / edtechmagazine . com / higher / article / 2019 / 04 / %20georgia -[]
  []
 
 [71]
-Overfull \hbox (8.85013pt too wide) in paragraph at lines 2515--2515
+Overfull \hbox (8.85013pt too wide) in paragraph at lines 2537--2537
 \T1/ptm/m/n/12 Un-der-grad-u-ate stu-dent re-ten-tion ac-tiv-i-ties: Chal-lenges and re-search agenda. \T1/ptm/m/it/12 SAGE
  []
 
 [72]
-Overfull \hbox (12.64394pt too wide) in paragraph at lines 2515--2515
+Overfull \hbox (12.64394pt too wide) in paragraph at lines 2537--2537
 \T1/ptm/m/it/12 2024 re-port \T1/ptm/m/n/12 (tech. rep.). Na-tional Stu-dent Clear-ing-house. [][]$https : / / nscresearchcenter .
  []
 
-[73] [74] [75] (./At_Risk.aux)
+[73] [74] [75] [76] (./At_Risk.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `At_Risk.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `At_Risk.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  913B66001A044F62A282DBD0AC8ED5CA;19525.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                At_Risk
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `At_Risk.out' has not changed.
+(rerunfilecheck)             Checksum: DDB4273A76BFA9FF48DC29AEDD2B9A7A;19616.
 Package logreq Info: Writing requests to 'At_Risk.run.xml'.
 \openout1 = `At_Risk.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21038 strings out of 474222
- 374510 string characters out of 5748734
+ 21501 strings out of 474222
+ 380857 string characters out of 5748734
  1973975 words of memory out of 5000000
- 42771 multiletter control sequences out of 15000+600000
+ 43194 multiletter control sequences out of 15000+600000
  580894 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,11n,81p,1341b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on At_Risk.pdf (88 pages, 695816 bytes).
+Output written on At_Risk.pdf (92 pages, 714205 bytes).
 PDF statistics:
- 1017 PDF objects out of 1200 (max. 8388607)
- 895 compressed objects within 9 object streams
- 291 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1481 PDF objects out of 1728 (max. 8388607)
+ 1350 compressed objects within 14 object streams
+ 319 named destinations out of 1000 (max. 500000)
+ 789 words of extra memory for PDF output out of 10000 (max. 10000000)
 

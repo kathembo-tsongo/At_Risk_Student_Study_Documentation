@@ -1,8 +1,8 @@
 \contentsline {chapter}{Abstract}{iii}{chapter*.2}%
-\contentsline {chapter}{List of Figures}{v}{chapter*.2}%
-\contentsline {chapter}{List of Tables}{vi}{chapter*.2}%
-\contentsline {chapter}{Table of Abbreviations}{vii}{chapter*.3}%
-\contentsline {chapter}{Definition of Terms}{ix}{chapter*.4}%
+\contentsline {chapter}{List of Figures}{viii}{chapter*.2}%
+\contentsline {chapter}{List of Tables}{ix}{chapter*.2}%
+\contentsline {chapter}{Table of Abbreviations}{x}{chapter*.3}%
+\contentsline {chapter}{Definition of Terms}{xii}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background to the Study}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Statement of the Problem}{3}{section.1.2}%
@@ -93,3 +93,4 @@
 \contentsline {subsection}{\numberline {3.9.2}Reliability}{67}{subsection.3.9.2}%
 \contentsline {subsection}{\numberline {3.9.3}Objectivity}{68}{subsection.3.9.3}%
 \contentsline {section}{\numberline {3.10}Ethical Considerations}{68}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Summary}{69}{section.3.11}%

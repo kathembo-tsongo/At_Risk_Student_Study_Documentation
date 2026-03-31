@@ -217,14 +217,64 @@
       \field{title}{What Matters in College? {F}our Critical Years Revisited}
       \field{year}{1993}
     \endentry
+    \entry{bello2025developing}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=810cd7fdd282be8a5e69f7e673edf2cd}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Abdulwahab},
+           giveni={A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=745b0a87af09bebd1373cb5d63f85dfe}{%
+           family={Ajibade},
+           familyi={A\bibinitperiod},
+           given={Iyanuoluwa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=766db87888df5733e8894743b7ed8f3a}{%
+           family={Wonuola},
+           familyi={W\bibinitperiod},
+           given={Ibukunoluwa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbcd8fe0009c465043cd38f20d55e674}{%
+           family={Ekweli},
+           familyi={E\bibinitperiod},
+           given={Destiny},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{313aa7e1f3a1448d881da414511d57f9}
+      \strng{fullhash}{7446db94007d44bc09b63ae7a87af641}
+      \strng{bibnamehash}{7446db94007d44bc09b63ae7a87af641}
+      \strng{authorbibnamehash}{7446db94007d44bc09b63ae7a87af641}
+      \strng{authornamehash}{313aa7e1f3a1448d881da414511d57f9}
+      \strng{authorfullhash}{7446db94007d44bc09b63ae7a87af641}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Science and Research Archive}
+      \field{number}{03}
+      \field{title}{Developing a predictive model for student academic performance using machine learning techniques}
+      \field{volume}{16}
+      \field{year}{2025}
+      \field{pages}{219\bibrangedash 234}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.30574/ijsra.2025.16.3.2539
+      \endverb
+    \endentry
     \entry{bello2025}{article}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=bc55a5259a8e85c7d93e16bf9c1caf9a}{%
+        {{un=1,uniquepart=given,hash=bc55a5259a8e85c7d93e16bf9c1caf9a}{%
            family={Bello},
            familyi={B\bibinitperiod},
            given={A.-w.},
            giveni={A\bibinithyphendelim w\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=820316a13afbb9693b7dd6434c843ff8}{%
            family={Ajibade},
            familyi={A\bibinitperiod},
@@ -254,7 +304,6 @@
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Science and Research Archive}
@@ -1286,6 +1335,40 @@
       \endverb
       \verb{url}
       \verb https://kippra.or.ke/improving-the-performance-of-public-universities-in-delivering-higher-education-in-kenya/
+      \endverb
+    \endentry
+    \entry{kenya2019dataprotection}{legislation}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=200c08b197110b013be1401aad5f2afe}{%
+           family={{Kenya National Council for Law Reporting}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{200c08b197110b013be1401aad5f2afe}
+      \strng{fullhash}{200c08b197110b013be1401aad5f2afe}
+      \strng{bibnamehash}{200c08b197110b013be1401aad5f2afe}
+      \strng{authorbibnamehash}{200c08b197110b013be1401aad5f2afe}
+      \strng{authornamehash}{200c08b197110b013be1401aad5f2afe}
+      \strng{authorfullhash}{200c08b197110b013be1401aad5f2afe}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Revised edition 31 December 2022}
+      \field{number}{Cap.\ 411C}
+      \field{title}{Data Protection Act}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://new.kenyalaw.org/akn/ke/act/2019/24/eng@2022-12-31
+      \endverb
+      \verb{url}
+      \verb https://new.kenyalaw.org/akn/ke/act/2019/24/eng@2022-12-31
       \endverb
     \endentry
     \entry{kwakye2025}{thesis}{}
@@ -2582,14 +2665,64 @@
       \field{title}{What Matters in College? {F}our Critical Years Revisited}
       \field{year}{1993}
     \endentry
+    \entry{bello2025developing}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=810cd7fdd282be8a5e69f7e673edf2cd}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Abdulwahab},
+           giveni={A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=745b0a87af09bebd1373cb5d63f85dfe}{%
+           family={Ajibade},
+           familyi={A\bibinitperiod},
+           given={Iyanuoluwa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=766db87888df5733e8894743b7ed8f3a}{%
+           family={Wonuola},
+           familyi={W\bibinitperiod},
+           given={Ibukunoluwa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbcd8fe0009c465043cd38f20d55e674}{%
+           family={Ekweli},
+           familyi={E\bibinitperiod},
+           given={Destiny},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{313aa7e1f3a1448d881da414511d57f9}
+      \strng{fullhash}{7446db94007d44bc09b63ae7a87af641}
+      \strng{bibnamehash}{7446db94007d44bc09b63ae7a87af641}
+      \strng{authorbibnamehash}{7446db94007d44bc09b63ae7a87af641}
+      \strng{authornamehash}{313aa7e1f3a1448d881da414511d57f9}
+      \strng{authorfullhash}{7446db94007d44bc09b63ae7a87af641}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Science and Research Archive}
+      \field{number}{03}
+      \field{title}{Developing a predictive model for student academic performance using machine learning techniques}
+      \field{volume}{16}
+      \field{year}{2025}
+      \field{pages}{219\bibrangedash 234}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.30574/ijsra.2025.16.3.2539
+      \endverb
+    \endentry
     \entry{bello2025}{article}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=bc55a5259a8e85c7d93e16bf9c1caf9a}{%
+        {{un=1,uniquepart=given,hash=bc55a5259a8e85c7d93e16bf9c1caf9a}{%
            family={Bello},
            familyi={B\bibinitperiod},
            given={A.-w.},
            giveni={A\bibinithyphendelim w\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=820316a13afbb9693b7dd6434c843ff8}{%
            family={Ajibade},
            familyi={A\bibinitperiod},
@@ -2619,7 +2752,6 @@
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Science and Research Archive}
@@ -3651,6 +3783,40 @@
       \endverb
       \verb{url}
       \verb https://kippra.or.ke/improving-the-performance-of-public-universities-in-delivering-higher-education-in-kenya/
+      \endverb
+    \endentry
+    \entry{kenya2019dataprotection}{legislation}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=200c08b197110b013be1401aad5f2afe}{%
+           family={{Kenya National Council for Law Reporting}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{200c08b197110b013be1401aad5f2afe}
+      \strng{fullhash}{200c08b197110b013be1401aad5f2afe}
+      \strng{bibnamehash}{200c08b197110b013be1401aad5f2afe}
+      \strng{authorbibnamehash}{200c08b197110b013be1401aad5f2afe}
+      \strng{authornamehash}{200c08b197110b013be1401aad5f2afe}
+      \strng{authorfullhash}{200c08b197110b013be1401aad5f2afe}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Revised edition 31 December 2022}
+      \field{number}{Cap.\ 411C}
+      \field{title}{Data Protection Act}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://new.kenyalaw.org/akn/ke/act/2019/24/eng@2022-12-31
+      \endverb
+      \verb{url}
+      \verb https://new.kenyalaw.org/akn/ke/act/2019/24/eng@2022-12-31
       \endverb
     \endentry
     \entry{kwakye2025}{thesis}{}
@@ -4748,7 +4914,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{bettahi2025modular}
 \endrefsection
 \endinput
 
