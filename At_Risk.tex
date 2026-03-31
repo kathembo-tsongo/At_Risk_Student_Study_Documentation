@@ -1617,7 +1617,7 @@ Naïve Bayes, Multilayer Perceptron (ANN), and Support Vector Machine (SMO). All
    rules, including the finding that fee payment difficulty alone was sufficient to classify a student as DROPOUT, while a
     student with no fee difficulties and good health was classified as PERSIST regardless of other attributes \parencite{Ngemu2015}.
 
-\textbf{Critical Assessment}
+\textbf{Limitation and Critical Assessment}
 
 The Ngemu et al. study makes several contributions relevant to this thesis and to the broader East African educational 
 data mining literature. First, it represents one of the earliest published attempts to apply supervised classification 
@@ -1654,11 +1654,14 @@ Furthermore, the study provides no discussion of class imbalance, no oversamplin
     financial status, and health as institutional risk flags, dimensions of the deployment context that are increasingly
      recognised as requiring explicit equity and bias auditing before any model is operationalised for advising or support
       allocation decisions \parencite{Ngemu2015}.
+
+
+
 \subsubsection{Research Gaps Table}
 
-% FIX 11: longtable caption moved to BOTTOM (correct position for longtable)
-% and \rowcolors reset properly
+\rowcolors{2}{tablerowwhite}{tablerowlight}
 \begin{longtable}{L{2.4cm} L{2.2cm} L{2.4cm} L{2.4cm} L{3.4cm}}
+
 \rowcolor{tableheader}
 \textcolor{white}{\textbf{Study}} &
 \textcolor{white}{\textbf{Context}} &
@@ -1666,6 +1669,7 @@ Furthermore, the study provides no discussion of class imbalance, no oversamplin
 \textcolor{white}{\textbf{Key Predictors}} &
 \textcolor{white}{\textbf{Identified Gaps}} \\
 \endfirsthead
+
 \rowcolor{tableheader}
 \textcolor{white}{\textbf{Study}} &
 \textcolor{white}{\textbf{Context}} &
@@ -1673,93 +1677,98 @@ Furthermore, the study provides no discussion of class imbalance, no oversamplin
 \textcolor{white}{\textbf{Key Predictors}} &
 \textcolor{white}{\textbf{Identified Gaps}} \\
 \endhead
-\rowcolor{tablerowlight}
-Georgia State \parencite{GSU2024} &
-USA, 50,000+ &
-800+ risk markers; EAB Navigate &
-Grades, LMS, financial &
-Proprietary; non-transferable; unaffordable \\[4pt]
-\rowcolor{tablerowwhite}
+
+Georgia State University GPS Advising \parencite{GSU2024} &
+USA, 50,000+ students &
+800+ risk markers; proprietary EAB Navigate platform &
+Grades, LMS engagement, financial status, registration anomalies &
+Proprietary and non-transferable; no model transparency; resource-intensive staffing; unaffordable for Global South institutions \\[6pt]
+
 Bettahi et al.\ \parencite{bettahi2025} &
-Morocco, 17,883 &
-XGBoost, RF, SHAP &
-GPA, credits, hold flags &
-Single binary outcome only \\[4pt]
-\rowcolor{tablerowlight}
+Morocco, 17,883 undergraduate records &
+XGBoost, Random Forest, SHAP explainability &
+GPA, credits earned, course failures, financial hold flags &
+Institution-specific features limit transferability; single binary dropout outcome only \\[6pt]
+
 Taodzera et al.\ \parencite{taodzera2016} &
-S.\ Africa, 1,366 &
-DT, SVM, ANN &
-Physics, Maths, age &
-No longitudinal features; no explainability \\[4pt]
-\rowcolor{tablerowwhite}
+South Africa, 1,366 engineering students &
+Decision Tree, SVM, Naïve Bayes, ANN, Logistic Regression &
+Physics score, Mathematics score, age, ethnicity &
+Enrollment-time data only; no longitudinal features; no explainability layer; Kappa values below 0.32 indicate near-chance classification \\[6pt]
+
 Hassen \parencite{hassen2020} &
-S.\ Africa, 728 &
-Bayesian Network &
-Assignment 1, Test 1 &
-Small dataset; precision = 0.25; no SHAP \\[4pt]
-\rowcolor{tablerowlight}
+South Africa, 728 CS students (UCT) &
+Bayesian Network (manual, TAN, combined) &
+CSC2001F Assignment 1, Test 1, CSC1016S mark, Matric Mathematics &
+Very small dataset; high false positive rate (precision = 0.25); no SHAP-based explainability; limited generalisability beyond single course \\[6pt]
+
 Esmael \parencite{esmael2024} &
-Ethiopia, 32,582 &
-RF, GB, DT &
-Entrance exam, credits &
-No explainability; no SHAP or LIME \\[4pt]
-\rowcolor{tablerowwhite}
-Ngemu et al.\ \parencite{Ngemu2015} &
-Kenya, 270 &
-J48, NB, SVM (WEKA) &
-Fee payment, age, health &
-Tiny dataset; enrollment-time only; no SHAP \\[4pt]
+Ethiopia, 32,582 students &
+Random Forest, Gradient Boosting, Decision Tree &
+Entrance exam results, studied credits, gender, region &
+No explainability layer; no SHAP or LIME analysis; cannot generate student-specific intervention recommendations \\[6pt]
+
+Ngemu et al.\ \parencite{ngemu2015} &
+Kenya, 270 instances (Machakos University College) &
+J48 Decision Tree, Naïve Bayes, SVM, MLP (WEKA) &
+Fee payment difficulty, age on entry, parental occupation, health status &
+Extremely small dataset; accuracy likely inflated by overfitting; no class imbalance handling; no per-class precision/recall; enrollment-time features only; no explainability \\[6pt]
+
 \caption{Summary of Research Gaps in Existing ML-Based Student Attrition Studies}
 \label{tab:research_gaps}
 \end{longtable}
 
-\subsubsection{Relevance to our study Table}
 
-% FIX 12: same fix — caption at bottom of longtable
+\subsubsection{Relevance to our study table}
+
+\rowcolors{2}{tablerowwhite}{tablerowlight}
 \begin{longtable}{L{2.4cm} L{3.3cm} L{3.3cm} L{3.8cm}}
+
 \rowcolor{tableheader}
 \textcolor{white}{\textbf{Study}} &
 \textcolor{white}{\textbf{Contribution to This Study}} &
 \textcolor{white}{\textbf{Design Element Adopted}} &
 \textcolor{white}{\textbf{Design Element Improved or Departed From}} \\
 \endfirsthead
+
 \rowcolor{tableheader}
 \textcolor{white}{\textbf{Study}} &
 \textcolor{white}{\textbf{Contribution to This Study}} &
 \textcolor{white}{\textbf{Design Element Adopted}} &
 \textcolor{white}{\textbf{Design Element Improved or Departed From}} \\
 \endhead
-\rowcolor{tablerowlight}
-Georgia State \parencite{GSU2024} &
-Proof of concept at scale &
-Role-based dashboards; risk score updates &
-Strathmore thresholds; no vendor dependency \\[4pt]
-\rowcolor{tablerowwhite}
+
+Georgia State University GPS Advising \parencite{GSU2024} &
+Proof of concept that predictive analytics at scale can raise graduation rates and eliminate equity gaps &
+Role-based dashboards; frequenty risk score updates; adviser-initiated intervention model &
+Calibrated to Strathmore-specific thresholds (67\% attendance, 2.0 GPA); eliminated vendor dependency \\[6pt]
+
 Bettahi et al.\ \parencite{bettahi2025} &
-Most methodologically aligned; validates XGBoost + SHAP &
-Python open-source stack; stratified split &
-Three outcomes; Strathmore policy features \\[4pt]
-\rowcolor{tablerowlight}
+Most methodologically aligned study; validates XGBoost and SHAP for African HEI dropout prediction using open-source tools &
+Python open-source stack (scikit-learn, XGBoost, SHAP); stratified train/test split; SHAP risk vs.\ protective factor visualisation &
+Extended from single binary dropout outcome to three simultaneous outcomes (dropout, course failure, programme delay); added Strathmore-specific policy features \\[6pt]
+
 Taodzera et al.\ \parencite{taodzera2016} &
-ML in African resource-limited setting &
-Feasibility without proprietary tools &
-Added LMS features; SHAP explainability \\[4pt]
-\rowcolor{tablerowwhite}
+Demonstrates ML operationalisation in a resource-limited African setting; highlights structural inequality as a measurable risk factor &
+Confirms feasibility of African institutional ML deployment without proprietary infrastructure &
+Added longitudinal LMS and attendance features beyond enrollment-time data; incorporated SHAP explainability; targeted higher accuracy ceiling \\[6pt]
+
 Hassen \parencite{hassen2020} &
-Recall as primary metric; SMOTE &
-Incremental training; recall priority &
-Ensemble methods replace Bayesian Networks \\[4pt]
-\rowcolor{tablerowlight}
+Validates incremental cohort-based training as deployment-realistic evaluation; establishes recall as the primary metric in student support contexts &
+Incremental training logic; prioritisation of recall over accuracy; SMOTE oversampling for class imbalance &
+Replaced Bayesian Networks with ensemble methods (Random Forest, XGBoost); added SHAP explainability for student-level advisor guidance \\[6pt]
+
 Esmael \parencite{esmael2024} &
-Ensemble superiority on African data &
-RF and GB as primary candidates &
-SHAP added; LMS engagement included \\[4pt]
-\rowcolor{tablerowwhite}
-Ngemu et al.\ \parencite{Ngemu2015} &
-Earliest Kenyan ML study; financial exclusion finding &
-Tinto grounding; Kenyan deployment &
-Python pipeline; SMOTE; SHAP; larger dataset \\[4pt]
-\caption{Relevance of Reviewed Studies to This Study's Design}
+Confirms ensemble methods outperform classical classifiers on African institutional data even with limited feature dimensionality &
+Validates Random Forest and Gradient Boosting as primary algorithm candidates for African HEI contexts &
+Added SHAP explainability layer; extended feature set to include LMS engagement and attendance beyond demographic and entry variables \\[6pt]
+
+Ngemu et al.\ \parencite{ngemu2015} &
+Earliest Kenyan institutional ML study; establishes financial exclusion as the dominant attrition driver in Kenyan public universities &
+Theoretical grounding of socioeconomic risk factors in Tinto's model; confirms feasibility of Kenyan institutional deployment &
+Replaced WEKA with Python ensemble pipeline; addressed class imbalance via SMOTE; added SHAP explainability; incorporated in-course academic and engagement features; used substantially larger dataset \\[6pt]
+
+\caption{Relevance of Reviewed Studies to our study's Design}
 \label{tab:relevance}
 \end{longtable}
 
@@ -1854,6 +1863,646 @@ critically underutilized in African contexts. All gaps identified directly infor
 Chapter Three now presents the research methodology, detailing the data collection strategy,
 feature engineering process, model development approach, and evaluation framework employed
 to build and validate the system.
+
+% ====================================================
+% ====================================================
+
+\chapter{Research Methodology}
+
+\section{Introduction}
+
+This chapter presents the research methodology employed in the design, development,
+and evaluation of a machine learning-based predictive analytics tool for early
+identification of at-risk undergraduate students at Strathmore University. The chapter
+is organised as follows. It begins by describing the research design, followed by the
+location of the study, the population and sampling strategy, and the data collection
+procedures. It then details the data analysis methods and the ensemble machine
+learning model development process---covering data pre-processing, feature
+engineering, model selection, training, and testing---before describing the system
+development methodology, including system analysis, design, and implementation.
+The chapter concludes with a discussion of research quality aspects and the ethical
+considerations governing the study.
+
+\section{Research Design}
+
+This study adopted a mixed-methods research design, integrating quantitative and
+qualitative approaches within a Design Science Research (DSR) paradigm
+\parencite{peffers2007design}. The quantitative strand will govern the
+development and evaluation of machine learning predictive models, wherein historical
+student cohort data from 2021 to 2024 will be used to train, validate, and test ensemble
+classifiers against standard performance metrics. The qualitative strand will inform the
+system design and usability evaluation phases, through structured feedback sessions
+with academic advisors, school administrators, and university administrators at
+Strathmore University.
+
+DSR is being selected because the primary objective of this research is the construction of
+an artefact---a predictive analytics platform---whose value is assessed both by its
+technical performance and by its perceived utility and adoptability within an
+institutional setting \parencite{hevner2004design}. This dual-evaluation logic, combining
+model accuracy metrics with stakeholder usability assessment, is consistent with
+established DSR evaluation frameworks applied in educational technology research
+\parencite{sein2011action, venable2016feds}.
+
+The study intents to employ a retrospective longitudinal design for model training, wherein
+complete academic trajectories of students whose final outcomes---graduation, dropout,
+course failure, or programme delay---are known will be used to build supervised
+classification models. This retrospective approach is methodologically appropriate
+because it allows the models to learn from fully resolved trajectories before being
+applied to currently enrolled students whose outcomes are not yet determined
+\parencite{hassen2020, bettahi2025}.
+
+\section{Location of the Study}
+
+The study will be conducted at Strathmore University, a private chartered university
+located in Nairobi, Kenya. Strathmore University operates five academic schools:
+the School of Computing and Engineering Sciences (SCES), the Strathmore Business
+School (SBS), the School of Law (SOL), the School of Humanities and Social Sciences
+(SHSS), and the Strathmore Institute of Mathematical Sciences (SIMS). The
+university enrols approximately 5,000 undergraduate students across these schools
+and enforces an institutional policy requiring a minimum attendance rate of 67\% for
+examination eligibility and a minimum Grade Point Average (GPA) of 2.0 for a
+student to remain in good academic standing. These two thresholds constitute the
+critical policy boundaries around which the predictive models in this study are
+explicitly calibrated.
+
+Strathmore University is selected as the study site for three reasons. First, it
+possesses the necessary digital infrastructure---an Academic Management System
+(AMS), a Learning Management System (LMS), and an attendance tracking
+platform---to support the multi-stream data pipeline this study requires. Second, its
+specific attendance and GPA thresholds create well-defined, measurable risk boundaries
+that can be encoded as policy-calibrated features in machine learning models. Third,
+the institution currently lacks an integrated analytics capability connecting these three
+data streams for proactive student support, making it both an appropriate and
+practically significant site for this research intervention.
+
+\section{Population and Sampling}
+
+\subsection{Population}
+
+The target population for this study comprises all undergraduate students enrolled at
+Strathmore University between the academic years 2021 and 2024, across all five
+schools. This historical cohort represents approximately 5,000 students with complete
+or near-complete academic records, including GPA trajectories, attendance rates,
+Learning Management System engagement data, and final academic outcomes. For
+the system evaluation phase, the accessible population will comprise the current academic
+advisors, school administrators, and university administrators actively involved in
+student support and academic oversight functions at Strathmore University.
+
+\subsection{Sampling}
+
+For the machine learning model development phase, all available student records from the
+ 2021--2024 historical cohort meeting the data completeness criteria,
+  will be included in the analytical dataset. This, will then constitute a census of the available 
+  historical cohort rather than a probability sample, consistent with best practice in 
+  Educational Data Mining (EDM) research, where maximising training data volume directly 
+  improves model generalisation \parencite{bettahi2025}.
+For the system evaluation phase, purposive sampling will be employed to select participants
+ from the accessible population of academic advisors, school administrators, and university 
+ administrators. Purposive sampling looks appropriate because the evaluation will require participants 
+ with direct institutional knowledge of student support workflows, academic policy enforcement,
+  and data-informed advising practice, rather than a statistically representative cross-section
+   of university staff \parencite{kwakye2025}. A minimum of fifteen participants will be 
+   targeted across the three user roles.
+   
+\section{Data Collection}
+\label{sec:data_collection}
+
+Data collection proceeded through two parallel streams corresponding to the study's
+quantitative and qualitative components.
+
+\subsection{Institutional Data Extraction}
+
+Quantitative data were extracted from three institutional systems at Strathmore
+University, subject to ethical approval and a formal data access agreement with the
+university's Data Protection Officer:
+
+\begin{enumerate}
+    \item \textbf{Academic Management System (AMS):} Student records including
+    anonymised student identifiers, school of enrolment, year of study,
+    programme, GPA per semester, cumulative GPA, academic standing flags
+    (probation, suspension), and final outcome status (active, graduated,
+    withdrawn, or deferred) for the 2021--2024 cohort.
+
+    \item \textbf{Learning Management System (LMS):} Engagement logs including
+    weekly login frequency, resource access counts, assignment submission
+    timestamps and lateness flags, and discussion participation counts per
+    semester per student.
+
+    \item \textbf{Attendance Tracking Platform:} Per-module attendance rates per
+    semester, attendance breach flags indicating students who have fallen
+    below the mandatory 67\% examination eligibility threshold, and cumulative
+    attendance trajectories across semesters.
+\end{enumerate}
+
+All student records were de-identified prior to extraction, replacing personally
+identifiable information with pseudonymous identifiers. Data spanning academic
+years 2021--2024 were extracted, covering a minimum of three complete academic
+years to ensure sufficient temporal depth for longitudinal risk pattern detection
+\parencite{bettahi2025, esmael2024student}.
+
+Records were excluded from the analytical dataset if they met any of the following
+criteria: (i) more than 30\% of feature values were missing across core predictors;
+(ii) the student was enrolled for fewer than one complete semester, providing
+insufficient longitudinal data; or (iii) the record could not be reliably linked across
+all three source systems due to identifier inconsistencies.
+
+\subsection{Qualitative Data Collection}
+
+Qualitative data for the system evaluation phase were collected through structured
+usability evaluation sessions with academic advisors, school administrators, and
+university administrators. Each session involved a guided walkthrough of the
+platform's role-based dashboard, followed by a structured feedback instrument
+comprising Likert-scale items and open-ended questions assessing perceived usability,
+intervention feasibility, explainability comprehensibility, and likelihood of long-term
+institutional adoption. The instrument was adapted from the System Usability Scale
+(SUS) \parencite{brooke1996sus} and supplemented with domain-specific items drawn from
+the educational analytics adoption literature \parencite{kwakye2025,
+zhang2021interpretable}.
+
+\section{Data Analysis Methods}
+
+Data analysis proceeded in three sequential stages: data pre-processing and feature
+engineering, model training and evaluation, and system evaluation analysis.
+
+\subsection{Data Pre-processing}
+
+Raw institutional records were subjected to a structured pre-processing pipeline
+implemented in Python 3.12 using the \texttt{pandas} and \texttt{scikit-learn}
+libraries \parencite{pedregosa2011scikit}. Pre-processing steps included:
+
+\begin{itemize}
+    \item \textbf{Missing value treatment:} Numeric fields were imputed using
+    median imputation to preserve distributional shape without introducing
+    mean-shift bias. Categorical fields with missing values were assigned an
+    explicit \texttt{<MISSING>} category token prior to encoding, following
+    the approach validated by \parencite{bettahi2025}.
+
+    \item \textbf{Categorical encoding:} Nominal variables such as school of
+    enrolment and programme were one-hot encoded to prevent the
+    introduction of spurious ordinal relationships; ordinal variables were
+    integer-encoded preserving rank order.
+
+    \item \textbf{Date normalisation:} Temporal variables were converted to
+    elapsed-day representations relative to each student's enrolment date,
+    transforming absolute timestamps into institution-relative duration
+    features that are comparable across cohorts.
+
+    \item \textbf{Class imbalance correction:} The Synthetic Minority
+    Oversampling Technique (SMOTE) \parencite{chawla2002smote} was applied
+    to the training partition only, generating synthetic at-risk instances to
+    correct the class imbalance characteristic of student risk datasets, in
+    which at-risk students typically constitute a minority of the total
+    population \parencite{hassen2020bayesian, bettahi2025}. Applying
+    SMOTE exclusively to the training set prevented synthetic instances from
+    contaminating the holdout evaluation.
+
+    \item \textbf{Feature scaling:} Continuous features were standardised using
+    z-score normalisation to ensure comparability across features with
+    different measurement scales. Although tree-based ensemble methods are
+    invariant to monotonic feature transformations, standardisation was
+    applied to ensure consistency across the full pipeline, including any
+    distance-sensitive evaluation components.
+\end{itemize}
+
+\section{Ensemble Machine Learning Model Development}
+
+This study develops three simultaneous prediction models targeting the distinct
+risk outcomes identified in the problem statement: dropout risk, course failure risk,
+and programme delay risk. Each model is a supervised binary classifier trained
+on the same engineered feature matrix but optimised against its respective prediction
+target. The following subsections describe the feature engineering process, algorithm
+selection rationale, training protocol, and model testing procedure.
+
+\subsection{Feature Engineering}
+
+Raw institutional variables were transformed into a structured feature matrix through
+a deliberate feature engineering process grounded in the theoretical constructs of
+Tinto's Student Integration Model and Astin's Input-Environment-Output (I-E-O)
+Model \parencite{tinto1975dropout, astin1993matters}. Every engineered feature maps
+explicitly to a theoretical construct, ensuring that algorithmic outputs retain
+institutional interpretability. The engineered feature set is summarised in
+Table~\ref{tab:features}.
+
+\begin{table}[h]
+\centering
+\caption{Engineered Feature Set and Theoretical Mapping}
+\label{tab:features}
+\begin{tabular}{p{5cm} p{4cm} p{4.5cm}}
+\hline
+\textbf{Feature} & \textbf{Theoretical Construct} & \textbf{Source System} \\
+\hline
+Cumulative GPA & Academic integration (Tinto) & AMS \\
+GPA floor proximity score & Academic integration (Tinto) & AMS \\
+Semester-on-semester GPA delta & Academic momentum & AMS \\
+Attendance rate per module & Academic integration (Tinto) & Attendance Platform \\
+Attendance breach flag (below 67\%) & Policy threshold violation & Attendance Platform \\
+Attendance trajectory slope & Disengagement trajectory & Attendance Platform \\
+LMS weekly login frequency & Social integration (Tinto) & LMS \\
+Assignment lateness rate & Behavioural disengagement & LMS \\
+Resource access count per week & Environmental engagement (Astin) & LMS \\
+Login interval variance & Engagement consistency & LMS \\
+Year of study & Student background (Astin inputs) & AMS \\
+School of enrolment & Institutional environment (Astin) & AMS \\
+Number of modules enrolled & Programme load & AMS \\
+Prior semester probation flag & Academic standing history & AMS \\
+\hline
+\end{tabular}
+\end{table}
+
+Key engineered features are described as follows:
+
+\begin{itemize}
+    \item \textbf{GPA floor proximity score:} The arithmetic distance between a
+    student's current cumulative GPA and the institutional minimum threshold
+    of 2.0, operationalising Tinto's academic integration construct as a
+    continuous proximity measure that captures deteriorating standing before
+    the threshold is breached.
+
+    \item \textbf{Attendance breach flag:} A binary indicator of whether the
+    student's module-level attendance rate has fallen below the 67\%
+    examination eligibility threshold in the current or preceding semester,
+    encoding the institution's most consequential academic policy boundary
+    as a direct model feature.
+
+    \item \textbf{Attendance trajectory slope:} The semester-over-semester
+    rate of change in a student's attendance rate, capturing declining
+    engagement trajectories several weeks before a threshold breach occurs.
+    Research has confirmed that such time-based signals carry greater
+    predictive power than static GPA values alone \parencite{dirin2022machine,
+    morris2005tracking}.
+
+    \item \textbf{LMS engagement composite:} An aggregated measure of
+    weekly login frequency, resource access, and assignment submission
+    timeliness, operationalising Astin's environmental engagement construct
+    and Tinto's social integration dimension through digital behavioural
+    proxies validated in prior EDM research \parencite{morris2005tracking}.
+
+    \item \textbf{Login interval variance:} The statistical variance in
+    the number of days between consecutive LMS logins within a semester,
+    distinguishing students with consistent engagement patterns from those
+    whose activity is concentrated in deadline-proximate bursts---a
+    behavioural pattern associated with elevated dropout risk
+    \parencite{dirin2022machine}.
+
+    \item \textbf{Semester-on-semester GPA delta:} The change in GPA
+    between consecutive semesters, encoding academic momentum as a dynamic
+    rather than static predictor and capturing deteriorating trajectories
+    that a single cross-sectional GPA value cannot detect.
+
+    \item \textbf{Assignment lateness rate:} The proportion of assignments
+    submitted after their deadlines within a given semester, serving as a
+    behavioural proxy for academic disengagement prior to formal grade
+    consequences materialising.
+\end{itemize}
+
+The feature matrix supported three separate binary prediction targets:
+\begin{itemize}
+    \item \textbf{Dropout risk:} active or graduated (0) vs.\ withdrawn before
+    degree completion (1).
+    \item \textbf{Course failure risk:} passing all enrolled modules (0) vs.\
+    failing at least one module or becoming examination-ineligible due to
+    attendance breach (1).
+    \item \textbf{Programme delay risk:} completing within standard programme
+    duration (0) vs.\ exceeding standard duration due to probation, course
+    repetition, or accumulated failed semesters (1).
+\end{itemize}
+
+\subsection{Algorithm Selection}
+
+Three ensemble tree-based algorithms were selected for model development:
+Random Forest \parencite{breiman2001random}, Gradient Boosting
+\parencite{friedman2001greedy}, and XGBoost \parencite{chen2016xgboost}. The
+selection of ensemble methods over classical classifiers---such as Logistic
+Regression, Naïve Bayes, or single Decision Trees---was informed by three
+converging lines of evidence from the literature reviewed in Chapter Two.
+
+First, a systematic review of 72 EDM studies confirmed that ensemble methods
+consistently outperform classical classifiers when predicting student outcomes
+from multi-source institutional data containing non-linear feature interactions
+\parencite{aldowah2026predicting}. Second, on a comparable institutional dataset of
+17,883 student records, XGBoost achieved an AUC-ROC of 0.993 and a Recall
+of 0.944, outperforming all classical alternatives including Logistic Regression
+(AUC-ROC: 0.968) and Naïve Bayes (AUC-ROC: 0.881)
+\parencite{bettahi2025}. Third, at Wollo University in Ethiopia---a
+geographically proximate African institutional context---ensemble classifiers
+achieved up to 96\% accuracy on large-scale institutional data
+\parencite{esmael2024student}.
+
+Deep learning architectures, including Multi-Layer Perceptrons (MLP) and
+Long Short-Term Memory (LSTM) networks, were deliberately excluded from
+this study for two reasons. First, the Strathmore institutional dataset of
+approximately 5,000 students is insufficient to realise the generalisation
+advantages of deep learning, which typically require substantially larger training
+datasets to overcome overfitting \parencite{aldowah2026predicting}. Second, deep
+learning models operate as black boxes, providing no interpretable reasoning for
+individual predictions---a critical barrier to institutional adoption in advisory
+contexts where advisors must be able to explain and defend risk classifications
+to students and institutional governance structures
+\parencite{kwakye2025, zhang2021interpretable}. The ensemble methods
+selected in this study are both higher-performing on structured tabular data of
+this scale and directly compatible with the SHAP explainability layer that is a
+design prerequisite for this platform.
+
+\subsection{Model Training}
+
+Model training was implemented in Python 3.12 using \texttt{scikit-learn} 1.5
+for Random Forest and Gradient Boosting, and \texttt{xgboost} 2.1 for the
+XGBoost classifier \parencite{pedregosa2011scikit, chen2016xgboost}. A separate
+model was trained for each of the three prediction targets (dropout risk, course
+failure risk, and programme delay risk), yielding nine trained model instances
+in total (three algorithms $\times$ three targets). Training followed a
+four-stage protocol designed to maximise generalisation and ensure that
+reported performance reflects genuine predictive capability rather than
+dataset-specific memorisation \parencite{aldowah2026predicting, bettahi2025}:
+
+\begin{enumerate}
+    \item \textbf{Stratified train/test split:} The full dataset was partitioned
+    into an 80\% training set and a 20\% held-out test set using stratified
+    random splitting, preserving the empirical class ratio of at-risk to
+    non-at-risk students in both partitions. A fixed random seed was applied
+    to ensure reproducibility across experimental runs.
+
+    \item \textbf{SMOTE oversampling:} SMOTE was applied exclusively to the
+    training partition after splitting to generate synthetic at-risk instances,
+    correcting the class imbalance before model fitting. The test partition
+    retained the original empirical class distribution to ensure evaluation
+    reflected real-world deployment conditions \parencite{chawla2002smote}.
+
+    \item \textbf{Stratified $k$-fold cross-validation:} Five-fold stratified
+    cross-validation was applied to the SMOTE-augmented training partition to
+    estimate generalisation performance across multiple data subsets, producing
+    more stable performance estimates than a single holdout validation set
+    \parencite{bettahi2025}.
+
+    \item \textbf{Hyperparameter tuning:} Grid search with cross-validation
+    was applied to each algorithm to identify optimal hyperparameter
+    configurations. For Random Forest, the search space included the number
+    of estimators (\texttt{n\_estimators}: 100, 200, 500), maximum tree depth
+    (\texttt{max\_depth}: 5, 10, None), and minimum samples per leaf
+    (\texttt{min\_samples\_leaf}: 1, 2, 5). For Gradient Boosting and
+    XGBoost, the search additionally included learning rate (\texttt{learning\_rate}:
+    0.01, 0.05, 0.1, 0.2) and subsample ratio (\texttt{subsample}: 0.7, 0.8, 1.0).
+    Tuning was conducted within the cross-validation loop to prevent
+    hyperparameter leakage from the test set \parencite{esmael2024student}.
+\end{enumerate}
+
+\subsection{SHAP Explainability Integration}
+
+Following model training, SHAP (SHapley Additive exPlanations)
+\parencite{lundberg2017unified} was integrated as the explainability layer for all
+three prediction targets. SHAP TreeExplainer was applied to the Random Forest,
+Gradient Boosting, and XGBoost models, computing exact Shapley values for
+every prediction on the test set. For each student, SHAP outputs decomposed
+the model's risk score into individual feature contributions, identifying both
+the risk-amplifying factors pushing the prediction toward at-risk and the
+protective factors mitigating that risk.
+
+SHAP was selected over alternative explainability methods---including LIME
+(Local Interpretable Model-agnostic Explanations) and Partial Dependence
+Plots (PDP)---for three reasons: (i) SHAP provides mathematically consistent,
+locally accurate feature attribution based on cooperative game theory, ensuring
+that feature contributions sum precisely to the prediction output
+\parencite{lundberg2017unified}; (ii) SHAP TreeExplainer is computationally
+efficient for tree-based ensemble models, enabling real-time explanations at
+deployment scale; and (iii) SHAP-based explainability has been validated as a
+prerequisite for institutional adoption of predictive analytics in educational
+contexts, providing intuitive decision support for advisors who must translate
+model outputs into student-specific intervention conversations
+\parencite{zhang2021interpretable, kwakye2025}.
+
+The SHAP outputs were integrated into the role-based dashboard architecture
+described in Section~\ref{sec:system_design}, presenting each student's top
+positive and negative feature contributors in a format accessible to
+non-specialist advisor users.
+
+\subsection{Model Testing}
+
+The best-performing model configuration for each prediction target was selected
+based on cross-validation Recall scores and evaluated on the held-out 20\% test
+set. Five standard evaluation metrics were computed for each model:
+
+\begin{itemize}
+    \item \textbf{Accuracy:} The proportion of correct predictions (both at-risk
+    and not-at-risk) relative to total test observations.
+
+    \item \textbf{Precision:} The proportion of students predicted as at-risk
+    who are genuinely at-risk, minimising the misallocation of scarce
+    counselling resources to students who do not require intervention.
+
+    \item \textbf{Recall (Sensitivity):} The proportion of genuinely at-risk
+    students correctly identified by the model. Recall was designated the
+    primary evaluation metric because failing to identify a genuinely
+    at-risk student---a false negative---carries greater institutional cost
+    than incorrectly flagging a non-at-risk student---a false positive---in
+    a student support context \parencite{hassen2020bayesian}.
+
+    \item \textbf{F1-Score:} The harmonic mean of Precision and Recall,
+    providing a single balanced metric that accounts simultaneously for
+    false negatives and false positives.
+
+    \item \textbf{ROC-AUC:} The area under the Receiver Operating
+    Characteristic curve, providing a threshold-independent measure of
+    each model's discriminative ability across all classification thresholds.
+    An AUC of 1.0 indicates perfect discrimination; 0.5 indicates
+    chance-level performance.
+\end{itemize}
+
+Statistical comparison between the three algorithms for each prediction target
+was conducted using McNemar's paired significance test on test-set predictions,
+following \parencite{bettahi2025}, to determine whether performance
+differences between models were statistically significant rather than
+attributable to sampling variability. All evaluation outputs---confusion
+matrices, ROC curves, per-class precision and recall, and SHAP summary
+plots---were logged systematically to a structured output directory, ensuring
+full reproducibility of reported results.
+
+\section{System Development Methodology}
+
+The platform was developed following an Agile iterative development methodology,
+adapted to the constraints of an academic research context. Development proceeded
+in structured sprints, each concluded by a review with the supervising faculty and,
+where applicable, with institutional stakeholder representatives. This approach
+facilitated continuous alignment between technical development decisions and the
+institutional requirements of Strathmore University.
+
+\subsection{System Analysis}
+
+\subsubsection{System Requirements Specification}
+
+System requirements were elicited through a structured requirements analysis process
+comprising three activities: (i) a review of existing student early warning systems,
+particularly the GPS Advising system at Georgia State University
+\parencite{georgia2024gps} and the open-source XGBoost--SHAP pipeline developed
+by \parencite{bettahi2025}; (ii) analysis of Strathmore University's academic
+policies and data infrastructure documentation; and (iii) consultations with
+university administrators and academic mentors to identify institutional workflow
+and dashboard requirements.
+
+Functional requirements specified that the system must: (a) integrate data from the
+AMS, LMS, and attendance tracking platforms into a single unified pipeline; (b)
+generate simultaneous risk predictions for dropout, course failure, and programme
+delay for each enrolled student; (c) present risk predictions through role-differentiated
+dashboards tailored to university administrators, school administrators, and academic
+mentors respectively; (d) provide SHAP-based explainability outputs alongside each
+prediction, identifying the specific feature contributions driving each individual
+student's risk classification; and (e) generate automated alerts for students crossing
+predefined risk thresholds, enabling timely advisor outreach.
+
+Non-functional requirements specified that the platform must: operate entirely on
+open-source tools without commercial licensing costs; protect student data through
+role-based access controls and pseudonymisation; and present information in a
+format comprehensible to non-technical advisor users without specialist data
+science literacy.
+
+\subsubsection{System Hardware Analysis}
+
+The platform was designed to operate on standard university server infrastructure
+without requiring specialised hardware, given that ensemble tree-based models are
+computationally efficient on CPU hardware at the dataset scale of approximately
+5,000 students. Minimum hardware specifications were established as a multi-core
+CPU server with at least 16\,GB RAM, 500\,GB storage for the data pipeline and
+model artefacts, and network connectivity to the AMS, LMS, and attendance
+tracking systems through the university's internal network.
+
+\subsubsection{System Software Analysis}
+
+The software stack was selected entirely from open-source components to satisfy
+the non-functional requirement of cost-free institutional deployment, directly
+addressing the transferability limitation of the proprietary EAB Navigate platform
+identified in Chapter Two \parencite{wan2019predictive}. The software environment
+comprised: Python 3.12 as the primary programming language;
+\texttt{scikit-learn} 1.5 for data pre-processing, feature engineering, and
+Random Forest and Gradient Boosting model training \parencite{pedregosa2011scikit};
+\texttt{xgboost} 2.1 for XGBoost model development \parencite{chen2016xgboost};
+\texttt{shap} 0.46 for SHAP explainability \citparenciteep{lundberg2017unified};
+\texttt{pandas} 2.2 and \texttt{NumPy} 1.26 for data manipulation; and
+\texttt{Flask} 3.0 as the lightweight web framework for the dashboard
+application layer.
+
+\subsection{System Design}
+\label{sec:system_design}
+
+The system architecture followed a layered design comprising four functional tiers:
+(i) the \textbf{Data Integration Layer}, responsible for extracting, merging,
+cleaning, and validating records from the AMS, LMS, and attendance platform;
+(ii) the \textbf{Analytics Layer}, housing the feature engineering pipeline,
+the nine trained ensemble models (three algorithms $\times$ three prediction
+targets), and the SHAP explainability engine; (iii) the \textbf{Prediction API
+Layer}, exposing model outputs as structured JSON responses through a RESTful
+interface; and (iv) the \textbf{Presentation Layer}, delivering role-based
+dashboards through a web interface accessible via authenticated university
+credentials integrated with Strathmore's Active Directory.
+
+The role-based dashboard architecture distinguished three user views. The
+\textbf{University Administrator} dashboard presented institution-wide risk
+distribution summaries, school-level at-risk counts across all three risk
+dimensions, and temporal trend visualisations. The \textbf{School Administrator}
+dashboard presented school-specific student risk rankings and cohort-level risk
+profiles, stratified by dropout, course failure, and programme delay risk. The
+\textbf{Academic Mentor} dashboard presented individual student risk profiles,
+SHAP feature contribution visualisations identifying each student's top
+risk-amplifying and protective factors, and suggested intervention
+categories---such as attendance counselling, tutoring referral, or academic
+probation review---matched to the dominant risk drivers identified for each
+student by the SHAP outputs.
+
+\subsection{System Implementation}
+
+System implementation followed the sprint-based Agile schedule, with development
+proceeding iteratively from the data pipeline and model training components
+outward to the dashboard and alert systems. The data pipeline was implemented
+and validated first against a subset of real institutional data under the data
+access agreement. Model training and evaluation were conducted in the second
+phase, with the best-performing algorithm for each prediction target selected
+for deployment. Dashboard development and SHAP integration were implemented
+in the final phase, with the completed prototype subjected to stakeholder
+usability evaluation as described in Section~\ref{sec:data_collection}.
+
+\section{Research Quality Aspects}
+
+\subsection{Validity}
+
+Internal validity was addressed through the use of stratified train/test splits
+and stratified $k$-fold cross-validation, ensuring that performance estimates
+reflected genuine generalisation to unseen students rather than artefacts of a
+single data partition. Leakage prevention---excluding final outcome labels from
+the training feature set and computing normalisation parameters exclusively on
+the training partition---further protected against artificially optimistic
+performance estimates. SMOTE oversampling was applied exclusively within the
+training partition, ensuring test-set class distribution mirrored real-world
+deployment conditions.
+
+External validity was addressed through the use of a complete institutional
+cohort rather than a convenience sample, maximising the representativeness of
+training data for the target deployment population. Pipeline replication on the
+publicly available UCI Portugal student dataset \parencite{realinho2021predict}
+provided an additional external validity check, consistent with the
+methodological approach of \parencite{bettahi2025}.
+
+\subsection{Reliability}
+
+Reliability was ensured through the use of fixed random seeds across all
+stochastic pipeline components---data splitting, SMOTE oversampling, model
+initialisation, and cross-validation fold generation---ensuring that all results
+are fully reproducible from the documented configuration. All pipeline code,
+trained model artefacts, and evaluation outputs were version-controlled using
+Git, providing a complete audit trail. McNemar's statistical significance
+testing was applied to all model performance comparisons to ensure that reported
+differences were not attributable to sampling variability.
+
+\subsection{Objectivity}
+
+Objectivity was maintained through the pre-registration of model evaluation
+criteria and metric priorities---particularly the prioritisation of Recall over
+Accuracy as the primary metric---prior to conducting final test-set evaluation,
+preventing post-hoc selection of metrics favourable to specific model outcomes.
+Stakeholder evaluation instruments were administered in a standardised format,
+with participants completing feedback instruments independently to minimise
+social desirability effects in usability ratings.
+
+\section{Ethical Considerations}
+
+The study was conducted in accordance with Strathmore University's research
+ethics framework and the principles of the Kenya Data Protection Act (2019).
+Ethical clearance was obtained from the Strathmore University Institutional
+Review Board prior to data collection. The following ethical safeguards were
+implemented throughout the study:
+
+\begin{itemize}
+    \item \textbf{Data anonymisation:} All student records were de-identified
+    prior to extraction by replacing personally identifiable information with
+    pseudonymous identifiers. No data capable of re-identifying individual
+    students was retained in the analytical dataset.
+
+    \item \textbf{Informed consent:} Participants in the system evaluation
+    phase provided written informed consent prior to participation, with the
+    right to withdraw at any time without consequence.
+
+    \item \textbf{Data minimisation:} Only the data fields strictly necessary
+    for the research objectives were extracted, consistent with the data
+    minimisation principle of the Kenya Data Protection Act (2019).
+
+    \item \textbf{Access controls:} The extracted dataset was stored in a
+    password-protected, encrypted repository accessible only to the researcher
+    and supervising faculty.
+
+    \item \textbf{Human-in-the-loop deployment:} The platform was designed
+    as a decision-support tool that augments rather than replaces professional
+    advisor judgment. All risk classifications were presented as
+    evidence-based recommendations, not autonomous verdicts, preserving the
+    advisor's role as the responsible decision-making agent \parencite{kwakye2025}.
+
+    \item \textbf{Fairness and bias audit:} The trained models were assessed
+    for differential prediction performance across student subgroups defined
+    by school of enrolment and year of study, ensuring that the platform
+    did not systematically disadvantage any student subgroup through biased
+    risk classifications \citparenciteep{bello2025developing, kwakye2025}.
+    Results of the fairness audit are reported in Chapter Four.
+\end{itemize}
+
+Chapter Four now presents the system implementation results, model evaluation
+findings, SHAP explainability outputs, and stakeholder usability evaluation
+outcomes.
 
 % ─────────────────────────────────────────────────────────────────────────────
 % REFERENCES
