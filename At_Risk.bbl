@@ -79,61 +79,21 @@
       \strng{authorbibnamehash}{324492611f377550ce764f0d053b1491}
       \strng{authornamehash}{8df7087b91529758cded7e03c4f83ba2}
       \strng{authorfullhash}{324492611f377550ce764f0d053b1491}
-      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computers and Education: Artificial Intelligence}
       \field{title}{Predicting student performance: A comprehensive review of machine learning, deep learning, and explainable {AI} approaches}
       \field{year}{2026}
-      \verb{doi}
-      \verb 10.1016/j.caeai.2026.100003
+      \verb{urlraw}
+      \verb https://www.scilit.com/publications/9c63933d2cd18f8e06a6fbe4f697e063
       \endverb
-    \endentry
-    \entry{aldowah2026predicting}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=b5b09e690b36ad81e13d30901674749e}{%
-           family={Aldowah},
-           familyi={A\bibinitperiod},
-           given={Hanan},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f189023ef8c0c3f075480230a0fafd31}{%
-           family={Al-Samarraie},
-           familyi={A\bibinithyphendelim S\bibinitperiod},
-           given={Hosam},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=81a793c3d6cca59493a4811a128e30e6}{%
-           family={Fauzy},
-           familyi={F\bibinitperiod},
-           given={Wan\bibnamedelima Mohamad},
-           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b3daaa29866b43b67c3dd05f51b14094}
-      \strng{fullhash}{9842a3e3753a099520c0b400d1e94918}
-      \strng{bibnamehash}{9842a3e3753a099520c0b400d1e94918}
-      \strng{authorbibnamehash}{9842a3e3753a099520c0b400d1e94918}
-      \strng{authornamehash}{b3daaa29866b43b67c3dd05f51b14094}
-      \strng{authorfullhash}{9842a3e3753a099520c0b400d1e94918}
-      \field{extraname}{2}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computers and Education: Artificial Intelligence}
-      \field{title}{Predicting student performance: A comprehensive review of machine learning, deep learning, and explainable {AI} approaches}
-      \field{year}{2026}
-      \verb{doi}
-      \verb 10.1016/j.caeai.2026.100003
+      \verb{url}
+      \verb https://www.scilit.com/publications/9c63933d2cd18f8e06a6fbe4f697e063
       \endverb
     \endentry
     \entry{GSUCaseStudy2019}{misc}{}
@@ -546,80 +506,39 @@
       \verb 10.1613/jair.953
       \endverb
     \endentry
-    \entry{Chen2016}{article}{}
+    \entry{chen2016}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=48461ccdf50ba5a54e29a354aa734c0b}{%
+        {{un=0,uniquepart=base,hash=17541c65107086b7d7dd596d7ad81405}{%
            family={Chen},
            familyi={C\bibinitperiod},
-           given={Tianqi},
+           given={T.},
            giveni={T\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=c9ab8ac486d7f85ac914b1a8e51e512b}{%
+        {{un=0,uniquepart=base,hash=a3be5ea6b470ac63fe702e54e17ed48c}{%
            family={Guestrin},
            familyi={G\bibinitperiod},
-           given={Carlos},
+           given={C.},
            giveni={C\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{fullhash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{bibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authorbibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authornamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authorfullhash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \field{extraname}{1}
+      \strng{namehash}{504b0676eab5f1fea28621d004e40d9a}
+      \strng{fullhash}{504b0676eab5f1fea28621d004e40d9a}
+      \strng{bibnamehash}{504b0676eab5f1fea28621d004e40d9a}
+      \strng{authorbibnamehash}{504b0676eab5f1fea28621d004e40d9a}
+      \strng{authornamehash}{504b0676eab5f1fea28621d004e40d9a}
+      \strng{authorfullhash}{504b0676eab5f1fea28621d004e40d9a}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
-      \field{title}{XGBoost: A Scalable Tree Boosting System}
+      \field{title}{XGBoost: A scalable tree boosting system}
       \field{year}{2016}
       \field{pages}{785\bibrangedash 794}
       \range{pages}{10}
-    \endentry
-    \entry{chen2016xgboost}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=48461ccdf50ba5a54e29a354aa734c0b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Tianqi},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c9ab8ac486d7f85ac914b1a8e51e512b}{%
-           family={Guestrin},
-           familyi={G\bibinitperiod},
-           given={Carlos},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{fullhash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{bibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authorbibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authornamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authorfullhash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \field{extraname}{2}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the 22nd {ACM SIGKDD} International Conference on Knowledge Discovery and Data Mining}
-      \field{title}{{XGBoost}: A scalable tree boosting system}
-      \field{year}{2016}
-      \field{pages}{785\bibrangedash 794}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/2939672.2939785
-      \endverb
     \endentry
     \entry{dailynation2024}{misc}{}
       \name{author}{1}{}{%
@@ -645,46 +564,6 @@
       \field{title}{University dropout risk looms large. {H}ere's why}
       \field{year}{2024}
     \endentry
-    \entry{dirin2022}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=10f2d0576e58308f715529bbd80f4c08}{%
-           family={Dirin},
-           familyi={D\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=113bbd771aed4437029dc6f4dbde2d57}{%
-           family={Saballe},
-           familyi={S\bibinitperiod},
-           given={C.\bibnamedelimi A.},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6e2a1c34b07d68120752aa68433a64a6}
-      \strng{fullhash}{6e2a1c34b07d68120752aa68433a64a6}
-      \strng{bibnamehash}{6e2a1c34b07d68120752aa68433a64a6}
-      \strng{authorbibnamehash}{6e2a1c34b07d68120752aa68433a64a6}
-      \strng{authornamehash}{6e2a1c34b07d68120752aa68433a64a6}
-      \strng{authorfullhash}{6e2a1c34b07d68120752aa68433a64a6}
-      \field{extraname}{1}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Interactive Mobile Technologies}
-      \field{number}{01}
-      \field{title}{Machine learning models to predict students' study path selection}
-      \field{volume}{16}
-      \field{year}{2022}
-      \field{pages}{158\bibrangedash 183}
-      \range{pages}{26}
-      \verb{doi}
-      \verb 10.3991/ijim.v16i01.20121
-      \endverb
-    \endentry
     \entry{Dirin2022}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c3ce87d3d9dfc55f1af8a7c2e411fbeb}{%
@@ -706,57 +585,16 @@
       \strng{authorbibnamehash}{175edd6e8fd11fcb6b0d5f111bcb39cd}
       \strng{authornamehash}{175edd6e8fd11fcb6b0d5f111bcb39cd}
       \strng{authorfullhash}{175edd6e8fd11fcb6b0d5f111bcb39cd}
-      \field{extraname}{2}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Interactive Mobile Technologies (iJIM)}
       \field{number}{01}
       \field{title}{Machine Learning Models to Predict Students' Study Path Selection}
-      \field{volume}{16}
-      \field{year}{2022}
-      \field{pages}{158\bibrangedash 183}
-      \range{pages}{26}
-      \verb{doi}
-      \verb 10.3991/ijim.v16i01.20121
-      \endverb
-    \endentry
-    \entry{dirin2022machine}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=c3ce87d3d9dfc55f1af8a7c2e411fbeb}{%
-           family={Dirin},
-           familyi={D\bibinitperiod},
-           given={Amir},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=59d78bc27413b8cc3129225c74bf9943}{%
-           family={Saballe},
-           familyi={S\bibinitperiod},
-           given={Chidi\bibnamedelima A.},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{028fa36fb8a4925150de8592919821e6}
-      \strng{fullhash}{028fa36fb8a4925150de8592919821e6}
-      \strng{bibnamehash}{028fa36fb8a4925150de8592919821e6}
-      \strng{authorbibnamehash}{028fa36fb8a4925150de8592919821e6}
-      \strng{authornamehash}{028fa36fb8a4925150de8592919821e6}
-      \strng{authorfullhash}{028fa36fb8a4925150de8592919821e6}
-      \field{extraname}{3}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradate}{3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Interactive Mobile Technologies}
-      \field{number}{01}
-      \field{title}{Machine learning models to predict students' study path selection}
       \field{volume}{16}
       \field{year}{2022}
       \field{pages}{158\bibrangedash 183}
@@ -809,45 +647,11 @@
       \strng{authorbibnamehash}{ee5669d9f7b9698d494126d036059732}
       \strng{authornamehash}{ee5669d9f7b9698d494126d036059732}
       \strng{authorfullhash}{ee5669d9f7b9698d494126d036059732}
-      \field{extraname}{1}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Computational Intelligence and Soft Computing}
-      \field{title}{Student performance prediction using machine learning algorithms}
-      \field{volume}{2024}
-      \field{year}{2024}
-      \field{pages}{4067721}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1155/2024/4067721
-      \endverb
-    \endentry
-    \entry{esmael2024student}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3858c469b888914e6512880fe38478dc}{%
-           family={Esmael},
-           familyi={E\bibinitperiod},
-           given={Biruk},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{3858c469b888914e6512880fe38478dc}
-      \strng{fullhash}{3858c469b888914e6512880fe38478dc}
-      \strng{bibnamehash}{3858c469b888914e6512880fe38478dc}
-      \strng{authorbibnamehash}{3858c469b888914e6512880fe38478dc}
-      \strng{authornamehash}{3858c469b888914e6512880fe38478dc}
-      \strng{authorfullhash}{3858c469b888914e6512880fe38478dc}
-      \field{extraname}{2}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Computational Intelligence and Soft Computing}
@@ -1585,52 +1389,6 @@
       \field{pages}{4765\bibrangedash 4774}
       \range{pages}{10}
     \endentry
-    \entry{morris2005}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=f4be0b1232131431ccf2ace2d4d76fa3}{%
-           family={Morris},
-           familyi={M\bibinitperiod},
-           given={L.\bibnamedelimi V.},
-           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=543447517ff4a43040bd0ca1024b5533}{%
-           family={Finnegan},
-           familyi={F\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d47ade3b185eabfda54e1f759f6a395a}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={S.-S.},
-           giveni={S\bibinithyphendelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{20d6d9cd4095619daeefd6851bdd182a}
-      \strng{fullhash}{c896b71c2c0037c042412a8ab47805d0}
-      \strng{bibnamehash}{c896b71c2c0037c042412a8ab47805d0}
-      \strng{authorbibnamehash}{c896b71c2c0037c042412a8ab47805d0}
-      \strng{authornamehash}{20d6d9cd4095619daeefd6851bdd182a}
-      \strng{authorfullhash}{c896b71c2c0037c042412a8ab47805d0}
-      \field{extraname}{1}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Internet and Higher Education}
-      \field{number}{3}
-      \field{title}{Tracking student behavior, persistence, and achievement in online courses}
-      \field{volume}{8}
-      \field{year}{2005}
-      \field{pages}{221\bibrangedash 231}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1016/j.iheduc.2005.06.009
-      \endverb
-    \endentry
     \entry{Morris2005}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=836b7c7c32862e6d6e623bc6f8a9c149}{%
@@ -1658,63 +1416,16 @@
       \strng{authorbibnamehash}{ae9815f29be35e37d2ae1413e1203306}
       \strng{authornamehash}{418c077edae720eb7158d4a1907396f5}
       \strng{authorfullhash}{ae9815f29be35e37d2ae1413e1203306}
-      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Internet and Higher Education}
       \field{number}{3}
       \field{title}{Tracking Student Behavior, Persistence, and Achievement in Online Courses}
-      \field{volume}{8}
-      \field{year}{2005}
-      \field{pages}{221\bibrangedash 231}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1016/j.iheduc.2005.06.009
-      \endverb
-    \endentry
-    \entry{morris2005tracking}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=836b7c7c32862e6d6e623bc6f8a9c149}{%
-           family={Morris},
-           familyi={M\bibinitperiod},
-           given={Libby\bibnamedelima V.},
-           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=19d6e742eb2a03ce8034e82c2bf93312}{%
-           family={Finnegan},
-           familyi={F\bibinitperiod},
-           given={Cathy},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=11b82cbc5231e7b15421eed51da28228}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Sz-Shyan},
-           giveni={S\bibinithyphendelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{418c077edae720eb7158d4a1907396f5}
-      \strng{fullhash}{ceade0fa10978437c89c0104437b8e93}
-      \strng{bibnamehash}{ceade0fa10978437c89c0104437b8e93}
-      \strng{authorbibnamehash}{ceade0fa10978437c89c0104437b8e93}
-      \strng{authornamehash}{418c077edae720eb7158d4a1907396f5}
-      \strng{authorfullhash}{ceade0fa10978437c89c0104437b8e93}
-      \field{extraname}{3}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Internet and Higher Education}
-      \field{number}{3}
-      \field{title}{Tracking student behavior, persistence, and achievement in online courses}
       \field{volume}{8}
       \field{year}{2005}
       \field{pages}{221\bibrangedash 231}
@@ -2654,51 +2365,11 @@
       \strng{authorbibnamehash}{78c767594567373afd2e74383a4ef380}
       \strng{authornamehash}{78c767594567373afd2e74383a4ef380}
       \strng{authorfullhash}{78c767594567373afd2e74383a4ef380}
-      \field{extraname}{1}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Complex \& Intelligent Systems}
-      \field{title}{An interpretable prediction method for university student academic crisis warning}
-      \field{volume}{7}
-      \field{year}{2021}
-      \field{pages}{1603\bibrangedash 1618}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1007/s40747-021-00383-0
-      \endverb
-    \endentry
-    \entry{zhang2021interpretable}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=948f26b38fba102b6f820808e554bc53}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Jing},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f15b34a2bc944a9f055fd6e2e3a7c460}{%
-           family={Tao},
-           familyi={T\bibinitperiod},
-           given={Dacheng},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{91cfd99b587137811a2385a0d2dc1787}
-      \strng{fullhash}{91cfd99b587137811a2385a0d2dc1787}
-      \strng{bibnamehash}{91cfd99b587137811a2385a0d2dc1787}
-      \strng{authorbibnamehash}{91cfd99b587137811a2385a0d2dc1787}
-      \strng{authornamehash}{91cfd99b587137811a2385a0d2dc1787}
-      \strng{authorfullhash}{91cfd99b587137811a2385a0d2dc1787}
-      \field{extraname}{2}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Complex \& Intelligent Systems}
@@ -2773,61 +2444,21 @@
       \strng{authorbibnamehash}{324492611f377550ce764f0d053b1491}
       \strng{authornamehash}{8df7087b91529758cded7e03c4f83ba2}
       \strng{authorfullhash}{324492611f377550ce764f0d053b1491}
-      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computers and Education: Artificial Intelligence}
       \field{title}{Predicting student performance: A comprehensive review of machine learning, deep learning, and explainable {AI} approaches}
       \field{year}{2026}
-      \verb{doi}
-      \verb 10.1016/j.caeai.2026.100003
+      \verb{urlraw}
+      \verb https://www.scilit.com/publications/9c63933d2cd18f8e06a6fbe4f697e063
       \endverb
-    \endentry
-    \entry{aldowah2026predicting}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=b5b09e690b36ad81e13d30901674749e}{%
-           family={Aldowah},
-           familyi={A\bibinitperiod},
-           given={Hanan},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f189023ef8c0c3f075480230a0fafd31}{%
-           family={Al-Samarraie},
-           familyi={A\bibinithyphendelim S\bibinitperiod},
-           given={Hosam},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=81a793c3d6cca59493a4811a128e30e6}{%
-           family={Fauzy},
-           familyi={F\bibinitperiod},
-           given={Wan\bibnamedelima Mohamad},
-           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b3daaa29866b43b67c3dd05f51b14094}
-      \strng{fullhash}{9842a3e3753a099520c0b400d1e94918}
-      \strng{bibnamehash}{9842a3e3753a099520c0b400d1e94918}
-      \strng{authorbibnamehash}{9842a3e3753a099520c0b400d1e94918}
-      \strng{authornamehash}{b3daaa29866b43b67c3dd05f51b14094}
-      \strng{authorfullhash}{9842a3e3753a099520c0b400d1e94918}
-      \field{extraname}{2}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computers and Education: Artificial Intelligence}
-      \field{title}{Predicting student performance: A comprehensive review of machine learning, deep learning, and explainable {AI} approaches}
-      \field{year}{2026}
-      \verb{doi}
-      \verb 10.1016/j.caeai.2026.100003
+      \verb{url}
+      \verb https://www.scilit.com/publications/9c63933d2cd18f8e06a6fbe4f697e063
       \endverb
     \endentry
     \entry{GSUCaseStudy2019}{misc}{}
@@ -3240,80 +2871,39 @@
       \verb 10.1613/jair.953
       \endverb
     \endentry
-    \entry{Chen2016}{article}{}
+    \entry{chen2016}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=48461ccdf50ba5a54e29a354aa734c0b}{%
+        {{un=0,uniquepart=base,hash=17541c65107086b7d7dd596d7ad81405}{%
            family={Chen},
            familyi={C\bibinitperiod},
-           given={Tianqi},
+           given={T.},
            giveni={T\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=c9ab8ac486d7f85ac914b1a8e51e512b}{%
+        {{un=0,uniquepart=base,hash=a3be5ea6b470ac63fe702e54e17ed48c}{%
            family={Guestrin},
            familyi={G\bibinitperiod},
-           given={Carlos},
+           given={C.},
            giveni={C\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{fullhash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{bibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authorbibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authornamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authorfullhash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \field{extraname}{1}
+      \strng{namehash}{504b0676eab5f1fea28621d004e40d9a}
+      \strng{fullhash}{504b0676eab5f1fea28621d004e40d9a}
+      \strng{bibnamehash}{504b0676eab5f1fea28621d004e40d9a}
+      \strng{authorbibnamehash}{504b0676eab5f1fea28621d004e40d9a}
+      \strng{authornamehash}{504b0676eab5f1fea28621d004e40d9a}
+      \strng{authorfullhash}{504b0676eab5f1fea28621d004e40d9a}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
-      \field{title}{XGBoost: A Scalable Tree Boosting System}
+      \field{title}{XGBoost: A scalable tree boosting system}
       \field{year}{2016}
       \field{pages}{785\bibrangedash 794}
       \range{pages}{10}
-    \endentry
-    \entry{chen2016xgboost}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=48461ccdf50ba5a54e29a354aa734c0b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Tianqi},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c9ab8ac486d7f85ac914b1a8e51e512b}{%
-           family={Guestrin},
-           familyi={G\bibinitperiod},
-           given={Carlos},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{fullhash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{bibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authorbibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authornamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authorfullhash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \field{extraname}{2}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the 22nd {ACM SIGKDD} International Conference on Knowledge Discovery and Data Mining}
-      \field{title}{{XGBoost}: A scalable tree boosting system}
-      \field{year}{2016}
-      \field{pages}{785\bibrangedash 794}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/2939672.2939785
-      \endverb
     \endentry
     \entry{dailynation2024}{misc}{}
       \name{author}{1}{}{%
@@ -3339,46 +2929,6 @@
       \field{title}{University dropout risk looms large. {H}ere's why}
       \field{year}{2024}
     \endentry
-    \entry{dirin2022}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=10f2d0576e58308f715529bbd80f4c08}{%
-           family={Dirin},
-           familyi={D\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=113bbd771aed4437029dc6f4dbde2d57}{%
-           family={Saballe},
-           familyi={S\bibinitperiod},
-           given={C.\bibnamedelimi A.},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6e2a1c34b07d68120752aa68433a64a6}
-      \strng{fullhash}{6e2a1c34b07d68120752aa68433a64a6}
-      \strng{bibnamehash}{6e2a1c34b07d68120752aa68433a64a6}
-      \strng{authorbibnamehash}{6e2a1c34b07d68120752aa68433a64a6}
-      \strng{authornamehash}{6e2a1c34b07d68120752aa68433a64a6}
-      \strng{authorfullhash}{6e2a1c34b07d68120752aa68433a64a6}
-      \field{extraname}{1}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Interactive Mobile Technologies}
-      \field{number}{01}
-      \field{title}{Machine learning models to predict students' study path selection}
-      \field{volume}{16}
-      \field{year}{2022}
-      \field{pages}{158\bibrangedash 183}
-      \range{pages}{26}
-      \verb{doi}
-      \verb 10.3991/ijim.v16i01.20121
-      \endverb
-    \endentry
     \entry{Dirin2022}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c3ce87d3d9dfc55f1af8a7c2e411fbeb}{%
@@ -3400,57 +2950,16 @@
       \strng{authorbibnamehash}{175edd6e8fd11fcb6b0d5f111bcb39cd}
       \strng{authornamehash}{175edd6e8fd11fcb6b0d5f111bcb39cd}
       \strng{authorfullhash}{175edd6e8fd11fcb6b0d5f111bcb39cd}
-      \field{extraname}{2}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Interactive Mobile Technologies (iJIM)}
       \field{number}{01}
       \field{title}{Machine Learning Models to Predict Students' Study Path Selection}
-      \field{volume}{16}
-      \field{year}{2022}
-      \field{pages}{158\bibrangedash 183}
-      \range{pages}{26}
-      \verb{doi}
-      \verb 10.3991/ijim.v16i01.20121
-      \endverb
-    \endentry
-    \entry{dirin2022machine}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=c3ce87d3d9dfc55f1af8a7c2e411fbeb}{%
-           family={Dirin},
-           familyi={D\bibinitperiod},
-           given={Amir},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=59d78bc27413b8cc3129225c74bf9943}{%
-           family={Saballe},
-           familyi={S\bibinitperiod},
-           given={Chidi\bibnamedelima A.},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{028fa36fb8a4925150de8592919821e6}
-      \strng{fullhash}{028fa36fb8a4925150de8592919821e6}
-      \strng{bibnamehash}{028fa36fb8a4925150de8592919821e6}
-      \strng{authorbibnamehash}{028fa36fb8a4925150de8592919821e6}
-      \strng{authornamehash}{028fa36fb8a4925150de8592919821e6}
-      \strng{authorfullhash}{028fa36fb8a4925150de8592919821e6}
-      \field{extraname}{3}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradate}{3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Interactive Mobile Technologies}
-      \field{number}{01}
-      \field{title}{Machine learning models to predict students' study path selection}
       \field{volume}{16}
       \field{year}{2022}
       \field{pages}{158\bibrangedash 183}
@@ -3503,45 +3012,11 @@
       \strng{authorbibnamehash}{ee5669d9f7b9698d494126d036059732}
       \strng{authornamehash}{ee5669d9f7b9698d494126d036059732}
       \strng{authorfullhash}{ee5669d9f7b9698d494126d036059732}
-      \field{extraname}{1}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Computational Intelligence and Soft Computing}
-      \field{title}{Student performance prediction using machine learning algorithms}
-      \field{volume}{2024}
-      \field{year}{2024}
-      \field{pages}{4067721}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1155/2024/4067721
-      \endverb
-    \endentry
-    \entry{esmael2024student}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3858c469b888914e6512880fe38478dc}{%
-           family={Esmael},
-           familyi={E\bibinitperiod},
-           given={Biruk},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{3858c469b888914e6512880fe38478dc}
-      \strng{fullhash}{3858c469b888914e6512880fe38478dc}
-      \strng{bibnamehash}{3858c469b888914e6512880fe38478dc}
-      \strng{authorbibnamehash}{3858c469b888914e6512880fe38478dc}
-      \strng{authornamehash}{3858c469b888914e6512880fe38478dc}
-      \strng{authorfullhash}{3858c469b888914e6512880fe38478dc}
-      \field{extraname}{2}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Computational Intelligence and Soft Computing}
@@ -4279,52 +3754,6 @@
       \field{pages}{4765\bibrangedash 4774}
       \range{pages}{10}
     \endentry
-    \entry{morris2005}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=f4be0b1232131431ccf2ace2d4d76fa3}{%
-           family={Morris},
-           familyi={M\bibinitperiod},
-           given={L.\bibnamedelimi V.},
-           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=543447517ff4a43040bd0ca1024b5533}{%
-           family={Finnegan},
-           familyi={F\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d47ade3b185eabfda54e1f759f6a395a}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={S.-S.},
-           giveni={S\bibinithyphendelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{20d6d9cd4095619daeefd6851bdd182a}
-      \strng{fullhash}{c896b71c2c0037c042412a8ab47805d0}
-      \strng{bibnamehash}{c896b71c2c0037c042412a8ab47805d0}
-      \strng{authorbibnamehash}{c896b71c2c0037c042412a8ab47805d0}
-      \strng{authornamehash}{20d6d9cd4095619daeefd6851bdd182a}
-      \strng{authorfullhash}{c896b71c2c0037c042412a8ab47805d0}
-      \field{extraname}{1}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Internet and Higher Education}
-      \field{number}{3}
-      \field{title}{Tracking student behavior, persistence, and achievement in online courses}
-      \field{volume}{8}
-      \field{year}{2005}
-      \field{pages}{221\bibrangedash 231}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1016/j.iheduc.2005.06.009
-      \endverb
-    \endentry
     \entry{Morris2005}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=836b7c7c32862e6d6e623bc6f8a9c149}{%
@@ -4352,63 +3781,16 @@
       \strng{authorbibnamehash}{ae9815f29be35e37d2ae1413e1203306}
       \strng{authornamehash}{418c077edae720eb7158d4a1907396f5}
       \strng{authorfullhash}{ae9815f29be35e37d2ae1413e1203306}
-      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Internet and Higher Education}
       \field{number}{3}
       \field{title}{Tracking Student Behavior, Persistence, and Achievement in Online Courses}
-      \field{volume}{8}
-      \field{year}{2005}
-      \field{pages}{221\bibrangedash 231}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1016/j.iheduc.2005.06.009
-      \endverb
-    \endentry
-    \entry{morris2005tracking}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=836b7c7c32862e6d6e623bc6f8a9c149}{%
-           family={Morris},
-           familyi={M\bibinitperiod},
-           given={Libby\bibnamedelima V.},
-           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=19d6e742eb2a03ce8034e82c2bf93312}{%
-           family={Finnegan},
-           familyi={F\bibinitperiod},
-           given={Cathy},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=11b82cbc5231e7b15421eed51da28228}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Sz-Shyan},
-           giveni={S\bibinithyphendelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{418c077edae720eb7158d4a1907396f5}
-      \strng{fullhash}{ceade0fa10978437c89c0104437b8e93}
-      \strng{bibnamehash}{ceade0fa10978437c89c0104437b8e93}
-      \strng{authorbibnamehash}{ceade0fa10978437c89c0104437b8e93}
-      \strng{authornamehash}{418c077edae720eb7158d4a1907396f5}
-      \strng{authorfullhash}{ceade0fa10978437c89c0104437b8e93}
-      \field{extraname}{3}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Internet and Higher Education}
-      \field{number}{3}
-      \field{title}{Tracking student behavior, persistence, and achievement in online courses}
       \field{volume}{8}
       \field{year}{2005}
       \field{pages}{221\bibrangedash 231}
@@ -5348,51 +4730,11 @@
       \strng{authorbibnamehash}{78c767594567373afd2e74383a4ef380}
       \strng{authornamehash}{78c767594567373afd2e74383a4ef380}
       \strng{authorfullhash}{78c767594567373afd2e74383a4ef380}
-      \field{extraname}{1}
       \field{sortinit}{Z}
       \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Complex \& Intelligent Systems}
-      \field{title}{An interpretable prediction method for university student academic crisis warning}
-      \field{volume}{7}
-      \field{year}{2021}
-      \field{pages}{1603\bibrangedash 1618}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1007/s40747-021-00383-0
-      \endverb
-    \endentry
-    \entry{zhang2021interpretable}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=948f26b38fba102b6f820808e554bc53}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Jing},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f15b34a2bc944a9f055fd6e2e3a7c460}{%
-           family={Tao},
-           familyi={T\bibinitperiod},
-           given={Dacheng},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{91cfd99b587137811a2385a0d2dc1787}
-      \strng{fullhash}{91cfd99b587137811a2385a0d2dc1787}
-      \strng{bibnamehash}{91cfd99b587137811a2385a0d2dc1787}
-      \strng{authorbibnamehash}{91cfd99b587137811a2385a0d2dc1787}
-      \strng{authornamehash}{91cfd99b587137811a2385a0d2dc1787}
-      \strng{authorfullhash}{91cfd99b587137811a2385a0d2dc1787}
-      \field{extraname}{2}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Complex \& Intelligent Systems}
@@ -5406,7 +4748,7 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{hassen2020bayesian}
+  \missing{bettahi2025modular}
 \endrefsection
 \endinput
 

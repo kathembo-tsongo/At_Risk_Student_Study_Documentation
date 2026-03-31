@@ -418,7 +418,7 @@ existing systems cannot detect deteriorating engagement trajectories---declining
 LMS login frequency, late assignment submissions, and falling attendance---weeks
 before they manifest as failed grades or breached thresholds, despite research
 confirming that such time-based signals carry greater predictive power than
-static GPA values alone \parencite{dirin2022, morris2005}. Second, no
+static GPA values alone \parencite{Dirin2022, Morris2005}. Second, no
 student-level explainability exists: advisors cannot identify which specific
 factors are driving a student's deterioration and therefore cannot conduct
 evidence-based intervention conversations---a well-documented barrier to
@@ -433,7 +433,7 @@ integrated machine learning-based predictive analytics tool tailored to
 Strathmore University's academic policies, data infrastructure, and resource
 constraints. By unifying the AMS, LMS, and attendance data streams into a single
 risk stratification pipeline, training open-source ensemble models on the
-2021--2024 historical student cohort, and embedding SHAP-based explainability
+2020--2024 historical student cohort, and embedding SHAP-based explainability
 throughout, the platform simultaneously predicts dropout risk, course failure
 risk, and programme delay risk---each calibrated to the institution's 67\%
 attendance threshold and 2.0~GPA floor. The goal is to transition Strathmore
@@ -448,14 +448,14 @@ To design, develop, and evaluate a machine learning-based predictive analytics t
 \subsection{Specific Objectives}
 \begin{enumerate}
     \item To design a Machine Learning predictive tool for university administrators, school administrators, and academic mentors that present actionable risk predictions with supporting intervention guidance.
-    \item To evaluate model accuracy and predictive performance using historical student cohort data (2021--2024) and standard machine learning evaluation metrics including Accuracy, Precision, Recall, F1-score, and ROC-AUC.
+    \item To evaluate model accuracy and predictive performance using historical student cohort data (2020--2024) and standard machine learning evaluation metrics including Accuracy, Precision, Recall, F1-score, and ROC-AUC.
     \item To assess the platform's usability and perceived institutional impact through structured evaluation with academic advisors, school administrators, and mentors, with specific attention to intervention feasibility and long-term sustainability.
 \end{enumerate}
 
 \section{Research Questions}
 \begin{enumerate}
     \item How can risk predictions be effectively presented to different stakeholder groups---university administrators, school administrators, and academic mentors---to support informed decision-making?
-    \item To what extent does training predictive models on historical student cohort data (2021--2024) with known outcomes produce valid and generalisable predictions for current enrolled students?
+    \item To what extent does training predictive models on historical student cohort data (2020--2024) with known outcomes produce valid and generalisable predictions for current enrolled students?
     \item How do academic advisors, school administrators, and mentors perceive the platform's usability, intervention feasibility, and potential for long-term institutional adoption?
 \end{enumerate}
 
@@ -514,12 +514,12 @@ replicable policy instrument for comparable East African institutions.
 \section{Scope and Delimitations of the Study}
 
 \subsection{Scope}
-This research focuses on the development and evaluation of a predictive analytics platform for approximately 5,000 undergraduate students across all five schools at Strathmore University, Kenya. The technical scope involves integrating data from the Academic Management System (AMS), Learning Management System (LMS), and attendance tracking records into a unified analytics pipeline. The study develops three prediction models---targeting dropout risk, course failure risk, and program delay risk---using ensemble algorithms including Random Forest, Gradient Boosting, and XGBoost, trained on historical student cohort data from 2021--2024 with known academic outcomes. Model predictions are accompanied by SHAP-based explainability outputs to ensure advisors and administrators can understand and act on the reasons behind each risk classification \parencite{Lundberg2017}. The resulting platform includes role-based dashboards for university administrators, school administrators, and academic mentors, with model performance measured through standard machine learning evaluation metrics (Accuracy, Precision, Recall, F1-score, and ROC-AUC) and platform effectiveness assessed through structured stakeholder feedback.
+This research focuses on the development and evaluation of a predictive analytics platform for approximately 5,000 undergraduate students across all five schools at Strathmore University, Kenya. The technical scope involves integrating data from the Academic Management System (AMS), Learning Management System (LMS), and attendance tracking records into a unified analytics pipeline. The study develops three prediction models---targeting dropout risk, course failure risk, and program delay risk---using ensemble algorithms including Random Forest, Gradient Boosting, and XGBoost, trained on historical student cohort data from 2020--2024 with known academic outcomes. Model predictions are accompanied by SHAP-based explainability outputs to ensure advisors and administrators can understand and act on the reasons behind each risk classification \parencite{Lundberg2017}. The resulting platform includes role-based dashboards for university administrators, school administrators, and academic mentors, with model performance measured through standard machine learning evaluation metrics (Accuracy, Precision, Recall, F1-score, and ROC-AUC) and platform effectiveness assessed through structured stakeholder feedback.
 
 \subsection{Delimitations}
 The research boundaries are defined by the following deliberate constraints. Regarding data factors, the analysis is restricted to academic risk factors measurable through institutional systems, such as attendance rates, GPA, LMS engagement, and course grades. External variables such as socioeconomic background, mental health status, and family circumstances are excluded, as they are not systematically captured in Strathmore's existing data infrastructure and their collection would raise ethical concerns beyond the current scope. In terms of student population, the study is limited to undergraduate students across Strathmore University's five schools; postgraduate and continuing education cohorts are excluded due to their unique assessment patterns.
 
-The system capabilities are delimited to identifying risk levels and suggesting general intervention categories, such as academic counselling or tutoring referrals, rather than providing course-specific remediation. Within the algorithmic scope, the study employs ensemble tree-based methods like Random Forest and XGBoost \parencite{Chen2016} rather than deep learning architectures. This decision is justified by the dataset size of approximately 5,000 students and the critical need for feature interpretability. Furthermore, the technical platform is developed as a web-based application, with mobile-native development remaining outside the scope. Financial domains, including fee payment risk and scholarship management, are also excluded to focus purely on academic and engagement indicators. Finally, the implementation phase concludes with a functional prototype and structured evaluation; full-scale production deployment and long-term longitudinal impact assessment are reserved for future research.
+The system capabilities are delimited to identifying risk levels and suggesting general intervention categories, such as academic counselling or tutoring referrals, rather than providing course-specific remediation. Within the algorithmic scope, the study employs ensemble tree-based methods like Random Forest and XGBoost \parencite{chen2016} rather than deep learning architectures. This decision is justified by the dataset size of approximately 5,000 students and the critical need for feature interpretability. Furthermore, the technical platform is developed as a web-based application, with mobile-native development remaining outside the scope. Financial domains, including fee payment risk and scholarship management, are also excluded to focus purely on academic and engagement indicators. Finally, the implementation phase concludes with a functional prototype and structured evaluation; full-scale production deployment and long-term longitudinal impact assessment are reserved for future research.
 
 \section{Significance}
 
@@ -583,7 +583,7 @@ utilization in education, defines the problem this study addresses.
 
 The study responds by developing an ML-based predictive analytics platform tailored to
 Strathmore's policies and resource context. The platform predicts dropout, course failure,
-and programme delay using ensemble algorithms trained on the 2021--2024 historical cohort.
+and programme delay using ensemble algorithms trained on the 2020--2024 historical cohort.
 Its contributions span theory, practice, and policy: advancing retention frameworks in
 African contexts, providing a sustainable and replicable institutional tool, and
 demonstrating a cost-effective model for comparable universities across the region.
@@ -1817,7 +1817,7 @@ engagement patterns.
 
 \textbf{Stage 5 --- Model Training:} Three ensemble algorithms---Random
 Forest, XGBoost, and Gradient Boosting---are trained on the engineered
-feature matrix using historical student cohort data from 2021 to 2024.
+feature matrix using historical student cohort data from 2020 to 2024.
 Stratified cross-validation and hyperparameter tuning are applied to
 maximise generalisation performance.
 
@@ -1889,7 +1889,7 @@ This study adopted a mixed-methods research design, integrating quantitative and
 qualitative approaches within a Design Science Research (DSR) paradigm
 \parencite{peffers2007design}. The quantitative strand will govern the
 development and evaluation of machine learning predictive models, wherein historical
-student cohort data from 2021 to 2024 will be used to train, validate, and test ensemble
+student cohort data from 2020 to 2024 will be used to train, validate, and test ensemble
 classifiers against standard performance metrics. The qualitative strand will inform the
 system design and usability evaluation phases, through structured feedback sessions
 with academic advisors, school administrators, and university administrators at
@@ -1940,7 +1940,7 @@ practically significant site for this research intervention.
 \subsection{Population}
 
 The target population for this study comprises all undergraduate students enrolled at
-Strathmore University between the academic years 2021 and 2024, across all five
+Strathmore University between the academic years 2020 and 2024, across all five
 schools. This historical cohort represents approximately 5,000 students with complete
 or near-complete academic records, including GPA trajectories, attendance rates,
 Learning Management System engagement data, and final academic outcomes. For
@@ -1951,7 +1951,7 @@ student support and academic oversight functions at Strathmore University.
 \subsection{Sampling}
 
 For the machine learning model development phase, all available student records from the
- 2021--2024 historical cohort meeting the data completeness criteria,
+ 2020--2024 historical cohort meeting the data completeness criteria,
   will be included in the analytical dataset. This, will then constitute a census of the available 
   historical cohort rather than a probability sample, consistent with best practice in 
   Educational Data Mining (EDM) research, where maximising training data volume directly 
@@ -1967,12 +1967,12 @@ For the system evaluation phase, purposive sampling will be employed to select p
 \section{Data Collection}
 \label{sec:data_collection}
 
-Data collection proceeded through two parallel streams corresponding to the study's
+Data collection will proceed through two parallel streams corresponding to the study's
 quantitative and qualitative components.
 
 \subsection{Institutional Data Extraction}
 
-Quantitative data were extracted from three institutional systems at Strathmore
+Quantitative data will be extracted from three institutional systems at Strathmore
 University, subject to ethical approval and a formal data access agreement with the
 university's Data Protection Officer:
 
@@ -1981,12 +1981,11 @@ university's Data Protection Officer:
     anonymised student identifiers, school of enrolment, year of study,
     programme, GPA per semester, cumulative GPA, academic standing flags
     (probation, suspension), and final outcome status (active, graduated,
-    withdrawn, or deferred) for the 2021--2024 cohort.
+    withdrawn, or deferred) for the 2020--2024 cohort.
 
     \item \textbf{Learning Management System (LMS):} Engagement logs including
     weekly login frequency, resource access counts, assignment submission
-    timestamps and lateness flags, and discussion participation counts per
-    semester per student.
+    timestamps and lateness flags per student.
 
     \item \textbf{Attendance Tracking Platform:} Per-module attendance rates per
     semester, attendance breach flags indicating students who have fallen
@@ -1994,93 +1993,93 @@ university's Data Protection Officer:
     attendance trajectories across semesters.
 \end{enumerate}
 
-All student records were de-identified prior to extraction, replacing personally
+All student records will be de-identified prior to extraction, replacing personally
 identifiable information with pseudonymous identifiers. Data spanning academic
-years 2021--2024 were extracted, covering a minimum of three complete academic
+years 2020--2024 will be extracted, covering a minimum of four complete academic
 years to ensure sufficient temporal depth for longitudinal risk pattern detection
-\parencite{bettahi2025, esmael2024student}.
+\parencite{bettahi2025, esmael2024}.
 
-Records were excluded from the analytical dataset if they met any of the following
-criteria: (i) more than 30\% of feature values were missing across core predictors;
-(ii) the student was enrolled for fewer than one complete semester, providing
+Records will be excluded from the analytical dataset if they meet any of the following
+criteria: (i) more than 30\% of feature values are missing across core predictors;
+(ii) the student has been enrolled for fewer than one complete semester, providing
 insufficient longitudinal data; or (iii) the record could not be reliably linked across
 all three source systems due to identifier inconsistencies.
 
 \subsection{Qualitative Data Collection}
 
-Qualitative data for the system evaluation phase were collected through structured
+Qualitative data for the system evaluation phase will be collected through structured
 usability evaluation sessions with academic advisors, school administrators, and
-university administrators. Each session involved a guided walkthrough of the
-platform's role-based dashboard, followed by a structured feedback instrument
+university administrators. Each session will involve a guided walkthrough of the
+tool's role-based dashboard, followed by a structured feedback instrument
 comprising Likert-scale items and open-ended questions assessing perceived usability,
 intervention feasibility, explainability comprehensibility, and likelihood of long-term
-institutional adoption. The instrument was adapted from the System Usability Scale
+institutional adoption. The instrument will be adapted from the System Usability Scale
 (SUS) \parencite{brooke1996sus} and supplemented with domain-specific items drawn from
 the educational analytics adoption literature \parencite{kwakye2025,
-zhang2021interpretable}.
+zhang2021}.
 
 \section{Data Analysis Methods}
 
-Data analysis proceeded in three sequential stages: data pre-processing and feature
+Data analysis will proceede in three sequential stages: data pre-processing and feature
 engineering, model training and evaluation, and system evaluation analysis.
 
 \subsection{Data Pre-processing}
 
-Raw institutional records were subjected to a structured pre-processing pipeline
+Raw institutional records will be subjected to a structured pre-processing pipeline that will be
 implemented in Python 3.12 using the \texttt{pandas} and \texttt{scikit-learn}
-libraries \parencite{pedregosa2011scikit}. Pre-processing steps included:
+libraries \parencite{pedregosa2011scikit}. Pre-processing steps will include:
 
 \begin{itemize}
-    \item \textbf{Missing value treatment:} Numeric fields were imputed using
+    \item \textbf{Missing value treatment:} Numeric fields that will be imputed using
     median imputation to preserve distributional shape without introducing
-    mean-shift bias. Categorical fields with missing values were assigned an
+    mean-shift bias. Categorical fields with missing values will be assigned an
     explicit \texttt{<MISSING>} category token prior to encoding, following
     the approach validated by \parencite{bettahi2025}.
 
     \item \textbf{Categorical encoding:} Nominal variables such as school of
-    enrolment and programme were one-hot encoded to prevent the
-    introduction of spurious ordinal relationships; ordinal variables were
+    enrolment and programme will be one-hot encoded to prevent the
+    introduction of spurious ordinal relationships; ordinal variables will be
     integer-encoded preserving rank order.
 
-    \item \textbf{Date normalisation:} Temporal variables were converted to
+    \item \textbf{Date normalisation:} Temporal variables will be converted to
     elapsed-day representations relative to each student's enrolment date,
     transforming absolute timestamps into institution-relative duration
     features that are comparable across cohorts.
 
     \item \textbf{Class imbalance correction:} The Synthetic Minority
-    Oversampling Technique (SMOTE) \parencite{chawla2002smote} was applied
+    Oversampling Technique (SMOTE) \parencite{chawla2002smote} will be applied
     to the training partition only, generating synthetic at-risk instances to
     correct the class imbalance characteristic of student risk datasets, in
     which at-risk students typically constitute a minority of the total
-    population \parencite{hassen2020bayesian, bettahi2025}. Applying
-    SMOTE exclusively to the training set prevented synthetic instances from
+    population \parencite{hassen2020, bettahi2025}. Applying
+    SMOTE exclusively to the training set will prevent synthetic instances from
     contaminating the holdout evaluation.
 
-    \item \textbf{Feature scaling:} Continuous features were standardised using
+    \item \textbf{Feature scaling:} Continuous features will be standardised using
     z-score normalisation to ensure comparability across features with
     different measurement scales. Although tree-based ensemble methods are
-    invariant to monotonic feature transformations, standardisation was
+    invariant to monotonic feature transformations, standardisation will be
     applied to ensure consistency across the full pipeline, including any
     distance-sensitive evaluation components.
 \end{itemize}
 
 \section{Ensemble Machine Learning Model Development}
 
-This study develops three simultaneous prediction models targeting the distinct
+This study will develop three simultaneous prediction models targeting the distinct
 risk outcomes identified in the problem statement: dropout risk, course failure risk,
-and programme delay risk. Each model is a supervised binary classifier trained
+and programme delay risk. Each model will be a supervised binary classifier trained
 on the same engineered feature matrix but optimised against its respective prediction
 target. The following subsections describe the feature engineering process, algorithm
 selection rationale, training protocol, and model testing procedure.
 
 \subsection{Feature Engineering}
 
-Raw institutional variables were transformed into a structured feature matrix through
+Raw institutional variables will be transformed into a structured feature matrix through
 a deliberate feature engineering process grounded in the theoretical constructs of
 Tinto's Student Integration Model and Astin's Input-Environment-Output (I-E-O)
-Model \parencite{tinto1975dropout, astin1993matters}. Every engineered feature maps
+Model \parencite{tinto1975dropout, astin1993matters}. Every engineered feature will map
 explicitly to a theoretical construct, ensuring that algorithmic outputs retain
-institutional interpretability. The engineered feature set is summarised in
+institutional interpretability. The engineered feature set will be summarised in
 Table~\ref{tab:features}.
 
 \begin{table}[h]
@@ -2109,7 +2108,7 @@ Prior semester probation flag & Academic standing history & AMS \\
 \end{tabular}
 \end{table}
 
-Key engineered features are described as follows:
+Key engineered features will be described as follows:
 
 \begin{itemize}
     \item \textbf{GPA floor proximity score:} The arithmetic distance between a
@@ -2128,21 +2127,21 @@ Key engineered features are described as follows:
     rate of change in a student's attendance rate, capturing declining
     engagement trajectories several weeks before a threshold breach occurs.
     Research has confirmed that such time-based signals carry greater
-    predictive power than static GPA values alone \parencite{dirin2022machine,
-    morris2005tracking}.
+    predictive power than static GPA values alone \parencite{Dirin2022,
+    Morris2005}.
 
     \item \textbf{LMS engagement composite:} An aggregated measure of
     weekly login frequency, resource access, and assignment submission
     timeliness, operationalising Astin's environmental engagement construct
     and Tinto's social integration dimension through digital behavioural
-    proxies validated in prior EDM research \parencite{morris2005tracking}.
+    proxies validated in prior EDM research \parencite{Morris2005}.
 
     \item \textbf{Login interval variance:} The statistical variance in
     the number of days between consecutive LMS logins within a semester,
     distinguishing students with consistent engagement patterns from those
     whose activity is concentrated in deadline-proximate bursts---a
     behavioural pattern associated with elevated dropout risk
-    \parencite{dirin2022machine}.
+    \parencite{Dirin2022}.
 
     \item \textbf{Semester-on-semester GPA delta:} The change in GPA
     between consecutive semesters, encoding academic momentum as a dynamic
@@ -2155,7 +2154,7 @@ Key engineered features are described as follows:
     consequences materialising.
 \end{itemize}
 
-The feature matrix supported three separate binary prediction targets:
+The feature matrix will supporte three separate binary prediction targets:
 \begin{itemize}
     \item \textbf{Dropout risk:} active or graduated (0) vs.\ withdrawn before
     degree completion (1).
@@ -2169,95 +2168,98 @@ The feature matrix supported three separate binary prediction targets:
 
 \subsection{Algorithm Selection}
 
-Three ensemble tree-based algorithms were selected for model development:
+Three ensemble tree-based algorithms will be selected for model development:
 Random Forest \parencite{breiman2001random}, Gradient Boosting
-\parencite{friedman2001greedy}, and XGBoost \parencite{chen2016xgboost}. The
+\parencite{friedman2001greedy}, and XGBoost \parencite{chen2016}. The
 selection of ensemble methods over classical classifiers---such as Logistic
-Regression, Naïve Bayes, or single Decision Trees---was informed by three
+Regression, Naïve Bayes, or single Decision Trees---will be informed by three
 converging lines of evidence from the literature reviewed in Chapter Two.
 
 First, a systematic review of 72 EDM studies confirmed that ensemble methods
 consistently outperform classical classifiers when predicting student outcomes
 from multi-source institutional data containing non-linear feature interactions
-\parencite{aldowah2026predicting}. Second, on a comparable institutional dataset of
+\parencite{aldowah2026}. Second, on a comparable institutional dataset of
 17,883 student records, XGBoost achieved an AUC-ROC of 0.993 and a Recall
 of 0.944, outperforming all classical alternatives including Logistic Regression
 (AUC-ROC: 0.968) and Naïve Bayes (AUC-ROC: 0.881)
 \parencite{bettahi2025}. Third, at Wollo University in Ethiopia---a
 geographically proximate African institutional context---ensemble classifiers
 achieved up to 96\% accuracy on large-scale institutional data
-\parencite{esmael2024student}.
+\parencite{esmael2024}.
 
 Deep learning architectures, including Multi-Layer Perceptrons (MLP) and
 Long Short-Term Memory (LSTM) networks, were deliberately excluded from
 this study for two reasons. First, the Strathmore institutional dataset of
 approximately 5,000 students is insufficient to realise the generalisation
 advantages of deep learning, which typically require substantially larger training
-datasets to overcome overfitting \parencite{aldowah2026predicting}. Second, deep
+datasets to overcome overfitting \parencite{aldowah2026}. Second, deep
 learning models operate as black boxes, providing no interpretable reasoning for
 individual predictions---a critical barrier to institutional adoption in advisory
 contexts where advisors must be able to explain and defend risk classifications
 to students and institutional governance structures
-\parencite{kwakye2025, zhang2021interpretable}. The ensemble methods
+\parencite{kwakye2025, zhang2021}. The ensemble methods
 selected in this study are both higher-performing on structured tabular data of
 this scale and directly compatible with the SHAP explainability layer that is a
-design prerequisite for this platform.
+design prerequisite for this predictive tool.
 
 \subsection{Model Training}
 
-Model training was implemented in Python 3.12 using \texttt{scikit-learn} 1.5
+Model training will be implemented in Python 3.12 using \texttt{scikit-learn} 1.5
 for Random Forest and Gradient Boosting, and \texttt{xgboost} 2.1 for the
-XGBoost classifier \parencite{pedregosa2011scikit, chen2016xgboost}. A separate
-model was trained for each of the three prediction targets (dropout risk, course
+XGBoost classifier \parencite{pedregosa2011scikit, chen2016}. A separate
+model will be trained for each of the three prediction targets (dropout risk, course
 failure risk, and programme delay risk), yielding nine trained model instances
-in total (three algorithms $\times$ three targets). Training followed a
-four-stage protocol designed to maximise generalisation and ensure that
+in total (three algorithms $\times$ three targets). Training will follow a
+four-stage protocol that will be designed to maximise generalisation and ensure that
 reported performance reflects genuine predictive capability rather than
-dataset-specific memorisation \parencite{aldowah2026predicting, bettahi2025}:
+dataset-specific memorisation \parencite{aldowah2026, bettahi2025}:
 
 \begin{enumerate}
-    \item \textbf{Stratified train/test split:} The full dataset was partitioned
+    \item \textbf{Stratified train/test split:} The full dataset will be partitioned
     into an 80\% training set and a 20\% held-out test set using stratified
     random splitting, preserving the empirical class ratio of at-risk to
-    non-at-risk students in both partitions. A fixed random seed was applied
+    non-at-risk students in both partitions. A fixed random seed will be applied
     to ensure reproducibility across experimental runs.
 
-    \item \textbf{SMOTE oversampling:} SMOTE was applied exclusively to the
+    \item \textbf{SMOTE oversampling:} SMOTE will be applied exclusively to the
     training partition after splitting to generate synthetic at-risk instances,
-    correcting the class imbalance before model fitting. The test partition
-    retained the original empirical class distribution to ensure evaluation
-    reflected real-world deployment conditions \parencite{chawla2002smote}.
+    correcting the class imbalance before model fitting. The test partition will
+    retain the original empirical class distribution to ensure evaluation
+    reflects real-world deployment conditions \parencite{chawla2002smote}.
 
     \item \textbf{Stratified $k$-fold cross-validation:} Five-fold stratified
-    cross-validation was applied to the SMOTE-augmented training partition to
+    cross-validation will be applied to the SMOTE-augmented training partition to
     estimate generalisation performance across multiple data subsets, producing
     more stable performance estimates than a single holdout validation set
     \parencite{bettahi2025}.
 
-    \item \textbf{Hyperparameter tuning:} Grid search with cross-validation
-    was applied to each algorithm to identify optimal hyperparameter
-    configurations. For Random Forest, the search space included the number
-    of estimators (\texttt{n\_estimators}: 100, 200, 500), maximum tree depth
-    (\texttt{max\_depth}: 5, 10, None), and minimum samples per leaf
-    (\texttt{min\_samples\_leaf}: 1, 2, 5). For Gradient Boosting and
-    XGBoost, the search additionally included learning rate (\texttt{learning\_rate}:
-    0.01, 0.05, 0.1, 0.2) and subsample ratio (\texttt{subsample}: 0.7, 0.8, 1.0).
-    Tuning was conducted within the cross-validation loop to prevent
-    hyperparameter leakage from the test set \parencite{esmael2024student}.
+    \item \textbf{Hyperparameter tuning:} Hyperparameter tuning will be applied to
+     each of the three algorithms to identify optimal configurations prior to final 
+     test-set evaluation, ensuring that reported performance reflects a properly
+      calibrated model rather than default settings \parencite{esmael2024,
+       bettahi2025}. Grid search with cross-validation will be used as 
+       the tuning strategy, systematically evaluating candidate configurations
+        across predefined search spaces for each algorithm. Key hyperparameters
+         to be tuned for Random Forest will include the number of estimators,
+          maximum tree depth, and minimum samples per leaf. For Gradient Boosting
+           and XGBoost, the search will additionally cover learning rate and subsample 
+           ratio. All tuning will be conducted within the cross-validation loop on the 
+           training partition exclusively, preventing any hyperparameter information
+            from the test set from influencing model configuration \parencite{esmael2024}.
 \end{enumerate}
 
 \subsection{SHAP Explainability Integration}
 
 Following model training, SHAP (SHapley Additive exPlanations)
-\parencite{lundberg2017unified} was integrated as the explainability layer for all
-three prediction targets. SHAP TreeExplainer was applied to the Random Forest,
+\parencite{lundberg2017unified} will be integrated as the explainability layer for all
+three prediction targets. SHAP TreeExplainer will be applied to the Random Forest,
 Gradient Boosting, and XGBoost models, computing exact Shapley values for
-every prediction on the test set. For each student, SHAP outputs decomposed
+every prediction on the test set. For each student, SHAP outputs wil try to decompos
 the model's risk score into individual feature contributions, identifying both
 the risk-amplifying factors pushing the prediction toward at-risk and the
 protective factors mitigating that risk.
 
-SHAP was selected over alternative explainability methods---including LIME
+SHAP will be selected over alternative explainability methods---including LIME
 (Local Interpretable Model-agnostic Explanations) and Partial Dependence
 Plots (PDP)---for three reasons: (i) SHAP provides mathematically consistent,
 locally accurate feature attribution based on cooperative game theory, ensuring
@@ -2268,18 +2270,17 @@ deployment scale; and (iii) SHAP-based explainability has been validated as a
 prerequisite for institutional adoption of predictive analytics in educational
 contexts, providing intuitive decision support for advisors who must translate
 model outputs into student-specific intervention conversations
-\parencite{zhang2021interpretable, kwakye2025}.
+\parencite{zhang2021, kwakye2025}.
 
-The SHAP outputs were integrated into the role-based dashboard architecture
-described in Section~\ref{sec:system_design}, presenting each student's top
+The SHAP outputs will be integrated into the role-based dashboard architecture, presenting each student's top
 positive and negative feature contributors in a format accessible to
 non-specialist advisor users.
 
 \subsection{Model Testing}
 
-The best-performing model configuration for each prediction target was selected
+The best-performing model configuration for each prediction target will be selected
 based on cross-validation Recall scores and evaluated on the held-out 20\% test
-set. Five standard evaluation metrics were computed for each model:
+set. Five standard evaluation metrics will be computed for each model:
 
 \begin{itemize}
     \item \textbf{Accuracy:} The proportion of correct predictions (both at-risk
@@ -2290,11 +2291,7 @@ set. Five standard evaluation metrics were computed for each model:
     counselling resources to students who do not require intervention.
 
     \item \textbf{Recall (Sensitivity):} The proportion of genuinely at-risk
-    students correctly identified by the model. Recall was designated the
-    primary evaluation metric because failing to identify a genuinely
-    at-risk student---a false negative---carries greater institutional cost
-    than incorrectly flagging a non-at-risk student---a false positive---in
-    a student support context \parencite{hassen2020bayesian}.
+    students correctly identified by the model. 
 
     \item \textbf{F1-Score:} The harmonic mean of Precision and Recall,
     providing a single balanced metric that accounts simultaneously for
@@ -2303,33 +2300,32 @@ set. Five standard evaluation metrics were computed for each model:
     \item \textbf{ROC-AUC:} The area under the Receiver Operating
     Characteristic curve, providing a threshold-independent measure of
     each model's discriminative ability across all classification thresholds.
-    An AUC of 1.0 indicates perfect discrimination; 0.5 indicates
-    chance-level performance.
+    
 \end{itemize}
 
 Statistical comparison between the three algorithms for each prediction target
-was conducted using McNemar's paired significance test on test-set predictions,
+will be conducted using McNemar's paired significance test on test-set predictions,
 following \parencite{bettahi2025}, to determine whether performance
-differences between models were statistically significant rather than
+differences between models are statistically significant rather than
 attributable to sampling variability. All evaluation outputs---confusion
 matrices, ROC curves, per-class precision and recall, and SHAP summary
-plots---were logged systematically to a structured output directory, ensuring
+plots---will be logged systematically to a structured output directory, ensuring
 full reproducibility of reported results.
 
 \section{System Development Methodology}
 
-The platform was developed following an Agile iterative development methodology,
-adapted to the constraints of an academic research context. Development proceeded
+This predictive tool will be developed following an Agile iterative development methodology,
+adapted to the constraints of an academic research context. Development will proceed
 in structured sprints, each concluded by a review with the supervising faculty and,
-where applicable, with institutional stakeholder representatives. This approach
-facilitated continuous alignment between technical development decisions and the
+where applicable, with institutional stakeholder representatives. This approach will
+facilitate continuous alignment between technical development decisions and the
 institutional requirements of Strathmore University.
 
 \subsection{System Analysis}
 
 \subsubsection{System Requirements Specification}
 
-System requirements were elicited through a structured requirements analysis process
+System requirements will be elicited through a structured requirements analysis process
 comprising three activities: (i) a review of existing student early warning systems,
 particularly the GPS Advising system at Georgia State University
 \parencite{georgia2024gps} and the open-source XGBoost--SHAP pipeline developed
@@ -2338,17 +2334,16 @@ policies and data infrastructure documentation; and (iii) consultations with
 university administrators and academic mentors to identify institutional workflow
 and dashboard requirements.
 
-Functional requirements specified that the system must: (a) integrate data from the
+Functional requirements will specify that the system must: (a) integrate data from the
 AMS, LMS, and attendance tracking platforms into a single unified pipeline; (b)
 generate simultaneous risk predictions for dropout, course failure, and programme
 delay for each enrolled student; (c) present risk predictions through role-differentiated
 dashboards tailored to university administrators, school administrators, and academic
-mentors respectively; (d) provide SHAP-based explainability outputs alongside each
+mentors respectively; and (d) provide SHAP-based explainability outputs alongside each
 prediction, identifying the specific feature contributions driving each individual
-student's risk classification; and (e) generate automated alerts for students crossing
-predefined risk thresholds, enabling timely advisor outreach.
+student's risk classification enabling timely advisor outreach.
 
-Non-functional requirements specified that the platform must: operate entirely on
+Non-functional requirements will specify that the platform must: operate entirely on
 open-source tools without commercial licensing costs; protect student data through
 role-based access controls and pseudonymisation; and present information in a
 format comprehensible to non-technical advisor users without specialist data
@@ -2356,28 +2351,38 @@ science literacy.
 
 \subsubsection{System Hardware Analysis}
 
-The platform was designed to operate on standard university server infrastructure
-without requiring specialised hardware, given that ensemble tree-based models are
-computationally efficient on CPU hardware at the dataset scale of approximately
-5,000 students. Minimum hardware specifications were established as a multi-core
-CPU server with at least 16\,GB RAM, 500\,GB storage for the data pipeline and
-model artefacts, and network connectivity to the AMS, LMS, and attendance
-tracking systems through the university's internal network.
+Given that this study constitutes a Master's thesis prototype developed for
+demonstration purposes, the tool will be developed and run on a personal
+computer rather than dedicated university server infrastructure. Ensemble
+tree-based models will be computationally efficient on standard CPU hardware at
+the dataset scale of approximately 5,000 students, making specialist hardware
+unnecessary for this phase of development \parencite{bettahi2025}. The
+development machine specifications will be sufficient to support the full data
+pipeline, model training, hyperparameter tuning, SHAP computation, and
+dashboard rendering within acceptable processing times. 
 
 \subsubsection{System Software Analysis}
 
-The software stack was selected entirely from open-source components to satisfy
-the non-functional requirement of cost-free institutional deployment, directly
-addressing the transferability limitation of the proprietary EAB Navigate platform
-identified in Chapter Two \parencite{wan2019predictive}. The software environment
-comprised: Python 3.12 as the primary programming language;
-\texttt{scikit-learn} 1.5 for data pre-processing, feature engineering, and
-Random Forest and Gradient Boosting model training \parencite{pedregosa2011scikit};
-\texttt{xgboost} 2.1 for XGBoost model development \parencite{chen2016xgboost};
-\texttt{shap} 0.46 for SHAP explainability \citparenciteep{lundberg2017unified};
-\texttt{pandas} 2.2 and \texttt{NumPy} 1.26 for data manipulation; and
-\texttt{Flask} 3.0 as the lightweight web framework for the dashboard
-application layer.
+The software stack is selected entirely from open-source components, 
+consistent with the non-functional requirement of cost-free development 
+and the transferability principle identified in Chapter Two as a key 
+limitation of the proprietary EAB Navigate platform 
+\parencite{wan2019predictive}. As this study constitutes a Master's thesis 
+prototype developed for demonstration purposes, all tools are being chosen for 
+their accessibility, community support, and suitability for development on 
+a personal computer without institutional licensing requirements.
+
+The software environment comprises Python 3.12 as the primary programming 
+language, selected for its extensive ecosystem of machine learning and data 
+analysis libraries. Data pre-processing, feature engineering, Random Forest, 
+and Gradient Boosting model training will be implemented using 
+\texttt{scikit-learn} \parencite{pedregosa2011scikit}, while XGBoost model 
+development will use the \texttt{xgboost} library \parencite{chen2016}. 
+SHAP explainability outputs will be computed using the \texttt{shap} library 
+\parencite{lundberg2017unified}, and data manipulation will be handled 
+through \texttt{pandas} and \texttt{NumPy}. The dashboard and user interface 
+layer will be built using \texttt{Flask}, Laravel web framework 
+suitable for prototype web application development. 
 
 \subsection{System Design}
 \label{sec:system_design}
